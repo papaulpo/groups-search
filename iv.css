@@ -1,0 +1,86 @@
+@counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "\1F6A8";
+  suffix: " ";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #121214;
+    width: 100%;
+    margin: 10px;
+}
+div.banniere {
+    width: 100%;
+}
+div.center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+br.nettoyeur {
+    clear: both;
+}
+img.logo_une {
+    margin-top: 0;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+h1, h2, h3, h4, h5, a, span {
+    color: #f2e25b;
+}
+h1, h2, h3, h4, h5 {
+    padding: 20px;
+}
+code {
+    color: #00df00;
+}
+a:hover {
+    color: #00ff00;
+}
+h1 {
+    font-size: 5em;
+}
+h2 {
+    font-size: 4em;
+}
+h3 {
+    font-size: 3em;
+}
+h4 {
+    font-size: 2em;
+}
+h5 {
+    font-size: 1.5em;
+}
+span {
+    font-size: 1.2em;
+}
+
+div.postit {
+    width: 90%;
+    background-color: #f2e25b;
+    padding: 20px;
+    border-radius: 20px;
+    border: thin outset #afdf00;
+    box-shadow: 0 0 20px #4f8f00;
+}
+div.postit h2, div.postit h3, div.postit h4 {
+    color: #121214;    
+}
+
+div.postit h3 ul {
+    list-style-type: repeating-emoji;
+    padding-left: 40px;
+}
+div.postit h3 ul li {
+    padding-left: 5px;
+}
