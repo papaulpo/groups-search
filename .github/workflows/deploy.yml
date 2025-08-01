@@ -20,6 +20,7 @@ jobs:
         uploads: |
           ./ => /home/indignc/www/
         ignore: |
+          README.md
           .github/
           *.git
           */**/*git*
@@ -34,6 +35,7 @@ jobs:
         uploads: |
           ./ => /home/sfrzrbx/www/
         ignore: |
+          README.md
           .github/
           *.git
           */**/*git*
