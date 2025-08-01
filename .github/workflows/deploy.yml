@@ -9,16 +9,31 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - name: SFTP upload
+
+    - name: SFTP upload indignonsnous.fr
       uses: Dylan700/sftp-upload-action@latest
       with:
-        server: ${{secrets.SFTP_SERVER}}
-        username: ${{secrets.USERNAME}}
-        password: ${{secrets.PASSWORD}}
+        server: ${{secrets.INFR_SFTP_SERVER}}
+        username: ${{secrets.INFR_USERNAME}}
+        password: ${{secrets.INFR_PASSWORD}}
         port: 22
         uploads: |
           ./ => /home/indignc/www/
         ignore: |
-          .github
+          .github/
+          *.git
+          */**/*git*
+
+    - name: SFTP upload 10s25.fr
+      uses: Dylan700/sftp-upload-action@latest
+      with:
+        server: ${{secrets.SFR_SFTP_SERVER}}
+        username: ${{secrets.SFR_USERNAME}}
+        password: ${{secrets.SFR_PASSWORD}}
+        port: 22
+        uploads: |
+          ./ => /home/sfrzrbx/www/
+        ignore: |
+          .github/
           *.git
           */**/*git*
