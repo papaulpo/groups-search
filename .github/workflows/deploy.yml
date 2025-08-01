@@ -1,0 +1,23 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: SFTP upload
+      uses: Dylan700/sftp-upload-action@latest
+      with:
+        server: ${{secrets.SFTP_SERVER}}
+        username: ${{secrets.USERNAME}}
+        password: ${{secrets.PASSWORD}}
+        port: 22
+        uploads: |
+          ./ => /home/indignc/www/
+        ignore: |
+          *.git
+          */**/*git*
