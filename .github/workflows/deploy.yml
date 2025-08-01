@@ -19,5 +19,6 @@ jobs:
         uploads: |
           ./ => /home/indignc/www/
         ignore: |
+          .github
           *.git
           */**/*git*
