@@ -55,9 +55,22 @@ p {
     margin-bottom: 1.5em;
 }
 
+.sidebar a {
+    color: #fff;
+}
+
+.sidebar a:hover {
+    color: #f2e25b;
+}
+
+.sidebar li {
+    list-style: none;
+}
+
 li {
     font-size: clamp(1.1rem, 1.9vw, 1.3rem);
     margin-bottom: 0.5em;
+
 }
 
 /* ===== Titres ===== */
@@ -70,7 +83,6 @@ h1 { color: #f2e25b; font-weight: 800; }
 h2 { color: #ffed75; font-weight: 700; }
 h3, h4, h5 { color: #ffe; }
 
-
 /* ===== Liens ===== */
 a {
     color: #f2e25b;
@@ -79,7 +91,7 @@ a {
 }
 
 a:hover {
-    color: #00ff00;
+    color: #fff;
 }
 
 /* ===== Sections ===== */
@@ -200,10 +212,6 @@ img.logo_une {
         font-size: clamp(1.25rem, 2vw + 2rem, 1rem);
     }
 }
-@media (max-width: 576px) {
-
-}
-
 /* Smartphone standard */
 @media (max-width: 480px) {
     .danger-banner {
@@ -245,7 +253,6 @@ img.logo_une {
 }
 
 /* Desktop */
-
 @media (min-width: 1200px) {
     header.banniere {
         display: flex;
