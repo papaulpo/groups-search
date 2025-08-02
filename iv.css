@@ -114,7 +114,7 @@ section.postit {
     width: 100%;
     background-color: #f2e25b;
     color: #1a1a1a;
-    padding: 10px 50px;
+    padding: 50px 50px;
     border: none;
     box-shadow: 0 4px 20px rgba(0,0,0,0.4);
     line-height: 1.6;
@@ -128,6 +128,11 @@ section.postit h4 {
     margin-top: 0.4em;
     margin-bottom: 0.4em;
     font-weight: 700;
+}
+
+section.postit h2 {
+    color: #0d0d0d;
+    margin-top: 0;
 }
 
 /* Liste dans le post-it */
