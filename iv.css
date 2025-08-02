@@ -177,7 +177,7 @@ img.logo_une {
     margin-right: 20px;
 }
 
-/* ===== Sidebar ===== */
+/** ===== Sidebar ===== **/
 .sidebar {
     background-color: #222;
     color: #fff;
