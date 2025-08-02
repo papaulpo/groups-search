@@ -84,7 +84,6 @@ section {
     margin-bottom: 3rem;
 }
 
-/* Optionnel : enlever le margin-bottom sur la dernière section */
 section:last-of-type {
     margin-bottom: 0;
 }
@@ -224,4 +223,3 @@ img.logo_une {
         padding: 0;
     }
 }
-
