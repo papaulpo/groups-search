@@ -227,7 +227,7 @@ img.logo_une {
 
 /* ===== Responsive layout ===== */
 /* Tablettes */
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 769px) {
     .danger-banner .emoji {
         font-size: clamp(6rem, 5vw + 1rem, 7rem);
         line-height: 1;
