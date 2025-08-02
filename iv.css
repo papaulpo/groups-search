@@ -194,7 +194,7 @@ img.logo_une {
     list-style: none;
 }
 
-/* ===== Averttissement ===== */
+/* ===== Avertissement ===== */
 .danger-banner {
     font-size: clamp(4rem, 8vw + 2rem, 7rem);
     display: flex;
