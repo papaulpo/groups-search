@@ -162,7 +162,7 @@ p.big span {
     color: #F52639;
 }
 
-/* Liste dans le post-it */
+/** Liste dans le post-it **/
 section.postit ul {
     list-style-type: repeating-emoji;
     padding-left: 50px;
