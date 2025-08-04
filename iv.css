@@ -127,7 +127,7 @@ a:hover {
 }
 
 .menu_top ul li:hover {
-    transform: rotate(10deg);
+    transform: rotate(5deg);
 }
 
 br.clearboth {
