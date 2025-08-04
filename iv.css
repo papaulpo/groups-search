@@ -1,6 +1,6 @@
 @counter-style repeating-emoji {
     system: cyclic;
-    symbols: "🚨";
+    symbols: "\1F6A8";
     suffix: " ";
 }
 
@@ -60,6 +60,11 @@ li {
     margin-bottom: 0.5em;
 }
 
+code {
+	color: #00df00;
+	font-size: 0.8em;
+}
+
 .break-word {
     word-break: break-all;
     overflow-wrap: anywhere;
@@ -89,6 +94,36 @@ a:hover {
 
 .font-color-yellow {
     color: #f2e25b !important;
+}
+
+/* ===== Menu top ===== */
+ul.menu_top {
+    width: 100%;
+    height: 1em;
+    margin :0;
+    padding: 0;
+}
+ul.menu_top li {
+    float: left;
+    margin : 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    background: #880000;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+ul.menu_top li a {
+    font-weight: 800%;
+}
+ul.menu_top li:hover {
+    box-shadow: 0 0 10px #df0000;
+}
+br.clearboth {
+    clear: both;
 }
 
 /* ===== Sections ===== */
