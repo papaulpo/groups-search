@@ -13,7 +13,6 @@
 body {
     font-family: "Inter", sans-serif;
     background: #121214;
-    color: #f2e25b;
     line-height: 1.6;
     font-size: 1rem;
 }
@@ -98,7 +97,7 @@ a:hover {
 
 /* ===== Menu top ===== */
 .menu_top {
-    width: 75%;
+    max-width: 70ch;
     margin: 0 auto;
     #border: 2px solid red;
     display: flex;
@@ -408,6 +407,9 @@ img.logo_une {
         max-width: 68%;
         border-bottom: 5px solid #f2e25b;
     }
+    .menu_top {
+        max-width: 100%;
+    }
     main.center {
         display: flex;
         flex-direction: row;
@@ -460,6 +462,10 @@ img.logo_une {
         text-align: center;
         max-width: 68.5%;
         border-bottom: 5px solid #f2e25b;
+    }
+
+    .menu_top {
+        max-width: 75%;
     }
 
     main.center {
