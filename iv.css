@@ -117,23 +117,19 @@ a:hover {
     background: #f2e25b;
     padding: 0 10px;
     font-weight: 800;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .menu_top ul li a {
     color: #1a1a1a;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
 .menu_top ul li:hover {
-    background: #1a1a1a;
+    transform: rotate(10deg);
 }
 
-.menu_top ul li:hover a {
-    color: #f2e25b;=
-}
 br.clearboth {
     clear: both;
 }
