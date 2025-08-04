@@ -117,7 +117,7 @@ a:hover {
     background: #f2e25b;
     padding: 0 10px;
     font-weight: 800;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease-in;
 }
 
 .menu_top ul li a {
@@ -127,7 +127,7 @@ a:hover {
 }
 
 .menu_top ul li:hover {
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 
 br.clearboth {
