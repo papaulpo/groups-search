@@ -99,7 +99,6 @@ a:hover {
 .menu_top {
     max-width: 70ch;
     margin: 0 auto;
-    #border: 2px solid red;
     display: flex;
     align-items: flex-start;
 }
@@ -117,17 +116,23 @@ a:hover {
     background: #f2e25b;
     padding: 0 10px;
     font-weight: 800;
-    transition: transform 0.2s ease-in;
+    transition: background 0.2s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Ajout de box-shadow à la transition */
 }
 
 .menu_top ul li a {
     color: #1a1a1a;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 .menu_top ul li:hover {
-    transform: rotate(3deg);
+    background: #1a1a1a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ajout d'un box-shadow lors du survol */
+}
+
+.menu_top ul li:hover a {
+    color: #f2e25b;
 }
 
 br.clearboth {
