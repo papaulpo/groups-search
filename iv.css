@@ -116,7 +116,7 @@ a:hover {
     background: #f2e25b;
     padding: 0 10px;
     font-weight: 800;
-    transition: background 0.2s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Ajout de box-shadow à la transition */
+    transition: background 0.2s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .menu_top ul li a {
@@ -128,7 +128,7 @@ a:hover {
 
 .menu_top ul li:hover {
     background: #1a1a1a;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ajout d'un box-shadow lors du survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .menu_top ul li:hover a {
