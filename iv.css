@@ -361,6 +361,11 @@ img.logo_une {
     color: #fff;
 }
 
+iframe.carte {
+    width: 98%;
+    height: 800px;
+}
+
 /* ===== Responsive layout ===== */
 /* Tablettes et smartphones */
 @media (max-width: 1024px) {

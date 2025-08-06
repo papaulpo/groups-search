@@ -1,0 +1,8 @@
+Options +Includes
+AddType text/html .shtml
+AddOutputFilter INCLUDES .shtml
+AddHandler server-parsed .html
+
+#RewriteEngine On
+#RewriteCond %{ENV:HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
