@@ -359,6 +359,12 @@ img.logo_une {
 .map a:hover {
     background-color: #F52639;
     color: #fff;
+
+}
+
+iframe.carte {
+    width: 98%;
+    height: 800px;
 }
 
 /* ===== Responsive layout ===== */
