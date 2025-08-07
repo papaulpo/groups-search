@@ -135,6 +135,15 @@ a:hover {
     color: #f2e25b;
 }
 
+.menu_top ul li.selected {
+    background: transparent;
+    border: 2px solid #f2e25b;
+}
+
+.menu_top ul li.selected a {
+    color: #f2e25b;
+}
+
 br.clearboth {
     clear: both;
 }
