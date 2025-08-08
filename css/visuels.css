@@ -390,12 +390,18 @@ main.center {
     .grid {
         column-count: 2;
     }
+    h1 {
+        font-size: clamp(1.9rem, 5vw, 4rem);
+    }
 }
 
 /* Smartphone standard */
 @media (max-width: 480px) {
     .content {
         margin-bottom: 50px;
+    }
+    h1 {
+        font-size: clamp(2rem, 5vw, 4rem);
     }
 }
 
