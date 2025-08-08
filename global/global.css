@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Gotham", sans-serif;
     background: #121214;
     line-height: 1.6;
     font-size: 1rem;
@@ -68,14 +68,6 @@ code {
     word-break: break-all;
     overflow-wrap: anywhere;
     hyphens: auto;
-}
-
-/* ===== Logo ===== */
-img.logo_une {
-    width: 300px;
-    max-width: 100%;
-    height: auto;
-    margin-right: 20px;
 }
 
 /* ===== Titres ===== */
@@ -257,6 +249,7 @@ main.center {
 }
 
 .rejoindre {
+    margin-top: -10px;
     padding: 5px 10px;
     background-color: #F52639;
     color: #fff;
@@ -270,82 +263,131 @@ main.center {
     transform: rotate(1deg) scale(1.08) translateY(-10px);
 }
 
-/* ===== Content ===== */
-.content {
+/* ===== Post-it ===== */
+section.postit {
     width: 100%;
+    background-color: #f2e25b;
     color: #1a1a1a;
+    padding: 50px 50px;
     border: none;
     box-shadow: 0 4px 20px rgba(0,0,0,0.4);
     line-height: 1.6;
 }
 
-/* ===== Visuels ===== */
-.grid {
-    column-count: 5;
-    column-gap: 20px;
-    row-gap: 20px;
+section.postit h2,
+section.postit h3,
+section.postit h4 {
+    color: #0d0d0d;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    font-weight: 700;
 }
 
-.grid-item {
-    display: block;
-    break-inside: avoid;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    cursor: pointer;
+section.postit h2 {
+    color: #0d0d0d;
+    margin-top: 0;
 }
 
-.grid-item img {
-    width: 100%;
-    display: block;
+section.postit a {
+    color: #000000;
+    text-decoration: underline;
+}
+section.postit a:hover {
+    color: #F52639;
+}
+
+.postit {
+    background-color: #f9f9f9;
+}
+
+p.big {
+    font-size: clamp(2rem, 1.8vw, 1.25rem);
+    margin: 60px 0;
+}
+
+p.big p, p.big span {
+    font-size: clamp(2rem, 1.8vw, 1.25rem);
+    margin: 60px 0;
+}
+
+p.big span {
+    color: #F52639;
+}
+
+section.postit ul {
+    list-style-type: repeating-emoji;
+    padding-left: 50px;
+    margin: 1.5em 0;
+    font-weight: bold;
+}
+
+img.logo_une {
+    width: 300px;
+    max-width: 100%;
     height: auto;
+    margin-right: 20px;
 }
 
-.grid-item input:checked + img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: contain;
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 1000;
+/* ===== Avertissement ===== */
+.danger-banner {
+    font-size: clamp(4rem, 8vw + 2rem, 7rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #222;
+    color: #f2e25b;
+    padding: 2rem 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.danger-banner .emoji {
+    font-size: clamp(4rem, 7vw + 1rem, 7rem);
+    line-height: 1;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
     margin: 0;
-    transition: all 0.3s ease;
+}
+
+.danger-banner .text {
+    text-align: left;
+    line-height: 1.3;
+    margin: 0;
+    font-size: clamp(2rem, 5vw + 2rem, 3rem);
+}
+
+/* ===== Map ===== */
+.map {
+    width: 100%;
+}
+
+.map a {
+    display: flex;
+    width: 100%;
+    background-color: #f2e25b;
+    color: #0d0d0d;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding: 10px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.map a:hover {
+    background-color: #F52639;
+    color: #fff;
+
+}
+
+iframe.carte {
+    width: 98%;
+    height: 800px;
 }
 
 /* ===== Responsive layout ===== */
-/* Desktop small */
-@media (max-width: 1200px) {
-    header.banniere {
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 2em;
-    }
-
-    img.logo_une {
-        margin-bottom: 2em;
-    }
-
-    main.center {
-        flex-direction: column;
-        align-items: center;
-        text-align: left;
-    }
-
-    .sidebar, .content {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    .sidebar {
-        order: 1;
-    }
-
-    .grid {
-        column-count: 3;
-    }
-
-}
 /* Tablettes et smartphones */
 @media (max-width: 1024px) {
     .floating-button {
@@ -358,9 +400,29 @@ main.center {
         text-align: left;
     }
 
-    .sidebar, .content {
+    .sidebar, .postit {
         width: 100%;
         padding: 1rem;
+    }
+
+    .danger-banner .emoji {
+        font-size: clamp(5rem, 7vw + 1rem, 7rem);
+        line-height: 1;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .danger-banner .text {
+        text-align: left;
+        line-height: 1.3;
+        margin: 0;
+        font-size: clamp(1.25rem, 2vw + 2rem, 1rem);
+    }
+
+    .postit {
+        order: 0;
     }
 
     #rejoindre {
@@ -372,23 +434,34 @@ main.center {
         order: 2;
     }
 
-    .rejoindre {
-        display: none;
+    .map {
+        order: 3;
     }
 
-    .grid {
-        column-count: 3;
+    .rejoindre {
+        display: none;
     }
 }
 
 
 /* Smartphone large */
 @media (max-width: 768px) {
-     .content {
-        margin-bottom: 50px;
+    .danger-banner .emoji {
+        font-size: clamp(5rem, 7vw + 1rem, 7rem);
+        line-height: 1;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        margin: 0;
     }
-    .grid {
-        column-count: 2;
+    .danger-banner .text {
+        text-align: left;
+        line-height: 1.3;
+        margin: 0;
+        font-size: clamp(1.25rem, 2vw + 2rem, 1rem);
+    }
+    section.postit {
+        margin-bottom: 50px;
     }
     h1 {
         font-size: clamp(1.9rem, 5vw, 4rem);
@@ -397,7 +470,23 @@ main.center {
 
 /* Smartphone standard */
 @media (max-width: 480px) {
-    .content {
+    .danger-banner {
+        flex-direction: column;
+        font-size: clamp(2rem, 5vw + 1rem, 4rem);
+        padding: 1.5rem;
+        gap: 0.5rem;
+    }
+
+    .danger-banner .emoji {
+        font-size: clamp(7rem, 7vw + 1rem, 5rem);
+        margin-bottom: 1rem;
+    }
+
+    .danger-banner .text {
+        font-size: clamp(1rem, 2vw + 1rem, 1rem);
+        text-align: left;
+    }
+    section.postit {
         margin-bottom: 50px;
     }
     h1 {
@@ -407,8 +496,20 @@ main.center {
 
 /* Très petit smartphone */
 @media (max-width: 375px) {
-    .grid {
-        column-count: 1;
+    .danger-banner {
+        flex-direction: column;
+        font-size: clamp(2rem, 5vw + 1rem, 4rem);
+        padding: 1.5rem;
+        gap: 0.5rem;
+    }
+
+    .danger-banner .emoji {
+        font-size: clamp(7rem, 7vw + 1rem, 5rem);
+        margin-bottom: 1rem;
+    }
+    .danger-banner .text {
+        font-size: clamp(1rem, 2vw + 1rem, 1rem);
+        text-align: left;
     }
 }
 
@@ -456,9 +557,15 @@ main.center {
         padding: 1rem;
     }
 
-    .content {
+    .postit {
+        order: 1;
         flex-grow: 1;
         padding: 1rem;
+    }
+
+    .map {
+        order: 1;
+        flex-grow: 1;
     }
 }
 
@@ -507,10 +614,57 @@ main.center {
         flex-shrink: 0;
     }
 
-    .content {
+    .postit {
+        order: 1;
         flex-grow: 1;
         padding: 1rem;
     }
 }
 
+@media (max-width: 1200px) {
+    header.banniere {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    img.logo_une {
+        margin-bottom: 2em;
+    }
+    .danger-banner .emoji {
+        font-size: clamp(5rem, 7vw + 1rem, 7rem);
+        line-height: 1;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    .danger-banner .text {
+        text-align: left;
+        line-height: 1.3;
+        margin: 0;
+        font-size: clamp(1.25rem, 2vw + 2rem, 1rem);
+    }
 
+    main.center {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .sidebar, .postit {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .postit {
+        order: 0;
+    }
+
+    .sidebar {
+        order: 1;
+    }
+
+    .map {
+        order: 2;
+    }
+}
