@@ -6,6 +6,7 @@ html + css, "old school".
 Pas de libs, pas de js, pour l'instant.
 Et pas de fontes Google, ni de ressources non libres !
 
+Pour contribuer, faites un fork, puis des pull requests.
 
 Structure du site :
 
