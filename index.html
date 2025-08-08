@@ -12,7 +12,7 @@
     <link rel="alternate icon" href="favicon.ico" type="image/x-icon">
 </head>
 
-    <body>
+    <body><!--#config errmsg="" -->
         <header class="banniere">
             <img class="logo_une" src="/global/img/logo-inbt.svg" alt="Logo Indignons-nous">
             <h1>10 Septembre 2025</h1>
@@ -21,7 +21,7 @@
         <div class="menu_top">
             <ul>
                 <li class="selected"><a href="/">Accueil</a></li>
-                <!--#include virtual="local/menu_top_local.shtml" -->
+                <!--#include virtual="local/ssi/menu_top.shtml" -->
                 <li><a href="/global/sites.html">Sites</a></li>
             </ul>
         </div>
@@ -91,7 +91,7 @@
                     <h3>Notre clé publique :</h3>
                     <p class="break-word">
                         <code>
-                            mDMEaIeeuhYJKwYBBAHaRw8BAQdALNbxpCK+MNpfYiMjsfktCKN+Jvcy0S+HcuQUxIiknM60OUNvbWl0w6kgTmF0aW9uYWwgSW5kaWduZXotdm91cyA8Y29udGFjdEBpbmRpZ25vbnNub3VzLmZyPoiZBBMWCgBBFiEEXCkRBQJ+qh15VHvla4NewHKQdVEFAmiHnroCGwMFCQWkl2YFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQa4NewHKQdVHchAEAkT4c+Q1ozBP8hFZcnAFW2PVnYgl1p9AbqtWcFbQp8BwA/iNb1HAZcCLAPVz9nbS557shzmVNTHCRdMAlBPvptBEBuDgEaIeeuhIKKwYBBAGXVQEFAQEHQJ/s940GPPCsg7wEntYpJQJ4ua7e34LYpdVBKp1VsElQAwEIB4h+BBgWCgAmFiEEXCkRBQJ+qh15VHvla4NewHKQdVEFAmiHnroCGwwFCQWkl2YACgkQa4NewHKQdVElGQD+Ie70ygYC9BP+8IsbP6lmw6Rs8Mhj4dj/xmDGEZpnN0UBAJZ29gNej5WNzhD7m8+DHufJOm86IG2K408DrrkelQkD=r+K8
+                        <!--#include virtual="local/ssi/gpg.shtml" onerror="global/ssi/gpg_indignonsnous.shtml"-->
                         </code>
                     </p>
                     <h3>C'est quoi, GPG ?</h3>
@@ -138,6 +138,190 @@
                                     ILS N’OUBLIERONT PAS.
                                 </span>
                         </div>
+                    </div>
+                </section>
+                <br>
+                <br>
+                <div class="rejoindre">
+                    ⬇ NOUS REJOINDRE ⬇
+                </div>
+                <section class="communication">
+                    <div>
+                        <div>
+                            <h3 class="font-color-yellow">GROUPES NATIONAUX</h3>
+                            <ul class="social-networks">
+                                <li>
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <div>
+                                        <p class="com-title">Telegram</p>
+                                        <a href="https://t.me/+B5CJp-RUGpAzMmQ8" target="_blank"
+                                            class="com-link sn-link">t.me/+B5CJp-RUGpAzMmQ8</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="global/img/tiktok.svg" width="24" height="24" />
+                                    <div>
+                                        <p class="com-title">TikTok</p>
+                                        <a href="https://www.tiktok.com/@indignons.nous" target="_blank"
+                                            class="com-link sn-link">@indignons.nous</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="global/img/facebook.svg" width="24" height="24" />
+                                    <div>
+                                        <p class="com-title">Page Facebook</p>
+                                        <a href="https://www.facebook.com/people/Indignons-nous/61578641433778" target="_blank"
+                                            class="com-link sn-link">Indignons nous</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="global/img/facebook.svg" width="24" height="24" />
+                                    <div>
+                                        <p class="com-title">Groupe Facebook</p>
+                                        <a href="https://www.facebook.com/groups/1045232717369832" target="_blank"
+                                            class="com-link sn-link">INDIGNONS NOUS 10 SEPTEMBRE</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="global/img/twitter.svg" width="24" height="24" />
+                                    <div>
+                                        <p class="com-title">X (ex Twitter)</p>
+                                        <a href="https://x.com/indignonsn" target="_blank" class="com-link sn-link">@IndignonsN</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="foreign">
+                            <h3 class="font-color-yellow">GROUPES ÉTRANGERS</h3>
+                            <ul class="telegrams">
+                                <li>
+                                    <h5 class="font-color-yellow tg-region">BELGIQUE</h5>
+                                    <div class="tg-infos">
+                                        <img src="global/img/telegram.svg" width="24" height="24" />
+                                        <span class="com-title tg-title">Telegram</span>
+                                        <a href="https://t.me/+vXyhM9YVjzMyOTJk" target="_blank"
+                                            class="com-link">t.me/+vXyhM9YVjzMyOTJk</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-color-yellow">GROUPES RÉGIONAUX</h3>
+                        <ul class="telegrams">
+                            <li>
+                                <h5 class="font-color-yellow tg-region">AUVERGNE RHÔNE ALPES</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/dontpayfrance" target="_blank" class="com-link">t.me/dontpayfrance</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">BOURGOGNE FRANCHE COMTÉ</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+daL7pAZ2eXAxYmY0" target="_blank" class="com-link">t.me/+daL7pAZ2eXAxYmY0</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">BRETAGNE</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+2zyykrgSNYI4YmQ0" target="_blank" class="com-link">t.me/+2zyykrgSNYI4YmQ0</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">CENTRE VAL DE LOIRE</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+1F026domhCI5Yzhk" target="_blank" class="com-link">t.me/+1F026domhCI5Yzhk</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">CORSICA</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+6nGU1MKqF1E1MTI0" target="_blank" class="com-link">t.me/+6nGU1MKqF1E1MTI0</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">GRAND EST</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+DwayRkLGjxBhYjc0" target="_blank" class="com-link">t.me/+DwayRkLGjxBhYjc0</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">HAUTS DE FRANCE</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/retlHDF" target="_blank" class="com-link">t.me/retlHDF</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">ÎLE DE FRANCE</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/retlIDF" target="_blank" class="com-link">t.me/retlIDF</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">NORMANDIE</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+NY521X2MIxxhNzQ0" target="_blank" class="com-link">t.me/+NY521X2MIxxhNzQ0</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">NOUVELLE AQUITAINE</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+fFVATyvoOWowZjA0" target="_blank" class="com-link">t.me/+fFVATyvoOWowZjA0</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">OCCITANIE</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/collectifsunis31" target="_blank" class="com-link">t.me/collectifsunis31</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">OUTRE-MER</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+k6w3Bdy4Nr81MzQ8" target="_blank" class="com-link">t.me/+k6w3Bdy4Nr81MzQ8</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">PACA</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+6nGU1MKqF1E1MTI0" target="_blank" class="com-link">t.me/+6nGU1MKqF1E1MTI0</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="font-color-yellow tg-region">PAYS DE LA LOIRE</h5>
+                                <div class="tg-infos">
+                                    <img src="global/img/telegram.svg" width="24" height="24" />
+                                    <span class="com-title tg-title">Telegram</span>
+                                    <a href="https://t.me/+UlH4Zr3yf5FjMmRk" target="_blank" class="com-link">t.me/+UlH4Zr3yf5FjMmRk</a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </section>
                 <br>
