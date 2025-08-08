@@ -27,6 +27,7 @@ Carte interactive : https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654
 
 Maquette Figma: https://www.figma.com/design/Brb5gbV7ExTRWbjLLbg6kR/Site-Indignons-nous?node-id=1-2&t=EpvLpPLxupvC2Z16-0
 
+<img width="1440" height="5820" alt="Desktop - 2" src="https://github.com/user-attachments/assets/1fb8dcf7-f862-4ad3-9133-9a4dc880427a" />
 
 
 Charte graphique fourniue initialement par les groupes Telegram :
