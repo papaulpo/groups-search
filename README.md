@@ -30,7 +30,7 @@ Maquette Figma: https://www.figma.com/design/Brb5gbV7ExTRWbjLLbg6kR/Site-Indigno
 <img width="1440" height="5820" alt="Desktop - 2" src="https://github.com/user-attachments/assets/1fb8dcf7-f862-4ad3-9133-9a4dc880427a" />
 
 
-Charte graphique fourniue initialement par les groupes Telegram :
+Charte graphique fournie initialement par les groupes Telegram :
 ![charte_1](https://github.com/user-attachments/assets/f6bc0a41-7891-4b10-a105-e0147a520b7d)
 
 ![impression](https://github.com/user-attachments/assets/bf0dcb77-6ed2-40b1-9326-1014108c9c1e)
