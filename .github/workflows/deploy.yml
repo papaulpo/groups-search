@@ -116,6 +116,23 @@ jobs:
           *.git
           */**/*git*      
 
+
+    - name: SFTP upload onestla.ovh
+      uses: Dylan700/sftp-upload-action@latest
+      with:
+        server: ${{secrets._ONESTLA_OVH_SERVER}}
+        username: ${{secrets._ONESTLA_OVH_USER}}
+        password: ${{secrets._ONESTLA_OVH_PW}}
+        port: 22
+        uploads: |
+          ./ => ${{secrets._ONESTLA_OVH_HOME}}
+        ignore: |
+          README.md
+          .github/
+          *.git
+          */**/*git*  
+
+
     - name: SFTP upload revoltes.ovh
       uses: Dylan700/sftp-upload-action@latest
       with:
