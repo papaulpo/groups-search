@@ -234,6 +234,7 @@ main.center {
 }
 
 #rejoindre {
+    margin-top: -10px;
     padding: 5px 10px;
     background-color: #F52639;
     color: #fff;
