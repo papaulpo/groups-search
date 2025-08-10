@@ -426,17 +426,6 @@ img.logo_une {
     padding: 2rem;
 }
 
-.video .v-title {
-    color: #121214;
-    margin-bottom: 0 !important;
-    transform: rotate(1deg);
-}
-
-.video .v-subtitle {
-    font-weight: 700;
-    transform: rotate(1deg);
-}
-
 .video .v-frame {
     width: 560px;
     max-width: calc(100% - 6rem);
