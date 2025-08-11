@@ -1,4 +1,4 @@
-name: Init (OVERWRITE /local)
+name: Update /global ONLY
 
 on:
   workflow_dispatch:
@@ -19,7 +19,7 @@ jobs:
         port: 22
         uploads: |
           ./ => ${{secrets._INDIGNONSNOUS_FR_HOME}}
-        ignore-from: .github/ignore.txt
+        ignore-from: .github/ignore_local.txt
 
     - name: SFTP upload 10s25.fr
       uses: Dylan700/sftp-upload-action@latest
@@ -30,7 +30,7 @@ jobs:
         port: 22
         uploads: |
           ./ => ${{secrets._10S25_FR_HOME}}
-        ignore-from: .github/ignore.txt
+        ignore-from: .github/ignore_local.txt
 
 
     - name: SFTP upload 10s25.ovh
@@ -42,7 +42,7 @@ jobs:
         port: 22
         uploads: |
           ./ => ${{secrets._10S25_OVH_HOME}}
-        ignore-from: .github/ignore.txt
+        ignore-from: .github/ignore_local.txt
 
     - name: SFTP upload bloquonstout.ovh
       uses: Dylan700/sftp-upload-action@latest
@@ -53,7 +53,7 @@ jobs:
         port: 22
         uploads: |
           ./ => ${{secrets._BLOQUONSTOUT_OVH_HOME}}
-        ignore-from: .github/ignore.txt
+        ignore-from: .github/ignore_local.txt
 
     - name: SFTP upload indignonsnous.ovh
       uses: Dylan700/sftp-upload-action@latest
@@ -64,7 +64,7 @@ jobs:
         port: 22
         uploads: |
           ./ => ${{secrets._INDIGNONSNOUS_OVH_HOME}}
-        ignore-from: .github/ignore.txt
+        ignore-from: .github/ignore_local.txt
 
     - name: SFTP upload lesoulevementdupeuple.ovh
       uses: Dylan700/sftp-upload-action@latest
@@ -75,7 +75,7 @@ jobs:
         port: 22
         uploads: |
           ./ => ${{secrets._LESOULEVEMENTDUPEUPLE_OVH_HOME}}
-        ignore-from: .github/ignore.txt 
+        ignore-from: .github/ignore_local.txt 
 
     - name: SFTP upload marchepourladignite.ovh
       uses: Dylan700/sftp-upload-action@latest
@@ -86,7 +86,7 @@ jobs:
         port: 22
         uploads: |
           ./ => ${{secrets._MARCHEPOURLADIGNITE_OVH_HOME}}
-        ignore-from: .github/ignore.txt
+        ignore-from: .github/ignore_local.txt
 
 
     - name: SFTP upload onestla.ovh
@@ -98,7 +98,7 @@ jobs:
         port: 22
         uploads: |
           ./ => ${{secrets._ONESTLA_OVH_HOME}}
-        ignore-from: .github/ignore.txt
+        ignore-from: .github/ignore_local.txt
 
 
     - name: SFTP upload revoltes.ovh
@@ -110,7 +110,7 @@ jobs:
         port: 22
         uploads: |
           ./ => ${{secrets._REVOLTES_OVH_HOME}}
-        ignore-from: .github/ignore.txt
+        ignore-from: .github/ignore_local.txt
 
 
 
