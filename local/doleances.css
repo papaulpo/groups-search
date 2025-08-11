@@ -1,0 +1,25 @@
+.doleances .grid {
+    column-count: 3;
+}
+
+/* Desktop small */
+@media (max-width: 1200px) {
+    .doleances .grid {
+        column-count: 2;
+    }
+}
+
+/* Smartphone large */
+@media (max-width: 768px) {
+    .doleances .grid {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding: 0;
+    }
+}
+
+

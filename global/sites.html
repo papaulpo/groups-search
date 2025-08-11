@@ -28,13 +28,33 @@
             <h1>Manifestation numérique</h1>
         </header>
 
+        <div class="menu-sm">
+            <input type="checkbox" id="menuToggle" />
+
+            <label for="menuToggle" class="menuOpen">
+                <span class="open"></span>
+            </label>
+
+            <div class="menu menuEffects">
+                <label for="menuToggle"></label>
+                <div class="menuContent">
+                    <ul>
+                        <li><a href="/">Accueil</a></li>
+                        <!--#include virtual="../local/ssi/menu_sm.shtml" -->
+                        <li><a href="../global/sites.html">Sites</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <div class="menu_top">
             <ul>
                 <li><a href="/">Accueil</a></li>
-                <!--#include virtual="/local/ssi/menu_top.shtml" -->
+                <!--#include virtual="../local/ssi/menu_top.shtml" -->
                 <li class="selected"><a href="/global/sites.html">Sites</a></li>
             </ul>
         </div>
+        <br class="clearboth">
         <main class="center">
             <div id="rejoindre">REJOINS-NOUS</div>
             <div class="sidebar">
