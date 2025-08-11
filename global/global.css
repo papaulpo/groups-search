@@ -90,7 +90,15 @@ main.center {
 }
 #rejoindre { display: none; }
 .rejoindre { display: flex; transform: rotate(-2deg) scale(1.08) translateY(-10px); }
-
+.rejoindre::before {
+  content: "\002B07";
+  margin-right: 15px;
+  font-weight: 800;
+}
+.rejoindre::after {
+  content: "\002B07";
+  margin-left: 15px;
+}
 /* ==== Post-it ==== */
 
 section.postit {
