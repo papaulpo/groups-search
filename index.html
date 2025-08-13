@@ -1,387 +1,229 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="utf-8">
-    <title>Indignons-nous !</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" lang="fr" content="Bloquons tout, Indignons-nous, 10 Septembre, 10 Septembre 2025">
-    <meta name="location" content="France, FRANCE">
-    <link rel="stylesheet" href="global/global.css">
-    <link rel="icon" href="global/img/favicon.svg" type="image/svg+xml">
-    <link rel="alternate icon" href="favicon.ico" type="image/x-icon">
-    <!-- RESEAUX SOCIAUX -->
-    <meta property="og:title" content="Indignons Nous - Bloquons Tout - 10s25">
-    <meta property="og:description" content="Nous, peuple indigné de tous horizons, lançons un appel clair et urgent : Indignons-nous et bloquons tout jusqu’au retrait total et immédiat du plan Bayrou, un budget d’austérité injuste, dangereux, et déconnecté des réalités sociales.">
-    <meta property="og:url" content="https://<!--#echo var="SERVER_NAME" --><!--#echo var="DOCUMENT_URI" -->">
-    <meta property="og:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Indignons Nous - Bloquons Tout - 10s25">
-    <meta name="twitter:description" content="Nous, peuple indigné de tous horizons, lançons un appel clair et urgent : Indignons-nous et bloquons tout jusqu’au retrait total et immédiat du plan Bayrou, un budget d’austérité injuste, dangereux, et déconnecté des réalités sociales.">
-    <meta name="twitter:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
+	<meta charset="utf-8">
+	<title>Indignons-nous !</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" lang="fr" content="Bloquons tout, Indignons-nous, 10 Septembre, 10 Septembre 2025">
+	<meta name="location" content="France, FRANCE">
+	<link rel="stylesheet" href="global/global.css">
+	<link rel="stylesheet" href="global/index.css">
+	<link rel="icon" href="global/img/favicon.svg" type="image/svg+xml">
+	<link rel="alternate icon" href="favicon.ico" type="image/x-icon">
+	<!-- RESEAUX SOCIAUX -->
+	<meta property="og:title" content="Indignons Nous - Bloquons Tout - 10s25">
+	<meta property="og:description" content="Nous, peuple indigné de tous horizons, lançons un appel clair et urgent : Indignons-nous et bloquons tout jusqu’au retrait total et immédiat du plan Bayrou, un budget d’austérité injuste, dangereux, et déconnecté des réalités sociales.">
+	<meta property="og:url" content="https://<!--#echo var="SERVER_NAME" --><!--#echo var="DOCUMENT_URI" -->">
+	<meta property="og:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Indignons Nous - Bloquons Tout - 10s25">
+	<meta name="twitter:description" content="Nous, peuple indigné de tous horizons, lançons un appel clair et urgent : Indignons-nous et bloquons tout jusqu’au retrait total et immédiat du plan Bayrou, un budget d’austérité injuste, dangereux, et déconnecté des réalités sociales.">
+	<meta name="twitter:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
 </head>
 
-    <body><!--#config errmsg="" -->
-        <header class="banniere">
-            <img class="logo_une" src="/global/img/logo-inbt.svg" alt="Logo Indignons-nous">
-            <h1>10 Septembre 2025</h1>
-        </header>
-         <div class="countdown">
-             <h5 id="countdown"></h5>
-         </div>
-        <div class="menu-sm">
-            <input type="checkbox" id="menuToggle" />
-
-            <label for="menuToggle" class="menuOpen">
-                <span class="open"></span>
-            </label>
-
-            <div class="menu menuEffects">
-                <label for="menuToggle"></label>
-                <div class="menuContent">
-                    <ul>
-                        <li><a href="/">Accueil</a></li>
-                        <!--#include virtual="local/ssi/menu_sm.shtml" -->
-                        <li><a href="global/sites.html">Sites</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="menu_top">
-            <ul>
-                <li class="selected"><a href="/">Accueil</a></li>
-                <!--#include virtual="local/ssi/menu_top.shtml" -->
-                <li><a href="/global/sites.html">Sites</a></li>
-            </ul>
-        </div>
-        <br class="clearboth">
-        <main class="center">
-            <div id="rejoindre">REJOINS-NOUS</div>
-            <div class="sidebar">
-                <div class="rejoindre">REJOINS-NOUS</div>
-                <section class="communication">
-                    <div>
-                        <div>
-                            <h3 class="font-color-yellow">RÉSEAUX SOCIAUX</h3>
-                            <ul class="social-networks">
-                                <li>
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <div>
-                                        <p class="com-title">Telegram</p>
-                                        <a href="https://t.me/+B5CJp-RUGpAzMmQ8" target="_blank" rel="me"
-                                            class="com-link sn-link">t.me/+B5CJp-RUGpAzMmQ8</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="global/img/instagram.svg" width="24" height="24" alt=""/>
-                                    <div>
-                                        <p class="com-title">Instagram</p>
-                                        <a href="https://www.instagram.com/indignons_nous_bloquons_tout" target="_blank" rel="me"
-                                            class="com-link sn-link">indignons_nous_bloquons_tout</a>
-                                        <a href="https://www.instagram.com/10s25officiel" target="_blank" rel="me"
-                                            class="com-link sn-link">10s25officiel</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="global/img/tiktok.svg" width="24" height="24" alt=""/>
-                                    <div>
-                                        <p class="com-title">TikTok</p>
-                                        <a href="https://www.tiktok.com/@indignons.nous" target="_blank" rel="me"
-                                            class="com-link sn-link">@indignons.nous</a>
-                                        <a href="https://www.tiktok.com/@10s251" target="_blank" rel="me"
-                                            class="com-link sn-link">@10s251</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="global/img/facebook.svg" width="24" height="24" alt=""/>
-                                    <div>
-                                        <p class="com-title">Page Facebook</p>
-                                        <a href="https://www.facebook.com/people/Indignons-nous/61578641433778" target="_blank" rel="me"
-                                            class="com-link sn-link">Indignons nous</a>
-                                        <a href="https://www.facebook.com/profile.php?id=61579323892404" target="_blank" rel="me"
-                                            class="com-link sn-link">Dix Septembre</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="global/img/facebook.svg" width="24" height="24" alt=""/>
-                                    <div>
-                                        <p class="com-title">Groupe Facebook</p>
-                                        <a href="https://www.facebook.com/groups/1045232717369832" target="_blank" rel="me"
-                                            class="com-link sn-link">INDIGNONS NOUS 10 SEPTEMBRE</a>
-                                        <a href="https://www.facebook.com/groups/10s25" target="_blank" rel="me"
-                                            class="com-link sn-link">10s25</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="global/img/twitter.svg" width="24" height="24" alt=""/>
-                                    <div>
-                                        <p class="com-title">X (ex Twitter)</p>
-                                        <a href="https://x.com/indignonsn" target="_blank" rel="me" class="com-link sn-link">@IndignonsN</a>
-                                        <a href="https://x.com/Le10S25" target="_blank" rel="me" class="com-link sn-link">@Le10S25</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="global/img/bluesky.svg" width="24" height="24" alt=""/>
-                                    <div>
-                                        <p class="com-title">Bluesky</p>
-                                        <a href="https://bsky.app/profile/10s25.bsky.social" target="_blank" rel="me" class="com-link sn-link">10s25.bsky.social</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="global/img/piaille.png" width="24" height="24" alt=""/>
-                                    <div>
-                                        <p class="com-title">Piaille</p>
-                                        <a href="https://piaille.fr/@10s25" target="_blank" rel="me" class="com-link sn-link">@10s25</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="foreign">
-                            <h3 class="font-color-yellow">GROUPES ÉTRANGERS</h3>
-                            <ul class="telegrams">
-                                <li>
-                                    <h5 class="font-color-yellow tg-region">BELGIQUE</h5>
-                                    <div class="tg-infos">
-                                        <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                        <span class="com-title tg-title">Telegram</span>
-                                        <a href="https://t.me/+vXyhM9YVjzMyOTJk" target="_blank"
-                                            class="com-link">t.me/+vXyhM9YVjzMyOTJk</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="other-groups">
-                            <h3 class="font-color-yellow">AUTRES GROUPES DE TRAVAIL</h3>
-                            <ul class="telegrams">
-                                <li>
-                                    <h5 class="font-color-yellow tg-region">ÉTUDIANTS</h5>
-                                    <div class="tg-infos">
-                                        <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                        <span class="com-title tg-title">Telegram</span>
-                                        <a href="https://t.me/dixseptembreetudiant" target="_blank" class="com-link">t.me/dixseptembreetudiant</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h5 class="font-color-yellow tg-region">GT MARCHE - 10 SEPTEMBRE</h5>
-                                    <div class="tg-infos">
-                                        <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                        <span class="com-title tg-title">Telegram</span>
-                                        <a href="https://t.me/+0jfTtV0l27RjZmU0" target="_blank" class="com-link">t.me/+0jfTtV0l27RjZmU0</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h5 class="font-color-yellow tg-region">GT 10S25</h5>
-                                    <div class="tg-infos">
-                                        <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                        <span class="com-title tg-title">Telegram</span>
-                                        <a href="https://t.me/+4zU11agZFXlhM2Nk" target="_blank" class="com-link">t.me/+4zU11agZFXlhM2Nk</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h5 class="font-color-yellow tg-region">GT Nourrir le mouvement</h5>
-                                    <div class="tg-infos">
-                                        <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                        <span class="com-title tg-title">Telegram</span>
-                                        <a href="https://t.me/+Lbb4F9zcebYzMzk0" target="_blank" class="com-link">https://t.me/+Lbb4F9zcebYzMzk0</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="font-color-yellow">GROUPES RÉGIONAUX</h3>
-                        <ul class="telegrams">
-                            <li>
-                                <h5 class="font-color-yellow tg-region">AUVERGNE RHÔNE ALPES</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/dontpayfrance" target="_blank" class="com-link">t.me/dontpayfrance</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">BOURGOGNE FRANCHE COMTÉ</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+daL7pAZ2eXAxYmY0" target="_blank" class="com-link">t.me/+daL7pAZ2eXAxYmY0</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">BRETAGNE</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+2zyykrgSNYI4YmQ0" target="_blank" class="com-link">t.me/+2zyykrgSNYI4YmQ0</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">CENTRE VAL DE LOIRE</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+1F026domhCI5Yzhk" target="_blank" class="com-link">t.me/+1F026domhCI5Yzhk</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">CORSICA</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+6nGU1MKqF1E1MTI0" target="_blank" class="com-link">t.me/+6nGU1MKqF1E1MTI0</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">GRAND EST</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+DwayRkLGjxBhYjc0" target="_blank" class="com-link">t.me/+DwayRkLGjxBhYjc0</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">HAUTS DE FRANCE</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/retlHDF" target="_blank" class="com-link">t.me/retlHDF</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">ÎLE DE FRANCE</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/retlIDF" target="_blank" class="com-link">t.me/retlIDF</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">NORMANDIE</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+NY521X2MIxxhNzQ0" target="_blank" class="com-link">t.me/+NY521X2MIxxhNzQ0</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">NOUVELLE AQUITAINE</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+fFVATyvoOWowZjA0" target="_blank" class="com-link">t.me/+fFVATyvoOWowZjA0</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">OCCITANIE</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/collectifsunis31" target="_blank" class="com-link">t.me/collectifsunis31</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">OUTRE-MER</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+k6w3Bdy4Nr81MzQ8" target="_blank" class="com-link">t.me/+k6w3Bdy4Nr81MzQ8</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">PACA</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+6nGU1MKqF1E1MTI0" target="_blank" class="com-link">t.me/+6nGU1MKqF1E1MTI0</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5 class="font-color-yellow tg-region">PAYS DE LA LOIRE</h5>
-                                <div class="tg-infos">
-                                    <img src="global/img/telegram.svg" width="24" height="24" alt=""/>
-                                    <span class="com-title tg-title">Telegram</span>
-                                    <a href="https://t.me/+UlH4Zr3yf5FjMmRk" target="_blank" class="com-link">t.me/+UlH4Zr3yf5FjMmRk</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <section>
-                    <h2>Communications sécurisées</h2>
-                    <p>
-                        Nos communications sont sécurisées par GPG.
-                        <br>
-                        Nos emails sont signés numériquement.
-                        <br>
-                        Si vous voulez vous assurer de l'authenticité des mails reçus, configurez votre logiciel de
-                        messagerie pour reconnaître les mails envoyés avec la clé privée associée à la clé publique
-                        ci-dessous.
-                    </p>
-                    <h3>Notre clé publique :</h3>
-                    <p class="break-word">
-                        <code>
-                        <!--#include virtual="local/ssi/gpg.shtml" onerror="global/ssi/gpg_indignonsnous.shtml"-->
-                        </code>
-                    </p>
-                    <h3>C'est quoi, GPG ?</h3>
-                    <p>
-                        Vous trouverez un tutoriel en français <a href="https://linuxfr.org/news/bien-demarrer-avec-gnupg" class="font-color-yellow">ici</a>
-                        <br><br>
-                        Les emails que vous nous envoyez chiffrés avec notre clé
-                        publique ne sont pas déchiffrables par un tiers.
-                        <br><br>
-                        <i>C'est l'équivalent numérique d'une enveloppe
-                            fermée comparée à une carte postale que tout le monde peut lire.</i>
-                    </p>
-                </section>
-            </div>
-            <div class="content">
-                <section class="postit">
-                    <h2>Les raisons de notre colère</h2>
-                    <p>Le plan Bayrou, c’est :</p>
-                    <ul>
-                        <li>Une année blanche sans investissement dans les salaires, les retraites, ni les services publics !</li>
-                        <li>3000 postes supprimés, un fonctionnaire sur trois non remplacé !</li>
-                        <li>5 milliards retirés à la santé, reste à payer doublé pour les malades !</li>
-                        <li>Deux jours fériés supprimés !</li>
-                        <li>Six jours de carence en cas d’arrêt maladie !</li>
-                        <li>Aucune hausse des aides ni des pensions !</li>
-                    </ul>
-                    <p>
-                        Nous disons <strong>NON</strong> et appelons toutes les personnes résidant en France métropolitaine et dans les DOM-TOM à se mobiliser contre ce budget !
-                    </p>
-                    <p>
-                        Nous ne voulons pas subir leur crise.<br>
-                        Nous voulons changer de cap, pour de bon, avec et pour le peuple. Pas contre lui.
-                    </p>
-                    <div>
-                        <p class="big">
-                            <strong>NOUS APPELONS CHAQUE DÉPUTÉ À FAIRE SON DEVOIR : <span>VOTER LA MOTION DE CENSURE CONTRE CE PLAN INJUSTE ET DANGEREUX.</span></strong>
-                        </p>
-                        <div class="danger-banner">
-                            <span class="emoji">⚠️</span>
-                            <span class="text">
-                                    LES FRANÇAIS VOUS REGARDENT.
-                                    <br>
-                                    ILS N’OUBLIERONT PAS.
-                                </span>
-                        </div>
-                    </div>
-                </section>
-                <div class="video">
-                    <iframe class="v-frame" src="https://www.youtube-nocookie.com/embed/VCvQnwBWc60?si=eTAMurclT3SmgMg8" title="Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <br />
-                <h5>Groupes régionaux, départementaux, et locaux:</h5>
-                <div class="map">
-                    <iframe width="100%" height="800px" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe>
-                    <p><a href="//umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Afficher la carte en plein écran</a></p>
-                    <h5>Votre groupe local n'est pas sur la carte ? Contactez-nous pour l'ajouter !<br>
-                    <small>(par Telegram, pour l'instant)</small></h5>
-                </div>
-            </div>
-        </main>
-        <script src="/global/js/countdown.js"></script>
-    </body>
+<body><!--#config errmsg="" -->
+	<header id="banniere">
+		<a href="/" title="Accueil"><img id="logo_left" src="/global/img/logo-inbt.svg" alt="<!--#echo var="SERVER_NAME" -->"></a>
+		<div>
+			<h1 class="font-yellow">10 Septembre 2025</h1>
+			<div class="countdown font-green">
+				<h5 id="countdown"></h5>
+			</div>
+		</div>
+	</header>
+	<div id="menu_top">
+		<ul>
+			<li class="selected"><a href="/">&#8962;</a></li>
+			<!--#include virtual="local/ssi/menu_top.shtml" -->
+			<li><a href="/global/sites.html">Sites</a></li>
+		</ul>
+	</div>
+	<main id="center">
+		<div id="sidebar">
+			<div id="rejoindre" class="background-red">REJOINS-NOUS</div>
+			<ul class="sidebar-section-1">
+				<li>
+					<h3 class="font-yellow">RÉSEAUX SOCIAUX</h3>
+					<ul class="sidebar-section-2">
+						<li>
+							<ul>
+								<li class="telegram">
+									<p>Telegram</p>
+									<a href="https://t.me/+B5CJp-RUGpAzMmQ8" target="_blank" rel="me">t.me/+B5CJp-RUGpAzMmQ8</a>
+								</li>
+								<li class="instagram">
+									<p>Instagram</p>
+									<ul>
+										<li><a href="https://www.instagram.com/indignons_nous_bloquons_tout" target="_blank"
+											rel="me">indignons_nous_bloquons_tout</a></li>
+										<li><a href="https://www.instagram.com/10s25officiel" target="_blank" 
+											rel="me">10s25officiel</a></li>
+									</ul>
+								</li>
+								<li class="tiktok">
+									<p>TikTok</p>
+									<ul>
+										<li><a href="https://www.tiktok.com/@indignons.nous" target="_blank" rel="me"
+											class="com-link sn-link">@indignons.nous</a></li>
+										<li><a href="https://www.tiktok.com/@10s251" target="_blank" rel="me"
+											class="com-link sn-link">@10s251</a></li>
+									</ul>
+								</li>
+								<li class="facebook">
+									<p>Pages Facebook</p>
+									<ul>
+										<li><a href="https://www.facebook.com/people/Indignons-nous/61578641433778" target="_blank"
+											rel="me">Indignons nous</a></li>
+										<li><a href="https://www.facebook.com/profile.php?id=61579323892404" target="_blank"
+											rel="me" class="com-link sn-link">Dix Septembre</a></li>
+									</ul>
+								</li>
+								<li class="facebook">
+									<p>Groupes Facebook</p>
+									<ul>
+										<li><a href="https://www.facebook.com/groups/1045232717369832" target="_blank"
+											rel="me">INDIGNONS NOUS 10 SEPTEMBRE</a></li>
+										<li><a href="https://www.facebook.com/groups/10s25" target="_blank"
+											rel="me">10s25</a></li>
+									</ul>
+								</li>
+								<li class="twitter">
+									<p>X (Twitter)</p>
+									<ul>
+										<li><a href="https://x.com/indignonsn" target="_blank"
+											rel="me">@IndignonsN</a></li>
+										<li><a href="https://x.com/Le10S25" target="_blank"
+											rel="me">@Le10S25</a></li>
+									</ul>
+								</li>
+								<li class="bluesky">
+									<p>Bluesky</p>
+									<a href="https://bsky.app/profile/10s25.bsky.social" target="_blank"
+										rel="me">10s25.bsky.social</a>
+								</li>
+								<li class="piaille">
+									<p>Piaille</p>
+									<a href="https://piaille.fr/@10s25" target="_blank"
+										rel="me">@10s25</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="sidebar-section-1">
+				<li>
+					<h3 class="font-yellow">GROUPES ÉTRANGERS</h3>
+					<ul class="sidebar-section-2">
+						<li>
+							<h5 class="font-yellow">BELGIQUE</h5>
+							<ul>
+								<li class="telegram">
+									<p>Telegram</p>
+									<a href="https://t.me/+vXyhM9YVjzMyOTJk" 
+										target="_blank">t.me/+vXyhM9YVjzMyOTJk</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+			</ul>
+			<ul class="sidebar-section-1">
+				<li>
+					<h3 class="font-yellow">AUTRES GROUPES</h3>
+					<ul class="sidebar-section-2">
+						<li>
+							<h5 class="font-yellow">ÉTUDIANTS</h5>
+							<ul>
+								<li class="telegram">
+									<p>Telegram</p>
+									<a href="https://t.me/dixseptembreetudiant" target="_blank">t.me/dixseptembreetudiant</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+			</ul>
+		</div>
+		<div id="content">
+			<section class="postit background-yellow">
+				<div class="postit-content font-black">
+					<h2>Les raisons de notre colère</h2>
+					<p>Le plan Bayrou, c’est :</p>
+					<ul>
+						<li>Une année blanche sans investissement dans les salaires, les retraites, ni les services publics !</li>
+						<li>3000 postes supprimés, un fonctionnaire sur trois non remplacé !</li>
+						<li>5 milliards retirés à la santé, reste à payer doublé pour les malades !</li>
+						<li>Deux jours fériés supprimés !</li>
+						<li>Six jours de carence en cas d’arrêt maladie !</li>
+						<li>Aucune hausse des aides ni des pensions !</li>
+					</ul>
+					<p>
+						Nous disons <strong>NON</strong> et appelons toutes les personnes résidant en France métropolitaine et dans les DOM-TOM à se mobiliser contre ce budget !
+					</p>
+					<p>
+						Nous ne voulons pas subir leur crise.<br>
+						Nous voulons changer de cap, pour de bon, avec et pour le peuple. Pas contre lui.
+					</p>
+					<div>
+						<p class="big">
+							<strong>NOUS APPELONS CHAQUE DÉPUTÉ À FAIRE SON DEVOIR :
+							<br>
+							<span class="font-red">VOTER LA MOTION DE CENSURE CONTRE CE PLAN INJUSTE ET DANGEREUX.</span></strong>
+						</p>
+						<div class="danger-banner">
+							<span class="emoji">⚠️</span>
+							<span class="text">
+									LES FRANÇAIS VOUS REGARDENT.
+									<br>
+									ILS N’OUBLIERONT PAS.
+								</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="video">
+				<iframe class="v-frame" src="https://www.youtube-nocookie.com/embed/VCvQnwBWc60?si=eTAMurclT3SmgMg8" title="Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+			<br />
+			<h5>Groupes régionaux, départementaux, et locaux:</h5>
+			<div class="map">
+				<iframe width="100%" height="800px" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe>
+				<p><a href="//umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Afficher la carte en plein écran</a></p>
+				<h5>Votre groupe local n'est pas sur la carte ? Contactez-nous pour l'ajouter !<br>
+				<small>(par Telegram, pour l'instant)</small></h5>
+			</div>
+		</div>
+	</main>
+	<div id="footer">
+		<section class="postit background-yellow font-black">
+			<div>
+				<h2>Communications sécurisées</h2>
+				<p>
+					Nos communications sont sécurisées par GPG: nos emails sont signés numériquement.
+					<br>
+					Si vous voulez vous assurer de l'authenticité des mails reçus, configurez votre logiciel de
+					messagerie pour reconnaître les mails envoyés avec la clé privée associée à la clé publique
+					ci-dessous.
+				</p>
+				<h3>C'est quoi, GPG ?</h3>
+				<p>
+					Vous trouverez un tutoriel en français <a href="https://linuxfr.org/news/bien-demarrer-avec-gnupg" class="font-yellow">ici</a>
+					<br>
+					Les emails que vous nous envoyez chiffrés avec notre clé
+					publique ne sont pas déchiffrables par un tiers.
+					<br>
+					<i>C'est l'équivalent numérique d'une enveloppe
+						 fermée comparée à une carte postale que tout le monde peut lire.</i>
+				</p>
+				<h3>Notre clé publique :</h3>
+				<p class="break-word background-black">
+					<code class="font-green">
+					<!--#include virtual="local/ssi/gpg.shtml" onerror="global/ssi/gpg_indignonsnous.shtml"-->
+					</code>
+				</p>
+			</div>
+		</section>
+	</div>
+	<script src="/global/js/countdown.js"></script>
+</body>
 </html>

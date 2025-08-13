@@ -1,25 +1,7 @@
 .doleances .grid {
-    column-count: 3;
+	column-count: 3;
 }
-
-/* Desktop small */
-@media (max-width: 1200px) {
-    .doleances .grid {
-        column-count: 2;
-    }
+.doleances .grid-item {
+	padding: 20px;
 }
-
-/* Smartphone large */
-@media (max-width: 768px) {
-    .doleances .grid {
-        column-count: 1;
-    }
-}
-
-@media (min-width: 768px) {
-    .content {
-        padding: 0;
-    }
-}
-
-
+.default-pointer {cursor: default !important;}

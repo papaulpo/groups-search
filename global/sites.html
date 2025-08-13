@@ -1,98 +1,88 @@
 <!DOCTYPE html>
-    <html lang="fr">
-<!
-    <head>
-        <meta charset="utf-8">
-        <title>Indignons-nous !</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" lang="fr" content="Bloquons tout, Indignons-nous, 10 Septembre, 10 Septembre 2025">
-        <meta name="location" content="France, FRANCE">
-        <link rel="stylesheet" href="/global/global.css">
-        <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-        <link rel="alternate icon" href="favicon.ico" type="image/x-icon">
-        <!-- RESEAUX SOCIAUX -->
-        <meta property="og:title" content="Manifestation numérique - La liste des sites du 10S25">
-        <meta property="og:description" content="Manifestation numérique">
-        <meta property="og:url" content="https://<!--#echo var="SERVER_NAME" --><!--#echo var="DOCUMENT_URI" -->">
-        <meta property="og:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
-        <meta property="og:type" content="website">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Manifestation numérique">
-        <meta name="twitter:description" content="Liste des sites du 10S25">
-        <meta name="twitter:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
-    </head>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Indignons-nous !</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" lang="fr" content="Bloquons tout, Indignons-nous, 10 Septembre, 10 Septembre 2025">
+	<meta name="location" content="France, FRANCE">
+	<link rel="stylesheet" href="/global/global.css">
+	<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+	<link rel="alternate icon" href="favicon.ico" type="image/x-icon">
+	<!-- RESEAUX SOCIAUX -->
+	<meta property="og:title" content="Manifestation numérique - La liste des sites du 10S25">
+	<meta property="og:description" content="Manifestation numérique">
+	<meta property="og:url" content="https://<!--#echo var="SERVER_NAME" --><!--#echo var="DOCUMENT_URI" -->">
+	<meta property="og:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Manifestation numérique">
+	<meta name="twitter:description" content="Liste des sites du 10S25">
+	<meta name="twitter:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
+</head>
 
-    <body><!--#config errmsg="" -->
-        <header class="banniere">
-            <img class="logo_une" src="/global/img/logo-inbt.svg" alt="Logo Indignons-nous">
-            <h1>Manifestation numérique</h1>
-        </header>
+<body><!--#config errmsg="" -->
+	<header id="banniere">
+		<a href="/" title="Accueil"><img id="logo_left" src="/global/img/logo-inbt.svg" alt="<!--#echo var="SERVER_NAME" -->"></a>
+		<div>
+			<h1 class="font-yellow">10 Septembre 2025</h1>
+		</div>
+	</header>
 
-        <div class="menu-sm">
-            <input type="checkbox" id="menuToggle" />
+	<div id="menu_top">
+		<ul>
+			<li><a href="/">&#8962;</a></li>
+			<!--#include virtual="/local/ssi/menu_top.shtml" -->
+			<li class="selected"><a href="/global/sites.html">Sites</a></li>
+		</ul>
+	</div>
+	<main id="center">
+		<div id="sidebar">
+			<div id="rejoindre" class="background-red">REJOINS-NOUS</div>
+			<section>
+				<ul class="sidebar-section-1">
+					<li>
+						<h3 class="font-yellow">SITES WEB</h3>
+						<ul class="sidebar-section-2">
+							<li>
+								<ul>
+									<li class="site"><a href="https://10s25.fr">10s25.fr</a></li>
+									<li class="site"><a href="https://10s25.ovh">10s25.ovh</a></li>
+									<li class="site"><a href="https://bloquonstout.ovh">bloquonstout.ovh</a></li>
+									<li class="site"><a href="https://indignonsnous.fr">indignonsnous.fr</a></li>
+									<li class="site"><a href="https://indignonsnous.ovh">indignonsnous.ovh</a></li>
+									<li class="site"><a href="https://lesoulevementdupeuple.ovh">lesoulevementdupeuple.ovh</a></li>
+									<li class="site"><a href="https://marchepourladignite.ovh">marchepourladignite.ovh</a></li>
+									<li class="site"><a href="https://onestla.ovh">onestla.ovh</a></li>
+									<li class="site"><a href="https://revoltes.ovh">revoltes.ovh</a></li>
+									</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+		</div>
 
-            <label for="menuToggle" class="menuOpen">
-                <span class="open"></span>
-            </label>
-
-            <div class="menu menuEffects">
-                <label for="menuToggle"></label>
-                <div class="menuContent">
-                    <ul>
-                        <li><a href="/">Accueil</a></li>
-                        <!--#include virtual="../local/ssi/menu_sm.shtml" -->
-                        <li><a href="../global/sites.html">Sites</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="menu_top">
-            <ul>
-                <li><a href="/">Accueil</a></li>
-                <!--#include virtual="../local/ssi/menu_top.shtml" -->
-                <li class="selected"><a href="/global/sites.html">Sites</a></li>
-            </ul>
-        </div>
-        <br class="clearboth">
-        <main class="center">
-            <div id="rejoindre">REJOINS-NOUS</div>
-            <div class="sidebar">
-                <div class="rejoindre">REJOINS-NOUS</div>
-                <section>
-                    <h2>Sites web</h2>
-                    <p>
-                        <a href="https://10s25.fr">10s25.fr</a><br />
-                        <a href="https://10s25.ovh">10s25.ovh</a><br />
-                        <a href="https://bloquonstout.ovh">bloquonstout.ovh</a><br />
-                        <a href="https://indignonsnous.fr">indignonsnous.fr</a><br />
-                        <a href="https://indignonsnous.ovh">indignonsnous.ovh</a><br />
-                        <a href="https://lesoulevementdupeuple.ovh">lesoulevementdupeuple.ovh</a><br />
-                        <a href="https://marchepourladignite.ovh">marchepourladignite.ovh</a><br />
-                        <a href="https://onestla.ovh">onestla.ovh</a><br />
-                        <a href="https://revoltes.ovh">revoltes.ovh</a><br />
-                    </p>
-                </section>
-            </div>
-
-            <div class="content">
-                <section class="postit">
-                    <p>&nbsp;&nbsp;&nbsp;Notre mouvement de révolte, nous le voulons démocratique. Or, un seul site Internet, c'est fragile, ça peut se faire pirater, c'est à la merci de pressions du pouvoir sur le propriétaire du <i>nom de domaine</i> (l'adresse du site que vous tapez dans votre explorateur), et c'est du centralisme numérique : ce n'est pas démocratique.</p>
-                    <p>Nous avons donc mis en place une équipe d'informaticiennes et d'informaticiens bénévoles pour construire un <b>réseau</b> résilient que chaque groupe local ou thématique peut s'approprier et personnaliser, tout en partageant un travail effectué en commun au service du collectif, et une identité visuelle commune.</p>
-                    <p>Ce réseau de sites constitue une nouvelle forme d'action, inédite, une véritable <b>manifestation numérique</b>, qui, si vous êtes nombreux à créer <b>votre</b> site local ou thématique en réponse à l'appel lancé pour le 10 septembre 2025, va renforcer la visibilité et la résilience de tous les sites du réseau.</p>
-                    <h2>La carte du mouvement</h2>
-                    <p>&nbsp;&nbsp;&nbsp;Une carte des groupes locaux et thématiques a été crée (avec OpenStreetMap, une alternative libre ef efficace à Google), et nous lançons un appel à toutes les personnes compétentes en géomatique ou même simplement déjà à l'aise avec les interfaces web de création de cartes pour rejoindre la petite équipe qui a bien voulu se charger de faire la carte et qui devra la mettre à jour souvent, et rapidement. Si c'est dans vos cordes, rejoignez notre <a href="https://t.me/+CMIBzTAoUt1lNmZk">groupe Télegram national</a> et répondez à l'appel lancé dans le groupe de travail "Actions Numériques".</p>
-
-                    <h2>Les outils futurs du réseau</h2>
-                    <p>Une partie de la page que vous lisez actuellement et de ses menus est prévue pour intégrer non seulement les pages des groupes locaux et thématiques, mais aussi des outils web à venir, comme par exemple une bibliothèques de visuels à partager, un réseau social bien à nous connecté au <a href="https://fediverse.party/">Fediverse</a> et à ses millions d'utilisateurs tout en permettant en un seul envoi de poster en même temps sur vos réseaux "sociaux" habituels (X, Facebook, etc), des wikis, un système de vote préférentiel en ligne, à l'image de ce qui se fait déjà depuis des années pour la distribution Linux Debian, entre autres idées proposées et qui restent à mettre en ligne.</p>
-
-                    <h2>Rejoignez l'équipe web !</h2>
-                    <p>&nbsp;&nbsp;&nbsp;Vous avez des compétences informatiques ? Ça tombe bien, vous allez pouvoir contribuer ! Un projet et un référentiel de développement partagés ont été crées (sur Github), et nous allons communiquer toutes les infos pratiques ici dans quelques jours. D'ici là, vous pouvez sans attendre rejoindre le <a href="https://t.me/+CMIBzTAoUt1lNmZk">groupe Télegram national</a> et proposer vos compétences dans le groupe de travail "Actions Numériques". Car rien ou presque de ce qui précède ne pourra se faire sans vous. 
-                    <b>C'est un projet humain avant d'être un projet technique.</b>
-                    </p>
-                </section>
-            </div>
-        </main>
-    </body>
+		<div id="content">
+			<section class="postit background-yellow">
+				<div class="postit-content font-black">
+					<p>&nbsp;&nbsp;&nbsp;Notre mouvement de révolte, nous le voulons démocratique. Or, un seul site Internet, c'est fragile, ça peut se faire pirater, c'est à la merci de pressions du pouvoir sur le propriétaire du <i>nom de domaine</i> (l'adresse du site que vous tapez dans votre explorateur), et c'est du centralisme numérique : ce n'est pas démocratique.</p>
+					<p>&nbsp;&nbsp;&nbsp;Nous avons donc mis en place une équipe d'informaticiennes et d'informaticiens bénévoles pour construire un <b>réseau</b> résilient que chaque groupe local ou thématique peut s'approprier et personnaliser, tout en partageant un travail effectué en commun au service du collectif, et une identité visuelle commune.</p>
+					<p>&nbsp;&nbsp;&nbsp;Ce réseau de sites constitue une nouvelle forme d'action, inédite, une véritable <b>manifestation numérique</b>, qui, si vous êtes nombreux à créer <b>votre</b> site local ou thématique en réponse à l'appel lancé pour le 10 septembre 2025, va renforcer la visibilité et la résilience de tous les sites du réseau.</p>
+					<h2>La carte du mouvement</h2>
+					<p>&nbsp;&nbsp;&nbsp;Une carte des groupes locaux et thématiques a été crée (avec OpenStreetMap, une alternative libre ef efficace à Google), et nous lançons un appel à toutes les personnes compétentes en géomatique ou même simplement déjà à l'aise avec les interfaces web de création de cartes pour rejoindre la petite équipe qui a bien voulu se charger de faire la carte et qui devra la mettre à jour souvent, et rapidement. Si c'est dans vos cordes, rejoignez notre <a href="https://t.me/+CMIBzTAoUt1lNmZk">groupe Télegram national</a> et répondez à l'appel lancé dans le groupe de travail "Actions Numériques".</p>
+	
+					<h2>Les outils futurs du réseau</h2>
+					<p>&nbsp;&nbsp;&nbsp;Une partie de la page que vous lisez actuellement et de ses menus est prévue pour intégrer non seulement les pages des groupes locaux et thématiques, mais aussi des outils web à venir, comme par exemple une bibliothèques de visuels à partager, un réseau social bien à nous connecté au <a href="https://fediverse.party/">Fediverse</a> et à ses millions d'utilisateurs tout en permettant en un seul envoi de poster en même temps sur vos réseaux "sociaux" habituels (X, Facebook, etc), des wikis, un système de vote préférentiel en ligne, à l'image de ce qui se fait déjà depuis des années pour la distribution Linux Debian, entre autres idées proposées et qui restent à mettre en ligne.</p>
+	
+					<h2>Rejoignez l'équipe web !</h2>
+					<p>&nbsp;&nbsp;&nbsp;Vous avez des compétences informatiques ? Ça tombe bien, vous allez pouvoir contribuer ! Un projet et un référentiel de développement partagés ont été crées (sur Github), et nous allons communiquer toutes les infos pratiques ici dans quelques jours. D'ici là, vous pouvez sans attendre rejoindre le <a href="https://t.me/+CMIBzTAoUt1lNmZk">groupe Télegram national</a> et proposer vos compétences dans le groupe de travail "Actions Numériques". Car rien ou presque de ce qui précède ne pourra se faire sans vous. 
+					<b>C'est un projet humain avant d'être un projet technique.</b>
+					</p>
+				</div>
+			</section>
+		</div>
+	</main>
+</body>
 
 </html>

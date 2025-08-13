@@ -2,8 +2,9 @@
 Site Indignons-nous 
 
 html + css, "old school".
+Convention de codage : tabulations.
 
-Pas de libs, pas de js, pour l'instant.
+Pas de libs, pas de js (sauf pour le compte à rebours), pour l'instant.
 Et pas de fontes Google, ni de ressources non libres !
 
 Pour contribuer, faites un fork, puis des pull requests.
