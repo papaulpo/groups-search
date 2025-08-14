@@ -1,5 +1,5 @@
 <!-- Élément de menu principal personnalisé pour ce site  -->
-<li<!--#if expr='v("DOCUMENT_NAME")=~/visuels.html/'--> class="selected" <!--#endif -->><a href="/local/visuels.html">Visuels</a></li>
+<li><a href="/local/visuels.html">Visuels</a></li>
 <li class="dropdown">
 	<a href="#" class="disabled">Doléances ▾</a>
 	<ul class="submenu">
