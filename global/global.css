@@ -3,14 +3,14 @@
 ul { list-style: none; }
 li { background-repeat: no-repeat ; background-position: left center;}
 .break-word { word-break: break-all; overflow-wrap: anywhere; hyphens: auto; }
-
 body {
-	font-family: "Gotham", sans-serif;
+	font-family: "Gotham", sans-serif, "Roboto", sans-serif;
 	background: #121214;
 	line-height: 1.6rem;
-	font-size: 1rem;
+	font-size: clamp(0.9rem, 1.5vw, 1rem);
 	color: #ffffff;
 }
+
 /* ==== Couleurs ==== */
 .font-yellow { color: #f9e25b; }
 .font-green { color: #63ff43; }
@@ -34,7 +34,7 @@ h4 { font-size: clamp(1.2rem, 2.5vw, 1.8rem); }
 h5 { font-size: clamp(1rem, 2vw, 1.3rem); }
 
 /* ==== Code ==== */
-code { font-size: 0.8em; padding: 10px; }
+code { font-size: clamp(0.7rem, 1.5vw, 0.8em); padding: 10px; }
 
 /* ==== Banniere ==== */
 header#banniere { width: 100%; display: flex; align-items: center; justify-content: center; margin-bottom: 2em;}
@@ -50,35 +50,36 @@ img#logo_left { width: 300px; max-width: 100%; height: auto; margin-right: 20px;
 #menu_top ul li:hover > a { color: #f2e25b; }
 #menu_top ul li.selected { background: transparent; border: thin solid #f2e25b; }
 #menu_top ul li.selected a {color: #f2e25b;}
+a.disabled { pointer-events: none; }
 
 /* ==== Dropdown ==== */
 #menu_top ul li .submenu { display: none; position: absolute; top: 100%; left: 0; list-style: none; padding: 0; margin: 0; background: #f2e25b; min-width: 200px; flex-direction: column; z-index: 999; }
 #menu_top ul li .submenu li { margin: 0; padding: 0; background: #f2e25b; }
-#menu_top ul li .submenu li a { padding: 8px 10px; font-size: clamp(1rem, 1.7vw, 1rem); white-space: nowrap; }
+#menu_top ul li .submenu li a { padding: 5px 10px; font-size: clamp(1rem, 1.7vw, 1rem); white-space: nowrap; }
 #menu_top ul li .submenu li:hover { background: #1a1a1a; }
 #menu_top ul li .submenu li:hover a { color: #f2e25b; }
 #menu_top ul li.dropdown:hover .submenu { display: flex; }
 
 /* ==== Bloc central ==== */
 main#center {
-	width: 100%; 
+	width: 100%;
 	display: flex;
 	flex-direction: row;
-	align-items: top;
+	align-items: flex-start;
 	text-align: left;
 	margin: 0 auto;
 }
 
 /* ==== Sidebar ==== */
-#sidebar { background: #222; padding: 1rem; width: 30%; margin-top: 30px; min-width: 360px;}
+#sidebar { background: #222; padding: clamp(0.5rem, 1vw, 1rem); width: 30%; margin-top: 30px; min-width: 360px; }
 #sidebar a { color: #fff; }
 #sidebar a:hover { color: #f2e25b; }
 #sidebar li { list-style: none; }
 
 /* ==== Bouton rejoindre ==== */
-#rejoindre {padding: 5px 10px; width: 100%;
-	align-items: center; justify-content: center; font-size: 1.5em; font-weight: 800; font-family: 'Inter', Arial, sans-serif; transform: rotate(1deg);}
-#rejoindre { display: none; }
+#rejoindre { padding: clamp(3px, 0.8vw, 5px) clamp(8px, 1.5vw, 10px); width: 100%; align-items: center;
+	justify-content: center;font-size: clamp(1.2rem, 2.5vw, 1.5em);font-weight: 800;
+	font-family: 'Inter', Arial, sans-serif;transform: rotate(-1deg) scale(1.08) translateY(-20px);display: flex;}
 #rejoindre { display: flex; transform: rotate(-1deg) scale(1.08) translateY(-20px); }
 #rejoindre::before {
 	content: "\002B07";
@@ -89,51 +90,54 @@ main#center {
 	content: "\002B07";
 	margin-left: 15px;
 }
-
-#sidebar ul.sidebar-section-1 > li > ul > li{
-	margin: 15px 0 30px 0;
-}
-
-#sidebar ul.sidebar-section-2 > li > ul > li {
-	margin: 15px 0 15px 0;
-}
-
-#sidebar ul.sidebar-section-2 p {
-	font-weight: 600;
-}
+#sidebar ul.sidebar-section-1 > li > ul > li { margin: 15px 0 30px 0; }
+#sidebar ul.sidebar-section-2 > li > ul > li { margin: 15px 0 15px 0; }
+#sidebar ul.sidebar-section-2 p { font-weight: 600; }
 
 /* ==== Contenu principal de la page ==== */
 #content {
 	width: 100%;
-	margin: 0 20px 0 20px;
+	margin: 0 20px;
 }
-
 #content .postit {
 	max-width: 100%;
-	padding: 50px;
+	padding: clamp(20px, 5vw, 50px);
 	transform: rotate(-1deg) translateX(-20px) translateY(-20px);
-	margin: 0 20px 0 20px;
+	margin: 0 20px;
 }
 #content .postit div.postit-content {
 	transform: rotate(1deg) translateX(20px) translateY(20px);
 }
 #content section.postit ul {
-  padding-left: 50px;
-  margin: 1.5em 0;
-  font-weight: bold;
+	padding-left: 50px;
+	margin: 1.5em 0;
+	font-weight: bold;
 }
 #content section.postit ul li {
-  background: url("/global/img/gyro.gif") no-repeat center left;
-  padding: 0 0 0 30px;
-  font-weight: bold;
-  display: flex;
+	background: url("/global/img/gyro.gif") no-repeat center left;
+	padding: 0 0 0 30px;
+	font-weight: bold;
+	display: flex;
 }
-#content p.big, #content p.big p, #content p.big span { font-size: clamp(2rem, 1.8vw, 1.25rem); margin: 60px 0; }
-
+#content p.big, #content p.big p, #content p.big span {
+	font-size: clamp(1.5rem, 2.5vw, 2rem);
+	margin: clamp(30px, 5vw, 60px) 0;
+}
 #content p, #content span, #content li {
-  font-size: clamp(1.05rem, 1.8vw, 1.25rem);
-  line-height: 1.6;
-  margin-bottom: 1em;
+	font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+	line-height: 1.6;
+	margin-bottom: 1em;
+}
+/* ==== Avertissement ==== */
+#content .danger-banner { display: flex; align-items: center; justify-content: center;margin-bottom: 10px;
+	gap: 1rem; background: #222; color: #f2e25b; padding: 2rem 2rem;font-weight: bold; text-transform: uppercase; box-shadow: 0 2px 6px rgba(0,0,0,0.25);}
+#content .danger-banner span.emoji {
+	font-size: clamp(4rem, 8vw, 9rem); line-height: 1; flex-shrink: 0;
+	display: flex; align-items: center; margin: 0;
+}
+#content .danger-banner span.text {
+	text-align: left;line-height: 1.3;margin: 0;
+	font-size: clamp(1rem, 3vw, 2em);
 }
 /* ==== Bas de page ==== */
 #footer {
@@ -143,17 +147,17 @@ main#center {
 #footer section.postit {
 	max-width: 95%;
 	transform: rotate(-1deg) translateX(-20px) translateY(-20px);
-	padding: 50px;
+	padding: clamp(20px, 5vw, 50px);
 	margin-top: 40px;
 	border: thin solid #e9d25b;
 }
 #footer section.postit div {
 	transform: rotate(1deg) translateX(20px) translateY(20px);
 }
-
 /* ==== Petits écrans ==== */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
 	main#center { flex-direction: column; align-items: center; text-align: left; }
-	#sidebar { order: 2; width: 100%; }
+	#sidebar { order: 2; width: 100%; min-width: 0;}
 	#content { order: 1; margin-top: 30px;}
+	#content .postit { padding: 20px; }
 }
