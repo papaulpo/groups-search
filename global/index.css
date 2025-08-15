@@ -55,4 +55,5 @@
   transition: background-color 0.3s, color 0.3s;
 }
 .map a:hover { background-color: #F52639; color: #fff; }
+.map p.big { padding: 0 20px; }
 iframe.carte { width: 98%; height: 800px; }
