@@ -1,4 +1,4 @@
-name: Init (OVERWRITE /local)
+name: Init (OVERWRITE ALL)
 
 on:
   workflow_dispatch:
@@ -17,6 +17,7 @@ jobs:
         username: ${{secrets._INDIGNONSNOUS_FR_USER}}
         password: ${{secrets._INDIGNONSNOUS_FR_PW}}
         port: 22
+        delete: 'true'
         uploads: |
           ./ => ${{secrets._INDIGNONSNOUS_FR_HOME}}
         ignore-from: .github/ignore.txt
@@ -28,6 +29,7 @@ jobs:
         username: ${{secrets._10S25_FR_USER}}
         password: ${{secrets._10S25_FR_PW}}
         port: 22
+        delete: 'true'
         uploads: |
           ./ => ${{secrets._10S25_FR_HOME}}
         ignore-from: .github/ignore.txt
@@ -40,6 +42,7 @@ jobs:
         username: ${{secrets._10S25_OVH_USER}}
         password: ${{secrets._10S25_OVH_PW}}
         port: 22
+        delete: 'true'
         uploads: |
           ./ => ${{secrets._10S25_OVH_HOME}}
         ignore-from: .github/ignore.txt
@@ -51,6 +54,7 @@ jobs:
         username: ${{secrets._BLOQUONSTOUT_OVH_USER}}
         password: ${{secrets._BLOQUONSTOUT_OVH_PW}}
         port: 22
+        delete: 'true'
         uploads: |
           ./ => ${{secrets._BLOQUONSTOUT_OVH_HOME}}
         ignore-from: .github/ignore.txt
@@ -62,6 +66,7 @@ jobs:
         username: ${{secrets._INDIGNONSNOUS_OVH_USER}}
         password: ${{secrets._INDIGNONSNOUS_OVH_PW}}
         port: 22
+        delete: 'true'
         uploads: |
           ./ => ${{secrets._INDIGNONSNOUS_OVH_HOME}}
         ignore-from: .github/ignore.txt
@@ -73,6 +78,7 @@ jobs:
         username: ${{secrets._LESOULEVEMENTDUPEUPLE_OVH_USER}}
         password: ${{secrets._LESOULEVEMENTDUPEUPLE_OVH_PW}}
         port: 22
+        delete: 'true'
         uploads: |
           ./ => ${{secrets._LESOULEVEMENTDUPEUPLE_OVH_HOME}}
         ignore-from: .github/ignore.txt 
@@ -84,6 +90,7 @@ jobs:
         username: ${{secrets._MARCHEPOURLADIGNITE_OVH_USER}}
         password: ${{secrets._MARCHEPOURLADIGNITE_OVH_PW}}
         port: 22
+        delete: 'true'
         uploads: |
           ./ => ${{secrets._MARCHEPOURLADIGNITE_OVH_HOME}}
         ignore-from: .github/ignore.txt
@@ -96,6 +103,7 @@ jobs:
         username: ${{secrets._ONESTLA_OVH_USER}}
         password: ${{secrets._ONESTLA_OVH_PW}}
         port: 22
+        delete: 'true'
         uploads: |
           ./ => ${{secrets._ONESTLA_OVH_HOME}}
         ignore-from: .github/ignore.txt
@@ -108,6 +116,7 @@ jobs:
         username: ${{secrets._REVOLTES_OVH_USER}}
         password: ${{secrets._REVOLTES_OVH_PW}}
         port: 22
+        delete: 'true'
         uploads: |
           ./ => ${{secrets._REVOLTES_OVH_HOME}}
         ignore-from: .github/ignore.txt
