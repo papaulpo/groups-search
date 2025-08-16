@@ -1,5 +1,0 @@
-README.md
-local/
-.github/
-*.git
-*/**/*git*

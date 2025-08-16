@@ -37,7 +37,10 @@ jobs:
         delete: 'true'
         uploads: |
           ./ => ${{ secrets[format('{0}_HOME', matrix.site.prefix)] }}
-        ignore-from: .github/ignore.txt
+        ignore: |
+          README.md
+          *.git
+          */**/*git*
 
     - name: Report deployment status
       if: always()
