@@ -1,0 +1,45 @@
+name: Release
+run-name: ${{ github.actor }} release
+
+on: 
+  workflow_dispatch:
+
+  push:
+    tags:
+      - '*'
+
+jobs:
+  Release:
+    steps:
+      - run: echo "🎉 job triggered by a ${{ github.event_name }} event."
+
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Get latest tag
+        id: checkout
+        run: |
+            set -e
+            # git fetch --tags-f  > /dev/null 2>&1
+            git fetch --tags -f > /dev/null
+            latest=$(git describe --tags `git rev-list --tags --max-count=1`)
+            echo "latest_tag=$latest" >> "$GITHUB_OUTPUT"
+            echo "💡 The ${{ github.repository }} repository has been cloned to the runner. Last tag is $latest"
+
+      - name: Release
+        env:
+          TAG_NAME: "${{ steps.checkout.outputs.latest_tag }}"
+        id: release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "site_10s25-${{env.TAG_NAME}}"
+          body: Pre-release
+          tag_name: ${{env.TAG_NAME}}
+          prerelease: true
+          fail_on_unmatched_files: true
+          files: ${{ steps.zip.outputs.zipfile }}
+
+      - run: echo "🍏 Job's status is ${{ job.status }}."
+
+
+
