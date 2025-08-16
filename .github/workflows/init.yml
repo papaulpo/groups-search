@@ -24,7 +24,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        sparse-checkout: .
+        sparse-checkout: |
+          global
+          local
 
     - name: Deploy to ${{ matrix.site.name }}
       id: deploy
