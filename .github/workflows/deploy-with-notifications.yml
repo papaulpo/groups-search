@@ -16,17 +16,6 @@ on:
         required: false
         type: string
 
-env:
-  IGNORE: |
-    README.md
-    *.git
-    */**/*git*
-  IGNORE_LOCAL: |
-    local
-    README.md
-    *.git
-    */**/*git* 
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -52,7 +41,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        sparse-checkout: ${{ inputs.deployment_type == 'init' && $IGNORE || $IGNORE_LOCAL }}
+        sparse-checkout: .
 
     - name: Deploy to ${{ matrix.site.name }}
       id: deploy
@@ -65,6 +54,7 @@ jobs:
         delete: ${{ inputs.deployment_type == 'init' && 'true' || 'false' }}
         uploads: |
           ./ => ${{ secrets[format('{0}_HOME', matrix.site.prefix)] }}
+        ignore-from: ${{ inputs.deployment_type == 'init' && '.github/ignore.txt' || '.github/ignore_local.txt' }}
 
     - name: Report individual deployment status
       if: always()
