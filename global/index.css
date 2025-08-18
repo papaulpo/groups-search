@@ -15,8 +15,11 @@
 #sidebar li.tiktok {
 	background-image: url(/global/img/tiktok.svg);
 }
-#sidebar li.facebook {
-	background-image: url(/global/img/facebook.svg);
+#sidebar li.facebookp {
+	background-image: url(/global/img/facebookp.svg);
+}
+#sidebar li.facebookg {
+	background-image: url(/global/img/facebookg.svg);
 }
 #sidebar li.twitter {
 	background-image: url(/global/img/twitter.svg);
