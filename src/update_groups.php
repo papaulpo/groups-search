@@ -13,9 +13,6 @@ $rootpath = dirname($path) .'/';
 // Chemin absolu des données
 $datapath = $path . 'data/';
 
-// Liste de tous les groupes
-$groups = array();
-
 // Nom du RS selon rs_icon
 $rsFromIcon = [
 	'bluesky' => 'Bluesky',
@@ -46,19 +43,19 @@ $cat_groups = [
 	'Régions' => [
 		'fields' => ['code_insee_region', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
 		'filepath' => 'groupes_reg.csv',
-		'children' => [
-			'Départements' => [
-				'fields' => ['code_insee_region', 'code_insee_dep', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
-				'filepath' => 'groupes_dep.csv',
-				'children' => [
-					'' => [
-					'fields' => ['code_insee_dep', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
-					'filepath' => 'groupes_loc.csv'
-					]
-				]
-			]
-		]
+		'child' => ['Départements' => 'code_insee_region']
 	],
+	'Départements' => [
+		'fields' => ['code_insee_region', 'code_insee_dep', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
+		'filepath' => 'groupes_dep.csv',
+		'ischild' => true,
+		'child' => ['' => 'code_insee_dep']
+	],
+	'' => [
+		'fields' => ['code_insee_dep', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
+		'filepath' => 'groupes_loc.csv',
+		'ischild' => true,
+	]
 ];
 
 /**
@@ -99,12 +96,14 @@ function sort_by_field($array, $field) {
  * @param array $cat_groups
  * @return array
  */
-function update_ssi($groups, $cat_groups) {
+function load_groups($cat_groups) {
 	global $datapath;
 
+	$groups = [];
 	foreach ($cat_groups as $cat_name => $cat_description ) {
 		$cat_array = readCSV($datapath . $cat_description['filepath']);
 		$fields = $cat_description['fields'];
+
 		// vérif structure des fichiers CSV
 		if (($fields != $cat_array[0]) ){
 			throw new Exception("\nFichier CSV non conforme: " . $cat_description['filepath'] . '.' .
@@ -125,65 +124,46 @@ function update_ssi($groups, $cat_groups) {
 			}
 			$records += [$i => $ca];
 		}
-		// tri par nom
-		$recs = sort_by_field($records, 'nom');
-		// tri par rs_icon
-		$sorted_recs = [];
-		foreach($recs as $nom => $rec) {
-			print_r("--- sorting '$nom'\n");
-			print_r($rec);
-			$sorted_recs += [$nom => sort_by_field($rec, 'rs_icon')];
-			print_r("--- sorted '$nom'\n");
-			print_r($sorted_recs);
-			print_r("--- fin sorted '$nom'\n");
-		}
-		$groups += [$cat_name => $sorted_recs];
+		$groups += [$cat_name => $records];
 	}
 	return $groups;
 }
 
-$groups = update_ssi($groups, $cat_groups);
+/**
+ *  Trie les groupes et y ajoute les enfants
+ *
+ * @param array $cat_groups
+ * @param array $groups
+ * @return array
+ */
+function sort_groups($cat_groups, $groups) {
+	$sorted_groups = [];
+	foreach ($cat_groups as $cat_name => $cat_description ) {
+		if (isset($cat_description['ischild']))
+			break;
+		// tri par nom
+		$records = sort_by_field($groups[$cat_name], 'nom');
+		// tri par rs_icon
+		$sorted_recs = [];
+		foreach($records as $nom => $rec) {
+			$sorted_recs += [$nom => sort_by_field($rec, 'rs_icon')];
+		}
+		$sorted_groups += [$cat_name => $sorted_recs];
+	}
+	return $sorted_groups;
+}
+
+$records = load_groups($cat_groups);
+$groups = sort_groups($cat_groups, $records);
 print_r($groups);
 
 // Remplit le template
 ob_start();
 include($path . 'templates/groupes.php');
 $html = ob_get_clean();
-print_r($groups);
+
 $destfile = fopen($rootpath . 'global/ssi/groupes.shtml', 'w');
 fwrite($destfile, $html);
 fclose($destfile);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
