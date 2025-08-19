@@ -3,21 +3,22 @@
 	<li>
 		<h3 class="font-yellow"><?php echo $cat_name; ?></h3>
 		<ul class="sidebar-section-2">
-<?php foreach ($cat_array as $liste_groupes) {
-	$rs_icon = $liste_groupes['rs_icon'];
-	$rs_text = $rsFromIcon[$rs_icon];
-?>
+<?php foreach ($cat_array as $nom =>$liste_groupes) { ?>
 			<li>
-				<p class="font-yellow"><?php if (isset($liste_groupes['nom'])) echo $liste_groupes['nom']; ?></p>
+				<?php if ($nom != '') echo "<p class=\"font-yellow\">$nom</p>"; ?>
 				<ul>
+<?php foreach ($liste_groupes as $rs_icon => $liste_rs) { ?>
 					<li class="<?php echo $rs_icon ; ?>">
-						<p><?php echo $rs_text; ?></p>
+						<p><?php echo $rsFromIcon[$rs_icon]; ?></p>
 						<ul>
+<?php foreach ($liste_rs as $link) { ?>
 							<li>
-								<a href="<?php echo $liste_groupes['url'] ; ?>" target="_blank" rel="me"><?php echo $liste_groupes['nom_rs'] ; ?></a>
+								<a href="<?php echo $link['url'] ; ?>" target="_blank" rel="me"><?php echo $link['nom_rs'] ; ?></a>
 							</li>
+<?php } ?>
 						</ul>
 					</li>
+<?php } ?>
 				</ul>
 			</li>
 <?php } ?>

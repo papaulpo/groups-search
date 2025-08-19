@@ -3,8 +3,7 @@
 		<h3 class="font-yellow">Réseaux sociaux</h3>
 		<ul class="sidebar-section-2">
 			<li>
-				<p class="font-yellow"></p>
-				<ul>
+								<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -13,141 +12,61 @@
 							</li>
 						</ul>
 					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
 					<li class="instagram">
 						<p>Instagram</p>
 						<ul>
 							<li>
 								<a href="https://www.instagram.com/indignons_nous_bloquons_tout" target="_blank" rel="me">indignons_nous_bloquons_tout</a>
 							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
-					<li class="instagram">
-						<p>Instagram</p>
-						<ul>
 							<li>
 								<a href="https://www.instagram.com/10s25officiel" target="_blank" rel="me">10s25officiel</a>
 							</li>
 						</ul>
 					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
 					<li class="tiktok">
 						<p>TikTok</p>
 						<ul>
 							<li>
 								<a href="https://www.tiktok.com/@indignons.nous" target="_blank" rel="me">@indignons.nous</a>
 							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
-					<li class="tiktok">
-						<p>TikTok</p>
-						<ul>
 							<li>
 								<a href="https://www.tiktok.com/@10s251" target="_blank" rel="me">@10s251</a>
 							</li>
 						</ul>
 					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
 					<li class="facebookp">
 						<p>Facebook (pages)</p>
 						<ul>
 							<li>
 								<a href="https://www.facebook.com/people/Indignons-nous/61578641433778" target="_blank" rel="me">Indignons nous</a>
 							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
-					<li class="facebookp">
-						<p>Facebook (pages)</p>
-						<ul>
 							<li>
 								<a href="https://www.facebook.com/profile.php?id=61579323892404" target="_blank" rel="me">Dix Septembre</a>
 							</li>
 						</ul>
 					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
 					<li class="facebookg">
 						<p>Facebook (groupes)</p>
 						<ul>
 							<li>
 								<a href="https://www.facebook.com/groups/1045232717369832" target="_blank" rel="me">INDIGNONS NOUS 10 SEPTEMBRE</a>
 							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
-					<li class="facebookg">
-						<p>Facebook (groupes)</p>
-						<ul>
 							<li>
 								<a href="https://www.facebook.com/groups/10s25" target="_blank" rel="me">10s25</a>
 							</li>
 						</ul>
 					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
 					<li class="twitter">
 						<p>X (Twitter)</p>
 						<ul>
 							<li>
 								<a href="https://x.com/indignonsn" target="_blank" rel="me">@IndignonsN</a>
 							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
-					<li class="twitter">
-						<p>X (Twitter)</p>
-						<ul>
 							<li>
 								<a href="https://x.com/Le10S25" target="_blank" rel="me">@Le10S25</a>
 							</li>
 						</ul>
 					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
 					<li class="bluesky">
 						<p>Bluesky</p>
 						<ul>
@@ -156,11 +75,6 @@
 							</li>
 						</ul>
 					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow"></p>
-				<ul>
 					<li class="piaille">
 						<p>Piaille</p>
 						<ul>
@@ -177,8 +91,7 @@
 		<h3 class="font-yellow">Monde</h3>
 		<ul class="sidebar-section-2">
 			<li>
-				<p class="font-yellow">BELGIQUE</p>
-				<ul>
+				<p class="font-yellow">BELGIQUE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -195,8 +108,7 @@
 		<h3 class="font-yellow">Autres groupes</h3>
 		<ul class="sidebar-section-2">
 			<li>
-				<p class="font-yellow">ÉTUDIANTS</p>
-				<ul>
+				<p class="font-yellow">ÉTUDIANTS</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -208,8 +120,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">MARCHE - 10 SEPTEMBRE</p>
-				<ul>
+				<p class="font-yellow">MARCHE - 10 SEPTEMBRE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -221,8 +132,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">10S25</p>
-				<ul>
+				<p class="font-yellow">10S25</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -234,8 +144,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">Nourrir le mouvement</p>
-				<ul>
+				<p class="font-yellow">Nourrir le mouvement</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -252,8 +161,7 @@
 		<h3 class="font-yellow">Régions</h3>
 		<ul class="sidebar-section-2">
 			<li>
-				<p class="font-yellow">AUVERGNE-RHÔNE-ALPES</p>
-				<ul>
+				<p class="font-yellow">AUVERGNE-RHÔNE-ALPES</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -265,8 +173,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">BOURGOGNE-FRANCHE-COMTE</p>
-				<ul>
+				<p class="font-yellow">BOURGOGNE-FRANCHE-COMTE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -278,8 +185,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">BRETAGNE</p>
-				<ul>
+				<p class="font-yellow">BRETAGNE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -291,8 +197,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">CENTRE-VAL DE LOIRE</p>
-				<ul>
+				<p class="font-yellow">CENTRE-VAL DE LOIRE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -304,8 +209,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">CORSE</p>
-				<ul>
+				<p class="font-yellow">CORSE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -317,8 +221,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">GRAND EST</p>
-				<ul>
+				<p class="font-yellow">GRAND EST</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -330,8 +233,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">HAUTS-DE-FRANCE</p>
-				<ul>
+				<p class="font-yellow">HAUTS-DE-FRANCE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -343,8 +245,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">ÎLE-DE-FRANCE</p>
-				<ul>
+				<p class="font-yellow">ÎLE-DE-FRANCE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -356,8 +257,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">NORMANDIE</p>
-				<ul>
+				<p class="font-yellow">NORMANDIE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -369,8 +269,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">NOUVELLE-AQUITAINE</p>
-				<ul>
+				<p class="font-yellow">NOUVELLE-AQUITAINE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -382,8 +281,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">OCCITANIE</p>
-				<ul>
+				<p class="font-yellow">OCCITANIE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -395,8 +293,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">PAYS DE LA LOIRE</p>
-				<ul>
+				<p class="font-yellow">PAYS DE LA LOIRE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -408,8 +305,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">PROVENCE-ALPES-CÔTE D'AZUR</p>
-				<ul>
+				<p class="font-yellow">PROVENCE-ALPES-CÔTE D'AZUR</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -421,8 +317,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">LA RÉUNION</p>
-				<ul>
+				<p class="font-yellow">LA RÉUNION</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -434,8 +329,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">MARTINIQUE</p>
-				<ul>
+				<p class="font-yellow">MARTINIQUE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
@@ -447,8 +341,7 @@
 				</ul>
 			</li>
 			<li>
-				<p class="font-yellow">GUYANE</p>
-				<ul>
+				<p class="font-yellow">GUYANE</p>				<ul>
 					<li class="telegram">
 						<p>Telegram</p>
 						<ul>
