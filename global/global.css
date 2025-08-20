@@ -21,6 +21,9 @@ body {
 .background-grey { background-color: #222; }
 .background-black { background-color: #000; }
 
+.postit a:link, .postit a:visited { color:#0b2369 }
+.postit a:hover { color:#481100 }
+
 /* ==== Titres ==== */
 h1, h2, h3, h4, h5 {
 	font-weight: 700;
