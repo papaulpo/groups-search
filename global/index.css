@@ -1,4 +1,4 @@
-#sidebar ul.sidebar-section-1 ul.sidebar-section-2 > li > ul > li{
+#sidebar ul.sidebar-section-1 ul.sidebar-section-2 > li > ul > li, li.child {
 	padding-left: 50px;
 }
 

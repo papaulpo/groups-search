@@ -91,15 +91,16 @@ function sort_by_field($array, $field) {
 
 /**
  * Retourne un tableau structuré pour la génération du html
+ * On exécute cette fonction UNE SEULE FOIS : pas besoin de relire les CSV plusieurs fois
  *
  * @param array $groups
  * @param array $cat_groups
  * @return array
  */
-function load_groups($cat_groups) {
+function load_CSV($cat_groups) {
 	global $datapath;
 
-	$groups = [];
+	$layers = [];
 	foreach ($cat_groups as $cat_name => $cat_description ) {
 		$cat_array = readCSV($datapath . $cat_description['filepath']);
 		$fields = $cat_description['fields'];
@@ -124,10 +125,11 @@ function load_groups($cat_groups) {
 			}
 			$records += [$i => $ca];
 		}
-		$groups += [$cat_name => $records];
+		$layers += [$cat_name => $records];
 	}
-	return $groups;
+	return $layers;
 }
+
 
 /**
  *  Trie les groupes et y ajoute les enfants
@@ -143,17 +145,36 @@ function sort_groups($cat_groups, $groups) {
 			break;
 		// tri par nom
 		$records = sort_by_field($groups[$cat_name], 'nom');
-		// tri par rs_icon
+
+		// S'il y a des enfants, on stocke le nom de layer et la clé
+		unset($child_layer_name);
+		unset($child_key_name);
+		if (isset($cat_description['child'])) {
+			$child_layer_name = key($cat_description['child']);
+			$child_key_name = $cat_description['child'][$child_layer_name];
+		}
+
+		// tri par rs_icon et ajout des enfants
 		$sorted_recs = [];
 		foreach($records as $nom => $rec) {
-			$sorted_recs += [$nom => sort_by_field($rec, 'rs_icon')];
+			$children = [];
+			if (isset($child_key_name)) {
+				$child_key = $rec[key($rec)][$child_key_name];
+				$children = array_filter($groups[$child_layer_name],
+					function ($rec) use($child_key, $child_key_name) {
+						return ($rec[$child_key_name] == $child_key);
+					});
+			}
+
+			// tri par rs_icon et ajout des enfants
+			$sorted_recs += [$nom => ['item' => sort_by_field($rec, 'rs_icon'), 'children' => sort_by_field($children, 'nom')]];
 		}
 		$sorted_groups += [$cat_name => $sorted_recs];
 	}
 	return $sorted_groups;
 }
 
-$records = load_groups($cat_groups);
+$records = load_CSV($cat_groups);
 $groups = sort_groups($cat_groups, $records);
 print_r($groups);
 
