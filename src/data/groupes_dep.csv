@@ -6,7 +6,7 @@ code_insee_region,code_insee_dep,nom,rs_icon,nom_rs,url,latitude,longitude
 84,15,Cantal,telegram,+q3dsx7KFvWI4Yjk0,https://t.me/+aSs9MVDIrDdhYTdk,45.0512544427698,2.66900714956007
 27,25,Doubs,telegram,doubs10Sep,https://t.me/doubs10Sep,47.165957182681,6.36273109908717
 84,26,Drôme,telegram,+e6HcO3Fq_MViYzZk,https://t.me//+e6HcO3Fq_MViYzZk,44.6852183299174,5.16738893349826
-,31,Haute-Garonne,telegram,+c0kAEvwvEJtiYTY8,https://t.me/+c0kAEvwvEJtiYTY8,,
+76,31,Haute-Garonne,telegram,+c0kAEvwvEJtiYTY8,https://t.me/+c0kAEvwvEJtiYTY8,43.358610,1.172780
 53,35,Ille-et-Vilaine,telegram,+Mqrir6Q8w1U4NmVk,https://t.me/+Mqrir6Q8w1U4NmVk,48.1550674097419,-1.63814124623274
 84,38,Isère,telegram,IndignonsnousIsere,https://t.me/IndignonsnousIsere,45.2639297501076,5.57419814523139
 84,42,Loire,telegram,+sU3LLbwW12IwMjBk,https://t.me/+sU3LLbwW12IwMjBk,45.7280202256173,4.16453524795746
@@ -16,7 +16,7 @@ code_insee_region,code_insee_dep,nom,rs_icon,nom_rs,url,latitude,longitude
 52,49,Maine-et-Loire,telegram,+sH1EnfLBhMY4M2M0,https://t.me/+sH1EnfLBhMY4M2M0,47.3898859106474,-0.55945478722489
 52,53,Mayenne,telegram,+a8Tv2s6foOxhNzE0,https://t.me/+a8Tv2s6foOxhNzE0,48.1472872474867,-0.65741438500218
 27,58,Nièvre,telegram,c2538292516/23,https://t.me/c/2538292516/23,47.1157327467376,3.50421129285905
-,60,Oise,telegram,+EIr-ak1256wzZWFk,https://t.me/+EIr-ak1256wzZWFk,49.4120546,2.4064878
+32,60,Oise,telegram,+EIr-ak1256wzZWFk,https://t.me/+EIr-ak1256wzZWFk,49.4120546,2.4064878
 84,63,Puy-de-Dôme,telegram,bloquons63,https://t.me/bloquons63,45.7259016084721,3.14016330415279
 44,67,Bas-Rhin,telegram,10sept25basrhin,https://link.infini.fr/10sept25basrhin,48.6714457799759,7.55203680243552
 44,68,Haut-Rhin,telegram,+dAf_whfVF2s1MGRk,https://t.me/+dAf_whfVF2s1MGRk,47.8594555770783,7.27394963361901
