@@ -33,7 +33,7 @@ $cat_groups = [
 		'filepath' => 'groupes_nat.csv'
 	],
 	'Monde' => [
-		'fields' => ['nom', 'rs_icon', 'nom_rs', 'url'],
+		'fields' => ['nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
 		'filepath' => 'groupes_monde.csv'
 	],
 	'Autres groupes' => [
