@@ -157,17 +157,23 @@ function sort_groups($cat_groups, $groups) {
 		// tri par rs_icon et ajout des enfants
 		$sorted_recs = [];
 		foreach($records as $nom => $rec) {
-			$children = [];
+			$children = $sorted_children = [];
 			if (isset($child_key_name)) {
 				$child_key = $rec[key($rec)][$child_key_name];
 				$children = array_filter($groups[$child_layer_name],
 					function ($rec) use($child_key, $child_key_name) {
 						return ($rec[$child_key_name] == $child_key);
 					});
+				$children = sort_by_field($children, 'nom');
+				foreach ($children as $i => $childs) {
+					$sorted_children[$i] = sort_by_field($childs, 'rs_icon');
+				}
 			}
-
+			$item = ['item' => sort_by_field($rec, 'rs_icon')];
+			if (count($children))
+				$item += ['children' => $sorted_children];
 			// tri par rs_icon et ajout des enfants
-			$sorted_recs += [$nom => ['item' => sort_by_field($rec, 'rs_icon'), 'children' => sort_by_field($children, 'nom')]];
+			$sorted_recs += [$nom => $item];
 		}
 		$sorted_groups += [$cat_name => $sorted_recs];
 	}

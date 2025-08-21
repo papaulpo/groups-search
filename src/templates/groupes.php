@@ -11,24 +11,29 @@
 					<li class="<?php echo $rs_icon ; ?>">
 						<p><?php echo $rsFromIcon[$rs_icon]; ?></p>
 						<ul>
-<?php foreach ($liste_rs as $link) { ?>
+<?php foreach ($liste_rs as $link1) { ?>
 							<li>
-								<a href="<?php echo $link['url'] ; ?>" target="_blank" rel="me"><?php echo $link['nom_rs'] ; ?></a>
+								<a href="<?php echo $link1['url'] ; ?>" target="_blank" rel="me"><?php echo $link1['nom_rs'] ; ?></a>
 							</li>
 <?php } ?>
 						</ul>
 					</li>
-<?php if(count($liste_groupes['children'])) {
+<?php if(isset($liste_groupes['children'])) {
 	foreach ($liste_groupes['children'] as $nom => $children) {
-		$children = sort_by_field($children);
 ?>
 					<li>
 						<?php if ($nom != '') echo "<p class=\"font-yellow\">$nom</p>"; ?>
 						<ul>
-<?php foreach ($children as $rs_icon => $link) { ?>
+<?php foreach ($children as $rs_icon => $list_children_rs) { ?>
 							<li class="child <?php echo $rs_icon ; ?>">
 								<p><?php echo $rsFromIcon[$rs_icon]; ?></p>
-								<a href="<?php echo $link['url'] ; ?>" target="_blank" rel="me"><?php echo $link['nom_rs'] ; ?></a>
+								<ul>
+<?php foreach ($list_children_rs as $link2) { ?>
+									<li>
+										<a href="<?php echo $link2['url'] ; ?>" target="_blank" rel="me"><?php echo $link2['nom_rs'] ; ?></a>
+									</li>
+<?php } ?>
+								</ul>
 							</li>
 <?php } ?>
 						</ul>
