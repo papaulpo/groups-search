@@ -5,7 +5,7 @@ error_reporting(E_ALL);
  */
 
 // Chemin absolu du présent script
-$path = dirname(__file__) .'/';
+$path = dirname(__FILE__) .'/';
 
 // Chemin absolu du site
 $rootpath = dirname($path) .'/';
@@ -62,9 +62,19 @@ $cat_groups = [
  * Lit fichier CSV dans un tableau
  */
 function readCSV($csvFilename) {
+	// Validation du chemin de fichier
+	if (!file_exists($csvFilename) || !is_readable($csvFilename)) {
+		throw new Exception("Fichier CSV non accessible: " . basename($csvFilename));
+		exit();
+	}
 	$file = fopen($csvFilename, 'r');
+	if ($file === false) {
+		throw new Exception("Impossible d'ouvrir le fichier CSV: " . basename($csvFilename));
+		exit();
+	}
+	$array = [];
 	while (($line = fgetcsv($file)) !== FALSE) {
-		$array[] =$line;
+		$array[] = $line;
 	}
 	fclose($file);
 	return $array;
@@ -102,7 +112,7 @@ function load_CSV($cat_groups) {
 
 	$layers = [];
 	foreach ($cat_groups as $cat_name => $cat_description ) {
-		$cat_array = readCSV($datapath . $cat_description['filepath']);
+		$cat_array = readCSV($datapath . basename($cat_description['filepath']));
 		$fields = $cat_description['fields'];
 
 		// vérif structure des fichiers CSV
@@ -121,7 +131,7 @@ function load_CSV($cat_groups) {
 		for ($i = 0; $i < $nb_records; $i++) {
 			$ca = [];
 			for ($j = 0; $j < $nb_fields; $j++) {
-				$ca += [$fields[$j] => $cat_array[$i][$j]];
+				$ca += [ $fields[$j] => htmlspecialchars($cat_array[$i][$j], ENT_QUOTES, 'UTF-8', false) ];
 			}
 			$records += [$i => $ca];
 		}
@@ -182,14 +192,21 @@ function sort_groups($cat_groups, $groups) {
 
 $records = load_CSV($cat_groups);
 $groups = sort_groups($cat_groups, $records);
-print_r($groups);
 
 // Remplit le template
 ob_start();
 include($path . 'templates/groupes.php');
 $html = ob_get_clean();
 
-$destfile = fopen($rootpath . 'global/ssi/groupes.shtml', 'w');
+// Validation et nettoyage du contenu HTML
+//$html = htmlspecialchars($html, ENT_QUOTES, 'UTF-8', false);
+
+$destpath = $rootpath . 'global/ssi/groupes.shtml';
+$destfile = fopen($destpath, 'w');
+if ($destfile === false) {
+	throw new Exception("Impossible d'écrire le fichier " . basename($destfile));
+	exit();
+}
 fwrite($destfile, $html);
 fclose($destfile);
 
