@@ -33,7 +33,7 @@ jobs:
       - name: Copy framacalc ${{ matrix.calc }} to ${{ matrix.destfilename }}
         run: |
           cd src/data
-          wget -O "${{ matrix.destfilename }}" https://lite.framacalc.org/${{ matrix.calc }}.csv
+          wget -O "${{ matrix.destfilename }}" https://lite.framacalc.org/${{ secrets[matrix.calc] }}.csv
           echo "${{ matrix.calc }} copied into ${{ matrix.destfilename }}."
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
