@@ -28,7 +28,9 @@ jobs:
           destfiles = ("groupes_loc.csv", "groupes_dep.csv", "groupes_reg.csv", "groupes_monde.csv")
           cd src/data
           for (( i=0; i<${#calcs[@]}; i++ )); do
-            wget -O "${{ $(destfiles[$i]) }}" https://lite.framacalc.org/${{ secrets[$(calcs[$i])] }}.csv
+            destfile = $(destfiles[$i])
+            calc = $(calcs[$i])
+            wget -O "${{ $destfile }}" https://lite.framacalc.org/${{ secrets[$calc] }}.csv
           done
           cd ../..
 
