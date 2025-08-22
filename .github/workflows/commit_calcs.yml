@@ -32,6 +32,7 @@ jobs:
 
       - name: Copy framacalc ${{ matrix.calc }} to ${{ matrix.destfilename }}
         run: |
+          git pull
           cd src/data
           wget -O "${{ matrix.destfilename }}" https://lite.framacalc.org/${{ secrets[matrix.calc] }}.csv
           echo "${{ matrix.calc }} copied into ${{ matrix.destfilename }}."
