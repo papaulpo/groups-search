@@ -30,15 +30,15 @@ jobs:
           sparse-checkout: |
             src/data
 
-      - name: Copy framacalc {{ matrix.calc }} to {{ matrix.destfilename }}
+      - name: Copy framacalc ${{ matrix.calc }} to ${{ matrix.destfilename }}
         run: |
           cd src/data
-          wget -O "{{ matrix.destfilename }}" https://lite.framacalc.org/{{ matrix.calc }}.csv
-          echo "{{ matrix.calc }} copied into {{ matrix.destfilename }}."
+          wget -O "${{ matrix.destfilename }}" https://lite.framacalc.org/${{ matrix.calc }}.csv
+          echo "${{ matrix.calc }} copied into ${{ matrix.destfilename }}."
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           git commit -am "Updated by action Commit Framacalcs"
           git push
-          echo "{{ matrix.destfilename }} update pushed."
+          echo "${{ matrix.destfilename }} update pushed."
 
 
