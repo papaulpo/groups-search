@@ -7,6 +7,8 @@ run-name: ${{ github.actor }} update from Framacalcs
 
 on:
   workflow_dispatch:
+#  schedule:
+#    - cron: "0 0 * * *"
 
 permissions:
   contents: write
