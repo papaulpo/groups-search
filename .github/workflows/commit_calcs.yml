@@ -14,14 +14,6 @@ permissions:
 jobs:
   update_calcs:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - { calc: "FRAMACALC_LOC", destfilename: "groupes_loc.csv" }
-          - { calc: "FRAMACALC_DEP", destfilename: "groupes_dep.csv" }
-          - { calc: "FRAMACALC_REG", destfilename: "groupes_reg.csv" }
-          - { calc: "FRAMACALC_MONDE", destfilename: "groupes_monde.csv" }
 
     steps:
       - name: Checkout
@@ -30,12 +22,14 @@ jobs:
           sparse-checkout: |
             src/data
 
-      - name: Copy framacalc ${{ matrix.calc }} to ${{ matrix.destfilename }}
+      - name: Copy framacalcs
         run: |
-          git pull
+          calcs = ("FRAMACALC_LOC", "FRAMACALC_DEP", "FRAMACALC_REG", "FRAMACALC_MONDE")
+          destfiles = ("groupes_loc.csv", "groupes_dep.csv", "groupes_reg.csv", "groupes_monde.csv")
           cd src/data
-          wget -O "${{ matrix.destfilename }}" https://lite.framacalc.org/${{ secrets[matrix.calc] }}.csv
-          echo "${{ matrix.calc }} copied into ${{ matrix.destfilename }}."
+          for (( i=0; i<${#calcs[@]}; i++ )); do
+            wget -O "${{ $(destfiles[$i]) }}" https://lite.framacalc.org/${{ secrets[$(calcs[$i])] }}.csv
+          done
           cd ../..
 
       - name: Commit changes
@@ -43,5 +37,5 @@ jobs:
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           git commit -am "Updated by action Commit Framacalcs"
-          git push -f
-          echo "update pushed."
+          git push
+          echo "Update pushed."
