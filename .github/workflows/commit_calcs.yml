@@ -24,14 +24,11 @@ jobs:
 
       - name: Copy framacalcs
         run: |
-          calcs = ("FRAMACALC_LOC", "FRAMACALC_DEP", "FRAMACALC_REG", "FRAMACALC_MONDE")
-          destfiles = ("groupes_loc.csv", "groupes_dep.csv", "groupes_reg.csv", "groupes_monde.csv")
           cd src/data
-          for (( i=0; i<${#calcs[@]}; i++ )); do
-            destfile = $(destfiles[$i])
-            calc = $(calcs[$i])
-            wget -O "${{ $destfile }}" https://lite.framacalc.org/${{ secrets[$calc] }}.csv
-          done
+          wget -O "groupes_loc.csv" https://lite.framacalc.org/${{ secrets.FRAMACALC_LOC }}.csv
+          wget -O "groupes_dep.csv" https://lite.framacalc.org/${{ secrets.FRAMACALC_DEP }}.csv
+          wget -O "groupes_reg.csv" https://lite.framacalc.org/${{ secrets.FRAMACALC_REG }}.csv
+          wget -O "groupes_monde.csv" https://lite.framacalc.org/${{ secrets.FRAMACALC_MONDE }}.csv
           cd ../..
 
       - name: Commit changes
