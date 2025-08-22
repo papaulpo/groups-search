@@ -8,20 +8,20 @@ run-name: ${{ github.actor }} update from Framacalcs
 on:
   workflow_dispatch:
 
-  permissions:
-    contents: write
+permissions:
+  contents: write
 
 jobs:
   update_calcs:
     runs-on: ubuntu-latest
     strategy:
-    fail-fast: false
-    matrix:
-      framacalc:
-        - { calc: "FRAMACALC_LOC", destfilename: "groupes_loc.csv" }
-        - { calc: "FRAMACALC_DEP", destfilename: "groupes_dep.csv" }
-        - { calc: "FRAMACALC_REG", destfilename: "groupes_reg.csv" }
-        - { calc: "FRAMACALC_MONDE", destfilename: "groupes_monde.csv" }
+      fail-fast: false
+      matrix:
+        include:
+          - { calc: "FRAMACALC_LOC", destfilename: "groupes_loc.csv" }
+          - { calc: "FRAMACALC_DEP", destfilename: "groupes_dep.csv" }
+          - { calc: "FRAMACALC_REG", destfilename: "groupes_reg.csv" }
+          - { calc: "FRAMACALC_MONDE", destfilename: "groupes_monde.csv" }
 
     steps:
       - name: Checkout
@@ -30,11 +30,11 @@ jobs:
           sparse-checkout: |
             src/data
 
-      - name: Copy framacalc {{ matrix.framacalc.calc }} to {{ matrix.framacalc.destfilename }}
+      - name: Copy framacalc {{ matrix.calc }} to {{ matrix.destfilename }}
         run: |
           cd src/data
-          wget -O "{{ matrix.framacalc.destfilename }}" https://lite.framacalc.org/{{ matrix.framacalc.calc }}.csv
-          echo "{{ matrix.framacalc.calc }} copied into {{ matrix.framacalc.destfilename }}."
+          wget -O "{{ matrix.destfilename }}" https://lite.framacalc.org/{{ matrix.calc }}.csv
+          echo "{{ matrix.calc }} copied into {{ matrix.destfilename }}."
 
 
 
