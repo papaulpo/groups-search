@@ -35,10 +35,12 @@ jobs:
           cd src/data
           wget -O "${{ matrix.destfilename }}" https://lite.framacalc.org/${{ secrets[matrix.calc] }}.csv
           echo "${{ matrix.calc }} copied into ${{ matrix.destfilename }}."
+          cd ../..
+
+      - name: Commit changes
+        run: |
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           git commit -am "Updated by action Commit Framacalcs"
           git push
           echo "${{ matrix.destfilename }} update pushed."
-
-
