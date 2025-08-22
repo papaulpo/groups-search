@@ -39,9 +39,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git pull
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           git commit -am "Updated by action Commit Framacalcs"
-          git push
+          git push -f
           echo "update pushed."
