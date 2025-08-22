@@ -1,0 +1,40 @@
+#
+#	Import des framacalcs dans /src/data/
+# L'url des framacalcs est stockée dans des secrets Github
+#
+name: Commit Framacalcs
+run-name: ${{ github.actor }} update from Framacalcs
+
+on:
+  workflow_dispatch:
+
+  permissions:
+    contents: write
+
+jobs:
+  update_calcs:
+    runs-on: ubuntu-latest
+    strategy:
+    fail-fast: false
+    matrix:
+      framacalc:
+        - { calc: "FRAMACALC_LOC", destfilename: "groupes_loc.csv" }
+        - { calc: "FRAMACALC_DEP", destfilename: "groupes_dep.csv" }
+        - { calc: "FRAMACALC_REG", destfilename: "groupes_reg.csv" }
+        - { calc: "FRAMACALC_MONDE", destfilename: "groupes_monde.csv" }
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            src/data
+
+      - name: Copy framacalc {{ matrix.framacalc.calc }} to {{ matrix.framacalc.destfilename }}
+        run: |
+          cd src/data
+          wget -O "{{ matrix.framacalc.destfilename }}" https://lite.framacalc.org/{{ matrix.framacalc.calc }}.csv
+          echo "{{ matrix.framacalc.calc }} copied into {{ matrix.framacalc.destfilename }}."
+
+
+
