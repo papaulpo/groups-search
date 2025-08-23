@@ -4,6 +4,7 @@
 
 #sidebar li {
 	background-size: 30px;
+	overflow: hidden;
 }
 
 #sidebar li.telegram {
@@ -30,7 +31,9 @@
 #sidebar li.piaille {
 	background-image: url(/global/img/piaille.png);
 }
-
+#sidebar li.signal {
+	background-image: url(/global/img/signal.svg);
+}
 /* ==== Avertissement ==== */
 .danger-banner { font-size: clamp(4rem, 8vw + 2rem, 7rem); display: flex; align-items: center; justify-content: center;
   gap: 1rem; background: #222; color: #f2e25b; padding: 2rem 2rem;font-weight: bold; text-transform: uppercase; box-shadow: 0 2px 6px rgba(0,0,0,0.25);}

@@ -7,7 +7,9 @@ code_insee_region,code_insee_dep,nom,rs_icon,nom_rs,url,latitude,longitude
 27,25,Doubs,telegram,doubs10Sep,https://t.me/doubs10Sep,47.165957182681,6.36273109908717
 84,26,Drôme,telegram,+e6HcO3Fq_MViYzZk,https://t.me//+e6HcO3Fq_MViYzZk,44.6852183299174,5.16738893349826
 76,31,Haute-Garonne,telegram,+c0kAEvwvEJtiYTY8,https://t.me/+c0kAEvwvEJtiYTY8,43.35861,1.17278
+53,22,Côtes d'Armor,telegram,indignonsnous22,https://t.me/indignonsnous22,48.496678938436126,-2.724843709818968
 53,35,Ille-et-Vilaine,telegram,+Mqrir6Q8w1U4NmVk,https://t.me/+Mqrir6Q8w1U4NmVk,48.1550674097419,-1.63814124623274
+53,35,Ille-et-Vilaine,signal,#CjQKIMUXWaZSpVgPZHSYbmkAJC78OGrN2LzW39e-aeqrPW_dEhAi-NHzBLqOoNxpYX9zXt4O,https://signal.group/#CjQKIMUXWaZSpVgPZHSYbmkAJC78OGrN2LzW39e-aeqrPW_dEhAi-NHzBLqOoNxpYX9zXt4O,48.117266,-1.677793
 84,38,Isère,telegram,IndignonsnousIsere,https://t.me/IndignonsnousIsere,45.2639297501076,5.57419814523139
 84,42,Loire,telegram,+sU3LLbwW12IwMjBk,https://t.me/+sU3LLbwW12IwMjBk,45.7280202256173,4.16453524795746
 84,43,Haute-Loire,telegram,+E27DUVUAQx41NGJk,https://t.me/+E27DUVUAQx41NGJk,45.126351,3.805733
@@ -36,6 +38,3 @@ code_insee_region,code_insee_dep,nom,rs_icon,nom_rs,url,latitude,longitude
 11,92,Hauts-de-Seine,telegram,+iMFbUWAScFw5MzFk,https://t.me/+iMFbUWAScFw5MzFk,48.8475388508384,2.24606874275799
 11,93,Seine-Saint-Denis,telegram,+eo1IAGG_uV9lN2Zk,https://t.me/+eo1IAGG_uV9lN2Zk,48.9176098962278,2.47854089128323
 11,94,Val-de-Marne,telegram,+MVVfx3Afj6AzNzFk,https://t.me/+MVVfx3Afj6AzNzFk,48.7774364130303,2.46928738518856
-53,22,"Côtes d'Armor",telegram,indignonsnous22,https://t.me/indignonsnous22,48.496678938436126,-2.724843709818968
-53,35,Ille-et-Vilaine,telegram,+I0aLRlPXY7U5MDlk,https://t.me/+I0aLRlPXY7U5MDlk,48.117266,-1.677793
-53,35,Ille-et-Vilaine,signal,#CjQKIMUXWaZSpVgPZHSYbmkAJC78OGrN2LzW39e-aeqrPW_dEhAi-NHzBLqOoNxpYX9zXt4O,https://signal.group/#CjQKIMUXWaZSpVgPZHSYbmkAJC78OGrN2LzW39e-aeqrPW_dEhAi-NHzBLqOoNxpYX9zXt4O,48.117266,-1.677793

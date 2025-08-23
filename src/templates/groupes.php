@@ -25,7 +25,7 @@ $rsFromIcon = [
 						<ul>
 <?php foreach ($liste_rs as $link1) { ?>
 							<li>
-								<a href="<?php echo $link1['url'] ; ?>" target="_blank" rel="me"><?php echo $link1['nom_rs'] ; ?></a>
+								<a href="<?php echo $link1['url'] ; ?>" target="_blank" rel="me"><?php echo cutstr($link1['nom_rs']) ; ?></a>
 							</li>
 <?php } ?>
 						</ul>
@@ -42,7 +42,7 @@ $rsFromIcon = [
 								<ul>
 <?php foreach ($list_children_rs as $link2) { ?>
 									<li>
-										<a href="<?php echo $link2['url'] ; ?>" target="_blank" rel="me"><?php echo $link2['nom_rs'] ; ?></a>
+										<a href="<?php echo $link2['url'] ; ?>" target="_blank" rel="me"><?php echo cutstr($link2['nom_rs']) ; ?></a>
 									</li>
 <?php } ?>
 								</ul>
