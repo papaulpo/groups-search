@@ -23,24 +23,6 @@ body {
 .background-grey { background-color: #222; }
 .background-black { background-color: #000; }
 
-#countdown-wrapper {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	row-gap: 10px;
-	box-sizing: content-box;
-}
-
-#countdown-wrapper div.countdown {
-	transform: translateY(15px);
-}
-
-
-#ferie {
-	padding: 5px 15px;
-	transform: rotate(-5deg);
-}
-
 .postit a:link, .postit a:visited { color:#0b2369 }
 .postit a:hover { color:#481100 }
 
@@ -86,7 +68,7 @@ a.disabled { pointer-events: none; }
 #menu_top ul li.dropdown:hover .submenu { display: flex; }
 #menu_top ul.submenu { display: none; position: absolute; top: 100%; left: 0; list-style: none; padding: 0; margin: 0; background: #f2e25b; min-width: 200px; flex-direction: column; z-index: 999; }
 #menu_top ul.submenu li { margin: 0; padding: 0; background: #f2e25b; }
-#menu_top ul.submenu li a { padding: 5px 10px; font-size: 1rem; white-space: nowrap;  color: #1a1a1a; }
+#menu_top ul.submenu li a { padding: 5px 10px; font-size: 1rem; white-space: nowrap; color: #1a1a1a; }
 #menu_top ul.submenu li a { font-size: clamp(1rem, 1.7vw, 1rem); }
 #menu_top ul.submenu li.selected a { color: #f2e25b }
 #menu_top ul.submenu li:hover { background: #1a1a1a; }
@@ -143,30 +125,7 @@ main#center {
 	width: 100%;
 	margin: 0 20px;
 }
-#content .postit {
-	max-width: 100%;
-	padding: 20px;
-	transform: rotate(-1deg) translateX(-20px) translateY(-20px);
-	margin: 0 20px 20px 30px;
-	box-sizing: border-box;
-}
-#content .postit {
-	padding: clamp(20px, 5vw, 50px);
-}
-#content .postit div.postit-content {
-	transform: rotate(1deg) translateX(20px) translateY(20px);
-}
-#content section.postit ul {
-	padding-left: 50px;
-	margin: 1.5em 0;
-	font-weight: bold;
-}
-#content section.postit ul li {
-	background: url("/global/img/gyro.gif") no-repeat center left;
-	padding: 0 0 0 30px;
-	font-weight: bold;
-	display: flex;
-}
+
 #content p.big, #content p.big p, #content p.big span {
 	font-size: 1.5rem;
 	margin: 30px 0;
@@ -201,6 +160,42 @@ main#center {
 	text-align: left;line-height: 1.3; margin: 0;
 	font-size: clamp(1rem, 3vw, 2em);
 }
+
+/* ==== Postit ==== */
+.postit {
+	max-width: 100%;
+	padding: 20px;
+	transform: rotate(-1deg) translateX(-20px) translateY(-20px);
+	margin: 0 20px 20px 30px;
+	box-sizing: border-box;
+	box-shadow:
+		inset 0 -40px 40px rgba(0,0,0,0.2),
+		inset 0 25px 10px rgba(0,0,0,0.2),
+		0 5px 6px 5px rgba(0,0,0,0.2);
+	background-image: url("/global/img/pin.png");
+	background-repeat: no-repeat;
+	background-position : center 5px;
+	background-size: 50px;
+}
+.postit {
+	padding: clamp(20px, 5vw, 50px);
+}
+.postit div.postit-content {
+	transform: rotate(1deg) translateX(20px) translateY(20px);
+}
+
+section.postit ul {
+	padding-left: 50px;
+	margin: 1.5em 0;
+	font-weight: bold;
+}
+section.postit ul li {
+	background: url("/global/img/gyro.gif") no-repeat center left;
+	padding: 0 0 0 30px;
+	font-weight: bold;
+	display: flex;
+}
+
 /* ==== Bas de page ==== */
 #footer {
 	width: 100%;
