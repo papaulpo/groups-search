@@ -68,7 +68,7 @@ a.disabled { pointer-events: none; }
 #menu_top ul li.dropdown:hover .submenu { display: flex; }
 #menu_top ul.submenu { display: none; position: absolute; top: 100%; left: 0; list-style: none; padding: 0; margin: 0; background: #f2e25b; min-width: 200px; flex-direction: column; z-index: 999; }
 #menu_top ul.submenu li { margin: 0; padding: 0; background: #f2e25b; }
-#menu_top ul.submenu li a { padding: 5px 10px; font-size: 1rem; white-space: nowrap; color: #1a1a1a; }
+#menu_top ul.submenu li a { padding: 5px 10px; font-size: 1rem; white-space: nowrap;  color: #1a1a1a; }
 #menu_top ul.submenu li a { font-size: clamp(1rem, 1.7vw, 1rem); }
 #menu_top ul.submenu li.selected a { color: #f2e25b }
 #menu_top ul.submenu li:hover { background: #1a1a1a; }
