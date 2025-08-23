@@ -1,4 +1,3 @@
-// Nom du RS selon rs_icon
 <?php
 $rsFromIcon = [
 'bluesky'   => 'Bluesky',
