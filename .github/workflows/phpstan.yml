@@ -28,4 +28,4 @@ jobs:
     - name: Run PHPStan
       run: |
         ~/.composer/vendor/bin/phpstan analyse src tests --level=5 --no-progress --error-format=github --memory-limit=256M
-        ###
+
