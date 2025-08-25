@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
 	<meta charset="utf-8">
 	<title>Indignons-nous !</title>
@@ -25,7 +24,7 @@
 	<meta name="twitter:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
 </head>
 
-<body>
+<body><!--#config errmsg="" -->
 	<header id="banniere">
 		<a href="/" title="Accueil"><img id="logo_left" src="/global/img/logo-inbt.svg" alt="<!--#echo var="SERVER_NAME" -->"></a>
 		<div><h1 class="font-yellow">Cahier de doléances</h1></div>
@@ -33,7 +32,7 @@
 	<div id="menu_top">
 		<ul>
 			<li><a href="/">&#8962;</a></li>
-			<!--#include virtual="../local/ssi/menu_top.shtml" -->
+			<!--#include virtual="/cms/?page=menu" onerror="/local/ssi/menu_top.shtml" -->
 			<li><a href="/global/sites.html">Sites</a></li>
 		</ul>
 	</div>

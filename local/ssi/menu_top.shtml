@@ -1,5 +1,5 @@
 <!-- Éléments de menu principal personnalisé pour ce site  --><!--#config errmsg="" -->
-<li<!--#if expr="$REQUEST_URI = '/local/visuels.html'" --> class="selected"<!--#endif -->><a href="/local/visuels.html">Visuels</a></li>
+<li<!--#if expr="$REQUEST_URI = '/local/_visuels.html'" --> class="selected"<!--#endif -->><a href="/local/_visuels.html">Visuels</a></li>
 <li class="dropdown<!--#if expr="$REQUEST_URI = /doleances/" --> selected<!--#endif -->">
 	<a href="#" class="disabled">Doléances ▾</a>
 	<ul class="submenu">
