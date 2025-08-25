@@ -235,3 +235,11 @@ section.postit ul li {
 	#content .danger-banner span.text { font-size: 1rem; }
 	#sidebar { min-width: 0; padding: 15px; }
 }
+/* ==== Impression ==== */
+@media only print {
+	#menu_top {
+		display: none !important;
+	}
+}
+
+
