@@ -34,6 +34,26 @@
 #sidebar li.signal {
 	background-image: url(/global/img/signal.svg);
 }
+
+ul.liste_groupes > li > ul > li{
+	padding-left: 50px;
+	margin-bottom: 15px;
+}
+ul.liste_groupes > ul {
+	padding-left: 30px;
+}
+ul.liste_groupes > ul > ul{
+	padding-left: 30px;
+}
+ul.liste_groupes li p {
+	font-weight: 600;
+}
+ul.liste_groupes > li > p {
+	font-weight: 600;
+	font-size: 120%;
+}
+
+
 /* ==== Avertissement ==== */
 .danger-banner { font-size: clamp(4rem, 8vw + 2rem, 7rem); display: flex; align-items: center; justify-content: center;
 	gap: 1rem; background: #222; color: #f2e25b; padding: 2rem 2rem;font-weight: bold; text-transform: uppercase; box-shadow: 0 2px 6px rgba(0,0,0,0.25);}
