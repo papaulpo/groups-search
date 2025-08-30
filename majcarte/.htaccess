@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Mise à jour"
-AuthBasicProvider file
-AuthUserFile "<to_customize_to_your_config>"
-Require valid-user
