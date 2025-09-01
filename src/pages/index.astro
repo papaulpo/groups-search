@@ -1,0 +1,258 @@
+---
+import GeoLien from '../components/GeoLien.astro';
+import GeoLieu from '../components/GeoLieu.astro';
+import type { Links } from '../types/geoliens';
+
+const response = await fetch('http://localhost:8081/?page=geoliens.json&id_rubrique=5');
+
+const links = await response.json() as Links;
+
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Indignons-nous !</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" lang="fr" content="Bloquons tout, Indignons-nous, 10 Septembre, 10 Septembre 2025">
+	<meta name="location" content="France, FRANCE">
+	<link rel="stylesheet" href="global/global.css" is:inline>
+	<link rel="stylesheet" href="global/index.css" is:inline>
+	<link rel="icon" href="global/img/favicon.svg" type="image/svg+xml">
+	<link rel="alternate icon" href="favicon.ico" type="image/x-icon">
+	<!-- RESEAUX SOCIAUX -->
+	<meta property="og:title" content="Indignons Nous - Bloquons Tout - 10s25">
+	<meta property="og:description" content="Nous, peuple indigné de tous horizons, lançons un appel clair et urgent : Indignons-nous et bloquons tout jusqu’au retrait total et immédiat du plan Bayrou, un budget d’austérité injuste, dangereux, et déconnecté des réalités sociales.">
+	<meta property="og:url" content="https://<!--#echo var="SERVER_NAME" --><!--#echo var="DOCUMENT_URI" -->">
+	<meta property="og:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Indignons Nous - Bloquons Tout - 10s25">
+	<meta name="twitter:description" content="Nous, peuple indigné de tous horizons, lançons un appel clair et urgent : Indignons-nous et bloquons tout jusqu’au retrait total et immédiat du plan Bayrou, un budget d’austérité injuste, dangereux, et déconnecté des réalités sociales.">
+	<meta name="twitter:image" content="https://<!--#echo var="SERVER_NAME" -->/global/img/logo-inbt.jpg">
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stat.indignonsnous.be/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+<body><!--#config errmsg="" -->
+	<header id="banniere">
+		<a href="/" title="Accueil"><img id="logo_left" src="/global/img/logo-inbt.svg" alt="<!--#echo var="SERVER_NAME" -->"></a>
+		<div id="countdown-wrapper">
+			<div class="countdown"><h5 id="countdown"> </h5></div>
+			<br/>
+			<h1 class="font-yellow">10 Septembre 2025</h1>
+			<br/>
+			<h4 id="ferie" class="background-red">C'est férié !</h4>
+		</div>
+	</header>
+	<div id="menu_top">
+		<ul>
+			<li class="selected"><a href="/">&#8962;</a></li>
+			<!--#include virtual="/cms/?page=menu" onerror="/local/ssi/menu_top.shtml" -->
+			<li><a href="/global/sites.html">Sites</a></li>
+		</ul>
+	</div>
+	<main id="center">
+		<div id="sidebar">
+			<div id="rejoindre" class="background-red">REJOINS-NOUS</div>
+				<ul class="sidebar-section-1">
+                    {(links.reseaux.length > 0) && (
+                        <li>
+                            <h3 class="font-yellow">Réseaux sociaux</h3>
+                            <ul class="sidebar-section-2">
+                                <li>
+                                    <ul>
+                                        {links.reseaux.map(lien => <GeoLien lien={lien} />)}
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    )}
+                    {(links.monde.length > 0) && (
+                        <li>
+                            <h3 class="font-yellow">Monde</h3>
+                            <ul class="sidebar-section-2">
+                                {links.monde.map(lieu => <GeoLieu lieu={lieu} />)}
+                            </ul>
+                        </li>
+                    )}
+                    {(links.autres.length > 0) && (
+                        <li>
+                            <h3 class="font-yellow">Autres groupes</h3>
+                            <ul class="sidebar-section-2">
+                                {links.autres.map(lieu => <GeoLieu lieu={lieu} />)}
+                            </ul>
+                        </li>
+                    )}
+                    <li>
+                        <h3 class="font-yellow">Régions</h3>
+                        <ul class="sidebar-section-2">
+                            {links?.regions?.map(region => <GeoLieu lieu={region} />)}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+		</div>
+		<div id="content">
+			<section class="postit background-yellow">
+				<div class="postit-content font-black">
+					<h2>Les raisons de notre colère</h2>
+					<p>Le plan Bayrou, c’est :</p>
+					<ul>
+						<li>Une année blanche sans investissement dans les salaires, les retraites, ni les services publics !</li>
+						<li>3000 postes supprimés, un fonctionnaire sur trois non remplacé !</li>
+						<li>5 milliards retirés à la santé, reste à payer doublé pour les malades !</li>
+						<li>Deux jours fériés supprimés !</li>
+						<li>Six jours de carence en cas d’arrêt maladie !</li>
+						<li>Aucune hausse des aides ni des pensions !</li>
+					</ul>
+					<p>
+						Nous disons <strong>NON</strong> et appelons toutes les personnes résidant en France métropolitaine et dans les DOM-TOM à se mobiliser contre ce budget !
+					</p>
+					<p>
+						Nous ne voulons pas subir leur crise.<br>
+						Nous voulons changer de cap, pour de bon, avec et pour le peuple. Pas contre lui.
+					</p>
+					<div>
+						<p class="big">
+							<strong>NOUS APPELONS CHAQUE DÉPUTÉ À FAIRE SON DEVOIR :
+							<br>
+							<span class="font-red">VOTER LA MOTION DE CENSURE CONTRE CE PLAN INJUSTE ET DANGEREUX.</span></strong>
+						</p>
+						<div class="danger-banner">
+							<span class="emoji">⚠️</span>
+							<span class="text">
+									LES FRANÇAIS VOUS REGARDENT.
+									<br>
+									ILS N’OUBLIERONT PAS.
+								</span>
+						</div>
+					</div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p class="font-yellow">Ain</p>						<ul>
+                                                <li class="child telegram">
+                                                    <p>Telegram</p>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://t.me/+ZGgNVBU6mSEwNGQ0" target="_blank" rel="me">+ZGgNVBU6mSEwNGQ0</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            ))}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+		</div>
+		<div id="content">
+			<section class="postit background-yellow">
+				<div class="postit-content font-black">
+					<h2>Les raisons de notre colère</h2>
+					<p>Le plan Bayrou, c’est :</p>
+					<ul>
+						<li>Une année blanche sans investissement dans les salaires, les retraites, ni les services publics !</li>
+						<li>3000 postes supprimés, un fonctionnaire sur trois non remplacé !</li>
+						<li>5 milliards retirés à la santé, reste à payer doublé pour les malades !</li>
+						<li>Deux jours fériés supprimés !</li>
+						<li>Six jours de carence en cas d’arrêt maladie !</li>
+						<li>Aucune hausse des aides ni des pensions !</li>
+					</ul>
+					<p>
+						Nous disons <strong>NON</strong> et appelons toutes les personnes résidant en France métropolitaine et dans les DOM-TOM à se mobiliser contre ce budget !
+					</p>
+					<p>
+						Nous ne voulons pas subir leur crise.<br>
+						Nous voulons changer de cap, pour de bon, avec et pour le peuple. Pas contre lui.
+					</p>
+					<div>
+						<p class="big">
+							<strong>NOUS APPELONS CHAQUE DÉPUTÉ À FAIRE SON DEVOIR :
+							<br>
+							<span class="font-red">VOTER LA MOTION DE CENSURE CONTRE CE PLAN INJUSTE ET DANGEREUX.</span></strong>
+						</p>
+						<div class="danger-banner">
+							<span class="emoji">⚠️</span>
+							<span class="text">
+									LES FRANÇAIS VOUS REGARDENT.
+									<br>
+									ILS N’OUBLIERONT PAS.
+								</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="video">
+				<iframe class="v-frame" src="https://www.youtube-nocookie.com/embed/Uzz6dOFhPiI?si=pdBGplpkiEZUkupQ" title="Bloquons Tout !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+			<br />
+			<h5>Groupes régionaux, départementaux, et locaux:</h5>
+			<div class="map">
+				<iframe width="100%" height="800px" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe>
+				<p><a class="bouton" href="//umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Afficher la carte en plein écran</a></p>
+				<p class="big">Votre groupe local n'est pas sur la carte ?<br>
+				Donnez son nom, le lien d'invitation, et si vous pouvez les coordonnées du point souhaité (latitude, longitude) dans le <a href="https://t.me/+AficsfQZx2IyMWQ8">groupe Telegram dédié</a>.<br>
+				</p>
+			</div>
+			<div class="aide">
+				<span class="fs-2">ℹ️</span>
+				L'utilisation de Télégram peut sembler un peu compliquée au début. Pour te guider, consulte notre 
+				<a href="/global/pdf/TELEGRAM.pdf">guide d'aide</a>.
+			</div>	
+		</div>
+	</main>
+	<div id="footer">
+		<section class="postit background-yellow font-black">
+			<div>
+				<h2>Communications sécurisées</h2>
+				<p>
+					Nos communications sont sécurisées par GPG: nos emails sont signés numériquement.
+					<br>
+					Si vous voulez vous assurer de l'authenticité des mails reçus, configurez votre logiciel de
+					messagerie pour reconnaître les mails envoyés avec la clé privée associée à la clé publique
+					ci-dessous.
+				</p>
+				<h3>C'est quoi, GPG ?</h3>
+				<p>
+					Vous trouverez un tutoriel en français <a href="https://linuxfr.org/news/bien-demarrer-avec-gnupg" class="font-yellow">ici</a>.
+					<br>
+					Les emails que vous nous envoyez chiffrés avec notre clé
+					publique ne sont pas déchiffrables par un tiers.
+					<br>
+					<i>C'est l'équivalent numérique d'une enveloppe
+						 fermée comparée à une carte postale que tout le monde peut lire.</i>
+				</p>
+				<h3>Notre clé publique :</h3>
+				<p class="break-word background-black">
+					<code class="font-green">
+					<!--#include virtual="local/ssi/gpg.shtml" -->
+					</code>
+				</p>
+				<h4>Mails :</h4>
+				<p><strong>(Utilisez plutôt <a href="#rejoindre">nos réseaux</a> pour nous contacter - nous ne pouvons pas répondre à tous les mails)</strong></p>
+				<p><!--#include virtual="local/ssi/emails.shtml" --></p>
+			</div>
+		</section>
+	</div>
+	<script src="/global/js/countdown.js" is:inline></script>
+</body>
+</html>
