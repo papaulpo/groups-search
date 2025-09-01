@@ -18,15 +18,10 @@ jobs:
       - name: Checkout
         id: checkout
         uses: actions/checkout@v4
-        with:
-          sparse-checkout: |
-            !.github
-            favicon.ico
-            index.html
-            README.md
-            global
-            local
-          sparse-checkout-cone-mode: false
+
+      - name: Clean
+        run: |
+          rm -rf .github
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
