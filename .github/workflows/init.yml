@@ -16,8 +16,9 @@ jobs:
           - { name: "indignonsnous.ovh", prefix: "_INDIGNONSNOUS_OVH" }
           - { name: "lesoulevementdupeuple.ovh", prefix: "_LESOULEVEMENTDUPEUPLE_OVH" }
           - { name: "marchepourladignite.ovh", prefix: "_MARCHEPOURLADIGNITE_OVH" }
+          - { name: "onestla.ovh", prefix: "_ONESTLA_OVH" }
           - { name: "revoltes.ovh", prefix: "_REVOLTES_OVH" }
-    
+
     steps:
     - name: Checkout
       uses: actions/checkout@v4
