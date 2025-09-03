@@ -2,7 +2,7 @@
 #	Import de la liste des groupes du CMS dans les sites statiques
 #
 name: Commit Groupes
-run-name: ${{ github.actor }} update from Framacalcs
+run-name: ${{ github.actor }} update from CMS
 
 on:
   workflow_dispatch:
@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
-          git commit -am "Updated by action Commit Framacalcs"
+          git commit -am "Updated by action Commit Groupes"
           git push
           echo "Update pushed."
