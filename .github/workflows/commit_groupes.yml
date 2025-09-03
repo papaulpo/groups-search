@@ -26,7 +26,7 @@ jobs:
       - name: Copy groups list (html format, ready to publish)
         run: |
           cd global/ssi
-          wget -O "global/ssi/groupes.shtml" https://10s25.ovh/cms/?page=groupes
+          wget -O "groupes.shtml" https://10s25.ovh/cms/?page=groupes
           cd ../..
 
       - name: Commit changes
