@@ -1,3 +1,4 @@
+
 #sidebar ul.sidebar-section-1 ul.sidebar-section-2 > li > ul > li, li.child {
 	padding-left: 50px;
 }
@@ -5,34 +6,6 @@
 #sidebar li {
 	background-size: 30px;
 	overflow: hidden;
-}
-
-#sidebar li.telegram {
-	background-image: url(/global/img/telegram.svg);
-}
-#sidebar li.instagram {
-	background-image: url(/global/img/instagram.svg);
-}
-#sidebar li.tiktok {
-	background-image: url(/global/img/tiktok.svg);
-}
-#sidebar li.facebookp {
-	background-image: url(/global/img/facebookp.svg);
-}
-#sidebar li.facebookg {
-	background-image: url(/global/img/facebookg.svg);
-}
-#sidebar li.twitter {
-	background-image: url(/global/img/twitter.svg);
-}
-#sidebar li.bluesky {
-	background-image: url(/global/img/bluesky.svg);
-}
-#sidebar li.piaille {
-	background-image: url(/global/img/piaille.png);
-}
-#sidebar li.signal {
-	background-image: url(/global/img/signal.svg);
 }
 
 ul.liste_groupes > li > ul > li{

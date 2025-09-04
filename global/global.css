@@ -14,7 +14,8 @@ body {
 }
 
 /* ==== Couleurs ==== */
-.font-yellow { color: #f9e25b; }
+.font-yellow, a.font-yellow:visited { color: #f9e25b; }
+a.font-yellow:hover { color: #489fff; }
 .font-green { color: #63ff43; }
 .font-red { color: #f52639; }
 .font-black { color: #000; }
@@ -256,4 +257,57 @@ section.postit ul li.revendication {
 	}
 }
 
-
+li.telegram {
+	background-image: url(/global/img/telegram.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+li.instagram {
+	background-image: url(/global/img/instagram.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+li.tiktok {
+	background-image: url(/global/img/tiktok.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+li.facebookp {
+	background-image: url(/global/img/facebookp.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+li.facebookg {
+	background-image: url(/global/img/facebookg.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+li.twitter {
+	background-image: url(/global/img/twitter.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+li.bluesky {
+	background-image: url(/global/img/bluesky.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;	
+}
+li.piaille {
+	background-image: url(/global/img/piaille.png);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+li.signal {
+	background-image: url(/global/img/signal.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
