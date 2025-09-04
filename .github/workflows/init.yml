@@ -14,6 +14,7 @@ jobs:
           - { name: "10s25.fr", prefix: "_10S25_FR" }
           - { name: "bloquonstout.ovh", prefix: "_BLOQUONSTOUT_OVH" }
           - { name: "indignonsnous.ovh", prefix: "_INDIGNONSNOUS_OVH" }
+          - { name: "indignons-nous.ovh", prefix: "_INDIGNONSNOUS2_OVH" }
           - { name: "lesoulevementdupeuple.ovh", prefix: "_LESOULEVEMENTDUPEUPLE_OVH" }
           - { name: "marchepourladignite.ovh", prefix: "_MARCHEPOURLADIGNITE_OVH" }
           - { name: "onestla.ovh", prefix: "_ONESTLA_OVH" }
