@@ -203,7 +203,7 @@ section.postit ul {
 	margin: 1.5em 0;
 	font-weight: bold;
 }
-section.postit ul li {
+section.postit ul li.revendication {
 	background: url("/global/img/gyro.gif") no-repeat center left;
 	padding: 0 0 0 30px;
 	font-weight: bold;
