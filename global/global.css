@@ -311,3 +311,9 @@ li.signal {
 	padding-left: 50px;
 	overflow: hidden;
 }
+li.site {
+	background-image: url(/global/img/site.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
