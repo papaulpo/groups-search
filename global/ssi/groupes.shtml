@@ -130,11 +130,16 @@
 	<li>
 	<p class="font-yellow">26 - Drôme</p>
 		<ul>
+			<li class="signal">
+				<p>Signal</p>
+				<ul>
+					<li><a href="https://signal.group/#CjQKIAJn_eLVhE06JkDl2cj1vKML39Ik4S6InOMYQ1w4r4cZEhC_2sAmqGNFQkJMey7G3aVr" target="_blank" rel="me">CjQKIAJn_eLVhE06JkDl2cj1vKML39</a></li>
+				</ul>
+			</li>
 			<li class="telegram">
 				<p>Telegram</p>
 				<ul>
 					<li><a href="https://t.me/+e6HcO3Fq_MViYzZk" target="_blank" rel="me">+e6HcO3Fq_MViYzZk</a></li>
-					<li><a href="https://signal.group/#CjQKIAJn_eLVhE06JkDl2cj1vKML39Ik4S6InOMYQ1w4r4cZEhC_2sAmqGNFQkJMey7G3aVr" target="_blank" rel="me">CjQKIAJn_eLVhE06JkDl2cj1vKML39</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -192,6 +197,7 @@
 				<p>Telegram</p>
 				<ul>
 					<li><a href="https://t.me/bloquons63" target="_blank" rel="me">bloquons63</a></li>
+					<li><a href="https://t.me/bloquonstout63" target="_blank" rel="me">bloquonstout63</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -248,6 +254,17 @@
 				<p>Telegram</p>
 				<ul>
 					<li><a href="https://t.me/+mpXANJoCqehhZDI0" target="_blank" rel="me">+mpXANJoCqehhZDI0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Villefranche-sur-Saône</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="http://t.me/+DztcGgl5FGYxNWM0" target="_blank" rel="me">DztcGgl5FGYxNWM0</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -735,7 +752,27 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
+	<p class="font-yellow">52 - Haute-Marne</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">indignons-nous Haute-Marne</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/IndignonsNousHM" target="_blank" rel="me">IndignonsNousHM</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+	<li>
 	<p class="font-yellow">68 - Haut-Rhin</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Mulhouse Colmar Cernay et Altkirch </p>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -745,6 +782,7 @@
 			</li>
 		</ul>
 	</li>
+</ul>
 	<li>
 	<p class="font-yellow">51 - Marne</p>
 	</li>
@@ -984,6 +1022,19 @@
 			</li>
 		</ul>
 	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Drancy / Bobigny / Le Blanc Mesnil / Le Bourget</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+p33fGzwmYFRjYzQ0" target="_blank" rel="me">+p33fGzwmYFRjYzQ0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
 	<li>
 	<p class="font-yellow">94 - Val-de-Marne</p>
 		<ul>
@@ -1582,6 +1633,22 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
+	<p class="font-yellow">32 - Gers</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Auch</p>
+		<ul>
+			<li class="signal">
+				<p>Signal</p>
+				<ul>
+					<li><a href="https://signal.group/#CjQKIGB1Cbe_1x6urKdjChHGY83GLpGtSW50SXfJINpg_pJBEhAUKZEDE0-4EZljTXPkMf69" target="_blank" rel="me">CjQKIGB1Cbe_1x6urKdjChHGY83GLp</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+	<li>
 	<p class="font-yellow">34 - Hérault</p>
 		<ul>
 			<li class="signal">
@@ -1974,6 +2041,17 @@
 		</ul>
 	</li>
 </ul>
+	<li>
+	<p class="font-yellow">83 - Var</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/BloquonsToutVar" target="_blank" rel="me">BloquonsToutVar</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
 	<li>
 	<p class="font-yellow">06 - Alpes-Maritimes</p>
 		<ul>
