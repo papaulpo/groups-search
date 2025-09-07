@@ -1,0 +1,121 @@
+---
+import type { Lieu } from '../types/geoliens';
+
+const response = await fetch('http://localhost:8081/?page=geoliens.json&var_mode=calcul');
+// const response = await fetch('http://https://10s25.ovh/cms/?page=geoliens.json&var_mode=calcul');
+const hierarchie = await response.json() as Lieu[];
+
+// utilitaire pour mettre a plat la hierarchie des lieux
+function flaten(hierarchie: Lieu[], chemin: string = "") {
+  return hierarchie.reduce((acc, { sousLieux, ...lieu}) => {
+	if(lieu.ressources.length > 0) {
+		acc.push({...lieu, chemin });
+	}
+	acc.push(...flaten(sousLieux, `${chemin}${lieu.nom} > `));
+	return acc;
+  }, [] as (Omit<Lieu, "sousLieux"> & { chemin: string })[]);
+}
+
+const flat = flaten(hierarchie);
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<iframe width="100%" height="800px" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe>
+	<p><a class="bouton" href="//umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Afficher la carte en plein écran</a></p>
+
+	<form id="geoliens-search" action="#" method="get">
+		<input type="text" id="search-text" placeholder="Rechercher un géolien" />
+
+		<select id="search-type">
+			<option value="">Tous types</option>
+			<option value="bluesky">Bluesky</option>
+			<option value="facebookg">Facebook - Groupe</option>
+			<option value="facebookp">Facebook - Page</option>
+			<option value="instagram">Instagram</option>
+			<option value="piaille">Piaille</option>
+			<option value="signal">Signal</option>
+			<option value="site">Site web</option>
+			<option value="telegram">Telegram</option>
+			<option value="tiktok">TikTok</option>
+			<option value="twitter">X (Twitter)</option>
+		</select>
+
+		<select id="search-territoire">
+			<option value="">Tous types</option>
+			<option value="Départemental">Départemental</option>
+			<option value="Local">Local</option>
+			<option value="National">National</option>
+			<option value="Régional">Régional</option>
+			<option value="Thématique">Thématique</option>
+		</select>
+
+		<button type="submit">Rechercher</button>
+	</form>
+
+	<dl id="geoliens-results" data-flatlinks={JSON.stringify(flat)}>
+		{flat.map(lieu => (
+			<dt>{lieu.nom}</dt>
+			<dd><dl>
+			{lieu.ressources.map(ressource => (<>
+				<dt class={ressource.icon}>{ressource.type}</dt>
+				<dd><ul>
+				{ressource.liens.map(lien => (
+					<li><a href={lien.url}>{lien.nom}</a></li>
+				))}
+				</ul></dd>
+			</>))}
+			</dl></dd>
+		))}
+	</dl>
+
+	<script>
+		// récupération des données depuis #geoliens-results[data-flatlinks].
+		const flat = JSON.parse(document.getElementById('geoliens-results')?.dataset.flatlinks || '[]');
+
+		// on intercepte les envois de formulaire
+		document.getElementById('geoliens-search')?.addEventListener('submit', (e) => {
+			e.preventDefault();
+
+			const query = (document.getElementById('search-text') as HTMLInputElement)?.value.toLowerCase() || '';
+			const searchType = (document.getElementById('search-type') as HTMLSelectElement)?.value || '';
+			const searchTerritoire = (document.getElementById('search-territoire') as HTMLSelectElement)?.value || '';
+
+			// on filtre les résultats
+			const results = flat
+				.map(lieu => ({
+					...lieu,
+					ressources: lieu.ressources
+						.map(ressource => ({
+							...ressource,
+							liens: ressource.liens
+								.filter(lien =>(
+									searchTerritoire === '' ||
+									lien.territoire.includes(searchTerritoire)
+								)),
+						}))
+						.filter(ressource => ressource.liens.length > 0)
+						.filter(ressource => searchType === '' || ressource.icon.includes(searchType)),
+				}))
+				.filter(lieu => lieu.ressources.length > 0)
+				.filter(lieu => `${lieu.chemin} > ${lieu.nom}`.toLowerCase().includes(query));
+
+			const container = document.getElementById('geoliens-results');
+
+			if(container) {
+				container.innerHTML = results.map(lieu => `
+					<dt>${lieu.nom}</dt>
+					<dd><dl>${lieu.ressources.map(ressource => `
+						<dt class="${ressource.icon}">${ressource.type}</dt>
+						<dd><ul>${ressource.liens.map(lien => `
+							<li><a href="${lien.url}">${lien.nom}</a></li>`).join('')
+						}</ul></dd>`).join('')
+					}</dl></dd>`).join('');
+			}
+		});
+	</script>
+</body>
+</html>

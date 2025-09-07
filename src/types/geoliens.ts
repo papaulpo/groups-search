@@ -1,21 +1,20 @@
 export type Lien = {
-    type: string | null;
-    nom: string | null;
-    url: string | null;
-    territoire: string | null;
-    latitude: string | null;
-    longitude: string | null;
+    type: string;
+    nom: string;
+    url: string;
+    territoire: string;
+    latitude: string;
+    longitude: string;
+};
+
+export type Ressources = {
+    type: string;
+    icon: string;
+    liens: Lien[];
 };
 
 export type Lieu = {
-    nom: string | null;
-    liens: Lien[];
+    nom: string;
+    ressources: Ressources[];
     sousLieux: Lieu[];
-};
-
-export type Links = {
-    reseaux: Lien[];
-    regions: Lieu[];
-    monde: Lieu[];
-    autres: Lieu[];
 };
