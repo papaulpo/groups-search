@@ -7,11 +7,12 @@
     "preview": "astro preview"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.6",
     "astro": "^5.13.5",
-    "@astrojs/tailwind": "^6.0.2",
     "sharp": "^0.34.3",
     "tailwindcss": "^4.1.13"
   },
   "dependencies": {
+    "astro-icon": "^1.1.5"
   }
 }

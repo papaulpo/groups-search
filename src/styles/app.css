@@ -1,0 +1,64 @@
+@import 'tailwindcss';
+
+/* Couleurs du Thème */
+:root {
+  --color-primary-yellow: #F2CE1A;
+  --color-primary-yellow-light: #FFF476;
+  --color-alert-red: #FF0000;
+  --color-alert-red-light: #FFABAB;
+  --color-neutral-dark: #1D1D1B;
+  --color-neutral-medium: #5D5B54;
+  --color-neutral-light: #C1C0BB;
+  --color-neutral-cream: #F9F8E9;
+}
+
+/* Classes utilitaires basées sur le thème */
+.bg-primary-yellow { background-color: var(--color-primary-yellow); }
+.bg-primary-yellow-light { background-color: var(--color-primary-yellow-light); }
+.bg-neutral-cream { background-color: var(--color-neutral-cream); }
+.bg-neutral-dark { background-color: var(--color-neutral-dark); }
+.bg-neutral-medium { background-color: var(--color-neutral-medium); }
+.bg-neutral-light { background-color: var(--color-neutral-light); }
+
+.text-primary-yellow { color: var(--color-primary-yellow); }
+.text-primary-yellow-light { color: var(--color-primary-yellow-light); }
+.text-neutral-dark { color: var(--color-neutral-dark); }
+.text-neutral-medium { color: var(--color-neutral-medium); }
+.text-neutral-light { color: var(--color-neutral-light); }
+
+.border-primary-yellow { border-color: var(--color-primary-yellow); }
+.border-primary-yellow-light { border-color: var(--color-primary-yellow-light); }
+.border-neutral-dark { border-color: var(--color-neutral-dark); }
+.border-neutral-medium { border-color: var(--color-neutral-medium); }
+.border-neutral-light { border-color: var(--color-neutral-light); }
+
+.focus\:ring-primary-yellow:focus { --tw-ring-color: var(--color-primary-yellow); }
+.hover\:bg-primary-yellow-light:hover { background-color: var(--color-primary-yellow-light); }
+.hover\:bg-neutral-light:hover { background-color: var(--color-neutral-light); }
+
+.font-theme { font-family: 'Inter', sans-serif; }
+
+/* Styles personnalisés pour une meilleure troncature du texte */
+.geolien-card h3 {
+	word-break: break-all;
+	hyphens: auto;
+}
+
+.geolien-card .truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* S'assurer que les cartes maintiennent une hauteur cohérente */
+.geolien-card {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.geolien-card .flex-1 {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}

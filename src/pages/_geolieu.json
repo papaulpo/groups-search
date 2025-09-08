@@ -1,0 +1,7278 @@
+{
+    "reseaux": [
+        {
+            "type": "Telegram",
+            "nom": "+B5CJp-RUGpAzMmQ8",
+            "url": "https:\/\/t.me\/+B5CJp-RUGpAzMmQ8",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Facebook - Groupe",
+            "nom": "10s25",
+            "url": "https:\/\/www.facebook.com\/groups\/10s25",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Bluesky",
+            "nom": "10s25.bsky.social",
+            "url": "https:\/\/bsky.app\/profile\/10s25.bsky.social",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Instagram",
+            "nom": "10s25officiel",
+            "url": "https:\/\/www.instagram.com\/10s25officiel",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Piaille",
+            "nom": "@10s25",
+            "url": "https:\/\/piaille.fr\/@10s25",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "TikTok",
+            "nom": "@10s251",
+            "url": "https:\/\/www.tiktok.com\/@10s251",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "TikTok",
+            "nom": "@indignons.nous",
+            "url": "https:\/\/www.tiktok.com\/@indignons.nous",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "X (Twitter)",
+            "nom": "@IndignonsN",
+            "url": "https:\/\/x.com\/indignonsn",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "X (Twitter)",
+            "nom": "@Le10S25",
+            "url": "https:\/\/x.com\/Le10S25",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Facebook - Page",
+            "nom": "Dix Septembre",
+            "url": "https:\/\/www.facebook.com\/profile.php?id=61579323892404",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Facebook - Page",
+            "nom": "Indignons nous",
+            "url": "https:\/\/www.facebook.com\/people\/Indignons-nous\/61578641433778",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Facebook - Groupe",
+            "nom": "INDIGNONS NOUS 10 SEPTEMBRE",
+            "url": "https:\/\/www.facebook.com\/groups\/1045232717369832",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Instagram",
+            "nom": "indignons_nous_bloquons_tout",
+            "url": "https:\/\/www.instagram.com\/indignons_nous_bloquons_tout",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+    ],
+    "regions": [
+
+            {
+        "nom": "AUVERGNE-RH\u00d4NE-ALPES",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+2ydXihH_ft43OWI8",
+            "url": "https:\/\/t.me\/+2ydXihH_ft43OWI8",
+            "territoire": "R\u00e9gional",
+            "latitude": "45.296812",
+            "longitude": "4.660481"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "01 - Ain",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+ZGgNVBU6mSEwNGQ0",
+            "url": "https:\/\/t.me\/+ZGgNVBU6mSEwNGQ0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.0997671581629",
+            "longitude": "5.34873032104146"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "03 - Allier",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+VFRy-ZfSY6QwY2Rk",
+            "url": "https:\/\/t.me\/+VFRy-ZfSY6QwY2Rk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.3936406719208",
+            "longitude": "3.18764486326068"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "07 - Ard\u00e8che",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+e6HcO3Fq_MViYzZk",
+            "url": "https:\/\/t.me\/+e6HcO3Fq_MViYzZk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.7527552575178",
+            "longitude": "4.42560660942855"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Annonay",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIN7E-gSGlNaoJ25ZMI3Y9doezYeHYhvp1QCZ2nW0P2eXEhA0c5wG-b43MjqKLu_tFcgC",
+            "url": "https:\/\/signal.group\/#CjQKIN7E-gSGlNaoJ25ZMI3Y9doezYeHYhvp1QCZ2nW0P2eXEhA0c5wG-b43MjqKLu_tFcgC",
+            "territoire": "Local",
+            "latitude": "45.2405917",
+            "longitude": "4.6721949"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "15 - Cantal",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+aSs9MVDIrDdhYTdk",
+            "url": "https:\/\/t.me\/+aSs9MVDIrDdhYTdk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.0833",
+            "longitude": "2.6667"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "26 - Dr\u00f4me",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+e6HcO3Fq_MViYzZk",
+            "url": "https:\/\/t.me\/+e6HcO3Fq_MViYzZk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.5833",
+            "longitude": "5.1667"
+        }
+         ,
+        {
+            "type": "Signal",
+            "nom": "CjQKIAJn_eLVhE06JkDl2cj1vKML39Ik4S6InOMYQ1w4r4cZEhC_2sAmqGNFQkJMey7G3aVr",
+            "url": "https:\/\/signal.group\/#CjQKIAJn_eLVhE06JkDl2cj1vKML39Ik4S6InOMYQ1w4r4cZEhC_2sAmqGNFQkJMey7G3aVr",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.9234149",
+            "longitude": "4.8957427"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Tricastin",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIA62t-8R1q3oeCSyuVZbywQHQ-aeo7ZrEYVYwzaBirvLEhC6tuUCtUaTxhkIu7rsrjcb",
+            "url": "https:\/\/signal.group\/#CjQKIA62t-8R1q3oeCSyuVZbywQHQ-aeo7ZrEYVYwzaBirvLEhC6tuUCtUaTxhkIu7rsrjcb",
+            "territoire": "Local",
+            "latitude": "44.3458497",
+            "longitude": "4.6180682"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "38 - Is\u00e8re",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "IndignonsnousIsere",
+            "url": "https:\/\/t.me\/IndignonsnousIsere",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.1667",
+            "longitude": "5.8333"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Grenoble",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+OKXn5kHL8-M4NTM0",
+            "url": "https:\/\/t.me\/+OKXn5kHL8-M4NTM0",
+            "territoire": "Local",
+            "latitude": "45.1842316",
+            "longitude": "5.6948976"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "La Mure",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Pays voironnai",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "IndignonsnousIsere\/66",
+            "url": "https:\/\/t.me\/IndignonsnousIsere\/66",
+            "territoire": "Local",
+            "latitude": "45.3941569",
+            "longitude": "5.4230402"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "42 - Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+sU3LLbwW12IwMjBk",
+            "url": "https:\/\/t.me\/+sU3LLbwW12IwMjBk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.4717",
+            "longitude": "4.433"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "43 - Haute-Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+E27DUVUAQx41NGJk",
+            "url": "https:\/\/t.me\/+E27DUVUAQx41NGJk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.0833",
+            "longitude": "4.0"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "63 - Puy-de-D\u00f4me",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "bloquons63",
+            "url": "https:\/\/t.me\/bloquons63",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.6667",
+            "longitude": "3.0"
+        }
+         ,
+        {
+            "type": "Telegram",
+            "nom": "bloquonstout63",
+            "url": "https:\/\/t.me\/bloquonstout63",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.6867",
+            "longitude": "3.04"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "69 - Rh\u00f4ne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+wMC00KhgGZI2ZmFk",
+            "url": "https:\/\/t.me\/+wMC00KhgGZI2ZmFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.0",
+            "longitude": "4.5"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Amplepuis",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+mpXANJoCqehhZDI0",
+            "url": "https:\/\/t.me\/+mpXANJoCqehhZDI0",
+            "territoire": "Local",
+            "latitude": "45.9660336",
+            "longitude": "4.2757191"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "L'Arbresle",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+9VRLOD6UK9djYjZk",
+            "url": "https:\/\/t.me\/+9VRLOD6UK9djYjZk",
+            "territoire": "Local",
+            "latitude": "45.8347066",
+            "longitude": "4.5999113"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Lyon",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+SuOiGcRJZoliMDk0",
+            "url": "https:\/\/t.me\/+SuOiGcRJZoliMDk0",
+            "territoire": "Local",
+            "latitude": "45.7579433",
+            "longitude": "4.7938389"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Tarare",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "tarare_10_septembre",
+            "url": "https:\/\/t.me\/tarare_10_septembre",
+            "territoire": "Local",
+            "latitude": "45.9070843",
+            "longitude": "4.4096091"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Villefranche-sur-Sa\u00f4ne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+DztcGgl5FGYxNWM0",
+            "url": "http:\/\/t.me\/+DztcGgl5FGYxNWM0",
+            "territoire": "Local",
+            "latitude": "45.989463",
+            "longitude": "4.721712"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "73 - Savoie",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+p5TyIw3AYqtmOGVk",
+            "url": "https:\/\/t.me\/+p5TyIw3AYqtmOGVk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.499049",
+            "longitude": "6.382976"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "74 - Haute-Savoie",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+g8gK3s_SLZ5mMTU0",
+            "url": "https:\/\/t.me\/+g8gK3s_SLZ5mMTU0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.069068",
+            "longitude": "6.344535"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "BOURGOGNE-FRANCHE-COMTE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+VMgGJ5vZ9kFhMDRk",
+            "url": "https:\/\/t.me\/+VMgGJ5vZ9kFhMDRk",
+            "territoire": "R\u00e9gional",
+            "latitude": "47.118711",
+            "longitude": "4.9691044"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "25 - Doubs",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "doubs10Sep",
+            "url": "https:\/\/t.me\/doubs10Sep",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.066992",
+            "longitude": "6.235623"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "58 - Ni\u00e8vre",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+qgdxdUtp-xg3OTI0",
+            "url": "https:\/\/t.me\/+qgdxdUtp-xg3OTI0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.1157327467376",
+            "longitude": "3.50421129285905"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "71 - Sa\u00f4ne-et-Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+FAOiwCmuv1dhMDA0",
+            "url": "https:\/\/t.me\/+FAOiwCmuv1dhMDA0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.6447719537057",
+            "longitude": "4.54277293221123"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Autunois - Morvan",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "On-est-l\u00e0&nbsp;! Grand Autunois Morvan",
+            "url": "https:\/\/t.me\/+wx67YJuf3y83NjU8",
+            "territoire": "Local",
+            "latitude": "46.955461",
+            "longitude": "4.294883"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Chalon\/Creusot\/Montceau",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+a3tRDc53UHk0ZTFi",
+            "url": "https:\/\/t.me\/+a3tRDc53UHk0ZTFi",
+            "territoire": "Local",
+            "latitude": "46.718655",
+            "longitude": "4.5958855"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Louhans",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+cx3AdCMJvBFiNmQ0",
+            "url": "https:\/\/t.me\/+cx3AdCMJvBFiNmQ0",
+            "territoire": "Local",
+            "latitude": "46.6279066",
+            "longitude": "5.2212432"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "M\u00e2con, Cluny, Charolles",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+EuVCnflkkFxkODdk",
+            "url": "https:\/\/t.me\/+EuVCnflkkFxkODdk",
+            "territoire": "Local",
+            "latitude": "46.3922617",
+            "longitude": "4.6013122"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Tournus",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+BeznZsPiKJ8wZTg0",
+            "url": "https:\/\/t.me\/+BeznZsPiKJ8wZTg0",
+            "territoire": "Local",
+            "latitude": "46.567966",
+            "longitude": "4.881846"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "89 - Yonne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+iD-DeyFq66FjMzlk",
+            "url": "https:\/\/t.me\/+iD-DeyFq66FjMzlk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.840515089836",
+            "longitude": "3.56331862412441"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Pays d\u2019Avallon",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+-jnceFS4skczOGJk",
+            "url": "https:\/\/t.me\/+-jnceFS4skczOGJk",
+            "territoire": "Local",
+            "latitude": "47.607386",
+            "longitude": "3.758569"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "90 - Territoire de Belfort",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+VMgGJ5vZ9kFhMDRk",
+            "url": "https:\/\/t.me\/+VMgGJ5vZ9kFhMDRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.629231",
+            "longitude": "6.8993012"
+        }
+         ,
+        {
+            "type": "Facebook - Groupe",
+            "nom": "Bloquons tout 90",
+            "url": "https:\/\/www.facebook.com\/groups\/746638358272365\/",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.6401842",
+            "longitude": "6.914931"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "BRETAGNE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+2zyykrgSNYI4YmQ0",
+            "url": "https:\/\/t.me\/+2zyykrgSNYI4YmQ0",
+            "territoire": "R\u00e9gional",
+            "latitude": "48.1964432",
+            "longitude": "-2.9367658"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "22 - C\u00f4tes d'Armor",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "indignonsnous22",
+            "url": "https:\/\/t.me\/indignonsnous22",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.4650949",
+            "longitude": "-3.4117902"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "29 - Finist\u00e8re",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+U8b1aHTa_wdjN2I0",
+            "url": "https:\/\/t.me\/+U8b1aHTa_wdjN2I0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.3205785",
+            "longitude": "-3.9123203"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Quimper",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKII1qXyyZlShZHZE4jrNn5tlRNXWfhVszh5mZMUCa2rCJEhBSXPFKiphSp2gqamlDf7cn",
+            "url": "https:\/\/signal.group\/#CjQKII1qXyyZlShZHZE4jrNn5tlRNXWfhVszh5mZMUCa2rCJEhBSXPFKiphSp2gqamlDf7cn",
+            "territoire": "Local",
+            "latitude": "47.998156",
+            "longitude": "-4.1384814"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Quimperl\u00e9",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+qlZLbdtaN4VmYTA0",
+            "url": "https:\/\/t.me\/+qlZLbdtaN4VmYTA0",
+            "territoire": "Local",
+            "latitude": "47.8558418",
+            "longitude": "-3.5792333"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "35 - Ille-et-Vilaine",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED",
+            "url": "https:\/\/signal.group\/#CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.172768",
+            "longitude": "-1.649809"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Broc\u00e9liande",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKINc9U6SkDW9_PxkpOKReLxBQicJNN-ol5FpMCoX2_MYrEhAcZvvllIVh1E_RFRi0G3P1",
+            "url": "https:\/\/signal.group\/#CjQKINc9U6SkDW9_PxkpOKReLxBQicJNN-ol5FpMCoX2_MYrEhAcZvvllIVh1E_RFRi0G3P1",
+            "territoire": "Local",
+            "latitude": "47.9196651",
+            "longitude": "-2.0828663"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Dol-de-bretagne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+QQgeVyp5og44YzNk",
+            "url": "https:\/\/t.me\/+QQgeVyp5og44YzNk",
+            "territoire": "Local",
+            "latitude": "48.5338366",
+            "longitude": "-1.7856964"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Redon",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIBmy0-xFERka1kn94CL_PVnJl84K1oNa4pMsd1a9v7XIEhDGenUBQOUpemDkN02zKU8s",
+            "url": "https:\/\/signal.group\/#CjQKIBmy0-xFERka1kn94CL_PVnJl84K1oNa4pMsd1a9v7XIEhDGenUBQOUpemDkN02zKU8s",
+            "territoire": "Local",
+            "latitude": "47.6556945",
+            "longitude": "-2.0993097"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Rennes",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED",
+            "url": "https:\/\/signal.group\/#CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED",
+            "territoire": "Local",
+            "latitude": "48.1159325",
+            "longitude": "-1.70909"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint Malo",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "indignonsnouspaysdesaintmalo",
+            "url": "https:\/\/t.me\/indignonsnouspaysdesaintmalo",
+            "territoire": "Local",
+            "latitude": "48.6961681",
+            "longitude": "-2.2161899"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Sud Est",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIP6-L39DF7s_tNVTmbCQ7qI2M4H89OvlfCKoLvso133jEhCLA5-_nGXXq-73TbWETfuy",
+            "url": "https:\/\/signal.group\/#CjQKIP6-L39DF7s_tNVTmbCQ7qI2M4H89OvlfCKoLvso133jEhCLA5-_nGXXq-73TbWETfuy",
+            "territoire": "Local",
+            "latitude": "47.9092662",
+            "longitude": "-1.3718087"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "56 - Morbihan",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Morbihan",
+            "url": "https:\/\/t.me\/+2zyykrgSNYI4YmQ0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.7439325",
+            "longitude": "-3.2154235"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Le Faou\u00ebt",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+ufl83HVgddRmN2Nk",
+            "url": "https:\/\/t.me\/+ufl83HVgddRmN2Nk",
+            "territoire": "Local",
+            "latitude": "47.9272935",
+            "longitude": "-3.7615391"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "CENTRE-VAL DE LOIRE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+jR9bqrSbZVdkM2E8",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "R\u00e9gional",
+            "latitude": "47.5490251",
+            "longitude": "1.7324062"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "18 - Cher",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+jR9bqrSbZVdkM2E8",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.0247868",
+            "longitude": "2.0964022"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "29 - Eure-et-Loir",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Eure-et-Loir",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.4416114",
+            "longitude": "0.128921"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Nogent-le-Rotrou",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+DkxfM-QCR69lZmRk",
+            "url": "https:\/\/t.me\/+DkxfM-QCR69lZmRk",
+            "territoire": "Local",
+            "latitude": "48.3130305",
+            "longitude": "0.6782162"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "36 - Indre",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Indre",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.811222",
+            "longitude": "0.8753244"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "37 - Indre-et-Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Indre-et-Loire",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.811222",
+            "longitude": "0.8753244"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "41 - Loir-et-Cher",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+7moVpfgguQwyZjJk",
+            "url": "https:\/\/t.me\/+7moVpfgguQwyZjJk",
+            "territoire": "Local",
+            "latitude": "47.587672",
+            "longitude": "1.333761"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Tours",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+UlH4Zr3yf5FjMmRk",
+            "url": "https:\/\/t.me\/+UlH4Zr3yf5FjMmRk",
+            "territoire": "Local",
+            "latitude": "47.3943197",
+            "longitude": "0.6537434"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Vend\u00f4me",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+2U_sY8PE0fgwZTBk",
+            "url": "https:\/\/t.me\/+2U_sY8PE0fgwZTBk",
+            "territoire": "Local",
+            "latitude": "47.7995693",
+            "longitude": "1.023289"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "45 - Loiret",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Utc-XCqfvSphZjhk",
+            "url": "https:\/\/t.me\/+Utc-XCqfvSphZjhk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.9118852287315",
+            "longitude": "2.34397155601261"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Gatinais Montargis",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+wQfOOcl0Tm0yNjBk",
+            "url": "https:\/\/t.me\/+wQfOOcl0Tm0yNjBk",
+            "territoire": "Local",
+            "latitude": "47.9997687",
+            "longitude": "2.7285145"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "CORSICA",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+6nGU1MKqF1E1MTI0",
+            "url": "https:\/\/t.me\/+6nGU1MKqF1E1MTI0",
+            "territoire": "R\u00e9gional",
+            "latitude": "42.188098",
+            "longitude": "9.0683139"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+             ,
+            {
+        "nom": "GRAND EST",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+DwayRkLGjxBhYjc0",
+            "url": "https:\/\/t.me\/+DwayRkLGjxBhYjc0",
+            "territoire": "R\u00e9gional",
+            "latitude": "48.4845157",
+            "longitude": "6.113035"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "51 - Marne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Reims",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+5LH0u6BO-dU1ZTNk",
+            "url": "https:\/\/t.me\/+5LH0u6BO-dU1ZTNk",
+            "territoire": "Local",
+            "latitude": "49.254879",
+            "longitude": "4.022026"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "52 - Haute-Marne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "indignons-nous Haute-Marne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "IndignonsNousHM",
+            "url": "https:\/\/t.me\/IndignonsNousHM",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.1110619",
+            "longitude": "5.1396068"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "57 - Moselle",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Meisenthal",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Metz",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+KzGj90TwhckxZmM8",
+            "url": "https:\/\/t.me\/+KzGj90TwhckxZmM8",
+            "territoire": "Local",
+            "latitude": "49.1048177",
+            "longitude": "6.1549488"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "67 - Bas-Rhin",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+hD3FxDOng1NhYjdk",
+            "url": "https:\/\/t.me\/+hD3FxDOng1NhYjdk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.586",
+            "longitude": "7.756"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Saverne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+XRVhRVGf0CNmOGNk",
+            "url": "https:\/\/t.me\/+XRVhRVGf0CNmOGNk",
+            "territoire": "Local",
+            "latitude": "48.7439481",
+            "longitude": "7.3123784"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "68 - Haut-Rhin",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Mulhouse Colmar Cernay et Altkirch ",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+dAf_whfVF2s1MGRk",
+            "url": "https:\/\/t.me\/+dAf_whfVF2s1MGRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.910431",
+            "longitude": "7.282164"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "88 - Vosges",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+KsMKfMWAJpxhZjFk",
+            "url": "https:\/\/t.me\/+KsMKfMWAJpxhZjFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.174765",
+            "longitude": "6.450361"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Voges nord",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "IndignonsNousVosgesNord",
+            "url": "https:\/\/t.me\/IndignonsNousVosgesNord",
+            "territoire": "Local",
+            "latitude": "48.9703695",
+            "longitude": "7.335646"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "HAUTS-DE-FRANCE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+07fmAOi30jA1ODhk",
+            "url": "https:\/\/t.me\/+07fmAOi30jA1ODhk",
+            "territoire": "R\u00e9gional",
+            "latitude": "50.1024606",
+            "longitude": "2.7247515"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "59 - Nord",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Calais",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIATMRrmeM14cCe_gbcoQ5q6PGBJl07g1OOugmvI0BnRmEhD-pQYXF9e2nueEkLxIopD-",
+            "url": "https:\/\/signal.group\/#CjQKIATMRrmeM14cCe_gbcoQ5q6PGBJl07g1OOugmvI0BnRmEhD-pQYXF9e2nueEkLxIopD-",
+            "territoire": "Local",
+            "latitude": "50.9419345",
+            "longitude": "1.6589371"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Pays haut",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+tDNxLGT1PURkZWQ0",
+            "url": "https:\/\/t.me\/+tDNxLGT1PURkZWQ0",
+            "territoire": "Local",
+            "latitude": "49.7748922",
+            "longitude": "4.5392203"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "60 - Oise",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+EIr-ak1256wzZWFk",
+            "url": "https:\/\/t.me\/+EIr-ak1256wzZWFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "49.4117237",
+            "longitude": "2.097008"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Beauvais",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+CtqldsAy7BswNzVk",
+            "url": "https:\/\/t.me\/+CtqldsAy7BswNzVk",
+            "territoire": "Local",
+            "latitude": "49.4425347",
+            "longitude": "2.0464129"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Compi\u00e8gne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+_ivqaVHN-ppkNTI0",
+            "url": "https:\/\/t.me\/+_ivqaVHN-ppkNTI0",
+            "territoire": "Local",
+            "latitude": "49.400614",
+            "longitude": "2.8340221"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "\u00ceLE-DE-FRANCE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "retlIDF",
+            "url": "https:\/\/t.me\/retlIDF",
+            "territoire": "R\u00e9gional",
+            "latitude": "48.6443057",
+            "longitude": "2.7537863"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "75 - Paris",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+9gxXN61OSBw4YWRk",
+            "url": "https:\/\/t.me\/+9gxXN61OSBw4YWRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.853486",
+            "longitude": "2.348397"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Paris 14e",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "FXtblFJlBl1JD8mbzySBUR",
+            "url": "https:\/\/chat.whatsapp.com\/FXtblFJlBl1JD8mbzySBUR?mode=ems_copy_t",
+            "territoire": "Local",
+            "latitude": "48.8296936",
+            "longitude": "2.3126323"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Paris 20e",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "Jn7ms4hETaoBI7NCYB01hK",
+            "url": "https:\/\/chat.whatsapp.com\/Jn7ms4hETaoBI7NCYB01hK?mode=ems_copy_t",
+            "territoire": "Local",
+            "latitude": "48.8625291",
+            "longitude": "2.3863061"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "77 - Seine-et-Marne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+rkUgIevw6EM3ZDY0",
+            "url": "https:\/\/t.me\/+rkUgIevw6EM3ZDY0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.6274987226065",
+            "longitude": "2.9340854276159"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "78 - Yvelines",
+        "liens": [
+                    {
+            "type": "",
+            "nom": "+q52fTby8owBmNTA0",
+            "url": "https:\/\/t.me\/+q52fTby8owBmNTA0",
+            "territoire": "",
+            "latitude": "48.8091",
+            "longitude": "1.8766"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Mantes-Dreux-Evreux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+IyD36DMxoCZiNzI8",
+            "url": "https:\/\/t.me\/+IyD36DMxoCZiNzI8",
+            "territoire": "Local",
+            "latitude": "48.7353807",
+            "longitude": "1.0518528"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint-Quentin-en-Yvelines Rambouillet",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+I5tJh1d7rbxhNmU8",
+            "url": "https:\/\/t.me\/+I5tJh1d7rbxhNmU8",
+            "territoire": "Local",
+            "latitude": "48.7820032",
+            "longitude": "1.9213943"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "91 - Essonne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+ZMP8cVktBdQ2YjM0",
+            "url": "https:\/\/t.me\/+ZMP8cVktBdQ2YjM0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.5226198884686",
+            "longitude": "2.24338748665539"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "92 - Hauts-de-Seine",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+iMFbUWAScFw5MzFk",
+            "url": "https:\/\/t.me\/+iMFbUWAScFw5MzFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.8475388508384",
+            "longitude": "2.24606874275799"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "93 - Seine-Saint-Denis",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+eo1IAGG_uV9lN2Zk",
+            "url": "https:\/\/t.me\/+eo1IAGG_uV9lN2Zk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.9176098962278",
+            "longitude": "2.47854089128323"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Drancy \/ Bobigny \/ Le Blanc Mesnil \/ Le Bourget",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+p33fGzwmYFRjYzQ0",
+            "url": "https:\/\/t.me\/+p33fGzwmYFRjYzQ0",
+            "territoire": "Local",
+            "latitude": "48.94393",
+            "longitude": "2.44291"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Pantin",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "HrpJxA6uYLGCZzViLRWCY2",
+            "url": "https:\/\/chat.whatsapp.com\/HrpJxA6uYLGCZzViLRWCY2?mode=ems_copy_c",
+            "territoire": "Local",
+            "latitude": "48.9005594",
+            "longitude": "2.3982104"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "94 - Val-de-Marne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+MVVfx3Afj6AzNzFk",
+            "url": "https:\/\/t.me\/+MVVfx3Afj6AzNzFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.7774364130303",
+            "longitude": "2.46928738518856"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "95 - Val-d'Oise",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKICU9VxuYI2wlx4_FAkNHfjNQ98ObGbcChxlEkuP32t5uEhAe-YnImNIkiP9h_vmWijhS",
+            "url": "https:\/\/signal.group\/#CjQKICU9VxuYI2wlx4_FAkNHfjNQ98ObGbcChxlEkuP32t5uEhAe-YnImNIkiP9h_vmWijhS",
+            "territoire": "D\u00e9partemental",
+            "latitude": "49.0749383",
+            "longitude": "1.9367303"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "NORMANDIE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+NY521X2MIxxhNzQ0",
+            "url": "https:\/\/t.me\/+NY521X2MIxxhNzQ0",
+            "territoire": "R\u00e9gional",
+            "latitude": "49.0677708",
+            "longitude": "0.3138532"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "14 - Calvados",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bayeux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+415hLgv5_vszMmM0",
+            "url": "https:\/\/t.me\/+415hLgv5_vszMmM0",
+            "territoire": "Local",
+            "latitude": "49.2771684",
+            "longitude": "-0.7119534"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Bocage virois",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+ruRhzuXcrO9iNzI8",
+            "url": "https:\/\/t.me\/+ruRhzuXcrO9iNzI8",
+            "territoire": "Local",
+            "latitude": "48.819842",
+            "longitude": "-0.9480103"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Caen",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Yz3dBigEr5NmMTg0",
+            "url": "https:\/\/t.me\/+Yz3dBigEr5NmMTg0",
+            "territoire": "Local",
+            "latitude": "49.18134",
+            "longitude": "-0.363561"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "27 - Eure",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bernay",
+        "liens": [
+                    {
+            "type": "Facebook - Groupe",
+            "nom": "10 Septembre - Bernay",
+            "url": "https:\/\/www.facebook.com\/groups\/3708800519421936\/",
+            "territoire": "Local",
+            "latitude": "49.0911669",
+            "longitude": "0.5198957"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Mantes-Dreux-Evreux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+IyD36DMxoCZiNzI8",
+            "url": "https:\/\/t.me\/+IyD36DMxoCZiNzI8",
+            "territoire": "Local",
+            "latitude": "48.907495",
+            "longitude": "1.454744"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "50 - Manche",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bayeux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+W78yndkfVjdhNGM8",
+            "url": "https:\/\/t.me\/+W78yndkfVjdhNGM8",
+            "territoire": "Local",
+            "latitude": "49.2771684",
+            "longitude": "-0.7119534"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Cherbourg",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIAdZkl1GoTx545haTv_x-9D1IyO3VFOVLUPXANT9QfQXEhDF3WhXeMrSYhMMl2L4Ctb8",
+            "url": "https:\/\/signal.group\/#CjQKIAdZkl1GoTx545haTv_x-9D1IyO3VFOVLUPXANT9QfQXEhDF3WhXeMrSYhMMl2L4Ctb8",
+            "territoire": "Local",
+            "latitude": "49.6276336",
+            "longitude": "-1.6769271"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint-l\u00f4",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+jGHHctdUMI01YzU0",
+            "url": "https:\/\/t.me\/+jGHHctdUMI01YzU0",
+            "territoire": "Local",
+            "latitude": "49.1122743",
+            "longitude": "-1.1018626"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Sud Manche",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Hgpjxnkf-V84MDE8",
+            "url": "https:\/\/t.me\/+Hgpjxnkf-V84MDE8",
+            "territoire": "Local",
+            "latitude": "49.0910279",
+            "longitude": "-2.005522"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "61 - Orne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Alen\u00e7on",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+rVnxGVSLZikxMDc8",
+            "url": "https:\/\/t.me\/+rVnxGVSLZikxMDc8",
+            "territoire": "Local",
+            "latitude": "48.4310214",
+            "longitude": "0.0716318"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Flers",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKINW5TXV9KyfZ4MPRbN0xOj9ukVG2J3k5ErA4GlGM0FXSEhDJcm-FoItItcSQAXKMVK0U",
+            "url": "https:\/\/signal.group\/#CjQKINW5TXV9KyfZ4MPRbN0xOj9ukVG2J3k5ErA4GlGM0FXSEhDJcm-FoItItcSQAXKMVK0U",
+            "territoire": "Local",
+            "latitude": "48.7342352",
+            "longitude": "-0.5861654"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "76 - Seine-Maritime",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Dieppe",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+wxsSWr1Oz05kMzNk",
+            "url": "https:\/\/t.me\/+wxsSWr1Oz05kMzNk",
+            "territoire": "Local",
+            "latitude": "49.9199091",
+            "longitude": "1.0631637"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Le Havre",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+nwEOj3XdQGk5MjQ0",
+            "url": "https:\/\/t.me\/+nwEOj3XdQGk5MjQ0",
+            "territoire": "Local",
+            "latitude": "49.4958071",
+            "longitude": "0.0899093"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Rouen",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+cWtCwdI2cv1lYzVk",
+            "url": "https:\/\/t.me\/+cWtCwdI2cv1lYzVk",
+            "territoire": "Local",
+            "latitude": "49.4412339",
+            "longitude": "1.0705421"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "NOUVELLE-AQUITAINE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "R\u00e9gional",
+            "latitude": "45.6632281",
+            "longitude": "0.1828847"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "16 - Charente",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Angoul\u00e8me",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+U8ruFJrFrhs1NWQ8",
+            "url": "https:\/\/t.me\/+U8ruFJrFrhs1NWQ8",
+            "territoire": "Local",
+            "latitude": "45.6458109",
+            "longitude": "0.1243848"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "17 - Charente-Maritime",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "La Rochelle",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "c\/1698890845\/6059",
+            "url": "https:\/\/t.me\/c\/1698890845\/6059",
+            "territoire": "Local",
+            "latitude": "46.159742",
+            "longitude": "-1.151614"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "19 - Corr\u00e8ze",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Brive-la-Gaillarde",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Brive-la-gaillarde",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "45.1450475",
+            "longitude": "1.4364366"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Haute-corr\u00e8ze",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+D1C6bDew459hMmJk",
+            "url": "https:\/\/t.me\/+D1C6bDew459hMmJk",
+            "territoire": "Local",
+            "latitude": "45.5361096",
+            "longitude": "1.8790475"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "23 - Creuse",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+K8iTCXsU-cM0ZWZk",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.0589801",
+            "longitude": "1.6616374"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Aubusson",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+K8iTCXsU-cM0ZWZk",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "45.9472437",
+            "longitude": "2.1494442"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "B\u00e9n\u00e9vent-Grand Bourg",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIHNfdBo8Wwbl4lonLAfekh1B3yzBiMIR—4ccbmaMzGOEhDxlIT4o_zJJK7i5gZERPz4",
+            "url": "https:\/\/signal.group\/#CjQKIHNfdBo8Wwbl4lonLAfekh1B3yzBiMIR--4ccbmaMzGOEhDxlIT4o_zJJK7i5gZERPz4",
+            "territoire": "Local",
+            "latitude": "46.1209184",
+            "longitude": "1.6144352"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Bourganeuf",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Bourganeuf",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "45.947208",
+            "longitude": "1.725978"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Boussac",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+K8iTCXsU-cM0ZWZk",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "46.3482109",
+            "longitude": "2.216451"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Faux-la-Montagne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Faux-la-Montagne",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "45.74907",
+            "longitude": "1.8967583"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Gu\u00e9ret",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Gu\u00e9ret",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "46.1584605",
+            "longitude": "1.82919"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "La Souterraine",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "La Souterraine",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "46.2307416",
+            "longitude": "1.3963269"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "24 - Dordogne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+S5lNMsTJ43JhNWE0",
+            "url": "https:\/\/t.me\/+S5lNMsTJ43JhNWE0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.13452",
+            "longitude": "0.720807"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Saint-yrieix-la-perche",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+5gHUQ7JNrwMyMjc8",
+            "url": "https:\/\/t.me\/+5gHUQ7JNrwMyMjc8",
+            "territoire": "Local",
+            "latitude": "45.5274015",
+            "longitude": "1.1613278"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "33 - Gironde",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+qk_X__IUUQphNzY8",
+            "url": "https:\/\/t.me\/+qk_X__IUUQphNzY8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.841226",
+            "longitude": "-0.580044"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Bordeaux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "44.8637104",
+            "longitude": "-0.6272971"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Langon",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "44.553072",
+            "longitude": "-0.244926"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Libourne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "44.913362",
+            "longitude": "-0.242724"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Sainte Foy la Grande",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "44.841641",
+            "longitude": "0.214974"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "47 - Lot-et-Garonne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Agen",
+        "liens": [
+                    {
+            "type": "Site web",
+            "nom": "Agen 10 Septembre",
+            "url": "https:\/\/linktr.ee\/mouvement10septembre47lg",
+            "territoire": "Local",
+            "latitude": "44.2010474",
+            "longitude": "0.6095538"
+        }
+         ,
+        {
+            "type": "",
+            "nom": "CjQKIJJHG3KUAVaAczCddDdDbRpa7CxBrTU7DYI-FXlRK1OFEhB4TW2QNQB8It4BL365i-qo",
+            "url": "https:\/\/signal.group\/#CjQKIJJHG3KUAVaAczCddDdDbRpa7CxBrTU7DYI-FXlRK1OFEhB4TW2QNQB8It4BL365i-qo",
+            "territoire": "",
+            "latitude": "44.0894346",
+            "longitude": "1.0306823"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "64 - Pyr\u00e9n\u00e9es-Atlantiques",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bayonne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Bayonne",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "43.494509",
+            "longitude": "-1.473662"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Haut b\u00e9arn",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+3wswVam9MC0wMjNk",
+            "url": "https:\/\/t.me\/+3wswVam9MC0wMjNk",
+            "territoire": "Local",
+            "latitude": "43.0281593",
+            "longitude": "-0.955519"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Pau",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Pau",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "43.295752",
+            "longitude": "-0.368565"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "79 - Deux-S\u00e8vres",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bressuire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "c\/1698890845\/6144",
+            "url": "https:\/\/t.me\/c\/1698890845\/6144",
+            "territoire": "Local",
+            "latitude": "46.842605",
+            "longitude": "-0.492883"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Niort",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "c\/1698890845\/6057",
+            "url": "https:\/\/t.me\/c\/1698890845\/6057",
+            "territoire": "Local",
+            "latitude": "46.323931",
+            "longitude": "-0.464623"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Thouars",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "c\/1698890845\/12612",
+            "url": "https:\/\/t.me\/c\/1698890845\/12612",
+            "territoire": "Local",
+            "latitude": "46.979023",
+            "longitude": "-0.215363"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "86 - Vienne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+-Qz5dhr_0cYxODNk",
+            "url": "https:\/\/t.me\/+-Qz5dhr_0cYxODNk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.5886523",
+            "longitude": "0.4470267"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Ch\u00e2tellerault",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Ch\u00e2tellerault",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "46.818012",
+            "longitude": "0.545811"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Poitiers",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Poitiers",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "46.580250",
+            "longitude": "0.340209"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "87 - Haute-Vienne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+rFlmNBHXkDg5MjRk",
+            "url": "https:\/\/t.me\/+rFlmNBHXkDg5MjRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.835424",
+            "longitude": "1.264482"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "P\u00e9rigord Limousin",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "P\u00e9rigord Limousin 10S25",
+            "url": "https:\/\/signal.group\/#CjQKIFYvfaowBQvDSse44uFXLAYN_wVaIXatHpa4zVgJbZcUEhCnsKjxuA7kO-i3R1xN0aWH",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.5852583",
+            "longitude": "0.9997565"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "OCCITANIE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "collectifsunis31",
+            "url": "https:\/\/t.me\/collectifsunis31",
+            "territoire": "R\u00e9gional",
+            "latitude": "43.648777",
+            "longitude": "2.343575"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "12 - Aveyron",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+q3dsx7KFvWI4Yjk0",
+            "url": "https:\/\/t.me\/+q3dsx7KFvWI4Yjk0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.315858",
+            "longitude": "2.50657"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "30 - Gard",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "collectifsunis31",
+            "url": "https:\/\/t.me\/collectifsunis31",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44",
+            "longitude": "0047776"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "32 - Gers",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Auch",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIGB1Cbe_1x6urKdjChHGY83GLpGtSW50SXfJINpg_pJBEhAUKZEDE0-4EZljTXPkMf69",
+            "url": "https:\/\/signal.group\/#CjQKIGB1Cbe_1x6urKdjChHGY83GLpGtSW50SXfJINpg_pJBEhAUKZEDE0-4EZljTXPkMf69",
+            "territoire": "Local",
+            "latitude": "43.6468938",
+            "longitude": "0.5837642"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "34 - H\u00e9rault",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIL4muJn1v17oQQClHjtK0vuwSERuMosyFySg9tUM4wFEEhAGNsJjKiu8a6KGpQ-JdfnX",
+            "url": "https:\/\/signal.group\/#CjQKIL4muJn1v17oQQClHjtK0vuwSERuMosyFySg9tUM4wFEEhAGNsJjKiu8a6KGpQ-JdfnX",
+            "territoire": "Local",
+            "latitude": "43.477869",
+            "longitude": "3.1842"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Lod\u00e9vois",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+OSEUzEqKXoI1MWE8",
+            "url": "https:\/\/t.me\/+OSEUzEqKXoI1MWE8",
+            "territoire": "Local",
+            "latitude": "43.7855984",
+            "longitude": "3.2809888"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Montpellier",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIL4muJn1v17oQQClHjtK0vuwSERuMosyFySg9tUM4wFEEhAGNsJjKiu8a6KGpQ-JdfnX",
+            "url": "https:\/\/signal.group\/#CjQKIL4muJn1v17oQQClHjtK0vuwSERuMosyFySg9tUM4wFEEhAGNsJjKiu8a6KGpQ-JdfnX",
+            "territoire": "Local",
+            "latitude": "43.6102954",
+            "longitude": "3.8208202"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "65 - Hautes-Pyr\u00e9n\u00e9es",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Tarbes",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "81 - Tarn",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Albi",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+xoNKLdRR5iw2MjVk",
+            "url": "https:\/\/t.me\/+xoNKLdRR5iw2MjVk",
+            "territoire": "Local",
+            "latitude": "43.9290312",
+            "longitude": "2.1116625"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Castres",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+rUrHGp5p5swwMzY0",
+            "url": "https:\/\/t.me\/+rUrHGp5p5swwMzY0",
+            "territoire": "Local",
+            "latitude": "43.6131627",
+            "longitude": "2.1667987"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Gaillac",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Hwdp8c35T2YxYmFk",
+            "url": "https:\/\/t.me\/+Hwdp8c35T2YxYmFk",
+            "territoire": "Local",
+            "latitude": "43.9118645",
+            "longitude": "1.8484785"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Graulhet",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+6TW0dMTAxCowMjZk",
+            "url": "https:\/\/t.me\/+6TW0dMTAxCowMjZk",
+            "territoire": "Local",
+            "latitude": "43.7591368",
+            "longitude": "1.9195344"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "OUTRE MER",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+k6w3Bdy4Nr81MzQ8",
+            "url": "https:\/\/t.me\/+k6w3Bdy4Nr81MzQ8",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "GUYANE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+BZyC3CpGCIZhY2Q0",
+            "url": "https:\/\/t.me\/+BZyC3CpGCIZhY2Q0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "4.0039882",
+            "longitude": "-52.999998"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "LA R\u00c9UNION",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+l81KX9i3Z39hZWU8",
+            "url": "https:\/\/t.me\/+l81KX9i3Z39hZWU8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "\u2013 21.1309332",
+            "longitude": "55.5265771"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "MARTINIQUE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+-G6drNd53xQwYTI0",
+            "url": "https:\/\/t.me\/+-G6drNd53xQwYTI0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "14.6113732",
+            "longitude": "-60.9620777"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "PAYS DE LA LOIRE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+UlH4Zr3yf5FjMmRk",
+            "url": "https:\/\/t.me\/+UlH4Zr3yf5FjMmRk",
+            "territoire": "R\u00e9gional",
+            "latitude": "47.6594864",
+            "longitude": "-0.8186143"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "44 - Loire-Atlantique",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+UlH4Zr3yf5FjMmRk",
+            "url": "https:\/\/t.me\/+UlH4Zr3yf5FjMmRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.218644",
+            "longitude": "-1.554139"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Ancenis",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+f5ay1J6hmUg5ZGY0",
+            "url": "https:\/\/t.me\/+f5ay1J6hmUg5ZGY0",
+            "territoire": "Local",
+            "latitude": "47.3818486",
+            "longitude": "-1.1888699"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Carquefou",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+b-M-uMmOhzNhOWY8",
+            "url": "https:\/\/t.me\/+b-M-uMmOhzNhOWY8",
+            "territoire": "Local",
+            "latitude": "47.2968272",
+            "longitude": "-1.4893288"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Ch\u00e2teaubriant Nozay Blain Derval",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Sl1p_7WkTro0Yjlk",
+            "url": "https:\/\/t.me\/+Sl1p_7WkTro0Yjlk",
+            "territoire": "Local",
+            "latitude": "47.7199177",
+            "longitude": "-1.4323661"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Clisson - Vallet-le-Loroux - Vertou",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+LbRV4wXwEMtjMTdk",
+            "url": "https:\/\/t.me\/+LbRV4wXwEMtjMTdk",
+            "territoire": "Local",
+            "latitude": "47.134305",
+            "longitude": "-1.329263"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "L'\u00cele de Nantes",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+4Hml85LTV8c1ZjA0",
+            "url": "https:\/\/t.me\/+4Hml85LTV8c1ZjA0",
+            "territoire": "Local",
+            "latitude": "47.2041664",
+            "longitude": "-1.5523826"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "La-Chapelle-sur-Hedre",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+lHvOnJj-N-UwNjM8",
+            "url": "https:\/\/t.me\/+lHvOnJj-N-UwNjM8",
+            "territoire": "Local",
+            "latitude": "47.3040919",
+            "longitude": "-1.6034172"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Malakoff saint Donatien",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+nKqjGihlVlM5ZDBk",
+            "url": "https:\/\/t.me\/+nKqjGihlVlM5ZDBk",
+            "territoire": "Local",
+            "latitude": "47.228767",
+            "longitude": "-1.542804"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Malakoff St donatien",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+nKqjGihlVlM5ZDBk",
+            "url": "https:\/\/t.me\/+nKqjGihlVlM5ZDBk",
+            "territoire": "Local",
+            "latitude": "47.223279",
+            "longitude": "-1.536068"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Nantes Agglom\u00e9ration",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+FVgpAoiS7-IzMTA0",
+            "url": "https:\/\/t.me\/+FVgpAoiS7-IzMTA0",
+            "territoire": "Local",
+            "latitude": "47.2277374",
+            "longitude": "-1.7232077"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Nantes Nord",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+pXKibPlTgwFkNzBk",
+            "url": "https:\/\/t.me\/+pXKibPlTgwFkNzBk",
+            "territoire": "Local",
+            "latitude": "47.2585943",
+            "longitude": "-1.5857811"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Nantes sud Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+M6jHtN4YMmQ2OGU8",
+            "url": "https:\/\/t.me\/+M6jHtN4YMmQ2OGU8",
+            "territoire": "Local",
+            "latitude": "47.1627401",
+            "longitude": "-1.6051543"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Reze",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+7ifqGHbsJ6QwMDlk",
+            "url": "https:\/\/t.me\/+7ifqGHbsJ6QwMDlk",
+            "territoire": "Local",
+            "latitude": "47.173344",
+            "longitude": "-1.5779205"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint Nazaire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+KtuU08JRaV4yOWI0",
+            "url": "https:\/\/t.me\/+KtuU08JRaV4yOWI0",
+            "territoire": "Local",
+            "latitude": "47.276816",
+            "longitude": "-2.2804467"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint-Herblain",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+r21Ond7oYyhjNzhk",
+            "url": "https:\/\/t.me\/+r21Ond7oYyhjNzhk",
+            "territoire": "Local",
+            "latitude": "47.1881676",
+            "longitude": "-1.6826821"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "49 - Maine-et-Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+sH1EnfLBhMY4M2M0",
+            "url": "https:\/\/t.me\/+sH1EnfLBhMY4M2M0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.3889647",
+            "longitude": "-0.890123"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Cholet",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+W78yndkfVjdhNGM8",
+            "url": "https:\/\/t.me\/+W78yndkfVjdhNGM8",
+            "territoire": "Local",
+            "latitude": "47.0358358",
+            "longitude": "-0.9162437"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "53 - Mayenne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+a8Tv2s6foOxhNzE0",
+            "url": "https:\/\/t.me\/+a8Tv2s6foOxhNzE0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.3066306",
+            "longitude": "-0.6346414"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "72 - Sarthe",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+hh9tPqdATphiZjE8",
+            "url": "https:\/\/t.me\/+hh9tPqdATphiZjE8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.007383",
+            "longitude": "0.196778"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "85 - Vend\u00e9e",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+_plGCEAGAnZlYmQ8",
+            "url": "https:\/\/t.me\/+_plGCEAGAnZlYmQ8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.6753632",
+            "longitude": "-1.7997093"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "La roche-sur-Yon",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+A5azmmdFUc0yMGU0",
+            "url": "https:\/\/t.me\/+A5azmmdFUc0yMGU0",
+            "territoire": "Local",
+            "latitude": "46.6660331",
+            "longitude": "-1.4987728"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "PROVENCE-ALPES-C\u00d4TE D'AZUR",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+6nGU1MKqF1E1MTI0",
+            "url": "https:\/\/t.me\/+6nGU1MKqF1E1MTI0",
+            "territoire": "R\u00e9gional",
+            "latitude": "44.0684127",
+            "longitude": "5.991991"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "04 - Alpes-de-Haute-Provence",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+AXnrNgAjeas3Njdk",
+            "url": "https:\/\/t.me\/+AXnrNgAjeas3Njdk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.0923290",
+            "longitude": "6.2418970"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "05 - Hautes-Alpes",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "L'Argenti\u00e8re-la-Bess\u00e9e",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "LGCqrCJHz4JCF3o45xT5ev",
+            "url": "https:\/\/chat.whatsapp.com\/LGCqrCJHz4JCF3o45xT5ev",
+            "territoire": "Local",
+            "latitude": "44.79414",
+            "longitude": "6.54991"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Sud Brian\u00e7onnais",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "LGCqrCJHz4JCF3o45xT5ev",
+            "url": "https:\/\/chat.whatsapp.com\/LGCqrCJHz4JCF3o45xT5ev",
+            "territoire": "Local",
+            "latitude": "44.8956886",
+            "longitude": "6.6328367"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "06 - Alpes-Maritimes",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+nj6dUP9wkuthZjU0",
+            "url": "https:\/\/t.me\/+nj6dUP9wkuthZjU0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "43.6724408",
+            "longitude": "7.1953931"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "13 - Bouches-du-Rh\u00f4ne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Aix Marseille Universit\u00e9",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIN2LgVhgVNtj8KIaZSVF4xs37h1UAbjqlPM2hpanmUFqEhAV_lOSajP2e72HA38QdGXf",
+            "url": "https:\/\/signal.group\/#CjQKIN2LgVhgVNtj8KIaZSVF4xs37h1UAbjqlPM2hpanmUFqEhAV_lOSajP2e72HA38QdGXf",
+            "territoire": "Local",
+            "latitude": "43.3044870",
+            "longitude": "5.3795474"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Aix-en-Provence",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIJRfVJFH-y2Dacd-2-y20zdXNLq9AoAP4Ri4vvYAzNIhEhBeJHWtcBwalk1mj45mAAha",
+            "url": "https:\/\/signal.group\/#CjQKIJRfVJFH-y2Dacd-2-y20zdXNLq9AoAP4Ri4vvYAzNIhEhBeJHWtcBwalk1mj45mAAha",
+            "territoire": "Local",
+            "latitude": "43.5261666",
+            "longitude": "5.4461188"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Marseille",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIIqrgIOtF2gVpLAsDwHfySQwrkOjwFSajJYRVnCBh0HQEhB_83NU9LCRfqoU9-Lmjf_M",
+            "url": "https:\/\/signal.group\/#CjQKIIqrgIOtF2gVpLAsDwHfySQwrkOjwFSajJYRVnCBh0HQEhB_83NU9LCRfqoU9-Lmjf_M",
+            "territoire": "Local",
+            "latitude": "43.2803093",
+            "longitude": "5.2980667"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Marseille centre",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKICEugTnyEU830hvXPZ8ErNzy4jXHfE5IPlOnL5NHbC54EhBrodt5rX2RlVaWPzjU3RWP",
+            "url": "https:\/\/signal.group\/#CjQKICEugTnyEU830hvXPZ8ErNzy4jXHfE5IPlOnL5NHbC54EhBrodt5rX2RlVaWPzjU3RWP",
+            "territoire": "Local",
+            "latitude": "43.2882836",
+            "longitude": "5.3589323"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Marseille EST",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+K0Nsa7fcLcdlNWRk",
+            "url": "https:\/\/t.me\/+K0Nsa7fcLcdlNWRk",
+            "territoire": "Local",
+            "latitude": "43.2943189",
+            "longitude": "5.4738447"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Marseille NORD",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIO-K7bQfMLEOyE4kg8B1RXLCRavzrPGehXSnAGa8k4HREhB9MAVzQMqR9vmA8bMeTc5d",
+            "url": "https:\/\/signal.group\/#CjQKIO-K7bQfMLEOyE4kg8B1RXLCRavzrPGehXSnAGa8k4HREhB9MAVzQMqR9vmA8bMeTc5d",
+            "territoire": "Local",
+            "latitude": "43.3301987",
+            "longitude": "5.3885049"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "Martigues",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIPk_e91eGhuj9ysnnene_2wjl6V-v5xy-TvPLB3FMKSfEhDP8jCI-AvedmrS-eBK6RKV",
+            "url": "https:\/\/signal.group\/#CjQKIPk_e91eGhuj9ysnnene_2wjl6V-v5xy-TvPLB3FMKSfEhDP8jCI-AvedmrS-eBK6RKV",
+            "territoire": "Local",
+            "latitude": "43.4052065",
+            "longitude": "5.0554091"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Salon-de-Provence",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "indignonsnoussalon",
+            "url": "https:\/\/t.me\/indignonsnoussalon",
+            "territoire": "Local",
+            "latitude": "43.642961",
+            "longitude": "4.9710154"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "83 - Var",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "BloquonsToutVar",
+            "url": "https:\/\/t.me\/BloquonsToutVar",
+            "territoire": "D\u00e9partemental",
+            "latitude": "43.2269198",
+            "longitude": "5.9374019"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "84 - Vaucluse",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Sud Lub\u00e9ron",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIAF5TQRu2gQgFnuyUpdwzn3DnGiQyKv_6jRv8i9Yw_XhEhCk4nTxuqBaq1icMNQkUJIW",
+            "url": "https:\/\/signal.group\/#CjQKIAF5TQRu2gQgFnuyUpdwzn3DnGiQyKv_6jRv8i9Yw_XhEhCk4nTxuqBaq1icMNQkUJIW",
+            "territoire": "Local",
+            "latitude": "43.7486227",
+            "longitude": "5.3944167"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+    ],
+    "monde": [
+
+            {
+        "nom": "Autriche",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Vienne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+98mIfq9YJ5c0NWI0",
+            "url": "https:\/\/t.me\/+98mIfq9YJ5c0NWI0",
+            "territoire": "National",
+            "latitude": "48.2202035",
+            "longitude": "16.2970718"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "Belgique",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+vXyhM9YVjzMyOTJk",
+            "url": "https:\/\/t.me\/+vXyhM9YVjzMyOTJk",
+            "territoire": "National",
+            "latitude": "50.890163106",
+            "longitude": "4.337998648"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+             ,
+            {
+        "nom": "France",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+B5CJp-RUGpAzMmQ8",
+            "url": "https:\/\/t.me\/+B5CJp-RUGpAzMmQ8",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Facebook - Groupe",
+            "nom": "10s25",
+            "url": "https:\/\/www.facebook.com\/groups\/10s25",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Bluesky",
+            "nom": "10s25.bsky.social",
+            "url": "https:\/\/bsky.app\/profile\/10s25.bsky.social",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Instagram",
+            "nom": "10s25officiel",
+            "url": "https:\/\/www.instagram.com\/10s25officiel",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Piaille",
+            "nom": "@10s25",
+            "url": "https:\/\/piaille.fr\/@10s25",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "TikTok",
+            "nom": "@10s251",
+            "url": "https:\/\/www.tiktok.com\/@10s251",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "TikTok",
+            "nom": "@indignons.nous",
+            "url": "https:\/\/www.tiktok.com\/@indignons.nous",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "X (Twitter)",
+            "nom": "@IndignonsN",
+            "url": "https:\/\/x.com\/indignonsn",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "X (Twitter)",
+            "nom": "@Le10S25",
+            "url": "https:\/\/x.com\/Le10S25",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Facebook - Page",
+            "nom": "Dix Septembre",
+            "url": "https:\/\/www.facebook.com\/profile.php?id=61579323892404",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Facebook - Page",
+            "nom": "Indignons nous",
+            "url": "https:\/\/www.facebook.com\/people\/Indignons-nous\/61578641433778",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Facebook - Groupe",
+            "nom": "INDIGNONS NOUS 10 SEPTEMBRE",
+            "url": "https:\/\/www.facebook.com\/groups\/1045232717369832",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Instagram",
+            "nom": "indignons_nous_bloquons_tout",
+            "url": "https:\/\/www.instagram.com\/indignons_nous_bloquons_tout",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "AUVERGNE-RH\u00d4NE-ALPES",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+2ydXihH_ft43OWI8",
+            "url": "https:\/\/t.me\/+2ydXihH_ft43OWI8",
+            "territoire": "R\u00e9gional",
+            "latitude": "45.296812",
+            "longitude": "4.660481"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "01 - Ain",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+ZGgNVBU6mSEwNGQ0",
+            "url": "https:\/\/t.me\/+ZGgNVBU6mSEwNGQ0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.0997671581629",
+            "longitude": "5.34873032104146"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "03 - Allier",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+VFRy-ZfSY6QwY2Rk",
+            "url": "https:\/\/t.me\/+VFRy-ZfSY6QwY2Rk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.3936406719208",
+            "longitude": "3.18764486326068"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "07 - Ard\u00e8che",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+e6HcO3Fq_MViYzZk",
+            "url": "https:\/\/t.me\/+e6HcO3Fq_MViYzZk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.7527552575178",
+            "longitude": "4.42560660942855"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Annonay",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIN7E-gSGlNaoJ25ZMI3Y9doezYeHYhvp1QCZ2nW0P2eXEhA0c5wG-b43MjqKLu_tFcgC",
+            "url": "https:\/\/signal.group\/#CjQKIN7E-gSGlNaoJ25ZMI3Y9doezYeHYhvp1QCZ2nW0P2eXEhA0c5wG-b43MjqKLu_tFcgC",
+            "territoire": "Local",
+            "latitude": "45.2405917",
+            "longitude": "4.6721949"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "15 - Cantal",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+aSs9MVDIrDdhYTdk",
+            "url": "https:\/\/t.me\/+aSs9MVDIrDdhYTdk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.0833",
+            "longitude": "2.6667"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "26 - Dr\u00f4me",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+e6HcO3Fq_MViYzZk",
+            "url": "https:\/\/t.me\/+e6HcO3Fq_MViYzZk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.5833",
+            "longitude": "5.1667"
+        }
+         ,
+        {
+            "type": "Signal",
+            "nom": "CjQKIAJn_eLVhE06JkDl2cj1vKML39Ik4S6InOMYQ1w4r4cZEhC_2sAmqGNFQkJMey7G3aVr",
+            "url": "https:\/\/signal.group\/#CjQKIAJn_eLVhE06JkDl2cj1vKML39Ik4S6InOMYQ1w4r4cZEhC_2sAmqGNFQkJMey7G3aVr",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.9234149",
+            "longitude": "4.8957427"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Tricastin",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIA62t-8R1q3oeCSyuVZbywQHQ-aeo7ZrEYVYwzaBirvLEhC6tuUCtUaTxhkIu7rsrjcb",
+            "url": "https:\/\/signal.group\/#CjQKIA62t-8R1q3oeCSyuVZbywQHQ-aeo7ZrEYVYwzaBirvLEhC6tuUCtUaTxhkIu7rsrjcb",
+            "territoire": "Local",
+            "latitude": "44.3458497",
+            "longitude": "4.6180682"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "38 - Is\u00e8re",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "IndignonsnousIsere",
+            "url": "https:\/\/t.me\/IndignonsnousIsere",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.1667",
+            "longitude": "5.8333"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Grenoble",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+OKXn5kHL8-M4NTM0",
+            "url": "https:\/\/t.me\/+OKXn5kHL8-M4NTM0",
+            "territoire": "Local",
+            "latitude": "45.1842316",
+            "longitude": "5.6948976"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "La Mure",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Pays voironnai",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "IndignonsnousIsere\/66",
+            "url": "https:\/\/t.me\/IndignonsnousIsere\/66",
+            "territoire": "Local",
+            "latitude": "45.3941569",
+            "longitude": "5.4230402"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "42 - Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+sU3LLbwW12IwMjBk",
+            "url": "https:\/\/t.me\/+sU3LLbwW12IwMjBk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.4717",
+            "longitude": "4.433"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "43 - Haute-Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+E27DUVUAQx41NGJk",
+            "url": "https:\/\/t.me\/+E27DUVUAQx41NGJk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.0833",
+            "longitude": "4.0"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "63 - Puy-de-D\u00f4me",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "bloquons63",
+            "url": "https:\/\/t.me\/bloquons63",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.6667",
+            "longitude": "3.0"
+        }
+         ,
+        {
+            "type": "Telegram",
+            "nom": "bloquonstout63",
+            "url": "https:\/\/t.me\/bloquonstout63",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.6867",
+            "longitude": "3.04"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "69 - Rh\u00f4ne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+wMC00KhgGZI2ZmFk",
+            "url": "https:\/\/t.me\/+wMC00KhgGZI2ZmFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.0",
+            "longitude": "4.5"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Amplepuis",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+mpXANJoCqehhZDI0",
+            "url": "https:\/\/t.me\/+mpXANJoCqehhZDI0",
+            "territoire": "Local",
+            "latitude": "45.9660336",
+            "longitude": "4.2757191"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "L'Arbresle",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+9VRLOD6UK9djYjZk",
+            "url": "https:\/\/t.me\/+9VRLOD6UK9djYjZk",
+            "territoire": "Local",
+            "latitude": "45.8347066",
+            "longitude": "4.5999113"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    },
+    {
+        "nom": "Lyon",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+SuOiGcRJZoliMDk0",
+            "url": "https:\/\/t.me\/+SuOiGcRJZoliMDk0",
+            "territoire": "Local",
+            "latitude": "45.7579433",
+            "longitude": "4.7938389"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Tarare",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "tarare_10_septembre",
+            "url": "https:\/\/t.me\/tarare_10_septembre",
+            "territoire": "Local",
+            "latitude": "45.9070843",
+            "longitude": "4.4096091"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Villefranche-sur-Sa\u00f4ne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+DztcGgl5FGYxNWM0",
+            "url": "http:\/\/t.me\/+DztcGgl5FGYxNWM0",
+            "territoire": "Local",
+            "latitude": "45.989463",
+            "longitude": "4.721712"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "73 - Savoie",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+p5TyIw3AYqtmOGVk",
+            "url": "https:\/\/t.me\/+p5TyIw3AYqtmOGVk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.499049",
+            "longitude": "6.382976"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "74 - Haute-Savoie",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+g8gK3s_SLZ5mMTU0",
+            "url": "https:\/\/t.me\/+g8gK3s_SLZ5mMTU0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.069068",
+            "longitude": "6.344535"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "BOURGOGNE-FRANCHE-COMTE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+VMgGJ5vZ9kFhMDRk",
+            "url": "https:\/\/t.me\/+VMgGJ5vZ9kFhMDRk",
+            "territoire": "R\u00e9gional",
+            "latitude": "47.118711",
+            "longitude": "4.9691044"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "25 - Doubs",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "doubs10Sep",
+            "url": "https:\/\/t.me\/doubs10Sep",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.066992",
+            "longitude": "6.235623"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "58 - Ni\u00e8vre",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+qgdxdUtp-xg3OTI0",
+            "url": "https:\/\/t.me\/+qgdxdUtp-xg3OTI0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.1157327467376",
+            "longitude": "3.50421129285905"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "71 - Sa\u00f4ne-et-Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+FAOiwCmuv1dhMDA0",
+            "url": "https:\/\/t.me\/+FAOiwCmuv1dhMDA0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.6447719537057",
+            "longitude": "4.54277293221123"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Autunois - Morvan",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "On-est-l\u00e0&nbsp;! Grand Autunois Morvan",
+            "url": "https:\/\/t.me\/+wx67YJuf3y83NjU8",
+            "territoire": "Local",
+            "latitude": "46.955461",
+            "longitude": "4.294883"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Chalon\/Creusot\/Montceau",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+a3tRDc53UHk0ZTFi",
+            "url": "https:\/\/t.me\/+a3tRDc53UHk0ZTFi",
+            "territoire": "Local",
+            "latitude": "46.718655",
+            "longitude": "4.5958855"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Louhans",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+cx3AdCMJvBFiNmQ0",
+            "url": "https:\/\/t.me\/+cx3AdCMJvBFiNmQ0",
+            "territoire": "Local",
+            "latitude": "46.6279066",
+            "longitude": "5.2212432"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "M\u00e2con, Cluny, Charolles",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+EuVCnflkkFxkODdk",
+            "url": "https:\/\/t.me\/+EuVCnflkkFxkODdk",
+            "territoire": "Local",
+            "latitude": "46.3922617",
+            "longitude": "4.6013122"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Tournus",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+BeznZsPiKJ8wZTg0",
+            "url": "https:\/\/t.me\/+BeznZsPiKJ8wZTg0",
+            "territoire": "Local",
+            "latitude": "46.567966",
+            "longitude": "4.881846"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "89 - Yonne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+iD-DeyFq66FjMzlk",
+            "url": "https:\/\/t.me\/+iD-DeyFq66FjMzlk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.840515089836",
+            "longitude": "3.56331862412441"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Pays d\u2019Avallon",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+-jnceFS4skczOGJk",
+            "url": "https:\/\/t.me\/+-jnceFS4skczOGJk",
+            "territoire": "Local",
+            "latitude": "47.607386",
+            "longitude": "3.758569"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "90 - Territoire de Belfort",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+VMgGJ5vZ9kFhMDRk",
+            "url": "https:\/\/t.me\/+VMgGJ5vZ9kFhMDRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.629231",
+            "longitude": "6.8993012"
+        }
+         ,
+        {
+            "type": "Facebook - Groupe",
+            "nom": "Bloquons tout 90",
+            "url": "https:\/\/www.facebook.com\/groups\/746638358272365\/",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.6401842",
+            "longitude": "6.914931"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "BRETAGNE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+2zyykrgSNYI4YmQ0",
+            "url": "https:\/\/t.me\/+2zyykrgSNYI4YmQ0",
+            "territoire": "R\u00e9gional",
+            "latitude": "48.1964432",
+            "longitude": "-2.9367658"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "22 - C\u00f4tes d'Armor",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "indignonsnous22",
+            "url": "https:\/\/t.me\/indignonsnous22",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.4650949",
+            "longitude": "-3.4117902"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "29 - Finist\u00e8re",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+U8b1aHTa_wdjN2I0",
+            "url": "https:\/\/t.me\/+U8b1aHTa_wdjN2I0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.3205785",
+            "longitude": "-3.9123203"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Quimper",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKII1qXyyZlShZHZE4jrNn5tlRNXWfhVszh5mZMUCa2rCJEhBSXPFKiphSp2gqamlDf7cn",
+            "url": "https:\/\/signal.group\/#CjQKII1qXyyZlShZHZE4jrNn5tlRNXWfhVszh5mZMUCa2rCJEhBSXPFKiphSp2gqamlDf7cn",
+            "territoire": "Local",
+            "latitude": "47.998156",
+            "longitude": "-4.1384814"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Quimperl\u00e9",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+qlZLbdtaN4VmYTA0",
+            "url": "https:\/\/t.me\/+qlZLbdtaN4VmYTA0",
+            "territoire": "Local",
+            "latitude": "47.8558418",
+            "longitude": "-3.5792333"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "35 - Ille-et-Vilaine",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED",
+            "url": "https:\/\/signal.group\/#CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.172768",
+            "longitude": "-1.649809"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Broc\u00e9liande",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKINc9U6SkDW9_PxkpOKReLxBQicJNN-ol5FpMCoX2_MYrEhAcZvvllIVh1E_RFRi0G3P1",
+            "url": "https:\/\/signal.group\/#CjQKINc9U6SkDW9_PxkpOKReLxBQicJNN-ol5FpMCoX2_MYrEhAcZvvllIVh1E_RFRi0G3P1",
+            "territoire": "Local",
+            "latitude": "47.9196651",
+            "longitude": "-2.0828663"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Dol-de-bretagne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+QQgeVyp5og44YzNk",
+            "url": "https:\/\/t.me\/+QQgeVyp5og44YzNk",
+            "territoire": "Local",
+            "latitude": "48.5338366",
+            "longitude": "-1.7856964"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Redon",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIBmy0-xFERka1kn94CL_PVnJl84K1oNa4pMsd1a9v7XIEhDGenUBQOUpemDkN02zKU8s",
+            "url": "https:\/\/signal.group\/#CjQKIBmy0-xFERka1kn94CL_PVnJl84K1oNa4pMsd1a9v7XIEhDGenUBQOUpemDkN02zKU8s",
+            "territoire": "Local",
+            "latitude": "47.6556945",
+            "longitude": "-2.0993097"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Rennes",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED",
+            "url": "https:\/\/signal.group\/#CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED",
+            "territoire": "Local",
+            "latitude": "48.1159325",
+            "longitude": "-1.70909"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint Malo",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "indignonsnouspaysdesaintmalo",
+            "url": "https:\/\/t.me\/indignonsnouspaysdesaintmalo",
+            "territoire": "Local",
+            "latitude": "48.6961681",
+            "longitude": "-2.2161899"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Sud Est",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIP6-L39DF7s_tNVTmbCQ7qI2M4H89OvlfCKoLvso133jEhCLA5-_nGXXq-73TbWETfuy",
+            "url": "https:\/\/signal.group\/#CjQKIP6-L39DF7s_tNVTmbCQ7qI2M4H89OvlfCKoLvso133jEhCLA5-_nGXXq-73TbWETfuy",
+            "territoire": "Local",
+            "latitude": "47.9092662",
+            "longitude": "-1.3718087"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "56 - Morbihan",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Morbihan",
+            "url": "https:\/\/t.me\/+2zyykrgSNYI4YmQ0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.7439325",
+            "longitude": "-3.2154235"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Le Faou\u00ebt",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+ufl83HVgddRmN2Nk",
+            "url": "https:\/\/t.me\/+ufl83HVgddRmN2Nk",
+            "territoire": "Local",
+            "latitude": "47.9272935",
+            "longitude": "-3.7615391"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "CENTRE-VAL DE LOIRE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+jR9bqrSbZVdkM2E8",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "R\u00e9gional",
+            "latitude": "47.5490251",
+            "longitude": "1.7324062"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "18 - Cher",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+jR9bqrSbZVdkM2E8",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.0247868",
+            "longitude": "2.0964022"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "29 - Eure-et-Loir",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Eure-et-Loir",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.4416114",
+            "longitude": "0.128921"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Nogent-le-Rotrou",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+DkxfM-QCR69lZmRk",
+            "url": "https:\/\/t.me\/+DkxfM-QCR69lZmRk",
+            "territoire": "Local",
+            "latitude": "48.3130305",
+            "longitude": "0.6782162"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "36 - Indre",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Indre",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.811222",
+            "longitude": "0.8753244"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "37 - Indre-et-Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Indre-et-Loire",
+            "url": "https:\/\/t.me\/+jR9bqrSbZVdkM2E8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.811222",
+            "longitude": "0.8753244"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "41 - Loir-et-Cher",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+7moVpfgguQwyZjJk",
+            "url": "https:\/\/t.me\/+7moVpfgguQwyZjJk",
+            "territoire": "Local",
+            "latitude": "47.587672",
+            "longitude": "1.333761"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Tours",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+UlH4Zr3yf5FjMmRk",
+            "url": "https:\/\/t.me\/+UlH4Zr3yf5FjMmRk",
+            "territoire": "Local",
+            "latitude": "47.3943197",
+            "longitude": "0.6537434"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Vend\u00f4me",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+2U_sY8PE0fgwZTBk",
+            "url": "https:\/\/t.me\/+2U_sY8PE0fgwZTBk",
+            "territoire": "Local",
+            "latitude": "47.7995693",
+            "longitude": "1.023289"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "45 - Loiret",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Utc-XCqfvSphZjhk",
+            "url": "https:\/\/t.me\/+Utc-XCqfvSphZjhk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.9118852287315",
+            "longitude": "2.34397155601261"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Gatinais Montargis",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+wQfOOcl0Tm0yNjBk",
+            "url": "https:\/\/t.me\/+wQfOOcl0Tm0yNjBk",
+            "territoire": "Local",
+            "latitude": "47.9997687",
+            "longitude": "2.7285145"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "CORSICA",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+6nGU1MKqF1E1MTI0",
+            "url": "https:\/\/t.me\/+6nGU1MKqF1E1MTI0",
+            "territoire": "R\u00e9gional",
+            "latitude": "42.188098",
+            "longitude": "9.0683139"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "GRAND EST",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+DwayRkLGjxBhYjc0",
+            "url": "https:\/\/t.me\/+DwayRkLGjxBhYjc0",
+            "territoire": "R\u00e9gional",
+            "latitude": "48.4845157",
+            "longitude": "6.113035"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "51 - Marne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Reims",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+5LH0u6BO-dU1ZTNk",
+            "url": "https:\/\/t.me\/+5LH0u6BO-dU1ZTNk",
+            "territoire": "Local",
+            "latitude": "49.254879",
+            "longitude": "4.022026"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "52 - Haute-Marne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "indignons-nous Haute-Marne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "IndignonsNousHM",
+            "url": "https:\/\/t.me\/IndignonsNousHM",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.1110619",
+            "longitude": "5.1396068"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "57 - Moselle",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Meisenthal",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Metz",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+KzGj90TwhckxZmM8",
+            "url": "https:\/\/t.me\/+KzGj90TwhckxZmM8",
+            "territoire": "Local",
+            "latitude": "49.1048177",
+            "longitude": "6.1549488"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "67 - Bas-Rhin",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+hD3FxDOng1NhYjdk",
+            "url": "https:\/\/t.me\/+hD3FxDOng1NhYjdk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.586",
+            "longitude": "7.756"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Saverne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+XRVhRVGf0CNmOGNk",
+            "url": "https:\/\/t.me\/+XRVhRVGf0CNmOGNk",
+            "territoire": "Local",
+            "latitude": "48.7439481",
+            "longitude": "7.3123784"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "68 - Haut-Rhin",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Mulhouse Colmar Cernay et Altkirch ",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+dAf_whfVF2s1MGRk",
+            "url": "https:\/\/t.me\/+dAf_whfVF2s1MGRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.910431",
+            "longitude": "7.282164"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "88 - Vosges",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+KsMKfMWAJpxhZjFk",
+            "url": "https:\/\/t.me\/+KsMKfMWAJpxhZjFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.174765",
+            "longitude": "6.450361"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Voges nord",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "IndignonsNousVosgesNord",
+            "url": "https:\/\/t.me\/IndignonsNousVosgesNord",
+            "territoire": "Local",
+            "latitude": "48.9703695",
+            "longitude": "7.335646"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "HAUTS-DE-FRANCE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+07fmAOi30jA1ODhk",
+            "url": "https:\/\/t.me\/+07fmAOi30jA1ODhk",
+            "territoire": "R\u00e9gional",
+            "latitude": "50.1024606",
+            "longitude": "2.7247515"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "59 - Nord",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Calais",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIATMRrmeM14cCe_gbcoQ5q6PGBJl07g1OOugmvI0BnRmEhD-pQYXF9e2nueEkLxIopD-",
+            "url": "https:\/\/signal.group\/#CjQKIATMRrmeM14cCe_gbcoQ5q6PGBJl07g1OOugmvI0BnRmEhD-pQYXF9e2nueEkLxIopD-",
+            "territoire": "Local",
+            "latitude": "50.9419345",
+            "longitude": "1.6589371"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Pays haut",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+tDNxLGT1PURkZWQ0",
+            "url": "https:\/\/t.me\/+tDNxLGT1PURkZWQ0",
+            "territoire": "Local",
+            "latitude": "49.7748922",
+            "longitude": "4.5392203"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "60 - Oise",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+EIr-ak1256wzZWFk",
+            "url": "https:\/\/t.me\/+EIr-ak1256wzZWFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "49.4117237",
+            "longitude": "2.097008"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Beauvais",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+CtqldsAy7BswNzVk",
+            "url": "https:\/\/t.me\/+CtqldsAy7BswNzVk",
+            "territoire": "Local",
+            "latitude": "49.4425347",
+            "longitude": "2.0464129"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Compi\u00e8gne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+_ivqaVHN-ppkNTI0",
+            "url": "https:\/\/t.me\/+_ivqaVHN-ppkNTI0",
+            "territoire": "Local",
+            "latitude": "49.400614",
+            "longitude": "2.8340221"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "\u00ceLE-DE-FRANCE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "retlIDF",
+            "url": "https:\/\/t.me\/retlIDF",
+            "territoire": "R\u00e9gional",
+            "latitude": "48.6443057",
+            "longitude": "2.7537863"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "75 - Paris",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+9gxXN61OSBw4YWRk",
+            "url": "https:\/\/t.me\/+9gxXN61OSBw4YWRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.853486",
+            "longitude": "2.348397"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Paris 14e",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "FXtblFJlBl1JD8mbzySBUR",
+            "url": "https:\/\/chat.whatsapp.com\/FXtblFJlBl1JD8mbzySBUR?mode=ems_copy_t",
+            "territoire": "Local",
+            "latitude": "48.8296936",
+            "longitude": "2.3126323"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Paris 20e",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "Jn7ms4hETaoBI7NCYB01hK",
+            "url": "https:\/\/chat.whatsapp.com\/Jn7ms4hETaoBI7NCYB01hK?mode=ems_copy_t",
+            "territoire": "Local",
+            "latitude": "48.8625291",
+            "longitude": "2.3863061"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "77 - Seine-et-Marne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+rkUgIevw6EM3ZDY0",
+            "url": "https:\/\/t.me\/+rkUgIevw6EM3ZDY0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.6274987226065",
+            "longitude": "2.9340854276159"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "78 - Yvelines",
+        "liens": [
+                    {
+            "type": "",
+            "nom": "+q52fTby8owBmNTA0",
+            "url": "https:\/\/t.me\/+q52fTby8owBmNTA0",
+            "territoire": "",
+            "latitude": "48.8091",
+            "longitude": "1.8766"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Mantes-Dreux-Evreux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+IyD36DMxoCZiNzI8",
+            "url": "https:\/\/t.me\/+IyD36DMxoCZiNzI8",
+            "territoire": "Local",
+            "latitude": "48.7353807",
+            "longitude": "1.0518528"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint-Quentin-en-Yvelines Rambouillet",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+I5tJh1d7rbxhNmU8",
+            "url": "https:\/\/t.me\/+I5tJh1d7rbxhNmU8",
+            "territoire": "Local",
+            "latitude": "48.7820032",
+            "longitude": "1.9213943"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "91 - Essonne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+ZMP8cVktBdQ2YjM0",
+            "url": "https:\/\/t.me\/+ZMP8cVktBdQ2YjM0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.5226198884686",
+            "longitude": "2.24338748665539"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "92 - Hauts-de-Seine",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+iMFbUWAScFw5MzFk",
+            "url": "https:\/\/t.me\/+iMFbUWAScFw5MzFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.8475388508384",
+            "longitude": "2.24606874275799"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "93 - Seine-Saint-Denis",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+eo1IAGG_uV9lN2Zk",
+            "url": "https:\/\/t.me\/+eo1IAGG_uV9lN2Zk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.9176098962278",
+            "longitude": "2.47854089128323"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Drancy \/ Bobigny \/ Le Blanc Mesnil \/ Le Bourget",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+p33fGzwmYFRjYzQ0",
+            "url": "https:\/\/t.me\/+p33fGzwmYFRjYzQ0",
+            "territoire": "Local",
+            "latitude": "48.94393",
+            "longitude": "2.44291"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Pantin",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "HrpJxA6uYLGCZzViLRWCY2",
+            "url": "https:\/\/chat.whatsapp.com\/HrpJxA6uYLGCZzViLRWCY2?mode=ems_copy_c",
+            "territoire": "Local",
+            "latitude": "48.9005594",
+            "longitude": "2.3982104"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "94 - Val-de-Marne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+MVVfx3Afj6AzNzFk",
+            "url": "https:\/\/t.me\/+MVVfx3Afj6AzNzFk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.7774364130303",
+            "longitude": "2.46928738518856"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "95 - Val-d'Oise",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKICU9VxuYI2wlx4_FAkNHfjNQ98ObGbcChxlEkuP32t5uEhAe-YnImNIkiP9h_vmWijhS",
+            "url": "https:\/\/signal.group\/#CjQKICU9VxuYI2wlx4_FAkNHfjNQ98ObGbcChxlEkuP32t5uEhAe-YnImNIkiP9h_vmWijhS",
+            "territoire": "D\u00e9partemental",
+            "latitude": "49.0749383",
+            "longitude": "1.9367303"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "NORMANDIE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+NY521X2MIxxhNzQ0",
+            "url": "https:\/\/t.me\/+NY521X2MIxxhNzQ0",
+            "territoire": "R\u00e9gional",
+            "latitude": "49.0677708",
+            "longitude": "0.3138532"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "14 - Calvados",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bayeux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+415hLgv5_vszMmM0",
+            "url": "https:\/\/t.me\/+415hLgv5_vszMmM0",
+            "territoire": "Local",
+            "latitude": "49.2771684",
+            "longitude": "-0.7119534"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Bocage virois",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+ruRhzuXcrO9iNzI8",
+            "url": "https:\/\/t.me\/+ruRhzuXcrO9iNzI8",
+            "territoire": "Local",
+            "latitude": "48.819842",
+            "longitude": "-0.9480103"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Caen",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Yz3dBigEr5NmMTg0",
+            "url": "https:\/\/t.me\/+Yz3dBigEr5NmMTg0",
+            "territoire": "Local",
+            "latitude": "49.18134",
+            "longitude": "-0.363561"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "27 - Eure",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bernay",
+        "liens": [
+                    {
+            "type": "Facebook - Groupe",
+            "nom": "10 Septembre - Bernay",
+            "url": "https:\/\/www.facebook.com\/groups\/3708800519421936\/",
+            "territoire": "Local",
+            "latitude": "49.0911669",
+            "longitude": "0.5198957"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Mantes-Dreux-Evreux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+IyD36DMxoCZiNzI8",
+            "url": "https:\/\/t.me\/+IyD36DMxoCZiNzI8",
+            "territoire": "Local",
+            "latitude": "48.907495",
+            "longitude": "1.454744"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "50 - Manche",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bayeux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+W78yndkfVjdhNGM8",
+            "url": "https:\/\/t.me\/+W78yndkfVjdhNGM8",
+            "territoire": "Local",
+            "latitude": "49.2771684",
+            "longitude": "-0.7119534"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Cherbourg",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIAdZkl1GoTx545haTv_x-9D1IyO3VFOVLUPXANT9QfQXEhDF3WhXeMrSYhMMl2L4Ctb8",
+            "url": "https:\/\/signal.group\/#CjQKIAdZkl1GoTx545haTv_x-9D1IyO3VFOVLUPXANT9QfQXEhDF3WhXeMrSYhMMl2L4Ctb8",
+            "territoire": "Local",
+            "latitude": "49.6276336",
+            "longitude": "-1.6769271"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint-l\u00f4",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+jGHHctdUMI01YzU0",
+            "url": "https:\/\/t.me\/+jGHHctdUMI01YzU0",
+            "territoire": "Local",
+            "latitude": "49.1122743",
+            "longitude": "-1.1018626"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Sud Manche",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Hgpjxnkf-V84MDE8",
+            "url": "https:\/\/t.me\/+Hgpjxnkf-V84MDE8",
+            "territoire": "Local",
+            "latitude": "49.0910279",
+            "longitude": "-2.005522"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "61 - Orne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Alen\u00e7on",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+rVnxGVSLZikxMDc8",
+            "url": "https:\/\/t.me\/+rVnxGVSLZikxMDc8",
+            "territoire": "Local",
+            "latitude": "48.4310214",
+            "longitude": "0.0716318"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Flers",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKINW5TXV9KyfZ4MPRbN0xOj9ukVG2J3k5ErA4GlGM0FXSEhDJcm-FoItItcSQAXKMVK0U",
+            "url": "https:\/\/signal.group\/#CjQKINW5TXV9KyfZ4MPRbN0xOj9ukVG2J3k5ErA4GlGM0FXSEhDJcm-FoItItcSQAXKMVK0U",
+            "territoire": "Local",
+            "latitude": "48.7342352",
+            "longitude": "-0.5861654"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "76 - Seine-Maritime",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Dieppe",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+wxsSWr1Oz05kMzNk",
+            "url": "https:\/\/t.me\/+wxsSWr1Oz05kMzNk",
+            "territoire": "Local",
+            "latitude": "49.9199091",
+            "longitude": "1.0631637"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Le Havre",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+nwEOj3XdQGk5MjQ0",
+            "url": "https:\/\/t.me\/+nwEOj3XdQGk5MjQ0",
+            "territoire": "Local",
+            "latitude": "49.4958071",
+            "longitude": "0.0899093"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Rouen",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+cWtCwdI2cv1lYzVk",
+            "url": "https:\/\/t.me\/+cWtCwdI2cv1lYzVk",
+            "territoire": "Local",
+            "latitude": "49.4412339",
+            "longitude": "1.0705421"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "NOUVELLE-AQUITAINE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "R\u00e9gional",
+            "latitude": "45.6632281",
+            "longitude": "0.1828847"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "16 - Charente",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Angoul\u00e8me",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+U8ruFJrFrhs1NWQ8",
+            "url": "https:\/\/t.me\/+U8ruFJrFrhs1NWQ8",
+            "territoire": "Local",
+            "latitude": "45.6458109",
+            "longitude": "0.1243848"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "17 - Charente-Maritime",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "La Rochelle",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "c\/1698890845\/6059",
+            "url": "https:\/\/t.me\/c\/1698890845\/6059",
+            "territoire": "Local",
+            "latitude": "46.159742",
+            "longitude": "-1.151614"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "19 - Corr\u00e8ze",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Brive-la-Gaillarde",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Brive-la-gaillarde",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "45.1450475",
+            "longitude": "1.4364366"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Haute-corr\u00e8ze",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+D1C6bDew459hMmJk",
+            "url": "https:\/\/t.me\/+D1C6bDew459hMmJk",
+            "territoire": "Local",
+            "latitude": "45.5361096",
+            "longitude": "1.8790475"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "23 - Creuse",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+K8iTCXsU-cM0ZWZk",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.0589801",
+            "longitude": "1.6616374"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Aubusson",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+K8iTCXsU-cM0ZWZk",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "45.9472437",
+            "longitude": "2.1494442"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "B\u00e9n\u00e9vent-Grand Bourg",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIHNfdBo8Wwbl4lonLAfekh1B3yzBiMIR—4ccbmaMzGOEhDxlIT4o_zJJK7i5gZERPz4",
+            "url": "https:\/\/signal.group\/#CjQKIHNfdBo8Wwbl4lonLAfekh1B3yzBiMIR--4ccbmaMzGOEhDxlIT4o_zJJK7i5gZERPz4",
+            "territoire": "Local",
+            "latitude": "46.1209184",
+            "longitude": "1.6144352"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Bourganeuf",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Bourganeuf",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "45.947208",
+            "longitude": "1.725978"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Boussac",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+K8iTCXsU-cM0ZWZk",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "46.3482109",
+            "longitude": "2.216451"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Faux-la-Montagne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Faux-la-Montagne",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "45.74907",
+            "longitude": "1.8967583"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Gu\u00e9ret",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Gu\u00e9ret",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "46.1584605",
+            "longitude": "1.82919"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "La Souterraine",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "La Souterraine",
+            "url": "https:\/\/t.me\/+K8iTCXsU-cM0ZWZk",
+            "territoire": "Local",
+            "latitude": "46.2307416",
+            "longitude": "1.3963269"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "24 - Dordogne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+S5lNMsTJ43JhNWE0",
+            "url": "https:\/\/t.me\/+S5lNMsTJ43JhNWE0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.13452",
+            "longitude": "0.720807"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Saint-yrieix-la-perche",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+5gHUQ7JNrwMyMjc8",
+            "url": "https:\/\/t.me\/+5gHUQ7JNrwMyMjc8",
+            "territoire": "Local",
+            "latitude": "45.5274015",
+            "longitude": "1.1613278"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "33 - Gironde",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+qk_X__IUUQphNzY8",
+            "url": "https:\/\/t.me\/+qk_X__IUUQphNzY8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.841226",
+            "longitude": "-0.580044"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Bordeaux",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "44.8637104",
+            "longitude": "-0.6272971"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Langon",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "44.553072",
+            "longitude": "-0.244926"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Libourne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "44.913362",
+            "longitude": "-0.242724"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Sainte Foy la Grande",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+fFVATyvoOWowZjA0",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "44.841641",
+            "longitude": "0.214974"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "47 - Lot-et-Garonne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Agen",
+        "liens": [
+                    {
+            "type": "Site web",
+            "nom": "Agen 10 Septembre",
+            "url": "https:\/\/linktr.ee\/mouvement10septembre47lg",
+            "territoire": "Local",
+            "latitude": "44.2010474",
+            "longitude": "0.6095538"
+        }
+         ,
+        {
+            "type": "",
+            "nom": "CjQKIJJHG3KUAVaAczCddDdDbRpa7CxBrTU7DYI-FXlRK1OFEhB4TW2QNQB8It4BL365i-qo",
+            "url": "https:\/\/signal.group\/#CjQKIJJHG3KUAVaAczCddDdDbRpa7CxBrTU7DYI-FXlRK1OFEhB4TW2QNQB8It4BL365i-qo",
+            "territoire": "",
+            "latitude": "44.0894346",
+            "longitude": "1.0306823"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "64 - Pyr\u00e9n\u00e9es-Atlantiques",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bayonne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Bayonne",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "43.494509",
+            "longitude": "-1.473662"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Haut b\u00e9arn",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+3wswVam9MC0wMjNk",
+            "url": "https:\/\/t.me\/+3wswVam9MC0wMjNk",
+            "territoire": "Local",
+            "latitude": "43.0281593",
+            "longitude": "-0.955519"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Pau",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Pau",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "43.295752",
+            "longitude": "-0.368565"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "79 - Deux-S\u00e8vres",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Bressuire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "c\/1698890845\/6144",
+            "url": "https:\/\/t.me\/c\/1698890845\/6144",
+            "territoire": "Local",
+            "latitude": "46.842605",
+            "longitude": "-0.492883"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Niort",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "c\/1698890845\/6057",
+            "url": "https:\/\/t.me\/c\/1698890845\/6057",
+            "territoire": "Local",
+            "latitude": "46.323931",
+            "longitude": "-0.464623"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Thouars",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "c\/1698890845\/12612",
+            "url": "https:\/\/t.me\/c\/1698890845\/12612",
+            "territoire": "Local",
+            "latitude": "46.979023",
+            "longitude": "-0.215363"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "86 - Vienne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+-Qz5dhr_0cYxODNk",
+            "url": "https:\/\/t.me\/+-Qz5dhr_0cYxODNk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.5886523",
+            "longitude": "0.4470267"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Ch\u00e2tellerault",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Ch\u00e2tellerault",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "46.818012",
+            "longitude": "0.545811"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Poitiers",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "Poitiers",
+            "url": "https:\/\/t.me\/+fFVATyvoOWowZjA0",
+            "territoire": "Local",
+            "latitude": "46.580250",
+            "longitude": "0.340209"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "87 - Haute-Vienne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+rFlmNBHXkDg5MjRk",
+            "url": "https:\/\/t.me\/+rFlmNBHXkDg5MjRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.835424",
+            "longitude": "1.264482"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "P\u00e9rigord Limousin",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "P\u00e9rigord Limousin 10S25",
+            "url": "https:\/\/signal.group\/#CjQKIFYvfaowBQvDSse44uFXLAYN_wVaIXatHpa4zVgJbZcUEhCnsKjxuA7kO-i3R1xN0aWH",
+            "territoire": "D\u00e9partemental",
+            "latitude": "45.5852583",
+            "longitude": "0.9997565"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "OCCITANIE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "collectifsunis31",
+            "url": "https:\/\/t.me\/collectifsunis31",
+            "territoire": "R\u00e9gional",
+            "latitude": "43.648777",
+            "longitude": "2.343575"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "12 - Aveyron",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+q3dsx7KFvWI4Yjk0",
+            "url": "https:\/\/t.me\/+q3dsx7KFvWI4Yjk0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.315858",
+            "longitude": "2.50657"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "30 - Gard",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "collectifsunis31",
+            "url": "https:\/\/t.me\/collectifsunis31",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44",
+            "longitude": "0047776"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "32 - Gers",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Auch",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIGB1Cbe_1x6urKdjChHGY83GLpGtSW50SXfJINpg_pJBEhAUKZEDE0-4EZljTXPkMf69",
+            "url": "https:\/\/signal.group\/#CjQKIGB1Cbe_1x6urKdjChHGY83GLpGtSW50SXfJINpg_pJBEhAUKZEDE0-4EZljTXPkMf69",
+            "territoire": "Local",
+            "latitude": "43.6468938",
+            "longitude": "0.5837642"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "34 - H\u00e9rault",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIL4muJn1v17oQQClHjtK0vuwSERuMosyFySg9tUM4wFEEhAGNsJjKiu8a6KGpQ-JdfnX",
+            "url": "https:\/\/signal.group\/#CjQKIL4muJn1v17oQQClHjtK0vuwSERuMosyFySg9tUM4wFEEhAGNsJjKiu8a6KGpQ-JdfnX",
+            "territoire": "Local",
+            "latitude": "43.477869",
+            "longitude": "3.1842"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Lod\u00e9vois",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+OSEUzEqKXoI1MWE8",
+            "url": "https:\/\/t.me\/+OSEUzEqKXoI1MWE8",
+            "territoire": "Local",
+            "latitude": "43.7855984",
+            "longitude": "3.2809888"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Montpellier",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIL4muJn1v17oQQClHjtK0vuwSERuMosyFySg9tUM4wFEEhAGNsJjKiu8a6KGpQ-JdfnX",
+            "url": "https:\/\/signal.group\/#CjQKIL4muJn1v17oQQClHjtK0vuwSERuMosyFySg9tUM4wFEEhAGNsJjKiu8a6KGpQ-JdfnX",
+            "territoire": "Local",
+            "latitude": "43.6102954",
+            "longitude": "3.8208202"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "65 - Hautes-Pyr\u00e9n\u00e9es",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Tarbes",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "81 - Tarn",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Albi",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+xoNKLdRR5iw2MjVk",
+            "url": "https:\/\/t.me\/+xoNKLdRR5iw2MjVk",
+            "territoire": "Local",
+            "latitude": "43.9290312",
+            "longitude": "2.1116625"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Castres",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+rUrHGp5p5swwMzY0",
+            "url": "https:\/\/t.me\/+rUrHGp5p5swwMzY0",
+            "territoire": "Local",
+            "latitude": "43.6131627",
+            "longitude": "2.1667987"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Gaillac",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Hwdp8c35T2YxYmFk",
+            "url": "https:\/\/t.me\/+Hwdp8c35T2YxYmFk",
+            "territoire": "Local",
+            "latitude": "43.9118645",
+            "longitude": "1.8484785"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Graulhet",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+6TW0dMTAxCowMjZk",
+            "url": "https:\/\/t.me\/+6TW0dMTAxCowMjZk",
+            "territoire": "Local",
+            "latitude": "43.7591368",
+            "longitude": "1.9195344"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "OUTRE MER",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+k6w3Bdy4Nr81MzQ8",
+            "url": "https:\/\/t.me\/+k6w3Bdy4Nr81MzQ8",
+            "territoire": "",
+            "latitude": "",
+            "longitude": ""
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "GUYANE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+BZyC3CpGCIZhY2Q0",
+            "url": "https:\/\/t.me\/+BZyC3CpGCIZhY2Q0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "4.0039882",
+            "longitude": "-52.999998"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "LA R\u00c9UNION",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+l81KX9i3Z39hZWU8",
+            "url": "https:\/\/t.me\/+l81KX9i3Z39hZWU8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "\u2013 21.1309332",
+            "longitude": "55.5265771"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "MARTINIQUE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+-G6drNd53xQwYTI0",
+            "url": "https:\/\/t.me\/+-G6drNd53xQwYTI0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "14.6113732",
+            "longitude": "-60.9620777"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "PAYS DE LA LOIRE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+UlH4Zr3yf5FjMmRk",
+            "url": "https:\/\/t.me\/+UlH4Zr3yf5FjMmRk",
+            "territoire": "R\u00e9gional",
+            "latitude": "47.6594864",
+            "longitude": "-0.8186143"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "44 - Loire-Atlantique",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+UlH4Zr3yf5FjMmRk",
+            "url": "https:\/\/t.me\/+UlH4Zr3yf5FjMmRk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.218644",
+            "longitude": "-1.554139"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Ancenis",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+f5ay1J6hmUg5ZGY0",
+            "url": "https:\/\/t.me\/+f5ay1J6hmUg5ZGY0",
+            "territoire": "Local",
+            "latitude": "47.3818486",
+            "longitude": "-1.1888699"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Carquefou",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+b-M-uMmOhzNhOWY8",
+            "url": "https:\/\/t.me\/+b-M-uMmOhzNhOWY8",
+            "territoire": "Local",
+            "latitude": "47.2968272",
+            "longitude": "-1.4893288"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Ch\u00e2teaubriant Nozay Blain Derval",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Sl1p_7WkTro0Yjlk",
+            "url": "https:\/\/t.me\/+Sl1p_7WkTro0Yjlk",
+            "territoire": "Local",
+            "latitude": "47.7199177",
+            "longitude": "-1.4323661"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Clisson - Vallet-le-Loroux - Vertou",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+LbRV4wXwEMtjMTdk",
+            "url": "https:\/\/t.me\/+LbRV4wXwEMtjMTdk",
+            "territoire": "Local",
+            "latitude": "47.134305",
+            "longitude": "-1.329263"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "L'\u00cele de Nantes",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+4Hml85LTV8c1ZjA0",
+            "url": "https:\/\/t.me\/+4Hml85LTV8c1ZjA0",
+            "territoire": "Local",
+            "latitude": "47.2041664",
+            "longitude": "-1.5523826"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "La-Chapelle-sur-Hedre",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+lHvOnJj-N-UwNjM8",
+            "url": "https:\/\/t.me\/+lHvOnJj-N-UwNjM8",
+            "territoire": "Local",
+            "latitude": "47.3040919",
+            "longitude": "-1.6034172"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Malakoff saint Donatien",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+nKqjGihlVlM5ZDBk",
+            "url": "https:\/\/t.me\/+nKqjGihlVlM5ZDBk",
+            "territoire": "Local",
+            "latitude": "47.228767",
+            "longitude": "-1.542804"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Malakoff St donatien",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+nKqjGihlVlM5ZDBk",
+            "url": "https:\/\/t.me\/+nKqjGihlVlM5ZDBk",
+            "territoire": "Local",
+            "latitude": "47.223279",
+            "longitude": "-1.536068"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Nantes Agglom\u00e9ration",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+FVgpAoiS7-IzMTA0",
+            "url": "https:\/\/t.me\/+FVgpAoiS7-IzMTA0",
+            "territoire": "Local",
+            "latitude": "47.2277374",
+            "longitude": "-1.7232077"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Nantes Nord",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+pXKibPlTgwFkNzBk",
+            "url": "https:\/\/t.me\/+pXKibPlTgwFkNzBk",
+            "territoire": "Local",
+            "latitude": "47.2585943",
+            "longitude": "-1.5857811"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Nantes sud Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+M6jHtN4YMmQ2OGU8",
+            "url": "https:\/\/t.me\/+M6jHtN4YMmQ2OGU8",
+            "territoire": "Local",
+            "latitude": "47.1627401",
+            "longitude": "-1.6051543"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Reze",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+7ifqGHbsJ6QwMDlk",
+            "url": "https:\/\/t.me\/+7ifqGHbsJ6QwMDlk",
+            "territoire": "Local",
+            "latitude": "47.173344",
+            "longitude": "-1.5779205"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint Nazaire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+KtuU08JRaV4yOWI0",
+            "url": "https:\/\/t.me\/+KtuU08JRaV4yOWI0",
+            "territoire": "Local",
+            "latitude": "47.276816",
+            "longitude": "-2.2804467"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Saint-Herblain",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+r21Ond7oYyhjNzhk",
+            "url": "https:\/\/t.me\/+r21Ond7oYyhjNzhk",
+            "territoire": "Local",
+            "latitude": "47.1881676",
+            "longitude": "-1.6826821"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "49 - Maine-et-Loire",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+sH1EnfLBhMY4M2M0",
+            "url": "https:\/\/t.me\/+sH1EnfLBhMY4M2M0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "47.3889647",
+            "longitude": "-0.890123"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Cholet",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+W78yndkfVjdhNGM8",
+            "url": "https:\/\/t.me\/+W78yndkfVjdhNGM8",
+            "territoire": "Local",
+            "latitude": "47.0358358",
+            "longitude": "-0.9162437"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "53 - Mayenne",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+a8Tv2s6foOxhNzE0",
+            "url": "https:\/\/t.me\/+a8Tv2s6foOxhNzE0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.3066306",
+            "longitude": "-0.6346414"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "72 - Sarthe",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+hh9tPqdATphiZjE8",
+            "url": "https:\/\/t.me\/+hh9tPqdATphiZjE8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "48.007383",
+            "longitude": "0.196778"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "85 - Vend\u00e9e",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+_plGCEAGAnZlYmQ8",
+            "url": "https:\/\/t.me\/+_plGCEAGAnZlYmQ8",
+            "territoire": "D\u00e9partemental",
+            "latitude": "46.6753632",
+            "longitude": "-1.7997093"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "La roche-sur-Yon",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+A5azmmdFUc0yMGU0",
+            "url": "https:\/\/t.me\/+A5azmmdFUc0yMGU0",
+            "territoire": "Local",
+            "latitude": "46.6660331",
+            "longitude": "-1.4987728"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "PROVENCE-ALPES-C\u00d4TE D'AZUR",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+6nGU1MKqF1E1MTI0",
+            "url": "https:\/\/t.me\/+6nGU1MKqF1E1MTI0",
+            "territoire": "R\u00e9gional",
+            "latitude": "44.0684127",
+            "longitude": "5.991991"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "04 - Alpes-de-Haute-Provence",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+AXnrNgAjeas3Njdk",
+            "url": "https:\/\/t.me\/+AXnrNgAjeas3Njdk",
+            "territoire": "D\u00e9partemental",
+            "latitude": "44.0923290",
+            "longitude": "6.2418970"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "05 - Hautes-Alpes",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "L'Argenti\u00e8re-la-Bess\u00e9e",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "LGCqrCJHz4JCF3o45xT5ev",
+            "url": "https:\/\/chat.whatsapp.com\/LGCqrCJHz4JCF3o45xT5ev",
+            "territoire": "Local",
+            "latitude": "44.79414",
+            "longitude": "6.54991"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Sud Brian\u00e7onnais",
+        "liens": [
+                    {
+            "type": "WhatsApp",
+            "nom": "LGCqrCJHz4JCF3o45xT5ev",
+            "url": "https:\/\/chat.whatsapp.com\/LGCqrCJHz4JCF3o45xT5ev",
+            "territoire": "Local",
+            "latitude": "44.8956886",
+            "longitude": "6.6328367"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "06 - Alpes-Maritimes",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+nj6dUP9wkuthZjU0",
+            "url": "https:\/\/t.me\/+nj6dUP9wkuthZjU0",
+            "territoire": "D\u00e9partemental",
+            "latitude": "43.6724408",
+            "longitude": "7.1953931"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "13 - Bouches-du-Rh\u00f4ne",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Aix Marseille Universit\u00e9",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIN2LgVhgVNtj8KIaZSVF4xs37h1UAbjqlPM2hpanmUFqEhAV_lOSajP2e72HA38QdGXf",
+            "url": "https:\/\/signal.group\/#CjQKIN2LgVhgVNtj8KIaZSVF4xs37h1UAbjqlPM2hpanmUFqEhAV_lOSajP2e72HA38QdGXf",
+            "territoire": "Local",
+            "latitude": "43.3044870",
+            "longitude": "5.3795474"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Aix-en-Provence",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIJRfVJFH-y2Dacd-2-y20zdXNLq9AoAP4Ri4vvYAzNIhEhBeJHWtcBwalk1mj45mAAha",
+            "url": "https:\/\/signal.group\/#CjQKIJRfVJFH-y2Dacd-2-y20zdXNLq9AoAP4Ri4vvYAzNIhEhBeJHWtcBwalk1mj45mAAha",
+            "territoire": "Local",
+            "latitude": "43.5261666",
+            "longitude": "5.4461188"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Marseille",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIIqrgIOtF2gVpLAsDwHfySQwrkOjwFSajJYRVnCBh0HQEhB_83NU9LCRfqoU9-Lmjf_M",
+            "url": "https:\/\/signal.group\/#CjQKIIqrgIOtF2gVpLAsDwHfySQwrkOjwFSajJYRVnCBh0HQEhB_83NU9LCRfqoU9-Lmjf_M",
+            "territoire": "Local",
+            "latitude": "43.2803093",
+            "longitude": "5.2980667"
+        }
+    ],
+        "sousLieux": [
+
+                {
+        "nom": "Marseille centre",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKICEugTnyEU830hvXPZ8ErNzy4jXHfE5IPlOnL5NHbC54EhBrodt5rX2RlVaWPzjU3RWP",
+            "url": "https:\/\/signal.group\/#CjQKICEugTnyEU830hvXPZ8ErNzy4jXHfE5IPlOnL5NHbC54EhBrodt5rX2RlVaWPzjU3RWP",
+            "territoire": "Local",
+            "latitude": "43.2882836",
+            "longitude": "5.3589323"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Marseille EST",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+K0Nsa7fcLcdlNWRk",
+            "url": "https:\/\/t.me\/+K0Nsa7fcLcdlNWRk",
+            "territoire": "Local",
+            "latitude": "43.2943189",
+            "longitude": "5.4738447"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Marseille NORD",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIO-K7bQfMLEOyE4kg8B1RXLCRavzrPGehXSnAGa8k4HREhB9MAVzQMqR9vmA8bMeTc5d",
+            "url": "https:\/\/signal.group\/#CjQKIO-K7bQfMLEOyE4kg8B1RXLCRavzrPGehXSnAGa8k4HREhB9MAVzQMqR9vmA8bMeTc5d",
+            "territoire": "Local",
+            "latitude": "43.3301987",
+            "longitude": "5.3885049"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "Martigues",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIPk_e91eGhuj9ysnnene_2wjl6V-v5xy-TvPLB3FMKSfEhDP8jCI-AvedmrS-eBK6RKV",
+            "url": "https:\/\/signal.group\/#CjQKIPk_e91eGhuj9ysnnene_2wjl6V-v5xy-TvPLB3FMKSfEhDP8jCI-AvedmrS-eBK6RKV",
+            "territoire": "Local",
+            "latitude": "43.4052065",
+            "longitude": "5.0554091"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "Salon-de-Provence",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "indignonsnoussalon",
+            "url": "https:\/\/t.me\/indignonsnoussalon",
+            "territoire": "Local",
+            "latitude": "43.642961",
+            "longitude": "4.9710154"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+                 ,
+                {
+        "nom": "83 - Var",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "BloquonsToutVar",
+            "url": "https:\/\/t.me\/BloquonsToutVar",
+            "territoire": "D\u00e9partemental",
+            "latitude": "43.2269198",
+            "longitude": "5.9374019"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+                 ,
+                {
+        "nom": "84 - Vaucluse",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Sud Lub\u00e9ron",
+        "liens": [
+                    {
+            "type": "Signal",
+            "nom": "CjQKIAF5TQRu2gQgFnuyUpdwzn3DnGiQyKv_6jRv8i9Yw_XhEhCk4nTxuqBaq1icMNQkUJIW",
+            "url": "https:\/\/signal.group\/#CjQKIAF5TQRu2gQgFnuyUpdwzn3DnGiQyKv_6jRv8i9Yw_XhEhCk4nTxuqBaq1icMNQkUJIW",
+            "territoire": "Local",
+            "latitude": "43.7486227",
+            "longitude": "5.3944167"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+        ]
+    }
+        ]
+    }
+             ,
+            {
+        "nom": "Irlande",
+        "liens": [
+
+        ],
+        "sousLieux": [
+
+                {
+        "nom": "Dublin",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+7cSgq4Jxdd03MGRk",
+            "url": "https:\/\/t.me\/+7cSgq4Jxdd03MGRk",
+            "territoire": "Local",
+            "latitude": "52.9161963",
+            "longitude": "-5.7614271"
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+        ]
+    }
+    ],
+    "autres": [
+
+            {
+        "nom": "\u00c9TUDIANTS",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "dixseptembreetudiant",
+            "url": "https:\/\/t.me\/dixseptembreetudiant",
+            "territoire": "Th\u00e9matique",
+            "latitude": "",
+            "longitude": ""
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+             ,
+            {
+        "nom": "10S25",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+4zU11agZFXlhM2Nk",
+            "url": "https:\/\/t.me\/+4zU11agZFXlhM2Nk",
+            "territoire": "Th\u00e9matique",
+            "latitude": "",
+            "longitude": ""
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+             ,
+            {
+        "nom": "MARCHE - 10 SEPTEMBRE",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+0jfTtV0l27RjZmU0",
+            "url": "https:\/\/t.me\/+0jfTtV0l27RjZmU0",
+            "territoire": "Th\u00e9matique",
+            "latitude": "",
+            "longitude": ""
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+             ,
+            {
+        "nom": "Nourrir le mouvement",
+        "liens": [
+                    {
+            "type": "Telegram",
+            "nom": "+Lbb4F9zcebYzMzk0",
+            "url": "https:\/\/t.me\/+Lbb4F9zcebYzMzk0",
+            "territoire": "Th\u00e9matique",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Signal",
+            "nom": "CjQKIBDCsxJmCcgaqqR3lVgJjMy1ypJas0vxYdq8PJXZ_ut0EhCKsHPUnFTJPcbIWak2iQi0",
+            "url": "https:\/\/signal.group\/#CjQKIBDCsxJmCcgaqqR3lVgJjMy1ypJas0vxYdq8PJXZ_ut0EhCKsHPUnFTJPcbIWak2iQi0",
+            "territoire": "Th\u00e9matique",
+            "latitude": "",
+            "longitude": ""
+        }
+         ,
+        {
+            "type": "Site web",
+            "nom": "Nourrir le mouvement et Socialiser l’alimentation",
+            "url": "https:\/\/linktr.ee\/nourrirle10s25",
+            "territoire": "Th\u00e9matique",
+            "latitude": "",
+            "longitude": ""
+        }
+    ],
+        "sousLieux": [
+
+                ]
+    }
+    ]
+}

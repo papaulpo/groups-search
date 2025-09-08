@@ -1,121 +1,189 @@
 ---
-import type { Lieu } from '../types/geoliens';
+import type { LieuHierarchique, GeolienEntry, GeolienData, ProcessedGeolien } from '../types/geoliens';
+import geolienData from './_geolieu.json';
+import '../styles/app.css';
+import SearchForm from '../components/SearchForm.astro';
+import ViewToggle from '../components/ViewToggle.astro';
+import GeolienGrid from '../components/GeolienGrid.astro';
+import MapView from '../components/MapView.astro';
 
-const response = await fetch('http://localhost:8081/?page=geoliens.json&var_mode=calcul');
-// const response = await fetch('http://https://10s25.ovh/cms/?page=geoliens.json&var_mode=calcul');
-const hierarchie = await response.json() as Lieu[];
+const geolienDataTyped = geolienData as GeolienData;
+const rawData = [...geolienDataTyped.reseaux, ...geolienDataTyped.regions];
 
-// utilitaire pour mettre a plat la hierarchie des lieux
-function flaten(hierarchie: Lieu[], chemin: string = "") {
-  return hierarchie.reduce((acc, { sousLieux, ...lieu}) => {
-	if(lieu.ressources.length > 0) {
-		acc.push({...lieu, chemin });
-	}
-	acc.push(...flaten(sousLieux, `${chemin}${lieu.nom} > `));
-	return acc;
-  }, [] as (Omit<Lieu, "sousLieux"> & { chemin: string })[]);
+// Fonction utilitaire pour vérifier si une entrée est un lieu hiérarchique
+function isLieuHierarchique(entry: GeolienEntry): entry is LieuHierarchique {
+	const hasLiens = 'liens' in entry && Array.isArray((entry as LieuHierarchique).liens);
+	const hasNomOnly = !('type' in entry) && !('url' in entry) && 'nom' in entry;
+	return hasLiens && hasNomOnly;
 }
 
-const flat = flaten(hierarchie);
+// Fonction utilitaire pour aplatir la structure de données avec gestion de la hiérarchie
+function flattenGeoliens(data: GeolienEntry[], parentPath: string = ''): ProcessedGeolien[] {
+	const result: ProcessedGeolien[] = [];
+
+	data.forEach((entry) => {
+		if (isLieuHierarchique(entry)) {
+			// Construire le chemin hiérarchique complet
+			const currentPath = parentPath ? `${parentPath} > ${entry.nom}` : entry.nom;
+
+			// Gérer les entrées hiérarchiques et ajouter leurs liens
+			if (entry.liens && entry.liens.length > 0) {
+				entry.liens.forEach(lien => {
+					result.push({
+						...lien,
+						lieuNom: entry.nom,
+						fullPath: currentPath
+					});
+				});
+			}
+
+			// Gérer récursivement les sousLieux avec le chemin mis à jour
+			if (entry.sousLieux && entry.sousLieux.length > 0) {
+				result.push(...flattenGeoliens(entry.sousLieux, currentPath));
+			}
+		} else {
+			// Gérer les entrées plates (liens directs) - celles-ci sont au niveau racine
+			result.push({
+				...entry,
+				fullPath: parentPath || 'Root'
+			});
+		}
+	});
+
+	return result;
+}
+
+const geoliens = flattenGeoliens(rawData);
 ---
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nous Rejoindre - Trouver un groupe près de chez vous</title>
 </head>
-<body>
-	<iframe width="100%" height="800px" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe>
-	<p><a class="bouton" href="//umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Afficher la carte en plein écran</a></p>
+<body class="bg-neutral-dark min-h-screen font-theme" >
+	<div class="container mx-auto px-4 py-8">
+		<header class="mb-8">
+			<h1 class="text-2xl font-bold text-neutral-dark mb-4">Nous Rejoindre</h1>
+			<p class="text-sm font-medium text-neutral-medium mb-6">Trouvez un groupe près de chez vous ou qui correspond à vos centres d'intérêt</p>
+		</header>
 
-	<form id="geoliens-search" action="#" method="get">
-		<input type="text" id="search-text" placeholder="Rechercher un géolien" />
+		<ViewToggle />
 
-		<select id="search-type">
-			<option value="">Tous types</option>
-			<option value="bluesky">Bluesky</option>
-			<option value="facebookg">Facebook - Groupe</option>
-			<option value="facebookp">Facebook - Page</option>
-			<option value="instagram">Instagram</option>
-			<option value="piaille">Piaille</option>
-			<option value="signal">Signal</option>
-			<option value="site">Site web</option>
-			<option value="telegram">Telegram</option>
-			<option value="tiktok">TikTok</option>
-			<option value="twitter">X (Twitter)</option>
-		</select>
+		<SearchForm resultsCount={geoliens.length} />
 
-		<select id="search-territoire">
-			<option value="">Tous types</option>
-			<option value="Départemental">Départemental</option>
-			<option value="Local">Local</option>
-			<option value="National">National</option>
-			<option value="Régional">Régional</option>
-			<option value="Thématique">Thématique</option>
-		</select>
+		<GeolienGrid geoliens={geoliens} />
 
-		<button type="submit">Rechercher</button>
-	</form>
+		<MapView />
+	</div>
 
-	<dl id="geoliens-results" data-flatlinks={JSON.stringify(flat)}>
-		{flat.map(lieu => (
-			<dt>{lieu.nom}</dt>
-			<dd><dl>
-			{lieu.ressources.map(ressource => (<>
-				<dt class={ressource.icon}>{ressource.type}</dt>
-				<dd><ul>
-				{ressource.liens.map(lien => (
-					<li><a href={lien.url}>{lien.nom}</a></li>
-				))}
-				</ul></dd>
-			</>))}
-			</dl></dd>
-		))}
-	</dl>
+	<script is:inline define:vars={{ geoliens }}>
 
-	<script>
-		// récupération des données depuis #geoliens-results[data-flatlinks].
-		const flat = JSON.parse(document.getElementById('geoliens-results')?.dataset.flatlinks || '[]');
+		// DOM elements
+		const listViewBtn = document.getElementById('list-view-btn');
+		const mapViewBtn = document.getElementById('map-view-btn');
+		const listView = document.getElementById('list-view');
+		const mapView = document.getElementById('map-view');
+		const searchText = document.getElementById('search-text');
+		const searchType = document.getElementById('search-type');
+		const searchTerritoire = document.getElementById('search-territoire');
+		const searchLocation = document.getElementById('search-location');
+		const clearFiltersBtn = document.getElementById('clear-filters');
+		const resultsCount = document.getElementById('results-count');
+		const geolienCards = document.querySelectorAll('.geolien-card');
+		const noResults = document.getElementById('no-results');
 
-		// on intercepte les envois de formulaire
-		document.getElementById('geoliens-search')?.addEventListener('submit', (e) => {
-			e.preventDefault();
+		// View switching
+		function switchToListView() {
+			listView.classList.remove('hidden');
+			mapView.classList.add('hidden');
+			listViewBtn.classList.add('bg-blue-600', 'text-white');
+			listViewBtn.classList.remove('bg-gray-200', 'text-gray-700');
+			mapViewBtn.classList.remove('bg-blue-600', 'text-white');
+			mapViewBtn.classList.add('bg-gray-200', 'text-gray-700');
+		}
 
-			const query = (document.getElementById('search-text') as HTMLInputElement)?.value.toLowerCase() || '';
-			const searchType = (document.getElementById('search-type') as HTMLSelectElement)?.value || '';
-			const searchTerritoire = (document.getElementById('search-territoire') as HTMLSelectElement)?.value || '';
+		function switchToMapView() {
+			listView.classList.add('hidden');
+			mapView.classList.remove('hidden');
+			mapViewBtn.classList.add('bg-blue-600', 'text-white');
+			mapViewBtn.classList.remove('bg-gray-200', 'text-gray-700');
+			listViewBtn.classList.remove('bg-blue-600', 'text-white');
+			listViewBtn.classList.add('bg-gray-200', 'text-gray-700');
+		}
 
-			// on filtre les résultats
-			const results = flat
-				.map(lieu => ({
-					...lieu,
-					ressources: lieu.ressources
-						.map(ressource => ({
-							...ressource,
-							liens: ressource.liens
-								.filter(lien =>(
-									searchTerritoire === '' ||
-									lien.territoire.includes(searchTerritoire)
-								)),
-						}))
-						.filter(ressource => ressource.liens.length > 0)
-						.filter(ressource => searchType === '' || ressource.icon.includes(searchType)),
-				}))
-				.filter(lieu => lieu.ressources.length > 0)
-				.filter(lieu => `${lieu.chemin} > ${lieu.nom}`.toLowerCase().includes(query));
+		listViewBtn.addEventListener('click', switchToListView);
+		mapViewBtn.addEventListener('click', switchToMapView);
 
-			const container = document.getElementById('geoliens-results');
+		// Filtering function
+		function filterResults() {
+			const searchQuery = searchText.value.toLowerCase().trim();
+			const selectedType = searchType.value;
+			const selectedTerritoire = searchTerritoire.value;
+			const locationQuery = searchLocation.value.toLowerCase().trim();
 
-			if(container) {
-				container.innerHTML = results.map(lieu => `
-					<dt>${lieu.nom}</dt>
-					<dd><dl>${lieu.ressources.map(ressource => `
-						<dt class="${ressource.icon}">${ressource.type}</dt>
-						<dd><ul>${ressource.liens.map(lien => `
-							<li><a href="${lien.url}">${lien.nom}</a></li>`).join('')
-						}</ul></dd>`).join('')
-					}</dl></dd>`).join('');
+			let visibleCount = 0;
+
+			geolienCards.forEach(card => {
+				const cardNom = card.dataset.nom;
+				const cardType = card.dataset.type;
+				const cardTerritoire = card.dataset.territoire;
+				const cardLieu = card.dataset.lieu;
+				const cardFullPath = card.dataset.fullpath;
+
+				// Get the full text content for location search (including group name)
+				const fullText = card.textContent.toLowerCase();
+
+				const matchesSearch = !searchQuery || cardNom.includes(searchQuery);
+				const matchesType = !selectedType || cardType === selectedType;
+				const matchesTerritoire = !selectedTerritoire || cardTerritoire === selectedTerritoire;
+				const matchesLocation = !locationQuery ||
+					fullText.includes(locationQuery) ||
+					(cardLieu && cardLieu.includes(locationQuery)) ||
+					(cardFullPath && cardFullPath.includes(locationQuery));
+
+				const isVisible = matchesSearch && matchesType && matchesTerritoire && matchesLocation;
+
+				if (isVisible) {
+					card.style.display = 'block';
+					visibleCount++;
+				} else {
+					card.style.display = 'none';
+				}
+			});
+
+			// Update results count
+			resultsCount.textContent = visibleCount;
+
+			// Show/hide no results message
+			if (visibleCount === 0) {
+				document.getElementById('geoliens-grid').style.display = 'none';
+				noResults.classList.remove('hidden');
+			} else {
+				document.getElementById('geoliens-grid').style.display = 'grid';
+				noResults.classList.add('hidden');
 			}
-		});
+		}
+
+		// Clear filters
+		function clearFilters() {
+			searchText.value = '';
+			searchType.value = '';
+			searchTerritoire.value = '';
+			searchLocation.value = '';
+			filterResults();
+		}
+
+		// Event listeners for real-time filtering
+		searchText.addEventListener('input', filterResults);
+		searchType.addEventListener('change', filterResults);
+		searchTerritoire.addEventListener('change', filterResults);
+		searchLocation.addEventListener('input', filterResults);
+		clearFiltersBtn.addEventListener('click', clearFilters);
+
+		// Initialize
+		filterResults();
 	</script>
 </body>
 </html>

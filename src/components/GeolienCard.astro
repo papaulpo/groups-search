@@ -1,0 +1,74 @@
+---
+import type { GeolienCardProps } from '../types/geoliens';
+import { Icon } from 'astro-icon/components';
+
+interface Props extends GeolienCardProps {}
+
+const { geolien } = Astro.props;
+
+function getNetworkIcon(type: string): string {
+  const icons: Record<string, string> = {
+    'Bluesky': '/global/img/bluesky.svg',
+    'Facebook - Groupe': '/global/img/facebookg.svg',
+    'Facebook - Page': '/global/img/facebookp.svg',
+    'Instagram': '/global/img/instagram.svg',
+    'Piaille': '/global/img/piaille.png',
+    'Signal': '/global/img/signal.svg',
+    'Site web': '/global/img/site.svg',
+    'Telegram': '/global/img/telegram.svg',
+    'TikTok': '/global/img/tiktok.svg',
+    'X (Twitter)': '/global/img/twitter.svg'
+  };
+  return icons[type] || '/global/img/site.svg';
+}
+---
+
+<div class="geolien-card bg-neutral-dark rounded text-neutral-light border border-neutral-light p-4 overflow-hidden"
+     data-type={geolien.type}
+     data-territoire={geolien.territoire}
+     data-nom={geolien.nom.toLowerCase()}
+     data-lieu={geolien.lieuNom?.toLowerCase() || ''}
+     data-fullpath={geolien.fullPath?.toLowerCase() || ''}>
+  <div class="flex items-start justify-between mb-3">
+    <div class="flex-1 min-w-0">
+      <h3 class="text-base font-semibold text-inherit truncate" title={geolien.nom}>{geolien.nom}</h3>
+
+      { geolien.fullPath && geolien.fullPath !== 'Root' ? (
+        <p class="text-sm font-medium text-inherit mt-1 flex items-center gap-1 truncate" title={geolien.fullPath}>
+          <Icon name="map-pin" class="w-4 h-4 flex-shrink-0" />
+          <span class="truncate">{geolien.fullPath}</span>
+        </p>
+      ) : (
+        <p class="text-sm font-medium text-inherit mt-1 flex items-center gap-1 truncate" title="France">
+          <Icon name="map-pin" class="w-4 h-4 flex-shrink-0" />
+          <span class="truncate">France</span>
+        </p>
+      )}
+
+
+    </div>
+    <div class="ml-2 w-6 h-6 flex-shrink-0">
+      <img src={getNetworkIcon(geolien.type)} alt={geolien.type} class="w-full h-full object-contain" />
+    </div>
+  </div>
+
+  <div class="space-y-2 mb-4">
+    <div class="flex flex-wrap gap-2">
+      {geolien.territoire && (
+        <span class="bg-neutral-light text-neutral-dark px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap">
+          {geolien.territoire}
+        </span>
+      )}
+    </div>
+  </div>
+
+  <a
+    href={geolien.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="inline-flex items-center p-2 bg-primary-yellow text-neutral-dark font-semibold rounded w-full justify-center -rotate-1"
+  >
+    <span class="text-inherit uppercase text-xs">Rejoindre</span>
+    <Icon name="users-four" class="ml-2 w-4 h-4" />
+  </a>
+</div>
