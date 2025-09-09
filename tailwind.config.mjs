@@ -17,7 +17,7 @@ export default {
 					dark: '#1D1D1B',
 					medium: '#5D5B54',
 					light: '#C1C0BB',
-					cream: '#F9F8E9',
+					cream: '#F5F5F1',
 				},
 				// Semantic aliases
 				'theme-primary': '#F2CE1A',

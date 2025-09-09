@@ -1,87 +1,40 @@
 ---
 import type { SearchFormProps } from '../types/geoliens';
+import { Icon } from 'astro-icon/components';
 
 interface Props extends SearchFormProps {}
 
 const { resultsCount } = Astro.props;
 ---
 
-<div class="bg-white rounded-lg shadow-sm border border-neutral-light p-6 mb-6">
+<div class="search-form-container mb-6 text-neutral-50">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
     <div>
-      <label for="search-text" class="block text-sm font-medium text-neutral-dark mb-2">Rechercher</label>
+      <label for="search-location" class="block text-lg font-medium mb-2">Rechercher</label>
       <div class="relative">
-        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-          <svg class="h-4 w-4 text-neutral-medium" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-          </svg>
-        </div>
-        <input
-          type="text"
-          id="search-text"
-          placeholder="Nom du groupe..."
-          class="w-full pl-10 pr-3 py-2 border border-neutral-light rounded-md focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:border-transparent text-sm font-medium text-neutral-dark"
-        />
-      </div>
-    </div>
 
-    <div>
-      <label for="search-type" class="block text-sm font-medium text-neutral-dark mb-2">Type de réseau</label>
-      <select id="search-type" class="w-full px-3 py-2 border border-neutral-light rounded-md focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:border-transparent text-sm font-medium text-neutral-dark">
-        <option value="">Tous types</option>
-        <option value="Bluesky">Bluesky</option>
-        <option value="Facebook - Groupe">Facebook - Groupe</option>
-        <option value="Facebook - Page">Facebook - Page</option>
-        <option value="Instagram">Instagram</option>
-        <option value="Piaille">Piaille</option>
-        <option value="Signal">Signal</option>
-        <option value="Site web">Site web</option>
-        <option value="Telegram">Telegram</option>
-        <option value="TikTok">TikTok</option>
-        <option value="X (Twitter)">X (Twitter)</option>
-      </select>
-    </div>
-
-    <div>
-      <label for="search-territoire" class="block text-sm font-medium text-neutral-dark mb-2">Territoire</label>
-      <select id="search-territoire" class="w-full px-3 py-2 border border-neutral-light rounded-md focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:border-transparent text-sm font-medium text-neutral-dark">
-        <option value="">Tous territoires</option>
-        <option value="Départemental">Départemental</option>
-        <option value="Local">Local</option>
-        <option value="National">National</option>
-        <option value="Régional">Régional</option>
-        <option value="Thématique">Thématique</option>
-      </select>
-    </div>
-
-    <div>
-      <label for="search-location" class="block text-sm font-medium text-neutral-dark mb-2">Recherche géographique</label>
-      <div class="relative">
-        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-          <svg class="h-4 w-4 text-neutral-medium" fill="currentColor" viewBox="0 0 256 256">
-            <path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88,88,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88,88,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/>
-          </svg>
-        </div>
         <input
           type="text"
           id="search-location"
           placeholder="Ville, région, département..."
-          class="w-full pl-10 pr-3 py-2 border border-neutral-light rounded-md focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:border-transparent text-sm font-medium text-neutral-dark"
+          class="w-full pl-4 py-2 border border-primary-yellow rounded-md focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:border-transparent text-sm font-medium"
         />
+
+        <div class="absolute inset-y-0 right-0 ml-3 py-4 px-2 flex items-center pointer-events-none bg-primary-yellow rounded justify-center">
+          <Icon
+            name="map-pin"
+            class="w-4 h-4 text-neutral-dark"
+          >
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="flex justify-end mt-4">
-    <button id="clear-filters" class="px-4 py-2 bg-neutral-medium text-white rounded-md hover:bg-neutral-dark transition-colors flex items-center gap-2 text-sm font-medium">
-      <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 256 256">
-        <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,130.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/>
-      </svg>
-      Effacer les filtres
-    </button>
+
+  <div class="mt-4 text-sm font-medium text-neutral-light">
+    <span id="results-count" class="font-bold">{resultsCount}</span>
+    <span>groupe{resultsCount > 1 ? 's' : ''}</span>
   </div>
 
-  <div class="mt-4 text-sm font-medium text-neutral-medium">
-    <span id="results-count">{resultsCount}</span> groupe(s) trouvé(s)
-  </div>
 </div>

@@ -6,6 +6,7 @@ import SearchForm from '../components/SearchForm.astro';
 import ViewToggle from '../components/ViewToggle.astro';
 import GeolienGrid from '../components/GeolienGrid.astro';
 import MapView from '../components/MapView.astro';
+import HierarchicalView from '../components/HierarchicalView.astro';
 
 const geolienDataTyped = geolienData as GeolienData;
 const rawData = [...geolienDataTyped.reseaux, ...geolienDataTyped.regions];
@@ -65,13 +66,15 @@ const geoliens = flattenGeoliens(rawData);
 <body class="bg-neutral-dark min-h-screen font-theme" >
 	<div class="container mx-auto px-4 py-8">
 		<header class="mb-8">
-			<h1 class="text-2xl font-bold text-neutral-dark mb-4">Nous Rejoindre</h1>
-			<p class="text-sm font-medium text-neutral-medium mb-6">Trouvez un groupe près de chez vous ou qui correspond à vos centres d'intérêt</p>
+			<h1 class="text-2xl md:text-4xl font-bold text-neutral-50 mb-4 max-w-2xl">Dès maintenant, je rejoins le mouvement près de chez moi.</h1>
+			<p class="text-base font-medium text-neutral-50 mb-6">Des centaines de groupes locaux s'organisent. Trouvez le vôtre et agissez.</p>
 		</header>
 
 		<ViewToggle />
 
 		<SearchForm resultsCount={geoliens.length} />
+
+		<HierarchicalView geoliens={geoliens} />
 
 		<GeolienGrid geoliens={geoliens} />
 
@@ -82,8 +85,10 @@ const geoliens = flattenGeoliens(rawData);
 
 		// DOM elements
 		const listViewBtn = document.getElementById('list-view-btn');
+		const hierarchicalViewBtn = document.getElementById('hierarchical-view-btn');
 		const mapViewBtn = document.getElementById('map-view-btn');
 		const listView = document.getElementById('list-view');
+		const hierarchicalView = document.getElementById('hierarchical-view');
 		const mapView = document.getElementById('map-view');
 		const searchText = document.getElementById('search-text');
 		const searchType = document.getElementById('search-type');
@@ -96,44 +101,119 @@ const geoliens = flattenGeoliens(rawData);
 
 		// View switching
 		function switchToListView() {
-			listView.classList.remove('hidden');
-			mapView.classList.add('hidden');
-			listViewBtn.classList.add('bg-blue-600', 'text-white');
-			listViewBtn.classList.remove('bg-gray-200', 'text-gray-700');
-			mapViewBtn.classList.remove('bg-blue-600', 'text-white');
-			mapViewBtn.classList.add('bg-gray-200', 'text-gray-700');
+			if (listView) listView.classList.remove('hidden');
+			if (hierarchicalView) hierarchicalView.classList.add('hidden');
+			if (mapView) mapView.classList.add('hidden');
+
+			// Afficher la barre de recherche
+			const searchForm = document.querySelector('.search-form-container');
+			if (searchForm) {
+				searchForm.style.display = 'block';
+			}
+
+			if (listViewBtn) {
+				listViewBtn.classList.add('bg-primary-yellow', 'text-neutral-dark');
+				listViewBtn.classList.remove('bg-neutral-dark', 'text-neutral-medium');
+			}
+
+			if (hierarchicalViewBtn) {
+				hierarchicalViewBtn.classList.remove('bg-primary-yellow', 'text-neutral-dark');
+				hierarchicalViewBtn.classList.add('bg-neutral-dark', 'text-neutral-medium');
+			}
+
+			if (mapViewBtn) {
+				mapViewBtn.classList.remove('bg-primary-yellow', 'text-neutral-dark');
+				mapViewBtn.classList.add('bg-neutral-dark', 'text-neutral-medium');
+			}
+
+			// Save view preference
+			localStorage.setItem('viewPreference', 'list');
+		}
+
+		function switchToHierarchicalView() {
+			if (listView) listView.classList.add('hidden');
+			if (hierarchicalView) hierarchicalView.classList.remove('hidden');
+			if (mapView) mapView.classList.add('hidden');
+
+			// Afficher la barre de recherche
+			const searchForm = document.querySelector('.search-form-container');
+			if (searchForm) {
+				searchForm.style.display = 'block';
+			}
+
+			if (listViewBtn) {
+				listViewBtn.classList.remove('bg-primary-yellow', 'text-neutral-dark');
+				listViewBtn.classList.add('bg-neutral-dark', 'text-neutral-medium');
+			}
+
+			if (hierarchicalViewBtn) {
+				hierarchicalViewBtn.classList.add('bg-primary-yellow', 'text-neutral-dark');
+				hierarchicalViewBtn.classList.remove('bg-neutral-dark', 'text-neutral-medium');
+			}
+
+			if (mapViewBtn) {
+				mapViewBtn.classList.remove('bg-primary-yellow', 'text-neutral-dark');
+				mapViewBtn.classList.add('bg-neutral-dark', 'text-neutral-medium');
+			}
+
+			// Save view preference
+			localStorage.setItem('viewPreference', 'hierarchical');
 		}
 
 		function switchToMapView() {
-			listView.classList.add('hidden');
-			mapView.classList.remove('hidden');
-			mapViewBtn.classList.add('bg-blue-600', 'text-white');
-			mapViewBtn.classList.remove('bg-gray-200', 'text-gray-700');
-			listViewBtn.classList.remove('bg-blue-600', 'text-white');
-			listViewBtn.classList.add('bg-gray-200', 'text-gray-700');
+			if (listView) listView.classList.add('hidden');
+			if (hierarchicalView) hierarchicalView.classList.add('hidden');
+			if (mapView) mapView.classList.remove('hidden');
+
+			// Masquer la barre de recherche pour la vue carte
+			const searchForm = document.querySelector('.search-form-container');
+			if (searchForm) {
+				searchForm.style.display = 'none';
+			}
+
+			if (listViewBtn) {
+				listViewBtn.classList.remove('bg-primary-yellow', 'text-neutral-dark');
+				listViewBtn.classList.add('bg-neutral-dark', 'text-neutral-medium');
+			}
+
+			if (hierarchicalViewBtn) {
+				hierarchicalViewBtn.classList.remove('bg-neutral-dark', 'text-neutral-medium');
+				hierarchicalViewBtn.classList.add('bg-neutral-dark', 'text-neutral-medium');
+			}
+
+			if (mapViewBtn) {
+				mapViewBtn.classList.add('bg-primary-yellow', 'text-neutral-medium');
+				mapViewBtn.classList.remove('bg-neutral-dark', 'text-neutral-medium');
+			}
+
+			// Save view preference
+			localStorage.setItem('viewPreference', 'map');
 		}
 
-		listViewBtn.addEventListener('click', switchToListView);
-		mapViewBtn.addEventListener('click', switchToMapView);
+
+		if (listViewBtn) listViewBtn.addEventListener('click', switchToListView);
+		if (hierarchicalViewBtn) hierarchicalViewBtn.addEventListener('click', switchToHierarchicalView);
+		if (mapViewBtn) mapViewBtn.addEventListener('click', switchToMapView);
 
 		// Filtering function
 		function filterResults() {
-			const searchQuery = searchText.value.toLowerCase().trim();
-			const selectedType = searchType.value;
-			const selectedTerritoire = searchTerritoire.value;
-			const locationQuery = searchLocation.value.toLowerCase().trim();
+			const searchQuery = (searchText?.value || '').toLowerCase().trim();
+			const selectedType = searchType?.value || '';
+			const selectedTerritoire = searchTerritoire?.value || '';
+			const locationQuery = (searchLocation?.value || '').toLowerCase().trim();
 
 			let visibleCount = 0;
 
+			// Filtrer les cartes de la vue liste
 			geolienCards.forEach(card => {
-				const cardNom = card.dataset.nom;
-				const cardType = card.dataset.type;
-				const cardTerritoire = card.dataset.territoire;
-				const cardLieu = card.dataset.lieu;
-				const cardFullPath = card.dataset.fullpath;
+				const cardNom = card.dataset.nom || '';
+				const cardType = card.dataset.type || '';
+				const cardTerritoire = card.dataset.territoire || '';
+				const cardLieu = card.dataset.lieu || '';
+				const cardFullPath = card.dataset.fullpath || '';
 
 				// Get the full text content for location search (including group name)
-				const fullText = card.textContent.toLowerCase();
+				const fullText = (card.textContent || '').toLowerCase();
 
 				const matchesSearch = !searchQuery || cardNom.includes(searchQuery);
 				const matchesType = !selectedType || cardType === selectedType;
@@ -153,36 +233,147 @@ const geoliens = flattenGeoliens(rawData);
 				}
 			});
 
-			// Update results count
-			resultsCount.textContent = visibleCount;
+			// Filtrer les éléments de la vue hiérarchique
+			let hierarchicalVisibleCount = 0;
+			const regionSections = document.querySelectorAll('.region-section');
+
+			regionSections.forEach(regionSection => {
+				let regionHasVisibleGroups = false;
+				const departmentGroups = regionSection.querySelectorAll('.department-group');
+
+				departmentGroups.forEach(departmentGroup => {
+					let departmentHasVisibleGroups = false;
+					const groupTiles = departmentGroup.querySelectorAll('.group-tile');
+
+					groupTiles.forEach(tile => {
+						const tileName = tile.dataset.name || '';
+						const tileType = tile.dataset.type || '';
+						const tileTerritory = (tile.dataset.territoire || '').toLowerCase();
+						const tileDepartment = tile.dataset.department || '';
+						const tileRegion = tile.dataset.region || (regionSection.dataset.region || '');
+
+						const matchesSearch = !searchQuery || tileName.includes(searchQuery);
+						const matchesType = !selectedType || tileType === selectedType;
+						const matchesTerritoire = !selectedTerritoire || tileTerritory === selectedTerritoire.toLowerCase();
+						const matchesLocation = !locationQuery ||
+							tileName.includes(locationQuery) ||
+							tileDepartment.includes(locationQuery) ||
+							tileRegion.includes(locationQuery);
+
+						const isVisible = matchesSearch && matchesType && matchesTerritoire && matchesLocation;
+
+						if (isVisible) {
+							tile.style.display = 'block';
+							departmentHasVisibleGroups = true;
+							regionHasVisibleGroups = true;
+							hierarchicalVisibleCount++;
+						} else {
+							tile.style.display = 'none';
+						}
+					});
+
+					// Masquer/afficher le groupe de département
+					if (departmentHasVisibleGroups) {
+						departmentGroup.style.display = 'block';
+					} else {
+						departmentGroup.style.display = 'none';
+					}
+				});
+
+				// Masquer/afficher la section région
+				if (regionHasVisibleGroups) {
+					regionSection.style.display = 'block';
+				} else {
+					regionSection.style.display = 'none';
+				}
+
+				// Si une recherche géographique est saisie, ouvrir automatiquement
+				// les régions qui contiennent des résultats et fermer les autres
+				if (locationQuery) {
+					const header = regionSection.querySelector('.region-header');
+					const content = regionSection.querySelector('.region-content');
+					const caret = header?.querySelector('[name="caret-down"]');
+
+					if (regionHasVisibleGroups) {
+						if (header && header.getAttribute('aria-expanded') !== 'true') {
+							header.setAttribute('aria-expanded', 'true');
+						}
+						content?.classList.remove('max-h-0');
+						content?.setAttribute('aria-hidden', 'false');
+						caret?.classList.add('rotate-180');
+					} else {
+						if (header && header.getAttribute('aria-expanded') !== 'false') {
+							header.setAttribute('aria-expanded', 'false');
+						}
+						content?.classList.add('max-h-0');
+						content?.setAttribute('aria-hidden', 'true');
+						caret?.classList.remove('rotate-180');
+					}
+				}
+			});
+
+			// Update results count based on current view
+			const currentVisibleCount = !hierarchicalView || hierarchicalView.classList.contains('hidden') ? visibleCount : hierarchicalVisibleCount;
+			if (resultsCount) resultsCount.textContent = currentVisibleCount;
 
 			// Show/hide no results message
-			if (visibleCount === 0) {
-				document.getElementById('geoliens-grid').style.display = 'none';
-				noResults.classList.remove('hidden');
+			if (currentVisibleCount === 0) {
+				if (!hierarchicalView.classList.contains('hidden')) {
+					// Vue hiérarchique active
+					const hierarchicalNoResults = document.getElementById('hierarchical-no-results');
+					if (hierarchicalNoResults) {
+						hierarchicalNoResults.classList.remove('hidden');
+					}
+				} else {
+					// Vue liste active
+					const gridEl = document.getElementById('geoliens-grid');
+					if (gridEl) gridEl.style.display = 'none';
+					if (noResults) noResults.classList.remove('hidden');
+				}
 			} else {
-				document.getElementById('geoliens-grid').style.display = 'grid';
-				noResults.classList.add('hidden');
+				// Masquer tous les messages "aucun résultat"
+				const gridEl = document.getElementById('geoliens-grid');
+				if (gridEl) gridEl.style.display = 'grid';
+				if (noResults) noResults.classList.add('hidden');
+				const hierarchicalNoResults = document.getElementById('hierarchical-no-results');
+				if (hierarchicalNoResults) {
+					hierarchicalNoResults.classList.add('hidden');
+				}
 			}
 		}
 
 		// Clear filters
 		function clearFilters() {
-			searchText.value = '';
-			searchType.value = '';
-			searchTerritoire.value = '';
-			searchLocation.value = '';
+			if (searchText) searchText.value = '';
+			if (searchType) searchType.value = '';
+			if (searchTerritoire) searchTerritoire.value = '';
+			if (searchLocation) searchLocation.value = '';
 			filterResults();
 		}
 
 		// Event listeners for real-time filtering
-		searchText.addEventListener('input', filterResults);
-		searchType.addEventListener('change', filterResults);
-		searchTerritoire.addEventListener('change', filterResults);
-		searchLocation.addEventListener('input', filterResults);
-		clearFiltersBtn.addEventListener('click', clearFilters);
+		if (searchText) searchText.addEventListener('input', filterResults);
+		if (searchType) searchType.addEventListener('change', filterResults);
+		if (searchTerritoire) searchTerritoire.addEventListener('change', filterResults);
+		if (searchLocation) searchLocation.addEventListener('input', filterResults);
+		if (clearFiltersBtn) clearFiltersBtn.addEventListener('click', clearFilters);
+
+		// Initialize view from localStorage
+		function initializeView() {
+			const savedView = localStorage.getItem('viewPreference');
+
+			if (savedView === 'hierarchical') {
+				switchToHierarchicalView();
+			} else if (savedView === 'map') {
+				switchToMapView();
+			} else {
+				// Default to list view if no preference or 'list'
+				switchToHierarchicalView();
+			}
+		}
 
 		// Initialize
+		initializeView();
 		filterResults();
 	</script>
 </body>

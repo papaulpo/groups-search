@@ -1,0 +1,183 @@
+---
+import type { ProcessedGeolien } from '../types/geoliens';
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  regionName: string;
+  geoliens: ProcessedGeolien[];
+  isExpanded?: boolean;
+}
+
+const { regionName, geoliens, isExpanded = false } = Astro.props;
+
+// Grouper les géoliens par département
+const departmentGroups = geoliens.reduce((acc, geolien) => {
+  // Extraire le département du fullPath (ex: "Île-de-France > Paris" -> "Paris")
+  const pathParts = geolien.fullPath?.split(' > ') || [];
+  const department = pathParts.length > 1 ? pathParts[pathParts.length - 1] : 'Autres';
+
+  if (!acc[department]) {
+    acc[department] = [];
+  }
+  acc[department].push(geolien);
+  return acc;
+}, {} as Record<string, ProcessedGeolien[]>);
+
+const departmentNames = Object.keys(departmentGroups).sort();
+const totalGroups = geoliens.length;
+---
+
+<div class="region-section mb-6 bg-neutral-dark border border-neutral-medium rounded overflow-hidden focus-within:ring-2 focus-within:ring-red-600 ring-inset"
+     data-region={regionName.toLowerCase()}
+     data-count={totalGroups}>
+  <!-- En-tête de la région -->
+  <button
+    class="region-header w-full p-4 flex items-center justify-between bg-primary-yellow text-neutral-dark font-semibold text-left hover:bg-primary-yellow-light transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 ring-inset"
+    type="button"
+    aria-expanded={isExpanded ? 'true' : 'false'}
+    aria-controls={`region-content-${regionName.replace(/\s+/g, '-').toLowerCase()}`}
+    aria-describedby={`region-stats-${regionName.replace(/\s+/g, '-').toLowerCase()}`}
+    data-region-toggle={regionName}
+  >
+    <div class="flex items-center gap-3">
+      <Icon name="map-pin" class="w-5 h-5 flex-shrink-0" />
+      <div class="flex flex-col md:items-start">
+        <span class="text-lg font-bold">{regionName}</span>
+        <span
+          class="text-sm font-medium opacity-80"
+          id={`region-stats-${regionName.replace(/\s+/g, '-').toLowerCase()}`}
+          aria-label={`${totalGroups} groupe${totalGroups > 1 ? 's' : ''} dans ${departmentNames.length} département${departmentNames.length > 1 ? 's' : ''}`}
+        >
+          {totalGroups} groupe{totalGroups > 1 ? 's' : ''} • {departmentNames.length} département{departmentNames.length > 1 ? 's' : ''}
+        </span>
+      </div>
+    </div>
+    <Icon
+      name="caret-down"
+      class={`w-5 h-5 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
+    />
+  </button>
+
+  <!-- Contenu de la région -->
+  <div
+    id={`region-content-${regionName.replace(/\s+/g, '-').toLowerCase()}`}
+    class={`region-content transition-all duration-300 overflow-hidden flex flex-col ${isExpanded ? 'max-h-none' : 'max-h-0'}`}
+    aria-hidden={isExpanded ? 'false' : 'true'}
+  >
+    <!-- Contrôle local pour basculer tous les départements -->
+    <div class="p-4 flex justify-end">
+      <button
+        type="button"
+        class="toggle-departments-btn px-3 py-2 uppercase text-xs font-medium bg-primary-yellow hover:bg-primary-yellow-light transition-colors duration-200 cursor-pointer text-neutral-dark rounded focus:outline-none focus:ring-2 focus:ring-neutral-50"
+        aria-label="Développer tous les départements de la région"
+        aria-pressed="false"
+      >
+        Tout développer
+      </button>
+    </div>
+    <div class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      {departmentNames.map((departmentName) => (
+        <div class="department-group">
+
+          <!-- En-tête du département (accordéon) -->
+          <button
+            class="department-header w-full flex items-center gap-2 mb-3 text-left focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:ring-offset-2"
+            type="button"
+            aria-expanded="false"
+            aria-controls={`department-content-${regionName.replace(/\s+/g, '-').toLowerCase()}-${departmentName.replace(/\s+/g, '-').toLowerCase()}`}
+            tabindex="-1"
+          >
+            <Icon name="building-office" class="w-4 h-4 text-neutral-medium flex-shrink-0" />
+            <h4 class="text-base font-semibold text-neutral-light flex-1">{departmentName}</h4>
+            <span class="text-sm text-neutral-medium">({departmentGroups[departmentName].length})</span>
+          </button>
+
+          <!-- Contenu du département -->
+          <div
+            id={`department-content-${regionName.replace(/\s+/g, '-').toLowerCase()}-${departmentName.replace(/\s+/g, '-').toLowerCase()}`}
+            class="department-content flex flex-col gap-2 hidden"
+            aria-hidden="true"
+          >
+            {departmentGroups[departmentName].map((geolien) => (
+              <a href={geolien.url} target="_blank" rel="noopener noreferrer" tabindex="-1">
+                <div
+                  class="group-tile rounded p-2 flex items-center gap-3 bg-neutral-cream"
+                  data-name={geolien.nom.toLowerCase()}
+                  data-type={geolien.type}
+                  data-territoire={geolien.territoire}
+                  data-department={departmentName.toLowerCase()}
+                  data-region={regionName.toLowerCase()}
+                >
+                  <!-- Icône du réseau -->
+                  <div class="flex items-center gap-2">
+                    <div class="w-4 h-4 flex-shrink-0">
+                      <img
+                        src={`/global/img/${geolien.type.toLowerCase().replace(/\s+/g, '').replace('-', '').replace('(', '').replace(')', '')}.svg`}
+                        alt={geolien.type}
+                        class="w-full h-full object-contain"
+                        onerror="this.src='/global/img/site.svg'"
+                      />
+                    </div>
+
+                    <h5 class="text-xs font-semibold text-neutral-dark truncate" title={geolien.nom}>
+                      {geolien.nom}
+                    </h5>
+                  </div>
+
+                  <!-- Informations du groupe -->
+                  <div class="flex-1 min-w-0">
+                    <div class="flex items-center gap-1 text-xs text-neutral-medium mt-0.5">
+                      <span class="truncate">{geolien.type}</span>
+                      {geolien.territoire && (
+                        <>
+                          <span>•</span>
+                          <span class="truncate">{geolien.territoire}</span>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .region-content.max-h-0 {
+    max-height: 0;
+  }
+
+  .region-content:not(.max-h-0) {
+    max-height: none; /* Permettre une expansion complète */
+  }
+
+  @media (max-width: 640px) {
+    .group-tile {
+      padding: 0.75rem;
+    }
+
+    .region-header {
+      padding: 1rem;
+    }
+
+    .region-content .p-4 {
+      padding: 1rem;
+    }
+
+    .group-tile {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .group-tile a {
+      align-self: stretch;
+      justify-content: center;
+    }
+  }
+
+</style>

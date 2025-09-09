@@ -1,0 +1,422 @@
+---
+import type { ProcessedGeolien } from '../types/geoliens';
+import RegionSection from './RegionSection.astro';
+
+interface Props {
+  geoliens: ProcessedGeolien[];
+}
+
+const { geoliens } = Astro.props;
+
+// Fonction pour extraire la région du fullPath
+function extractRegion(fullPath: string | undefined): string {
+  if (!fullPath || fullPath === 'Root') return 'France';
+  const pathParts = fullPath.split(' > ');
+  return pathParts[0] || 'France';
+}
+
+// Grouper les géoliens par région
+const regionGroups = geoliens.reduce((acc, geolien) => {
+  const region = extractRegion(geolien.fullPath);
+
+  if (!acc[region]) {
+    acc[region] = [];
+  }
+  acc[region].push(geolien);
+  return acc;
+}, {} as Record<string, ProcessedGeolien[]>);
+
+// Trier les régions par nom, avec "France" en dernier
+const sortedRegions = Object.keys(regionGroups).sort((a, b) => {
+  if (a === 'France') return 1;
+  if (b === 'France') return -1;
+  return a.localeCompare(b, 'fr');
+});
+
+const totalRegions = sortedRegions.length;
+const totalGroups = geoliens.length;
+---
+
+<div id="hierarchical-view" class="hidden space-y-4">
+  <!-- En-tête avec statistiques -->
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+      <div>
+        <h2 class="text-lg md:text-2xl font-bold text-neutral-50">Groupes par région</h2>
+      </div>
+      <div class="flex items-center gap-4 text-sm font-medium text-neutral-light">
+        <div class="flex items-center gap-1">
+          <span class="font-bold">{totalGroups}</span>
+          <span>groupe{totalGroups > 1 ? 's' : ''}</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <span class="font-bold">{totalRegions}</span>
+          <span>région{totalRegions > 1 ? 's' : ''}</span>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- Contrôle de navigation (toggle global + tri) -->
+  <div class="flex flex-wrap gap-2 mb-4 justify-end items-center">
+    <label for="region-sort" class="sr-only">Trier les régions</label>
+    <select
+      id="region-sort"
+      class="px-3 py-2 text-xs uppercase font-medium bg-neutral-light border text-neutral-medium rounded focus:outline-none focus:ring-2 focus:ring-primary-yellow"
+      aria-label="Trier les régions"
+    >
+      <option value="alpha" selected>Ordre alphabétique</option>
+      <option value="count">Nombre de groupes</option>
+    </select>
+    <button
+      id="toggle-all-regions"
+      class="px-3 py-2 uppercase text-xs font-medium bg-primary-yellow hover:bg-primary-yellow-light transition-colors duration-200 cursor-pointer text-neutral-dark rounded focus:outline-none focus:ring-2 focus:ring-neutral-50"
+      type="button"
+      aria-label="Développer toutes les régions"
+      aria-pressed="false"
+    >
+      Tout développer
+    </button>
+  </div>
+
+  <!-- Liste des régions -->
+  <div class="regions-container space-y-4" role="region" aria-label="Liste des régions">
+    {sortedRegions.map((regionName, index) => (
+      <RegionSection
+        regionName={regionName}
+        geoliens={regionGroups[regionName]}
+        isExpanded={index === 0}
+      />
+    ))}
+  </div>
+
+  <!-- Message si aucun groupe trouvé -->
+  <div id="hierarchical-no-results" class="hidden text-center py-12">
+    <div class="text-neutral-medium mb-4 flex justify-center">
+      <svg class="w-16 h-16" fill="currentColor" viewBox="0 0 256 256">
+        <path d="M232.49,215.51,185,168a92.12,92.12,0,1,0-17,17l47.53,47.54a12,12,0,0,0,17-17ZM44,112a68,68,0,1,1,68,68A68.07,68.07,0,0,1,44,112Z"/>
+      </svg>
+    </div>
+    <h3 class="text-lg font-medium text-neutral-dark mb-2">Aucun groupe trouvé</h3>
+    <p class="text-neutral-medium">Essayez de modifier vos critères de recherche ou utilisez la vue en cartes</p>
+  </div>
+</div>
+
+<script>
+  // Logique pour basculer toutes les régions
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleAllBtn = document.getElementById('toggle-all-regions');
+    const sortSelect = document.getElementById('region-sort') as HTMLSelectElement | null;
+    const regionsContainer = document.querySelector('.regions-container');
+
+    if (toggleAllBtn) {
+      toggleAllBtn.addEventListener('click', function() {
+        const regionSections = document.querySelectorAll('.region-section');
+        // Si au moins une région est fermée, on développe tout, sinon on réduit tout
+        const shouldExpand = Array.from(regionSections).some(section => {
+          const btn = section.querySelector('.region-header');
+          return btn?.getAttribute('aria-expanded') !== 'true';
+        });
+
+        regionSections.forEach(section => {
+          const button = section.querySelector('.region-header');
+          const content = section.querySelector('.region-content');
+
+          if (button && content) {
+            button.setAttribute('aria-expanded', shouldExpand ? 'true' : 'false');
+            content.classList.toggle('max-h-0', !shouldExpand);
+            content.setAttribute('aria-hidden', shouldExpand ? 'false' : 'true');
+            const caret = button.querySelector('[name="caret-down"]');
+            if (caret) {
+              caret.classList.toggle('rotate-180', shouldExpand);
+            }
+          }
+        });
+
+        updateTabNavigation();
+        updateToggleAllRegionsLabel();
+      });
+    }
+
+    // Tri des régions
+    function sortRegions(mode: 'alpha' | 'count') {
+      if (!regionsContainer) return;
+      const regions = Array.from(regionsContainer.querySelectorAll('.region-section')) as HTMLElement[];
+      const collator = new Intl.Collator('fr');
+
+      regions.sort((ra, rb) => {
+        const nameA = (ra.dataset.region || '').toString();
+        const nameB = (rb.dataset.region || '').toString();
+        const isFranceA = nameA === 'france';
+        const isFranceB = nameB === 'france';
+
+        // Toujours placer "France" en dernier
+        if (isFranceA && !isFranceB) return 1;
+        if (!isFranceA && isFranceB) return -1;
+
+        if (mode === 'count') {
+          const countA = parseInt(ra.dataset.count || '0', 10);
+          const countB = parseInt(rb.dataset.count || '0', 10);
+          if (countB !== countA) return countB - countA; // décroissant
+          // Égalité: retomber sur alpha
+        }
+
+        return collator.compare(nameA, nameB);
+      });
+
+      // Réinsérer dans le DOM selon le nouvel ordre
+      regions.forEach(el => regionsContainer.appendChild(el));
+      updateTabNavigation();
+    }
+
+    if (sortSelect) {
+      sortSelect.addEventListener('change', () => sortRegions((sortSelect.value as 'alpha' | 'count')));
+    }
+
+    // Gestion des clics sur les en-têtes de région
+    document.addEventListener('click', function(e) {
+      const regionHeader = e.target.closest('.region-header');
+      if (regionHeader) {
+        toggleRegion(regionHeader);
+      }
+
+      const departmentHeader = e.target.closest('.department-header');
+      if (departmentHeader) {
+        toggleDepartment(departmentHeader);
+      }
+
+      const toggleDeptsBtn = e.target.closest('.toggle-departments-btn');
+      if (toggleDeptsBtn) {
+        const regionSection = toggleDeptsBtn.closest('.region-section');
+        if (regionSection) {
+          toggleAllDepartmentsInRegion(regionSection as HTMLElement);
+          updateRegionDeptToggleLabel(regionSection as HTMLElement);
+        }
+      }
+    });
+
+    // Fonction pour basculer l'état d'une région
+    function toggleRegion(regionHeader) {
+      const regionSection = regionHeader.closest('.region-section');
+      const content = regionSection.querySelector('.region-content');
+      const caret = regionHeader.querySelector('[name="caret-down"]');
+
+      const isExpanded = regionHeader.getAttribute('aria-expanded') === 'true';
+
+      regionHeader.setAttribute('aria-expanded', !isExpanded);
+      content.setAttribute('aria-hidden', isExpanded);
+
+      if (isExpanded) {
+        content.classList.add('max-h-0');
+        caret?.classList.remove('rotate-180');
+      } else {
+        content.classList.remove('max-h-0');
+        caret?.classList.add('rotate-180');
+      }
+
+      // Mettre à jour la navigation au clavier
+      updateTabNavigation();
+      updateToggleAllRegionsLabel();
+    }
+
+    // Fonction pour basculer l'état d'un département
+    function toggleDepartment(departmentHeader) {
+      const departmentGroup = departmentHeader.closest('.department-group');
+      const content = departmentGroup.querySelector('.department-content');
+      const isExpanded = departmentHeader.getAttribute('aria-expanded') === 'true';
+
+      departmentHeader.setAttribute('aria-expanded', (!isExpanded).toString());
+      if (content) {
+        if (isExpanded) {
+          content.classList.add('hidden');
+          content.setAttribute('aria-hidden', 'true');
+        } else {
+          content.classList.remove('hidden');
+          content.setAttribute('aria-hidden', 'false');
+        }
+      }
+
+      updateTabNavigation();
+      // Mettre à jour le libellé du bouton local
+      const regionSection = departmentHeader.closest('.region-section');
+      if (regionSection) updateRegionDeptToggleLabel(regionSection);
+    }
+
+    // Fonction pour mettre à jour la navigation au clavier
+    function updateTabNavigation() {
+      const allRegions = document.querySelectorAll('.region-section');
+
+      allRegions.forEach(regionSection => {
+        const regionHeader = regionSection.querySelector('.region-header') as HTMLElement;
+        if (!regionHeader) return;
+
+        // Les en-têtes de région sont toujours tabulables
+        regionHeader.setAttribute('tabindex', '0');
+
+        const regionExpanded = regionHeader.getAttribute('aria-expanded') === 'true';
+        const departmentHeaders = regionSection.querySelectorAll('.department-header');
+
+        const regionToggleBtn = regionSection.querySelector('.toggle-departments-btn') as HTMLElement | null;
+
+        if (!regionExpanded) {
+          // Région fermée : on sort tout du flux de tabulation
+          departmentHeaders.forEach(dh => (dh as HTMLElement).setAttribute('tabindex', '-1'));
+          const regionLinks = regionSection.querySelectorAll('.group-tile a');
+          regionLinks.forEach(link => (link as HTMLElement).setAttribute('tabindex', '-1'));
+          if (regionToggleBtn) regionToggleBtn.setAttribute('tabindex', '-1');
+          return;
+        }
+
+        // Région ouverte : les en-têtes de département sont tabulables
+        departmentHeaders.forEach(dh => (dh as HTMLElement).setAttribute('tabindex', '0'));
+        if (regionToggleBtn) regionToggleBtn.setAttribute('tabindex', '0');
+
+        // Pour chaque département, ne rendre tabbables les liens que si le département est ouvert
+        const departmentGroups = regionSection.querySelectorAll('.department-group');
+        departmentGroups.forEach(group => {
+          const header = group.querySelector('.department-header') as HTMLElement | null;
+          const links = group.querySelectorAll('.department-content a');
+          const isDeptExpanded = header?.getAttribute('aria-expanded') === 'true';
+          links.forEach(link => (link as HTMLElement).setAttribute('tabindex', isDeptExpanded ? '0' : '-1'));
+        });
+      });
+    }
+
+    // Met à jour le bouton "toggle départements" d'une région
+    function updateRegionDeptToggleLabel(regionSection: HTMLElement) {
+      const btn = regionSection.querySelector('.toggle-departments-btn') as HTMLButtonElement | null;
+      if (!btn) return;
+      const deptHeaders = Array.from(regionSection.querySelectorAll('.department-header')) as HTMLElement[];
+      const allOpen = deptHeaders.length > 0 && deptHeaders.every(h => h.getAttribute('aria-expanded') === 'true');
+      btn.textContent = allOpen ? 'Tout réduire' : 'Tout développer';
+      btn.setAttribute('aria-label', allOpen ? 'Réduire tous les départements de la région' : 'Développer tous les départements de la région');
+      btn.setAttribute('aria-pressed', allOpen ? 'true' : 'false');
+    }
+
+    // Met à jour le libellé du bouton global selon l'état courant
+    function updateToggleAllRegionsLabel() {
+      const btn = document.getElementById('toggle-all-regions');
+      if (!btn) return;
+      const headers = Array.from(document.querySelectorAll('.region-section .region-header')) as HTMLElement[];
+      const allExpanded = headers.length > 0 && headers.every(h => h.getAttribute('aria-expanded') === 'true');
+      btn.textContent = allExpanded ? 'Tout réduire' : 'Tout développer';
+      btn.setAttribute('aria-label', allExpanded ? 'Réduire toutes les régions' : 'Développer toutes les régions');
+      btn.setAttribute('aria-pressed', allExpanded ? 'true' : 'false');
+    }
+
+    // Fonction pour basculer tous les départements d'une région
+    function toggleAllDepartmentsInRegion(regionSection: HTMLElement) {
+      const headers = Array.from(regionSection.querySelectorAll('.department-header')) as HTMLElement[];
+      const contents = Array.from(regionSection.querySelectorAll('.department-content')) as HTMLElement[];
+      if (!headers.length) return;
+
+      // Décider si on développe ou on réduit: si au moins un est fermé, on développe tout
+      const shouldExpand = headers.some(h => h.getAttribute('aria-expanded') !== 'true');
+
+      headers.forEach((header, idx) => {
+        header.setAttribute('aria-expanded', shouldExpand ? 'true' : 'false');
+        const content = contents[idx] || header.closest('.department-group')?.querySelector('.department-content');
+        if (!content) return;
+        if (shouldExpand) {
+          content.classList.remove('hidden');
+          content.setAttribute('aria-hidden', 'false');
+        } else {
+          content.classList.add('hidden');
+          content.setAttribute('aria-hidden', 'true');
+        }
+      });
+
+      updateTabNavigation();
+    }
+
+    // Support clavier pour l'accessibilité
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        const regionHeader = (e.target as HTMLElement)?.closest('.region-header') as HTMLElement;
+        const departmentHeader = (e.target as HTMLElement)?.closest('.department-header') as HTMLElement;
+        if (regionHeader) {
+          e.preventDefault();
+          toggleRegion(regionHeader);
+        } else if (departmentHeader) {
+          e.preventDefault();
+          toggleDepartment(departmentHeader);
+        }
+      }
+
+      // Navigation par flèches dans les sections
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        // Gestion pour les en-têtes de région
+        const currentHeader = (e.target as HTMLElement)?.closest('.region-header') as HTMLElement;
+        // Gestion pour les en-têtes et liens au sein des régions
+        const currentDeptHeader = (e.target as HTMLElement)?.closest('.department-header') as HTMLElement;
+        const currentLink = (e.target as HTMLElement)?.closest('.group-tile a') as HTMLElement;
+
+        if (currentHeader) {
+          e.preventDefault();
+          const allHeaders = Array.from(document.querySelectorAll('.region-header[tabindex="0"]'));
+          const currentIndex = allHeaders.indexOf(currentHeader);
+          let nextIndex;
+
+          if (e.key === 'ArrowDown') {
+            nextIndex = (currentIndex + 1) % allHeaders.length;
+          } else {
+            nextIndex = (currentIndex - 1 + allHeaders.length) % allHeaders.length;
+          }
+
+          if (allHeaders[nextIndex]) {
+            (allHeaders[nextIndex] as HTMLElement).focus();
+          }
+        } else if (currentDeptHeader || currentLink) {
+          e.preventDefault();
+          const allTabbableElements = Array.from(document.querySelectorAll('.region-header[tabindex="0"], .department-header[tabindex="0"], .group-tile a[tabindex="0"]'));
+          const currentEl = currentDeptHeader || currentLink;
+          const currentIndex = allTabbableElements.indexOf(currentEl);
+          let nextIndex;
+
+          if (e.key === 'ArrowDown') {
+            nextIndex = (currentIndex + 1) % allTabbableElements.length;
+          } else {
+            nextIndex = (currentIndex - 1 + allTabbableElements.length) % allTabbableElements.length;
+          }
+
+          if (allTabbableElements[nextIndex]) {
+            (allTabbableElements[nextIndex] as HTMLElement).focus();
+          }
+        }
+      }
+
+      // Raccourcis clavier pour basculer toutes les régions
+      if (e.ctrlKey || e.metaKey) {
+        if (e.key === 'o' || e.key === 'O' || e.key === 'c' || e.key === 'C') {
+          e.preventDefault();
+          document.getElementById('toggle-all-regions')?.click();
+        }
+      }
+    });
+
+    // Initialiser la navigation au clavier au chargement de la page
+    updateTabNavigation();
+    updateToggleAllRegionsLabel();
+    // Assurer l'ordre initial (alpha)
+    sortRegions('alpha');
+    // Initialiser les libellés des boutons locaux
+    document.querySelectorAll('.region-section').forEach((section) => updateRegionDeptToggleLabel(section as HTMLElement));
+  });
+</script>
+
+<style>
+  .region-header:focus {
+    outline: 2px solid var(--color-primary-yellow);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 640px) {
+    .regions-container {
+      margin: 0 -0.5rem;
+    }
+
+    .region-section {
+      border-radius: 0.5rem;
+      margin: 0 0.5rem;
+    }
+  }
+</style>
