@@ -336,7 +336,7 @@ const geoliens = flattenGeoliens(rawData);
 				if (locationQuery) {
 					const header = regionSection.querySelector('.region-header');
 					const content = regionSection.querySelector('.region-content');
-					const caret = header?.querySelector('[name="caret-down"]');
+					const caret = header?.querySelector('.region-caret');
 
 					if (regionHasVisibleGroups) {
 						if (header && header.getAttribute('aria-expanded') !== 'true') {

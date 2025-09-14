@@ -105,11 +105,10 @@ const totalGroups = geoliens.length;
 
   <!-- RÉGIONS (France) -->
   <div class="regions-container space-y-4" role="region" aria-label="Régions (France)">
-    {sortedFrenchRegions.map((regionName, index) => (
+    {sortedFrenchRegions.map((regionName) => (
       <RegionSection
         regionName={regionName}
         geoliens={frenchRegionGroups[regionName]}
-        isExpanded={index === 0}
       />
     ))}
   </div>
@@ -132,7 +131,7 @@ const totalGroups = geoliens.length;
             <span class="text-sm font-medium opacity-80" id="region-stats-international">{sortedCountries.length} pays</span>
           </div>
         </div>
-        <svg name="caret-down" class="w-5 h-5 transition-transform duration-200" viewBox="0 0 256 256" fill="currentColor"><path d="M208.49,96.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L112,151,191.51,79.51a12,12,0,0,1,17,17Z"></path></svg>
+        <svg class="region-caret w-5 h-5 transition-transform duration-200" viewBox="0 0 256 256" fill="currentColor"><path d="M208.49,96.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L112,151,191.51,79.51a12,12,0,0,1,17,17Z"></path></svg>
       </button>
       <div id="region-content-international" class="region-content transition-all duration-300 overflow-hidden flex flex-col max-h-0" aria-hidden="true">
         <div class="p-4 space-y-4">
@@ -180,7 +179,7 @@ const totalGroups = geoliens.length;
             button.setAttribute('aria-expanded', shouldExpand ? 'true' : 'false');
             content.classList.toggle('max-h-0', !shouldExpand);
             content.setAttribute('aria-hidden', shouldExpand ? 'false' : 'true');
-            const caret = button.querySelector('[name="caret-down"]');
+            const caret = button.querySelector('.region-caret');
             if (caret) {
               caret.classList.toggle('rotate-180', shouldExpand);
             }
@@ -253,7 +252,7 @@ const totalGroups = geoliens.length;
     function toggleRegion(regionHeader) {
       const regionSection = regionHeader.closest('.region-section');
       const content = regionSection.querySelector('.region-content');
-      const caret = regionHeader.querySelector('[name="caret-down"]');
+      const caret = regionHeader.querySelector('.region-caret');
 
       const isExpanded = regionHeader.getAttribute('aria-expanded') === 'true';
 
