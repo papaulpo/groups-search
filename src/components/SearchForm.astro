@@ -43,19 +43,19 @@ const { resultsCount } = Astro.props;
 <!-- Compact sticky search bar that appears after national sections -->
 <div
   id="sticky-search-bar"
-  class="hidden fixed top-0 left-0 right-0 z-40 px-2 md:px-4 py-2"
+  class="fixed bottom-4 left-0 right-0 z-40 px-2 md:px-4 py-http://localhost:1420/2 mt-4 transition-transform transition-opacity duration-300 ease-out translate-y-6 opacity-0 pointer-events-none"
   role="search"
   aria-label="Recherche de groupe par lieu (barre fixe)"
   aria-hidden="true"
 >
-  <div class="container mx-auto max-w-xl bg-neutral-dark rounded-md border-2 border-neutral-medium">
+  <div class="container mx-auto max-w-xl bg-neutral-dark rounded-md border-2 border-neutral-light">
     <label for="search-location-sticky" class="sr-only">Rechercher</label>
     <div class="relative">
       <input
         type="text"
         id="search-location-sticky"
         placeholder="Ville, région, département..."
-        class="w-full pl-4 py-2 pr-10 rounded-md text-neutral-light focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:border-transparent text-sm font-medium"
+        class="w-full pl-4 py-2 pr-10 rounded-md text-neutral-50 focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:border-transparent text-sm font-medium"
         aria-label="Rechercher un groupe par lieu"
         aria-describedby="search-location-help"
         aria-controls="hierarchical-view"

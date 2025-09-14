@@ -7,6 +7,7 @@ import ViewToggle from '../components/ViewToggle.astro';
 import GeolienGrid from '../components/GeolienGrid.astro';
 import MapView from '../components/MapView.astro';
 import HierarchicalView from '../components/HierarchicalView.astro';
+import NavBar from '../components/NavBar.astro';
 
 const geolienDataTyped = await loadGeolienData();
 const rawData = [...geolienDataTyped.reseaux, ...geolienDataTyped.regions];
@@ -64,6 +65,7 @@ const geoliens = flattenGeoliens(rawData);
 	<title>Nous Rejoindre - Trouver un groupe près de chez vous</title>
 </head>
 <body class="bg-neutral-dark min-h-screen font-theme" >
+	<NavBar />
 	<div class="container mx-auto px-2 md:px-4 py-8">
 		<header class="mb-8">
 			<h1 class="text-2xl md:text-4xl font-bold text-neutral-50 mb-4 max-w-2xl">Dès maintenant, je rejoins le mouvement près de chez moi.</h1>
@@ -183,8 +185,7 @@ const geoliens = flattenGeoliens(rawData);
 
 			// Masquer la barre sticky quand la carte est affichée
 			if (stickyBar) {
-				stickyBar.classList.add('hidden');
-				stickyBar.setAttribute('aria-hidden', 'true');
+				setStickyVisibility(false);
 			}
 
 			if (listViewBtn) {
@@ -440,7 +441,9 @@ const geoliens = flattenGeoliens(rawData);
 			if (!stickyBar) return;
 			const wasVisible = isStickyVisible;
 			if (shouldShow) {
-				stickyBar.classList.remove('hidden');
+				// Show with slide-up animation
+				stickyBar.classList.remove('opacity-0', 'translate-y-6', 'pointer-events-none');
+				stickyBar.classList.add('opacity-100', 'translate-y-0', 'pointer-events-auto');
 				stickyBar.setAttribute('aria-hidden', 'false');
 				isStickyVisible = true;
 				return;
@@ -449,7 +452,9 @@ const geoliens = flattenGeoliens(rawData);
 			const searchFormEl = document.querySelector('.search-form-container');
 			const mainSearchVisible = !!searchFormEl && searchFormEl.style.display !== 'none';
 			const stickyHadFocus = document.activeElement === stickyInput;
-			stickyBar.classList.add('hidden');
+			// Hide with slide-down animation state
+			stickyBar.classList.add('opacity-0', 'translate-y-6', 'pointer-events-none');
+			stickyBar.classList.remove('opacity-100', 'translate-y-0', 'pointer-events-auto');
 			stickyBar.setAttribute('aria-hidden', 'true');
 			isStickyVisible = false;
 			if (wasVisible && stickyHadFocus && mainSearchVisible && searchLocation) {
