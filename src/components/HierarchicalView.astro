@@ -8,32 +8,47 @@ interface Props {
 
 const { geoliens } = Astro.props;
 
-// Fonction pour extraire la région du fullPath
-function extractRegion(fullPath: string | undefined): string {
-  if (!fullPath || fullPath === 'Root') return 'France';
-  const pathParts = fullPath.split(' > ');
-  return pathParts[0] || 'France';
-}
+// Helpers pour parcourir le chemin
+const splitPath = (fullPath?: string) => (fullPath ? fullPath.split(' > ') : []);
+const topOf = (g: ProcessedGeolien) => splitPath(g.fullPath)[0] || '';
 
-// Grouper les géoliens par région
-const regionGroups = geoliens.reduce((acc, geolien) => {
-  const region = extractRegion(geolien.fullPath);
+// Séparer les catégories
+const national = geoliens.filter(g => {
+  const parts = splitPath(g.fullPath);
+  return parts.length === 1 && parts[0] === 'France';
+});
 
-  if (!acc[region]) {
-    acc[region] = [];
-  }
-  acc[region].push(geolien);
+const thematiques = geoliens.filter(g => topOf(g) === 'Groupes thématiques');
+
+// Regrouper les groupes français par région (2e segment: France > Région > ...)
+const french = geoliens.filter(g => {
+  const parts = splitPath(g.fullPath);
+  return parts[0] === 'France' && parts.length > 1; // exclut les nationaux
+});
+
+const frenchRegionGroups = french.reduce((acc, g) => {
+  const parts = splitPath(g.fullPath);
+  const region = parts[1] || 'Autres';
+  if (!acc[region]) acc[region] = [] as ProcessedGeolien[];
+  acc[region].push(g);
   return acc;
 }, {} as Record<string, ProcessedGeolien[]>);
 
-// Trier les régions par nom, avec "France" en dernier
-const sortedRegions = Object.keys(regionGroups).sort((a, b) => {
-  if (a === 'France') return 1;
-  if (b === 'France') return -1;
-  return a.localeCompare(b, 'fr');
-});
+const sortedFrenchRegions = Object.keys(frenchRegionGroups).sort((a, b) => a.localeCompare(b, 'fr'));
 
-const totalRegions = sortedRegions.length;
+// Regrouper les pays internationaux (tout sauf France et Groupes thématiques)
+const internationalGroups = geoliens.reduce((acc, g) => {
+  const top = topOf(g);
+  if (!top || top === 'France' || top === 'Groupes thématiques') return acc;
+  if (!acc[top]) acc[top] = [] as ProcessedGeolien[];
+  acc[top].push(g);
+  return acc;
+}, {} as Record<string, ProcessedGeolien[]>);
+
+const sortedCountries = Object.keys(internationalGroups).sort((a, b) => a.localeCompare(b, 'fr'));
+
+// Statistiques (basées sur les régions françaises)
+const totalRegions = sortedFrenchRegions.length;
 const totalGroups = geoliens.length;
 ---
 
@@ -78,16 +93,56 @@ const totalGroups = geoliens.length;
     </button>
   </div>
 
-  <!-- Liste des régions -->
-  <div class="regions-container space-y-4" role="region" aria-label="Liste des régions">
-    {sortedRegions.map((regionName, index) => (
+  <!-- NATIONAL -->
+  {national.length > 0 && (
+    <RegionSection regionName="National" geoliens={national} isExpanded={true} />
+  )}
+
+  <!-- GROUPES THÉMATIQUES -->
+  {thematiques.length > 0 && (
+    <RegionSection regionName="Groupes thématiques" geoliens={thematiques} />
+  )}
+
+  <!-- RÉGIONS (France) -->
+  <div class="regions-container space-y-4" role="region" aria-label="Régions (France)">
+    {sortedFrenchRegions.map((regionName, index) => (
       <RegionSection
         regionName={regionName}
-        geoliens={regionGroups[regionName]}
+        geoliens={frenchRegionGroups[regionName]}
         isExpanded={index === 0}
       />
     ))}
   </div>
+
+  <!-- INTERNATIONAL -->
+  {sortedCountries.length > 0 && (
+    <div class="region-section mb-6 bg-neutral-dark border border-neutral-medium rounded overflow-hidden focus-within:ring-2 focus-within:ring-red-600 ring-inset" data-region="international" data-count={sortedCountries.length}>
+      <button
+        class="region-header w-full p-4 flex items-center justify-between bg-primary-yellow text-neutral-dark font-semibold text-left hover:bg-primary-yellow-light transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 ring-inset"
+        type="button"
+        aria-expanded="false"
+        aria-controls="region-content-international"
+        aria-describedby="region-stats-international"
+        data-region-toggle="International"
+      >
+        <div class="flex items-center gap-3">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm7.93 9h-3.95a15.977 15.977 0 0 0-1.16-5.19A8.022 8.022 0 0 1 19.93 11zM12 4c.83 0 2.5 2.17 3.23 5H8.77C9.5 6.17 11.17 4 12 4zM4.07 13h3.95c.24 1.79.74 3.53 1.45 5.19A8.022 8.022 0 0 1 4.07 13zM8.02 11H4.07a8.022 8.022 0 0 1 5.4-5.19A15.977 15.977 0 0 0 8.02 11zm7.21 2h3.95a8.022 8.022 0 0 1-5.4 5.19c.71-1.66 1.21-3.4 1.45-5.19zM9.23 13h5.54c-.73 2.83-2.4 5-3.23 5s-2.5-2.17-3.23-5z"/></svg>
+          <div class="flex flex-col md:items-start">
+            <span class="text-lg font-bold">International</span>
+            <span class="text-sm font-medium opacity-80" id="region-stats-international">{sortedCountries.length} pays</span>
+          </div>
+        </div>
+        <svg name="caret-down" class="w-5 h-5 transition-transform duration-200" viewBox="0 0 256 256" fill="currentColor"><path d="M208.49,96.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L112,151,191.51,79.51a12,12,0,0,1,17,17Z"></path></svg>
+      </button>
+      <div id="region-content-international" class="region-content transition-all duration-300 overflow-hidden flex flex-col max-h-0" aria-hidden="true">
+        <div class="p-4 space-y-4">
+          {sortedCountries.map((country) => (
+            <RegionSection regionName={country} geoliens={internationalGroups[country]} />
+          ))}
+        </div>
+      </div>
+    </div>
+  )}
 
   <!-- Message si aucun groupe trouvé -->
   <div id="hierarchical-no-results" class="hidden text-center py-12">
@@ -243,22 +298,34 @@ const totalGroups = geoliens.length;
 
     // Fonction pour mettre à jour la navigation au clavier
     function updateTabNavigation() {
-      const allRegions = document.querySelectorAll('.region-section');
+      const allRegions = Array.from(document.querySelectorAll('.region-section')) as HTMLElement[];
 
       allRegions.forEach(regionSection => {
-        const regionHeader = regionSection.querySelector('.region-header') as HTMLElement;
+        const regionHeader = regionSection.querySelector('.region-header') as HTMLElement | null;
         if (!regionHeader) return;
 
-        // Les en-têtes de région sont toujours tabulables
+        // If region is hidden by filtering or closed ancestor, remove from tab order
+        const hiddenByFilter = regionSection.classList.contains('hidden');
+        const ancestorRegionContent = regionSection.closest('.region-content');
+        const hiddenByAncestor = !!(ancestorRegionContent && (ancestorRegionContent.getAttribute('aria-hidden') === 'true' || ancestorRegionContent.classList.contains('max-h-0')));
+
+        if (hiddenByFilter || hiddenByAncestor) {
+          regionHeader.setAttribute('tabindex', '-1');
+          // Also ensure anything inside is not tabbable
+          const innerFocusables = regionSection.querySelectorAll('.department-header, .group-tile a, .regional-link, .toggle-departments-btn');
+          innerFocusables.forEach(el => (el as HTMLElement).setAttribute('tabindex', '-1'));
+          return;
+        }
+
+        // Region headers are tabbable by default
         regionHeader.setAttribute('tabindex', '0');
 
         const regionExpanded = regionHeader.getAttribute('aria-expanded') === 'true';
         const departmentHeaders = regionSection.querySelectorAll('.department-header');
-
         const regionToggleBtn = regionSection.querySelector('.toggle-departments-btn') as HTMLElement | null;
 
         if (!regionExpanded) {
-          // Région fermée : on sort tout du flux de tabulation
+          // Region closed: keep only header tabbable
           departmentHeaders.forEach(dh => (dh as HTMLElement).setAttribute('tabindex', '-1'));
           const regionLinks = regionSection.querySelectorAll('.group-tile a');
           regionLinks.forEach(link => (link as HTMLElement).setAttribute('tabindex', '-1'));
@@ -268,13 +335,13 @@ const totalGroups = geoliens.length;
           return;
         }
 
-        // Région ouverte : les en-têtes de département sont tabulables
+        // Region open: department headers tabbable, toggle btn too
         departmentHeaders.forEach(dh => (dh as HTMLElement).setAttribute('tabindex', '0'));
         if (regionToggleBtn) regionToggleBtn.setAttribute('tabindex', '0');
         const regionalAnchors = regionSection.querySelectorAll('.regional-link');
         regionalAnchors.forEach(link => (link as HTMLElement).setAttribute('tabindex', '0'));
 
-        // Pour chaque département, ne rendre tabbables les liens que si le département est ouvert
+        // Within departments, only links of expanded department are tabbable
         const departmentGroups = regionSection.querySelectorAll('.department-group');
         departmentGroups.forEach(group => {
           const header = group.querySelector('.department-header') as HTMLElement | null;

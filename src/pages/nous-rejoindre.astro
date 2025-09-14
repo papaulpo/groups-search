@@ -1,6 +1,6 @@
 ---
 import type { LieuHierarchique, GeolienEntry, GeolienData, ProcessedGeolien } from '../types/geoliens';
-import geolienData from './_geolieu.json';
+import { loadGeolienData } from '../lib/geoliens';
 import '../styles/app.css';
 import SearchForm from '../components/SearchForm.astro';
 import ViewToggle from '../components/ViewToggle.astro';
@@ -8,7 +8,7 @@ import GeolienGrid from '../components/GeolienGrid.astro';
 import MapView from '../components/MapView.astro';
 import HierarchicalView from '../components/HierarchicalView.astro';
 
-const geolienDataTyped = geolienData as GeolienData;
+const geolienDataTyped = await loadGeolienData();
 const rawData = [...geolienDataTyped.reseaux, ...geolienDataTyped.regions];
 
 // Fonction utilitaire pour vérifier si une entrée est un lieu hiérarchique
@@ -273,9 +273,9 @@ const geoliens = flattenGeoliens(rawData);
 					}
 				});
 
-				departmentGroups.forEach(departmentGroup => {
-					let departmentHasVisibleGroups = false;
-					const groupTiles = departmentGroup.querySelectorAll('.group-tile');
+                departmentGroups.forEach(departmentGroup => {
+                    let departmentHasVisibleGroups = false;
+                    const groupTiles = departmentGroup.querySelectorAll('.group-tile');
 
 					groupTiles.forEach(tile => {
 					const tileName = tile.dataset.name || '';
@@ -301,17 +301,32 @@ const geoliens = flattenGeoliens(rawData);
 						const isVisible = matchesSearch && matchesType && matchesTerritoire && matchesLocation;
 
 						// Utiliser une classe pour ne pas modifier le type d'affichage
-						tile.classList.toggle('hidden', !isVisible);
-						if (isVisible) {
-							departmentHasVisibleGroups = true;
-							regionHasVisibleGroups = true;
-							hierarchicalVisibleCount++;
-						}
-					});
+                        tile.classList.toggle('hidden', !isVisible);
+                        if (isVisible) {
+                            departmentHasVisibleGroups = true;
+                            regionHasVisibleGroups = true;
+                            hierarchicalVisibleCount++;
+                        }
+                    });
 
-					// Masquer/afficher le groupe de département
-					departmentGroup.classList.toggle('hidden', !departmentHasVisibleGroups);
-				});
+                    // Masquer/afficher le groupe de département
+                    departmentGroup.classList.toggle('hidden', !departmentHasVisibleGroups);
+
+                    // Ouvrir/fermer automatiquement les départements si une recherche géographique est saisie
+                    if (locationQuery) {
+                        const dHeader = departmentGroup.querySelector('.department-header');
+                        const dContent = departmentGroup.querySelector('.department-content');
+                        if (departmentHasVisibleGroups) {
+                            dHeader?.setAttribute('aria-expanded', 'true');
+                            dContent?.classList.remove('hidden');
+                            dContent?.setAttribute('aria-hidden', 'false');
+                        } else {
+                            dHeader?.setAttribute('aria-expanded', 'false');
+                            dContent?.classList.add('hidden');
+                            dContent?.setAttribute('aria-hidden', 'true');
+                        }
+                    }
+                });
 
 				// Masquer/afficher la section région
 				regionSection.classList.toggle('hidden', !regionHasVisibleGroups);

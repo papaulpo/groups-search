@@ -13,9 +13,20 @@ const { regionName, geoliens, isExpanded = false } = Astro.props;
   // Récupère le nom du lieu à afficher sur la tuile (local, département, région)
   function getPlaceNameForTile(geolien: ProcessedGeolien, departmentName?: string, region?: string): string {
     const parts = geolien.fullPath?.split(' > ') || [];
-    if (parts.length >= 3) return parts[2];
-    if (parts.length === 2) return departmentName || parts[1];
-    return region || parts[0] || '';
+    // Aucun chemin: retour région fournie ou vide
+    if (parts.length === 0) return region || '';
+
+    // Lien régional pur (chemin d'une seule section)
+    if (parts.length === 1) return region || parts[0] || '';
+
+    // Dans un département: privilégier le dernier segment (ville/local), sinon département
+    if (departmentName) {
+      if (parts.length >= 3) return parts[parts.length - 1];
+      return departmentName || parts[1] || '';
+    }
+
+    // Par défaut: afficher le dernier segment disponible (utile pour 2+ segments)
+    return parts[parts.length - 1] || region || '';
   }
 
   // Regrouper par département en utilisant le 2e segment (Région > Département > Ville)
@@ -26,17 +37,33 @@ const { regionName, geoliens, isExpanded = false } = Astro.props;
   const departmentGroups = geoliens.reduce((acc, geolien) => {
     const parts = geolien.fullPath?.split(' > ') || [];
 
-    // Liens régionaux: uniquement le nom de région dans le chemin
-    if (parts.length <= 1) {
+    // Trouver l'index de la région courante dans le chemin
+    const regionIdx = parts.findIndex((p) => p === regionName);
+    // Si non trouvé, essayer cas insensibles (sécurité si accents/casse diffèrent)
+    const regionIdxAlt = regionIdx === -1
+      ? parts.findIndex((p) => p.toLowerCase() === regionName.toLowerCase())
+      : regionIdx;
+
+    // Si la région n'est pas dans le chemin, considérer comme régional simple
+    if (regionIdxAlt === -1) {
       regionalGroups.push(geolien);
       return acc;
     }
 
-    const department = parts[1];
+    // Lien régional pur: s'arrête à la région
+    if (parts.length === regionIdxAlt + 1) {
+      regionalGroups.push(geolien);
+      return acc;
+    }
+
+    // Sinon, on a au moins un département après la région
+    const department = parts[regionIdxAlt + 1];
     if (!acc[department]) acc[department] = { departmental: [], local: [] } as DeptBuckets;
 
     const terr = norm(geolien.territoire);
-    if (parts.length === 2 || terr === 'departemental' || terr === 'départemental') {
+    const isDepartmentalByPath = parts.length === regionIdxAlt + 2; // France > Région > Département
+    const isDepartmentalByLabel = terr === 'departemental' || terr === 'départemental';
+    if (isDepartmentalByPath || isDepartmentalByLabel) {
       acc[department].departmental.push(geolien);
     } else {
       acc[department].local.push(geolien);
@@ -131,6 +158,8 @@ const { regionName, geoliens, isExpanded = false } = Astro.props;
             </div>
           </a>
         ))}
+
+        
       </div>
 
       <button
