@@ -75,22 +75,22 @@ const { regionName, geoliens, isExpanded = false } = Astro.props;
   const totalGroups = geoliens.length;
 ---
 
-<div class="region-section mb-6 bg-neutral-dark border border-neutral-medium rounded overflow-hidden focus-within:ring-2 focus-within:ring-red-600 ring-inset"
+<div class="region-section mb-4 bg-neutral-dark border border-neutral-medium rounded overflow-hidden focus-within:ring-2 focus-within:ring-red-600 ring-inset"
      data-region={regionName.toLowerCase()}
      data-count={totalGroups}>
   <!-- En-tête de la région -->
   <button
-    class="region-header w-full p-4 flex items-center justify-between bg-primary-yellow text-neutral-dark font-semibold text-left hover:bg-primary-yellow-light transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 ring-inset"
+    class="region-header w-full p-2 py-4 md:p-4 flex  items-start md:items-center justify-between bg-primary-yellow text-neutral-dark font-semibold text-left hover:bg-primary-yellow-light transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 ring-inset"
     type="button"
     aria-expanded={isExpanded ? 'true' : 'false'}
     aria-controls={`region-content-${regionName.replace(/\s+/g, '-').toLowerCase()}`}
     aria-describedby={`region-stats-${regionName.replace(/\s+/g, '-').toLowerCase()}`}
     data-region-toggle={regionName}
   >
-    <div class="flex items-center gap-3">
+    <div class="flex items-start md:items-center gap-3">
       <Icon name="map-pin" class="w-5 h-5 flex-shrink-0" />
       <div class="flex flex-col md:items-start">
-        <span class="text-lg font-bold">{regionName}</span>
+        <span class="text-md md:text-lg font-bold leading-tight uppercase">{regionName}</span>
         <span
           class="text-sm font-medium opacity-80"
           id={`region-stats-${regionName.replace(/\s+/g, '-').toLowerCase()}`}
@@ -159,17 +159,19 @@ const { regionName, geoliens, isExpanded = false } = Astro.props;
           </a>
         ))}
 
-        
+
       </div>
 
-      <button
-        type="button"
-        class="toggle-departments-btn px-3 py-2 uppercase text-xs font-medium bg-primary-yellow hover:bg-primary-yellow-light transition-colors duration-200 cursor-pointer text-neutral-dark rounded focus:outline-none focus:ring-2 focus:ring-neutral-50"
-        aria-label="Développer tous les départements de la région"
-        aria-pressed="false"
-      >
-        Tout développer
-      </button>
+      {departmentNames.length > 0 && (
+        <button
+          type="button"
+          class="toggle-departments-btn px-3 py-2 uppercase text-xs font-medium bg-primary-yellow hover:bg-primary-yellow-light transition-colors duration-200 cursor-pointer text-neutral-dark rounded focus:outline-none focus:ring-2 focus:ring-neutral-50"
+          aria-label="Développer tous les départements de la région"
+          aria-pressed="false"
+        >
+          Tout développer
+        </button>
+      )}
     </div>
     <div class="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {departmentNames.map((departmentName) => (
