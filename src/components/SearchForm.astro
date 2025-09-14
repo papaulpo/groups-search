@@ -7,7 +7,7 @@ interface Props extends SearchFormProps {}
 const { resultsCount } = Astro.props;
 ---
 
-<div class="search-form-container mb-6 text-neutral-50">
+<div class="search-form-container mb-6 text-neutral-50" role="search" aria-label="Recherche de groupe par lieu">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
 
     <div>
@@ -19,22 +19,51 @@ const { resultsCount } = Astro.props;
           id="search-location"
           placeholder="Ville, région, département..."
           class="w-full pl-4 py-2 border border-primary-yellow rounded-md focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:border-transparent text-sm font-medium"
+          aria-label="Rechercher un groupe par lieu"
+          aria-describedby="search-location-help"
+          aria-controls="hierarchical-view"
         />
 
         <div class="absolute inset-y-0 right-0 ml-3 py-4 px-2 flex items-center pointer-events-none bg-primary-yellow rounded justify-center">
-          <Icon
-            name="map-pin"
-            class="w-4 h-4 text-neutral-dark"
-          >
+          <Icon name="map-pin" class="w-4 h-4 text-neutral-dark" aria-hidden="true" />
         </div>
       </div>
+      <p id="search-location-help" class="sr-only">Tapez une ville, un département ou une région pour filtrer les résultats.</p>
     </div>
   </div>
 
 
-  <div class="mt-4 text-sm font-medium text-neutral-light">
+  <div class="mt-4 text-sm font-medium text-neutral-light" role="status" aria-live="polite" aria-atomic="true">
     <span id="results-count" class="font-bold">{resultsCount}</span>
     <span>groupe{resultsCount > 1 ? 's' : ''}</span>
   </div>
 
+</div>
+
+<!-- Compact sticky search bar that appears after national sections -->
+<div
+  id="sticky-search-bar"
+  class="hidden fixed top-0 left-0 right-0 z-40 px-2 md:px-4 py-2"
+  role="search"
+  aria-label="Recherche de groupe par lieu (barre fixe)"
+  aria-hidden="true"
+>
+  <div class="container mx-auto max-w-xl bg-neutral-dark rounded-md border-2 border-neutral-medium">
+    <label for="search-location-sticky" class="sr-only">Rechercher</label>
+    <div class="relative">
+      <input
+        type="text"
+        id="search-location-sticky"
+        placeholder="Ville, région, département..."
+        class="w-full pl-4 py-2 pr-10 rounded-md text-neutral-light focus:outline-none focus:ring-2 focus:ring-primary-yellow focus:border-transparent text-sm font-medium"
+        aria-label="Rechercher un groupe par lieu"
+        aria-describedby="search-location-help"
+        aria-controls="hierarchical-view"
+      />
+      <div class="absolute inset-y-0 right-0 ml-3 py-4 px-2 flex items-center pointer-events-none bg-primary-yellow rounded justify-center">
+        <Icon name="map-pin" class="w-4 h-4 text-neutral-dark" aria-hidden="true" />
+      </div>
+    </div>
+  </div>
+  <!-- Spacer to avoid content jump when sticky bar shows -->
 </div>

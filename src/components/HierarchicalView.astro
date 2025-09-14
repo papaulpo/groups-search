@@ -104,6 +104,9 @@ const totalGroups = geoliens.length;
     <RegionSection regionName="Groupes thématiques" geoliens={thematiques} />
   )}
 
+  <!-- Sticky search sentinel: when this goes past the top, show sticky search -->
+  <div id="sticky-search-sentinel" class="h-0"></div>
+
   <!-- RÉGIONS (France) -->
   <div class="regions-container space-y-4" role="region" aria-label="Régions (France)">
     {sortedFrenchRegions.map((regionName) => (

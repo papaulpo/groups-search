@@ -98,6 +98,10 @@ const geoliens = flattenGeoliens(rawData);
 		const resultsCount = document.getElementById('results-count');
 		const geolienCards = document.querySelectorAll('.geolien-card');
 		const noResults = document.getElementById('no-results');
+		const stickyBar = document.getElementById('sticky-search-bar');
+		const stickyInput = document.getElementById('search-location-sticky');
+		const sentinel = document.getElementById('sticky-search-sentinel');
+		let isStickyVisible = false;
 
 		// View switching
 		function switchToListView() {
@@ -110,6 +114,9 @@ const geoliens = flattenGeoliens(rawData);
 			if (searchForm) {
 				searchForm.style.display = 'block';
 			}
+
+			// Mettre à jour la visibilité de la barre sticky
+			updateStickyVisibility();
 
 			if (listViewBtn) {
 				listViewBtn.classList.add('bg-primary-yellow', 'text-neutral-dark');
@@ -141,6 +148,9 @@ const geoliens = flattenGeoliens(rawData);
 				searchForm.style.display = 'block';
 			}
 
+			// Mettre à jour la visibilité de la barre sticky
+			updateStickyVisibility();
+
 			if (listViewBtn) {
 				listViewBtn.classList.remove('bg-primary-yellow', 'text-neutral-dark');
 				listViewBtn.classList.add('bg-neutral-dark', 'text-neutral-medium');
@@ -169,6 +179,12 @@ const geoliens = flattenGeoliens(rawData);
 			const searchForm = document.querySelector('.search-form-container');
 			if (searchForm) {
 				searchForm.style.display = 'none';
+			}
+
+			// Masquer la barre sticky quand la carte est affichée
+			if (stickyBar) {
+				stickyBar.classList.add('hidden');
+				stickyBar.setAttribute('aria-hidden', 'true');
 			}
 
 			if (listViewBtn) {
@@ -392,6 +408,7 @@ const geoliens = flattenGeoliens(rawData);
 			if (searchType) searchType.value = '';
 			if (searchTerritoire) searchTerritoire.value = '';
 			if (searchLocation) searchLocation.value = '';
+			if (stickyInput) stickyInput.value = '';
 			filterResults();
 		}
 
@@ -399,8 +416,84 @@ const geoliens = flattenGeoliens(rawData);
 		if (searchText) searchText.addEventListener('input', filterResults);
 		if (searchType) searchType.addEventListener('change', filterResults);
 		if (searchTerritoire) searchTerritoire.addEventListener('change', filterResults);
-		if (searchLocation) searchLocation.addEventListener('input', filterResults);
+		if (searchLocation) searchLocation.addEventListener('input', () => {
+			if (stickyInput && stickyInput.value !== searchLocation.value) {
+				stickyInput.value = searchLocation.value;
+			}
+			filterResults();
+		});
+		if (stickyInput) stickyInput.addEventListener('input', () => {
+			if (searchLocation && searchLocation.value !== stickyInput.value) {
+				searchLocation.value = stickyInput.value;
+			}
+			filterResults();
+		});
 		if (clearFiltersBtn) clearFiltersBtn.addEventListener('click', clearFilters);
+
+		// Synchroniser la valeur initiale entre les deux champs
+		if (searchLocation && stickyInput) {
+			stickyInput.value = searchLocation.value || '';
+		}
+
+		// Gestion centralisée visibilité + focus de la barre sticky
+		function setStickyVisibility(shouldShow) {
+			if (!stickyBar) return;
+			const wasVisible = isStickyVisible;
+			if (shouldShow) {
+				stickyBar.classList.remove('hidden');
+				stickyBar.setAttribute('aria-hidden', 'false');
+				isStickyVisible = true;
+				return;
+			}
+			// Hiding: move focus back to main input if sticky had focus and main input is visible
+			const searchFormEl = document.querySelector('.search-form-container');
+			const mainSearchVisible = !!searchFormEl && searchFormEl.style.display !== 'none';
+			const stickyHadFocus = document.activeElement === stickyInput;
+			stickyBar.classList.add('hidden');
+			stickyBar.setAttribute('aria-hidden', 'true');
+			isStickyVisible = false;
+			if (wasVisible && stickyHadFocus && mainSearchVisible && searchLocation) {
+				searchLocation.focus();
+				try { searchLocation.setSelectionRange(searchLocation.value.length, searchLocation.value.length); } catch {}
+			}
+		}
+
+		// Gestion de la visibilité de la barre sticky (en fonction de l'état de la page)
+		function updateStickyVisibility() {
+			if (!stickyBar) return;
+			// Masquer si vue carte active
+			if (mapView && !mapView.classList.contains('hidden')) {
+				setStickyVisibility(false);
+				return;
+			}
+			const searchForm = document.querySelector('.search-form-container');
+			const searchVisible = !!searchForm && searchForm.style.display !== 'none';
+			const hierarchicalVisible = !!hierarchicalView && !hierarchicalView.classList.contains('hidden');
+			if (!sentinel || !searchVisible || !hierarchicalVisible) {
+				setStickyVisibility(false);
+				return;
+			}
+			const rect = sentinel.getBoundingClientRect();
+			const shouldShow = rect.top < 0;
+			setStickyVisibility(shouldShow);
+		}
+
+		if (sentinel) {
+			const observer = new IntersectionObserver((entries) => {
+				const entry = entries[0];
+				if (!stickyBar) return;
+				const searchForm = document.querySelector('.search-form-container');
+				const searchVisible = !!searchForm && searchForm.style.display !== 'none';
+				const hierarchicalVisible = !!hierarchicalView && !hierarchicalView.classList.contains('hidden');
+				// Show only when sentinel has crossed the top edge (i.e., scrolled past)
+				const crossedTop = entry.boundingClientRect.top < 0;
+				const shouldShow = crossedTop && searchVisible && hierarchicalVisible && (mapView ? mapView.classList.contains('hidden') : true);
+				setStickyVisibility(shouldShow);
+			}, { threshold: 0 });
+			observer.observe(sentinel);
+			// Mise à jour initiale
+			updateStickyVisibility();
+		}
 
 		// Initialize view from localStorage
 		function initializeView() {
@@ -418,6 +511,8 @@ const geoliens = flattenGeoliens(rawData);
 
 		// Initialize
 		initializeView();
+		// Assure que la barre sticky a le bon état au chargement
+		updateStickyVisibility();
 		filterResults();
 	</script>
 </body>
