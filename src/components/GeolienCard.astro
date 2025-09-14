@@ -1,26 +1,11 @@
 ---
 import type { GeolienCardProps } from '../types/geoliens';
 import { Icon } from 'astro-icon/components';
+import { getNetworkIcon } from '../lib/icons';
 
 interface Props extends GeolienCardProps {}
 
 const { geolien } = Astro.props;
-
-function getNetworkIcon(type: string): string {
-  const icons: Record<string, string> = {
-    'Bluesky': '/global/img/bluesky.svg',
-    'Facebook - Groupe': '/global/img/facebookg.svg',
-    'Facebook - Page': '/global/img/facebookp.svg',
-    'Instagram': '/global/img/instagram.svg',
-    'Piaille': '/global/img/piaille.png',
-    'Signal': '/global/img/signal.svg',
-    'Site web': '/global/img/site.svg',
-    'Telegram': '/global/img/telegram.svg',
-    'TikTok': '/global/img/tiktok.svg',
-    'X (Twitter)': '/global/img/twitter.svg'
-  };
-  return icons[type] || '/global/img/site.svg';
-}
 ---
 
 <a

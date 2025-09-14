@@ -1,6 +1,7 @@
 ---
 import type { ProcessedGeolien } from '../types/geoliens';
 import RegionSection from './RegionSection.astro';
+import { Icon } from 'astro-icon/components';
 
 interface Props {
   geoliens: ProcessedGeolien[];
@@ -117,7 +118,7 @@ const totalGroups = geoliens.length;
   {sortedCountries.length > 0 && (
     <div class="region-section mb-6 bg-neutral-dark border border-neutral-medium rounded overflow-hidden focus-within:ring-2 focus-within:ring-red-600 ring-inset" data-region="international" data-count={sortedCountries.length}>
       <button
-        class="region-header w-full p-4 flex items-center justify-between bg-primary-yellow text-neutral-dark font-semibold text-left hover:bg-primary-yellow-light transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 ring-inset"
+        class="region-header w-full p-2 py-4 md:p-4 flex items-start md:items-center justify-between bg-primary-yellow text-neutral-dark font-semibold text-left hover:bg-primary-yellow-light transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 ring-inset"
         type="button"
         aria-expanded="false"
         aria-controls="region-content-international"
@@ -125,9 +126,10 @@ const totalGroups = geoliens.length;
         data-region-toggle="International"
       >
         <div class="flex items-center gap-3">
-          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm7.93 9h-3.95a15.977 15.977 0 0 0-1.16-5.19A8.022 8.022 0 0 1 19.93 11zM12 4c.83 0 2.5 2.17 3.23 5H8.77C9.5 6.17 11.17 4 12 4zM4.07 13h3.95c.24 1.79.74 3.53 1.45 5.19A8.022 8.022 0 0 1 4.07 13zM8.02 11H4.07a8.022 8.022 0 0 1 5.4-5.19A15.977 15.977 0 0 0 8.02 11zm7.21 2h3.95a8.022 8.022 0 0 1-5.4 5.19c.71-1.66 1.21-3.4 1.45-5.19zM9.23 13h5.54c-.73 2.83-2.4 5-3.23 5s-2.5-2.17-3.23-5z"/></svg>
+          <Icon name="international" class="w-5 h-5" />
+
           <div class="flex flex-col md:items-start">
-            <span class="text-lg font-bold">International</span>
+            <span class="text-md md:text-lg font-bold leading-tight uppercase">International</span>
             <span class="text-sm font-medium opacity-80" id="region-stats-international">{sortedCountries.length} pays</span>
           </div>
         </div>
