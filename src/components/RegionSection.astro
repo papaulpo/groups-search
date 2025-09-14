@@ -10,21 +10,42 @@ interface Props {
 
 const { regionName, geoliens, isExpanded = false } = Astro.props;
 
-// Grouper les géoliens par département
-const departmentGroups = geoliens.reduce((acc, geolien) => {
-  // Extraire le département du fullPath (ex: "Île-de-France > Paris" -> "Paris")
-  const pathParts = geolien.fullPath?.split(' > ') || [];
-  const department = pathParts.length > 1 ? pathParts[pathParts.length - 1] : 'Autres';
-
-  if (!acc[department]) {
-    acc[department] = [];
+  // Récupère le nom du lieu à afficher sur la tuile (local, département, région)
+  function getPlaceNameForTile(geolien: ProcessedGeolien, departmentName?: string, region?: string): string {
+    const parts = geolien.fullPath?.split(' > ') || [];
+    if (parts.length >= 3) return parts[2];
+    if (parts.length === 2) return departmentName || parts[1];
+    return region || parts[0] || '';
   }
-  acc[department].push(geolien);
-  return acc;
-}, {} as Record<string, ProcessedGeolien[]>);
 
-const departmentNames = Object.keys(departmentGroups).sort();
-const totalGroups = geoliens.length;
+  // Regrouper par département en utilisant le 2e segment (Région > Département > Ville)
+  const norm = (s: string | undefined) => (s || '').normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+
+  type DeptBuckets = { departmental: ProcessedGeolien[]; local: ProcessedGeolien[] };
+  const regionalGroups: ProcessedGeolien[] = [];
+  const departmentGroups = geoliens.reduce((acc, geolien) => {
+    const parts = geolien.fullPath?.split(' > ') || [];
+
+    // Liens régionaux: uniquement le nom de région dans le chemin
+    if (parts.length <= 1) {
+      regionalGroups.push(geolien);
+      return acc;
+    }
+
+    const department = parts[1];
+    if (!acc[department]) acc[department] = { departmental: [], local: [] } as DeptBuckets;
+
+    const terr = norm(geolien.territoire);
+    if (parts.length === 2 || terr === 'departemental' || terr === 'départemental') {
+      acc[department].departmental.push(geolien);
+    } else {
+      acc[department].local.push(geolien);
+    }
+    return acc;
+  }, {} as Record<string, DeptBuckets>);
+
+  const departmentNames = Object.keys(departmentGroups).sort((a, b) => a.localeCompare(b, 'fr'));
+  const totalGroups = geoliens.length;
 ---
 
 <div class="region-section mb-6 bg-neutral-dark border border-neutral-medium rounded overflow-hidden focus-within:ring-2 focus-within:ring-red-600 ring-inset"
@@ -64,8 +85,54 @@ const totalGroups = geoliens.length;
     class={`region-content transition-all duration-300 overflow-hidden flex flex-col ${isExpanded ? 'max-h-none' : 'max-h-0'}`}
     aria-hidden={isExpanded ? 'false' : 'true'}
   >
-    <!-- Contrôle local pour basculer tous les départements -->
-    <div class="p-4 flex justify-end">
+    <!-- En-tête interne: liens régionaux + action -->
+    <div class="p-4 flex flex-wrap flex-col-reverse md:flex-row items-start justify-between gap-4">
+      <!-- Liens régionaux -->
+      <div class="flex-1 min-w-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" aria-label="Liens régionaux">
+        {regionalGroups.map((geolien) => (
+          <a href={geolien.url} target="_blank" rel="noopener noreferrer" class="regional-link block w-full">
+            <div
+              class="group-tile rounded p-2 flex flex-col gap-1 bg-neutral-cream regional-group-tile"
+              data-name={geolien.nom.toLowerCase()}
+              data-type={geolien.type}
+              data-territoire={geolien.territoire}
+              data-region={regionName.toLowerCase()}
+              data-local={getPlaceNameForTile(geolien, undefined, regionName).toLowerCase()}
+            >
+              <div class="w-full place-label">
+                <div class="text-xs font-semibold text-neutral-medium leading-none">
+                  {getPlaceNameForTile(geolien, undefined, regionName)}
+                </div>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-4 h-4 flex-shrink-0">
+                  <img
+                    src={`/global/img/${geolien.type.toLowerCase().replace(/\s+/g, '').replace('-', '').replace('(', '').replace(')', '')}.svg`}
+                    alt={geolien.type}
+                    class="w-full h-full object-contain"
+                    onerror="this.src='/global/img/site.svg'"
+                  />
+                </div>
+                <h5 class="text-xs font-semibold text-neutral-dark truncate" title={geolien.nom}>
+                  {geolien.nom}
+                </h5>
+              </div>
+              <div class="flex-1">
+                <div class="flex items-center gap-1 text-xs text-neutral-medium">
+                  <span class="truncate">{geolien.type}</span>
+                  {geolien.territoire && (
+                    <>
+                      <span>•</span>
+                      <span class="truncate">{geolien.territoire}</span>
+                    </>
+                  )}
+                </div>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+
       <button
         type="button"
         class="toggle-departments-btn px-3 py-2 uppercase text-xs font-medium bg-primary-yellow hover:bg-primary-yellow-light transition-colors duration-200 cursor-pointer text-neutral-dark rounded focus:outline-none focus:ring-2 focus:ring-neutral-50"
@@ -89,7 +156,7 @@ const totalGroups = geoliens.length;
           >
             <Icon name="building-office" class="w-4 h-4 text-neutral-medium flex-shrink-0" />
             <h4 class="text-base font-semibold text-neutral-light flex-1">{departmentName}</h4>
-            <span class="text-sm text-neutral-medium">({departmentGroups[departmentName].length})</span>
+            <span class="text-sm text-neutral-medium">({departmentGroups[departmentName].departmental.length + departmentGroups[departmentName].local.length})</span>
           </button>
 
           <!-- Contenu du département -->
@@ -98,16 +165,26 @@ const totalGroups = geoliens.length;
             class="department-content flex flex-col gap-2 hidden"
             aria-hidden="true"
           >
-            {departmentGroups[departmentName].map((geolien) => (
+            {[
+              ...departmentGroups[departmentName].departmental,
+              ...departmentGroups[departmentName].local,
+            ].map((geolien) => (
               <a href={geolien.url} target="_blank" rel="noopener noreferrer" tabindex="-1">
                 <div
-                  class="group-tile rounded p-2 flex items-center gap-3 bg-neutral-cream"
+                  class="group-tile rounded p-2 flex flex-col gap-1 bg-neutral-cream"
                   data-name={geolien.nom.toLowerCase()}
                   data-type={geolien.type}
                   data-territoire={geolien.territoire}
+                  data-territoire-lower={geolien.territoire.toLowerCase()}
                   data-department={departmentName.toLowerCase()}
                   data-region={regionName.toLowerCase()}
+                  data-local={getPlaceNameForTile(geolien, departmentName, regionName).toLowerCase()}
                 >
+                  <div class="w-full place-label">
+                    <div class="text-sm font-semibold text-neutral-medium leading-none">
+                      {getPlaceNameForTile(geolien, departmentName, regionName)}
+                    </div>
+                  </div>
                   <!-- Icône du réseau -->
                   <div class="flex items-center gap-2">
                     <div class="w-4 h-4 flex-shrink-0">
@@ -126,7 +203,7 @@ const totalGroups = geoliens.length;
 
                   <!-- Informations du groupe -->
                   <div class="flex-1 min-w-0">
-                    <div class="flex items-center gap-1 text-xs text-neutral-medium mt-0.5">
+                    <div class="flex items-center gap-1 text-xs text-neutral-medium">
                       <span class="truncate">{geolien.type}</span>
                       {geolien.territoire && (
                         <>
@@ -159,25 +236,5 @@ const totalGroups = geoliens.length;
     .group-tile {
       padding: 0.75rem;
     }
-
-    .region-header {
-      padding: 1rem;
-    }
-
-    .region-content .p-4 {
-      padding: 1rem;
-    }
-
-    .group-tile {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.5rem;
-    }
-
-    .group-tile a {
-      align-self: stretch;
-      justify-content: center;
-    }
   }
-
 </style>

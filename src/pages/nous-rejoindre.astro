@@ -240,52 +240,81 @@ const geoliens = flattenGeoliens(rawData);
 			regionSections.forEach(regionSection => {
 				let regionHasVisibleGroups = false;
 				const departmentGroups = regionSection.querySelectorAll('.department-group');
+				const regionalTiles = regionSection.querySelectorAll('.regional-group-tile');
+
+				// Traiter les tuiles régionales (affichées au-dessus des départements)
+					regionalTiles.forEach(tile => {
+						const t = tile;
+					const tileName = t.dataset.name || '';
+					const tileType = t.dataset.type || '';
+					const tileTerritory = (t.dataset.territoire || '').toLowerCase();
+					const tileRegion = t.dataset.region || (regionSection.dataset.region || '');
+					const tileLocal = t.dataset.local || '';
+
+					const matchesSearch = !searchQuery || tileName.includes(searchQuery) || tileLocal.includes(searchQuery) || tileRegion.includes(searchQuery);
+					const matchesType = !selectedType || tileType === selectedType;
+					const matchesTerritoire = !selectedTerritoire || tileTerritory === selectedTerritoire.toLowerCase();
+					const matchesLocation = !locationQuery ||
+						tileName.includes(locationQuery) ||
+						tileLocal.includes(locationQuery) ||
+						tileRegion.includes(locationQuery);
+
+					const isVisible = matchesSearch && matchesType && matchesTerritoire && matchesLocation;
+						// Masquer l'ancre englobante via une classe utilitaire pour ne pas casser le display flex
+						const anchor = t.closest('a');
+						if (anchor) {
+							anchor.classList.toggle('hidden', !isVisible);
+						} else {
+							t.classList.toggle('hidden', !isVisible);
+						}
+					if (isVisible) {
+						regionHasVisibleGroups = true;
+						hierarchicalVisibleCount++;
+					}
+				});
 
 				departmentGroups.forEach(departmentGroup => {
 					let departmentHasVisibleGroups = false;
 					const groupTiles = departmentGroup.querySelectorAll('.group-tile');
 
 					groupTiles.forEach(tile => {
-						const tileName = tile.dataset.name || '';
-						const tileType = tile.dataset.type || '';
-						const tileTerritory = (tile.dataset.territoire || '').toLowerCase();
-						const tileDepartment = tile.dataset.department || '';
-						const tileRegion = tile.dataset.region || (regionSection.dataset.region || '');
+					const tileName = tile.dataset.name || '';
+					const tileType = tile.dataset.type || '';
+					const tileTerritory = (tile.dataset.territoire || '').toLowerCase();
+					const tileDepartment = tile.dataset.department || '';
+					const tileRegion = tile.dataset.region || (regionSection.dataset.region || '');
+					const tileLocal = tile.dataset.local || '';
 
-						const matchesSearch = !searchQuery || tileName.includes(searchQuery);
+					const matchesSearch = !searchQuery ||
+						tileName.includes(searchQuery) ||
+						tileLocal.includes(searchQuery) ||
+						tileDepartment.includes(searchQuery) ||
+						tileRegion.includes(searchQuery);
 						const matchesType = !selectedType || tileType === selectedType;
 						const matchesTerritoire = !selectedTerritoire || tileTerritory === selectedTerritoire.toLowerCase();
-						const matchesLocation = !locationQuery ||
-							tileName.includes(locationQuery) ||
-							tileDepartment.includes(locationQuery) ||
-							tileRegion.includes(locationQuery);
+					const matchesLocation = !locationQuery ||
+						tileName.includes(locationQuery) ||
+						tileLocal.includes(locationQuery) ||
+						tileDepartment.includes(locationQuery) ||
+						tileRegion.includes(locationQuery);
 
 						const isVisible = matchesSearch && matchesType && matchesTerritoire && matchesLocation;
 
+						// Utiliser une classe pour ne pas modifier le type d'affichage
+						tile.classList.toggle('hidden', !isVisible);
 						if (isVisible) {
-							tile.style.display = 'block';
 							departmentHasVisibleGroups = true;
 							regionHasVisibleGroups = true;
 							hierarchicalVisibleCount++;
-						} else {
-							tile.style.display = 'none';
 						}
 					});
 
 					// Masquer/afficher le groupe de département
-					if (departmentHasVisibleGroups) {
-						departmentGroup.style.display = 'block';
-					} else {
-						departmentGroup.style.display = 'none';
-					}
+					departmentGroup.classList.toggle('hidden', !departmentHasVisibleGroups);
 				});
 
 				// Masquer/afficher la section région
-				if (regionHasVisibleGroups) {
-					regionSection.style.display = 'block';
-				} else {
-					regionSection.style.display = 'none';
-				}
+				regionSection.classList.toggle('hidden', !regionHasVisibleGroups);
 
 				// Si une recherche géographique est saisie, ouvrir automatiquement
 				// les régions qui contiennent des résultats et fermer les autres

@@ -262,6 +262,8 @@ const totalGroups = geoliens.length;
           departmentHeaders.forEach(dh => (dh as HTMLElement).setAttribute('tabindex', '-1'));
           const regionLinks = regionSection.querySelectorAll('.group-tile a');
           regionLinks.forEach(link => (link as HTMLElement).setAttribute('tabindex', '-1'));
+          const regionalAnchors = regionSection.querySelectorAll('.regional-link');
+          regionalAnchors.forEach(link => (link as HTMLElement).setAttribute('tabindex', '-1'));
           if (regionToggleBtn) regionToggleBtn.setAttribute('tabindex', '-1');
           return;
         }
@@ -269,6 +271,8 @@ const totalGroups = geoliens.length;
         // Région ouverte : les en-têtes de département sont tabulables
         departmentHeaders.forEach(dh => (dh as HTMLElement).setAttribute('tabindex', '0'));
         if (regionToggleBtn) regionToggleBtn.setAttribute('tabindex', '0');
+        const regionalAnchors = regionSection.querySelectorAll('.regional-link');
+        regionalAnchors.forEach(link => (link as HTMLElement).setAttribute('tabindex', '0'));
 
         // Pour chaque département, ne rendre tabbables les liens que si le département est ouvert
         const departmentGroups = regionSection.querySelectorAll('.department-group');
@@ -367,7 +371,7 @@ const totalGroups = geoliens.length;
           }
         } else if (currentDeptHeader || currentLink) {
           e.preventDefault();
-          const allTabbableElements = Array.from(document.querySelectorAll('.region-header[tabindex="0"], .department-header[tabindex="0"], .group-tile a[tabindex="0"]'));
+          const allTabbableElements = Array.from(document.querySelectorAll('.region-header[tabindex="0"], .department-header[tabindex="0"], .group-tile a[tabindex="0"], .regional-link[tabindex="0"]'));
           const currentEl = currentDeptHeader || currentLink;
           const currentIndex = allTabbableElements.indexOf(currentEl);
           let nextIndex;
