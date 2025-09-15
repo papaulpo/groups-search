@@ -1458,7 +1458,7 @@
 			<li class="telegram">
 				<p>Telegram</p>
 				<ul>
-					<li><a href="https://t.me/+9gxXN61OSBw4YWRk" target="_blank" rel="me">+9gxXN61OSBw4YWRk</a></li>
+					<li><a href="https://t.me/+vCk5fVFqa3s0ZDlk" target="_blank" rel="me">+vCk5fVFqa3s0ZDlk</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -1495,6 +1495,12 @@
 	<li>
 	<p class="font-yellow">Paris 19e</p>
 		<ul>
+			<li class="signal">
+				<p>Signal</p>
+				<ul>
+					<li><a href="https://signal.group/#CjQKILEtUX-Xjl1KE2DzzVThpot2R-29mPJuQWda_wjiWYJWEhBpoX9HLh7YhU8rh8USq458" target="_blank" rel="me">Paris 19 Signal</a></li>
+				</ul>
+			</li>
 			<li class="whatsapp">
 				<p>WhatsApp</p>
 				<ul>
@@ -1683,6 +1689,9 @@
 	</li>
 	<li>
 	<p class="font-yellow">Malakoff</p>
+	</li>
+	<li>
+	<p class="font-yellow">Bagneux</p>
 	</li>
 </ul>
 	<li>
