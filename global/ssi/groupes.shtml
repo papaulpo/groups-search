@@ -1,6 +1,6 @@
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">France</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=6"><p class="font-yellow">France</p></a>
 		<ul>
 			<li class="bluesky">
 				<p>Bluesky</p>
@@ -59,7 +59,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">AUVERGNE-RHÔNE-ALPES</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=8"><p class="font-yellow">AUVERGNE-RHÔNE-ALPES</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -71,7 +71,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">01 - Ain</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=9"><p class="font-yellow">01 - Ain</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -82,7 +82,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">03 - Allier</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=10"><p class="font-yellow">03 - Allier</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -93,7 +93,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">07 - Ardèche</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=11"><p class="font-yellow">07 - Ardèche</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -105,7 +105,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Annonay</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=183"><p class="font-yellow">Annonay</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -117,7 +117,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">15 - Cantal</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=12"><p class="font-yellow">15 - Cantal</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -128,7 +128,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">26 - Drôme</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=13"><p class="font-yellow">26 - Drôme</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -146,7 +146,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Tricastin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=251"><p class="font-yellow">Tricastin</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -158,7 +158,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">38 - Isère</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=14"><p class="font-yellow">38 - Isère</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -170,7 +170,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Grenoble</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=153"><p class="font-yellow">Grenoble</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -181,7 +181,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">La Mure</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=246"><p class="font-yellow">La Mure</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -192,7 +192,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Pays voironnais</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=262"><p class="font-yellow">Pays voironnais</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -203,7 +203,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Bourgoin-Jallieu</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=275"><p class="font-yellow">Bourgoin-Jallieu</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -214,7 +214,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Quentin-Fallavier</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=377"><p class="font-yellow">Saint-Quentin-Fallavier</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -225,7 +225,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Lans-en-Vercors</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=378"><p class="font-yellow">Lans-en-Vercors</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -236,7 +236,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">La Tour du Pin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=379"><p class="font-yellow">La Tour du Pin</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -248,7 +248,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">42 - Loire</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=15"><p class="font-yellow">42 - Loire</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -259,7 +259,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">43 - Haute-Loire</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=16"><p class="font-yellow">43 - Haute-Loire</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -270,7 +270,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">63 - Puy-de-Dôme</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=17"><p class="font-yellow">63 - Puy-de-Dôme</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -282,7 +282,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">69 - Rhône</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=18"><p class="font-yellow">69 - Rhône</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -294,7 +294,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Lyon</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=154"><p class="font-yellow">Lyon</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -305,7 +305,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">L&#8217;Arbresle</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=193"><p class="font-yellow">L&#8217;Arbresle</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -316,7 +316,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Tarare</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=205"><p class="font-yellow">Tarare</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -327,7 +327,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Amplepuis</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=220"><p class="font-yellow">Amplepuis</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -338,7 +338,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Villefranche-sur-Saône</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=242"><p class="font-yellow">Villefranche-sur-Saône</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -349,7 +349,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Vaulx-en-Velin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=429"><p class="font-yellow">Vaulx-en-Velin</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -360,7 +360,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Villeurbanne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=431"><p class="font-yellow">Villeurbanne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -371,7 +371,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Est-Lyonnais, Bron, Saint-Priest, Vénissieux, Décines, Chassieu</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=432"><p class="font-yellow">Est-Lyonnais, Bron, Saint-Priest, Vénissieux, Décines, Chassieu</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -383,7 +383,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">73 - Savoie</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=19"><p class="font-yellow">73 - Savoie</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -394,7 +394,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">74 - Haute-Savoie</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=20"><p class="font-yellow">74 - Haute-Savoie</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -406,7 +406,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Sallanches</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=274"><p class="font-yellow">Sallanches</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -419,7 +419,7 @@
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">BOURGOGNE-FRANCHE-COMTE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=21"><p class="font-yellow">BOURGOGNE-FRANCHE-COMTE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -431,7 +431,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">25 - Doubs</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=22"><p class="font-yellow">25 - Doubs</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -442,7 +442,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">58 - Nièvre</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=23"><p class="font-yellow">58 - Nièvre</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -453,7 +453,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">71 - Saône-et-Loire</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=24"><p class="font-yellow">71 - Saône-et-Loire</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -465,7 +465,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Chalon-sur-Saône</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=42"><p class="font-yellow">Chalon-sur-Saône</p></a>
 		<ul>
 			<li class="instagram">
 				<p>Instagram</p>
@@ -482,7 +482,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Louhans</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=43"><p class="font-yellow">Louhans</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -493,7 +493,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Mâcon, Cluny, Charolles</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=44"><p class="font-yellow">Mâcon, Cluny, Charolles</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -504,7 +504,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Tournus</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=181"><p class="font-yellow">Tournus</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -515,18 +515,18 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">On-est-là&nbsp;! Grand Autunois Morvan</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=200"><p class="font-yellow">Autun</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
 				<ul>
-					<li><a href="https://t.me/+wx67YJuf3y83NjU8" target="_blank" rel="me">+wx67YJuf3y83NjU8</a></li>
+					<li><a href="https://t.me/+wx67YJuf3y83NjU8" target="_blank" rel="me">On-est-là&nbsp;! Grand Autuno</a></li>
 				</ul>
 			</li>
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Montceau - Le Creusot</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=427"><p class="font-yellow">Montceau - Le Creusot</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -538,7 +538,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">89 - Yonne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=25"><p class="font-yellow">89 - Yonne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -550,7 +550,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Pays d’Avallon</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=126"><p class="font-yellow">Pays d’Avallon</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -562,7 +562,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">90 - Territoire de Belfort</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=57"><p class="font-yellow">90 - Territoire de Belfort</p></a>
 		<ul>
 			<li class="facebookg">
 				<p>Facebook - Groupe</p>
@@ -578,9 +578,17 @@
 			</li>
 		</ul>
 	</li>
+	<li>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=60"><p class="font-yellow">39 - Jura</p></a>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=438"><p class="font-yellow">Lons-le-Saunier</p></a>
+	</li>
+</ul>
 </ul>
 	<li>
-	<p class="font-yellow">BRETAGNE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=26"><p class="font-yellow">BRETAGNE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -592,7 +600,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">35 - Ille-et-Vilaine</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=27"><p class="font-yellow">35 - Ille-et-Vilaine</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -604,7 +612,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Sud Est 35</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=179"><p class="font-yellow">Sud Est 35</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -615,7 +623,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Rennes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=180"><p class="font-yellow">Rennes</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -626,7 +634,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Saint Malo</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=187"><p class="font-yellow">Saint Malo</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -637,7 +645,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Redon</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=188"><p class="font-yellow">Redon</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -648,7 +656,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Brocéliande</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=213"><p class="font-yellow">Brocéliande</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -659,7 +667,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Dol-de-bretagne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=216"><p class="font-yellow">Dol-de-bretagne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -670,7 +678,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Vitré</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=399"><p class="font-yellow">Vitré</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -681,23 +689,23 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Bazouges-La-Pérouse</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=411"><p class="font-yellow">Bazouges-La-Pérouse</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Fougères</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=412"><p class="font-yellow">Fougères</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Châteaugiron</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=413"><p class="font-yellow">Châteaugiron</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Guichen</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=414"><p class="font-yellow">Guichen</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Messac</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=415"><p class="font-yellow">Messac</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">22 - Côtes d&#8217;Armor</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=28"><p class="font-yellow">22 - Côtes d&#8217;Armor</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -709,32 +717,32 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Paimpol</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=278"><p class="font-yellow">Paimpol</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Brieuc</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=392"><p class="font-yellow">Saint-Brieuc</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Guingamp</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=393"><p class="font-yellow">Guingamp</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Lannion</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=398"><p class="font-yellow">Lannion</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Rostrenen</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=403"><p class="font-yellow">Rostrenen</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Dinan</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=404"><p class="font-yellow">Dinan</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Malo</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=406"><p class="font-yellow">Saint-Malo</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Callac</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=408"><p class="font-yellow">Callac</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">29 - Finistère</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=62"><p class="font-yellow">29 - Finistère</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -746,7 +754,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Quimperlé</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=261"><p class="font-yellow">Quimperlé</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -757,7 +765,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Audierne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=416"><p class="font-yellow">Audierne</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -768,7 +776,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">La Fanfare Invisible</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=418"><p class="font-yellow">La Fanfare Invisible</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -778,9 +786,20 @@
 			</li>
 		</ul>
 	</li>
+	<li>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=436"><p class="font-yellow">Quimper</p></a>
+		<ul>
+			<li class="signal">
+				<p>Signal</p>
+				<ul>
+					<li><a href="https://signal.group/#CjQKII1qXyyZlShZHZE4jrNn5tlRNXWfhVszh5mZMUCa2rCJEhBSXPFKiphSp2gqamlDf7cn" target="_blank" rel="me">Appel du 10 Quimper</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
 </ul>
 	<li>
-	<p class="font-yellow">56 - Morbihan</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=63"><p class="font-yellow">56 - Morbihan</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -792,7 +811,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Le Faouët</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=203"><p class="font-yellow">Le Faouët</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -803,7 +822,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Vannes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=266"><p class="font-yellow">Vannes</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -814,7 +833,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Questembert</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=299"><p class="font-yellow">Questembert</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -825,7 +844,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Auray</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=303"><p class="font-yellow">Auray</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -836,10 +855,10 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Pontivy</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=401"><p class="font-yellow">Pontivy</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Ploërmel</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=428"><p class="font-yellow">Ploërmel</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -852,7 +871,7 @@
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">CENTRE-VAL DE LOIRE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=29"><p class="font-yellow">CENTRE-VAL DE LOIRE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -864,7 +883,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">45 - Loiret</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=56"><p class="font-yellow">45 - Loiret</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -876,7 +895,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Gatinais Montargis</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=207"><p class="font-yellow">Gatinais Montargis</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -887,7 +906,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Val-de-Loire Sologne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=434"><p class="font-yellow">Val-de-Loire Sologne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -899,7 +918,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">29 - Eure-et-Loir</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=64"><p class="font-yellow">29 - Eure-et-Loir</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -911,7 +930,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Nogent-le-Rotrou</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=229"><p class="font-yellow">Nogent-le-Rotrou</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -923,7 +942,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">41 - Loir-et-Cher</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=65"><p class="font-yellow">41 - Loir-et-Cher</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -935,7 +954,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Vendôme</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=222"><p class="font-yellow">Vendôme</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -946,7 +965,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Montoir-sur-le-loir</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=302"><p class="font-yellow">Montoir-sur-le-loir</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -958,7 +977,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">37 - Indre-et-Loire</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=66"><p class="font-yellow">37 - Indre-et-Loire</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -970,7 +989,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Tours</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=219"><p class="font-yellow">Tours</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -982,7 +1001,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">36 - Indre</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=67"><p class="font-yellow">36 - Indre</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -994,7 +1013,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Le Blanc</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=423"><p class="font-yellow">Le Blanc</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -1012,7 +1031,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">18 - Cher</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=68"><p class="font-yellow">18 - Cher</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1024,7 +1043,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">CORSICA</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=30"><p class="font-yellow">CORSICA</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1036,11 +1055,11 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">2A - Corse-du-Sud</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=70"><p class="font-yellow">2A - Corse-du-Sud</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">GRAND EST</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=31"><p class="font-yellow">GRAND EST</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1052,7 +1071,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">52 - Haute-Marne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=71"><p class="font-yellow">52 - Haute-Marne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1064,11 +1083,11 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Chaumont</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=243"><p class="font-yellow">Chaumont</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">68 - Haut-Rhin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=72"><p class="font-yellow">68 - Haut-Rhin</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1080,7 +1099,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Mulhouse Colmar Cernay et Altkirch </p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=240"><p class="font-yellow">Mulhouse Colmar Cernay et Altkirch </p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1092,11 +1111,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">54 - Meurthe-et-Moselle</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=73"><p class="font-yellow">54 - Meurthe-et-Moselle</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Nancy</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=300"><p class="font-yellow">Nancy</p></a>
 		<ul>
 			<li class="site">
 				<p>Site web</p>
@@ -1108,11 +1127,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">10 - Aube</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=74"><p class="font-yellow">10 - Aube</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Troyes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=390"><p class="font-yellow">Troyes</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1124,15 +1143,15 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">08 - Ardennes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=75"><p class="font-yellow">08 - Ardennes</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Charleville-Mézières</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=400"><p class="font-yellow">Charleville-Mézières</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">55 - Meuse</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=76"><p class="font-yellow">55 - Meuse</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1143,11 +1162,11 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">51 - Marne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=77"><p class="font-yellow">51 - Marne</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Reims</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=186"><p class="font-yellow">Reims</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1158,11 +1177,11 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Châlons-en-Champagne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=402"><p class="font-yellow">Châlons-en-Champagne</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">57 - Moselle</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=78"><p class="font-yellow">57 - Moselle</p></a>
 		<ul>
 			<li class="facebookp">
 				<p>Facebook - Page</p>
@@ -1174,7 +1193,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Metz</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=182"><p class="font-yellow">Metz</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1185,7 +1204,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Meisenthal</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=250"><p class="font-yellow">Meisenthal</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1196,7 +1215,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Avold</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=370"><p class="font-yellow">Saint-Avold</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1207,7 +1226,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Thionville</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=373"><p class="font-yellow">Thionville</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1218,11 +1237,11 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Sarrebourg</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=417"><p class="font-yellow">Sarrebourg</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">67 - Bas-Rhin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=79"><p class="font-yellow">67 - Bas-Rhin</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1234,7 +1253,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Saverne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=223"><p class="font-yellow">Saverne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1245,7 +1264,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Strasbourg</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=292"><p class="font-yellow">Strasbourg</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1256,14 +1275,14 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Sélestat</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=295"><p class="font-yellow">Sélestat</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Haguenau</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=298"><p class="font-yellow">Haguenau</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">88 - Vosges</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=128"><p class="font-yellow">88 - Vosges</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1275,18 +1294,18 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Epinal</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=391"><p class="font-yellow">Epinal</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Die-des-Vosges</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=396"><p class="font-yellow">Saint-Die-des-Vosges</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Remiremont</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=397"><p class="font-yellow">Remiremont</p></a>
 	</li>
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">HAUTS-DE-FRANCE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=32"><p class="font-yellow">HAUTS-DE-FRANCE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1298,7 +1317,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">60 - Oise</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=58"><p class="font-yellow">60 - Oise</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1316,7 +1335,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Compiègne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=212"><p class="font-yellow">Compiègne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1328,19 +1347,19 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">02 - Aisne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=80"><p class="font-yellow">02 - Aisne</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Château-Thierry</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=383"><p class="font-yellow">Château-Thierry</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">59 - Nord</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=81"><p class="font-yellow">59 - Nord</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Pays haut (Nord 54)</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=257"><p class="font-yellow">Pays haut (Nord 54)</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1351,7 +1370,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Valenciennes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=283"><p class="font-yellow">Valenciennes</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1362,24 +1381,24 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Lille</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=294"><p class="font-yellow">Lille</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Hazebrouck</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=330"><p class="font-yellow">Hazebrouck</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Bailleul</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=371"><p class="font-yellow">Bailleul</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">80 - Somme</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=82"><p class="font-yellow">80 - Somme</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">62 - Pas-de-Calais</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=333"><p class="font-yellow">62 - Pas-de-Calais</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Calais</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=206"><p class="font-yellow">Calais</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -1390,13 +1409,13 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Lillers</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=334"><p class="font-yellow">Lillers</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Hénin-Beaumont</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=335"><p class="font-yellow">Hénin-Beaumont</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Béthune</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=336"><p class="font-yellow">Béthune</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1407,39 +1426,39 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Boulogne-sur-Mer</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=337"><p class="font-yellow">Boulogne-sur-Mer</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Arras</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=338"><p class="font-yellow">Arras</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Bapaume</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=339"><p class="font-yellow">Bapaume</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Lens</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=340"><p class="font-yellow">Lens</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Hesdin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=341"><p class="font-yellow">Hesdin</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Aix-Noulette</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=342"><p class="font-yellow">Aix-Noulette</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Calonne-Ricouart</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=358"><p class="font-yellow">Calonne-Ricouart</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Pernes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=359"><p class="font-yellow">Pernes</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Haillicourt</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=360"><p class="font-yellow">Haillicourt</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Cauchy-à-la-Tour</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=361"><p class="font-yellow">Cauchy-à-la-Tour</p></a>
 	</li>
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">ÎLE-DE-FRANCE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=33"><p class="font-yellow">ÎLE-DE-FRANCE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1453,7 +1472,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">75 - Paris</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=49"><p class="font-yellow">75 - Paris</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1465,7 +1484,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Paris 14e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=260"><p class="font-yellow">Paris 14e</p></a>
 		<ul>
 			<li class="whatsapp">
 				<p>WhatsApp</p>
@@ -1476,7 +1495,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 20e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=263"><p class="font-yellow">Paris 20e</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1493,7 +1512,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 19e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=349"><p class="font-yellow">Paris 19e</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -1510,35 +1529,35 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 11e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=350"><p class="font-yellow">Paris 11e</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 18e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=352"><p class="font-yellow">Paris 18e</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 12e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=353"><p class="font-yellow">Paris 12e</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 10e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=354"><p class="font-yellow">Paris 10e</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 1er</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=355"><p class="font-yellow">Paris 1er</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 5e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=357"><p class="font-yellow">Paris 5e</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 13e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=394"><p class="font-yellow">Paris 13e</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 15ème</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=420"><p class="font-yellow">Paris 15ème</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Paris 9e</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=424"><p class="font-yellow">Paris 9e</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">77 - Seine-et-Marne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=50"><p class="font-yellow">77 - Seine-et-Marne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1549,7 +1568,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">78 - Yvelines</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=51"><p class="font-yellow">78 - Yvelines</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1561,7 +1580,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">N10 - Rambouillet - Saint-Quentin-en-Yvelines</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=155"><p class="font-yellow">N10 - Rambouillet - Saint-Quentin-en-Yvelines</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1572,7 +1591,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Mantes-Dreux-Evreux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=217"><p class="font-yellow">Mantes-Dreux-Evreux</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1583,7 +1602,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Yvelines Est</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=367"><p class="font-yellow">Yvelines Est</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1594,7 +1613,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Zone Conflans</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=368"><p class="font-yellow">Zone Conflans</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1605,7 +1624,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Yvelines Nord</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=369"><p class="font-yellow">Yvelines Nord</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1616,7 +1635,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Versailles</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=375"><p class="font-yellow">Versailles</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1627,7 +1646,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Yvelines Nord - Acheres Poissy Saint Germain</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=380"><p class="font-yellow">Yvelines Nord - Acheres Poissy Saint Germain</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1639,7 +1658,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">91 - Essonne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=52"><p class="font-yellow">91 - Essonne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1651,20 +1670,20 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Lardy</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=346"><p class="font-yellow">Lardy</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Brétigny-sur-Orge</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=347"><p class="font-yellow">Brétigny-sur-Orge</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Évry</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=348"><p class="font-yellow">Évry</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Etampes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=409"><p class="font-yellow">Etampes</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">92 - Hauts-de-Seine</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=53"><p class="font-yellow">92 - Hauts-de-Seine</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1676,26 +1695,26 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Clichy</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=343"><p class="font-yellow">Clichy</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Colombes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=344"><p class="font-yellow">Colombes</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Nanterre</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=345"><p class="font-yellow">Nanterre</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Chatillon</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=405"><p class="font-yellow">Chatillon</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Malakoff</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=407"><p class="font-yellow">Malakoff</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Bagneux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=435"><p class="font-yellow">Bagneux</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">93 - Seine-Saint-Denis</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=54"><p class="font-yellow">93 - Seine-Saint-Denis</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1707,7 +1726,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Drancy / Bobigny / Le Blanc Mesnil / Le Bourget</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=237"><p class="font-yellow">Drancy / Bobigny / Le Blanc Mesnil / Le Bourget</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1718,7 +1737,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Pantin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=264"><p class="font-yellow">Pantin</p></a>
 		<ul>
 			<li class="whatsapp">
 				<p>WhatsApp</p>
@@ -1729,7 +1748,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Montreuil</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=351"><p class="font-yellow">Montreuil</p></a>
 		<ul>
 			<li class="site">
 				<p>Site web</p>
@@ -1740,14 +1759,14 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Saint Denis</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=425"><p class="font-yellow">Saint Denis</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Noisy-Le-Grand</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=426"><p class="font-yellow">Noisy-Le-Grand</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">94 - Val-de-Marne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=55"><p class="font-yellow">94 - Val-de-Marne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1758,7 +1777,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">95 - Val-d&#8217;Oise</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=83"><p class="font-yellow">95 - Val-d&#8217;Oise</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -1770,15 +1789,15 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Cergy</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=389"><p class="font-yellow">Cergy</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">BEZONS</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=410"><p class="font-yellow">BEZONS</p></a>
 	</li>
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">NORMANDIE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=34"><p class="font-yellow">NORMANDIE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1790,11 +1809,11 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">50 - Manche</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=85"><p class="font-yellow">50 - Manche</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Bayeux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=129"><p class="font-yellow">Bayeux</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1805,7 +1824,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Sud Manche</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=131"><p class="font-yellow">Sud Manche</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1816,7 +1835,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-lô</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=132"><p class="font-yellow">Saint-lô</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1827,7 +1846,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Cherbourg</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=184"><p class="font-yellow">Cherbourg</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -1839,11 +1858,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">76 - Seine-Maritime</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=86"><p class="font-yellow">76 - Seine-Maritime</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Dieppe</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=135"><p class="font-yellow">Dieppe</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1854,7 +1873,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Le Havre</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=198"><p class="font-yellow">Le Havre</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1865,7 +1884,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Rouen</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=199"><p class="font-yellow">Rouen</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1877,11 +1896,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">61 - Orne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=87"><p class="font-yellow">61 - Orne</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Alençon</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=147"><p class="font-yellow">Alençon</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1892,7 +1911,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Flers</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=208"><p class="font-yellow">Flers</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -1910,11 +1929,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">14 - Calvados</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=88"><p class="font-yellow">14 - Calvados</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Caen</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=134"><p class="font-yellow">Caen</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1925,7 +1944,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Bocage virois</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=136"><p class="font-yellow">Bocage virois</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1936,7 +1955,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Bayeux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=197"><p class="font-yellow">Bayeux</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1947,15 +1966,15 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Lisieux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=376"><p class="font-yellow">Lisieux</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">27 - Eure</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=89"><p class="font-yellow">27 - Eure</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Bernay</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=175"><p class="font-yellow">Bernay</p></a>
 		<ul>
 			<li class="facebookg">
 				<p>Facebook - Groupe</p>
@@ -1966,7 +1985,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Évreux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=385"><p class="font-yellow">Évreux</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1979,7 +1998,7 @@
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">NOUVELLE-AQUITAINE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=35"><p class="font-yellow">NOUVELLE-AQUITAINE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -1991,7 +2010,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">33 - Gironde</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=90"><p class="font-yellow">33 - Gironde</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2003,7 +2022,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Bordeaux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=160"><p class="font-yellow">Bordeaux</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2014,7 +2033,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Libourne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=161"><p class="font-yellow">Libourne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2025,7 +2044,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Langon</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=163"><p class="font-yellow">Langon</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2036,7 +2055,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Sainte Foy la Grande</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=164"><p class="font-yellow">Sainte Foy la Grande</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2047,14 +2066,14 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Macaire</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=267"><p class="font-yellow">Saint-Macaire</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">40 - Landes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=91"><p class="font-yellow">40 - Landes</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">24 - Dordogne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=92"><p class="font-yellow">24 - Dordogne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2066,7 +2085,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Saint-yrieix-la-perche</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=150"><p class="font-yellow">Saint-yrieix-la-perche</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2078,11 +2097,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">64 - Pyrénées-Atlantiques</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=93"><p class="font-yellow">64 - Pyrénées-Atlantiques</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Haut béarn</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=151"><p class="font-yellow">Haut béarn</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2093,7 +2112,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Bayonne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=165"><p class="font-yellow">Bayonne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2104,7 +2123,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Pau</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=166"><p class="font-yellow">Pau</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2116,7 +2135,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">23 - Creuse</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=94"><p class="font-yellow">23 - Creuse</p></a>
 		<ul>
 			<li class="site">
 				<p>Site web</p>
@@ -2134,7 +2153,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Bénévent-Grand Bourg</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=185"><p class="font-yellow">Bénévent-Grand Bourg</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -2145,7 +2164,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Guéret</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=224"><p class="font-yellow">Guéret</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2156,7 +2175,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">La Souterraine</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=225"><p class="font-yellow">La Souterraine</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2167,7 +2186,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Bourganeuf</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=226"><p class="font-yellow">Bourganeuf</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2178,7 +2197,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Faux-la-Montagne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=227"><p class="font-yellow">Faux-la-Montagne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2189,7 +2208,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Boussac</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=228"><p class="font-yellow">Boussac</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2200,7 +2219,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Aubusson</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=265"><p class="font-yellow">Aubusson</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2212,11 +2231,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">19 - Corrèze</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=95"><p class="font-yellow">19 - Corrèze</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Haute-corrèze</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=133"><p class="font-yellow">Haute-corrèze</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2227,7 +2246,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Brive-la-Gaillarde</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=204"><p class="font-yellow">Brive-la-Gaillarde</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2238,7 +2257,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Tulle</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=305"><p class="font-yellow">Tulle</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -2250,11 +2269,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">17 - Charente-Maritime</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=96"><p class="font-yellow">17 - Charente-Maritime</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">La Rochelle</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=156"><p class="font-yellow">La Rochelle</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2265,7 +2284,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Rochefort</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=157"><p class="font-yellow">Rochefort</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2276,7 +2295,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Saintes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=158"><p class="font-yellow">Saintes</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2287,7 +2306,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Montendre</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=269"><p class="font-yellow">Montendre</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2298,15 +2317,15 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Île de Ré</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=387"><p class="font-yellow">Île de Ré</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">16 - Charente</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=97"><p class="font-yellow">16 - Charente</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Angoulème</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=148"><p class="font-yellow">Angoulème</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2317,7 +2336,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Cognac</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=149"><p class="font-yellow">Cognac</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2329,11 +2348,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">79 - Deux-Sèvres</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=98"><p class="font-yellow">79 - Deux-Sèvres</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Bressuire</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=167"><p class="font-yellow">Bressuire</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2344,7 +2363,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Niort</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=168"><p class="font-yellow">Niort</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2355,7 +2374,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Thouars</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=169"><p class="font-yellow">Thouars</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2366,11 +2385,11 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Melle</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=268"><p class="font-yellow">Melle</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">86 - Vienne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=99"><p class="font-yellow">86 - Vienne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2382,7 +2401,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Châtellerault</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=171"><p class="font-yellow">Châtellerault</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2393,7 +2412,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Poitiers</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=172"><p class="font-yellow">Poitiers</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2405,7 +2424,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">87 - Haute-Vienne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=100"><p class="font-yellow">87 - Haute-Vienne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2416,11 +2435,11 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">47 - Lot-et-Garonne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=101"><p class="font-yellow">47 - Lot-et-Garonne</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Agen</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=194"><p class="font-yellow">Agen</p></a>
 		<ul>
 			<li class="site">
 				<p>Site web</p>
@@ -2432,7 +2451,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">Périgord Limousin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=176"><p class="font-yellow">Périgord Limousin</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -2450,7 +2469,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">OCCITANIE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=36"><p class="font-yellow">OCCITANIE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2462,7 +2481,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">66 - Pyrénées-Orientales</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=102"><p class="font-yellow">66 - Pyrénées-Orientales</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2474,14 +2493,14 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Perpignan</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=297"><p class="font-yellow">Perpignan</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Prades</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=315"><p class="font-yellow">Prades</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">81 - Tarn</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=103"><p class="font-yellow">81 - Tarn</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2493,7 +2512,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Carmaux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=248"><p class="font-yellow">Carmaux</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2504,7 +2523,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Albi</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=252"><p class="font-yellow">Albi</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2515,7 +2534,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Castres</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=253"><p class="font-yellow">Castres</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2526,7 +2545,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Gaillac</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=254"><p class="font-yellow">Gaillac</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2537,7 +2556,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Graulhet</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=255"><p class="font-yellow">Graulhet</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2548,7 +2567,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Rabastens</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=276"><p class="font-yellow">Rabastens</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -2559,7 +2578,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Mazamet</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=301"><p class="font-yellow">Mazamet</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2570,11 +2589,11 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Lisle-sur-Tarn</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=324"><p class="font-yellow">Lisle-sur-Tarn</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">82 - Tarn-et-Garonne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=104"><p class="font-yellow">82 - Tarn-et-Garonne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2586,11 +2605,11 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Montauban</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=366"><p class="font-yellow">Montauban</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">46 - Lot</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=105"><p class="font-yellow">46 - Lot</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2602,7 +2621,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Cahors</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=277"><p class="font-yellow">Cahors</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2613,7 +2632,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Figeac</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=287"><p class="font-yellow">Figeac</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2624,7 +2643,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Souillac</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=288"><p class="font-yellow">Souillac</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2636,29 +2655,29 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">48 - Lozère</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=106"><p class="font-yellow">48 - Lozère</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Mende</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=325"><p class="font-yellow">Mende</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Florac</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=326"><p class="font-yellow">Florac</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">11 - Aude</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=107"><p class="font-yellow">11 - Aude</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Narbonne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=310"><p class="font-yellow">Narbonne</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Limoux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=311"><p class="font-yellow">Limoux</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">09 - Ariège</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=108"><p class="font-yellow">09 - Ariège</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2670,20 +2689,20 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Pamiers</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=319"><p class="font-yellow">Pamiers</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Foix</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=320"><p class="font-yellow">Foix</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Girons</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=321"><p class="font-yellow">Saint-Girons</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Lézat-sur-Lèze</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=374"><p class="font-yellow">Lézat-sur-Lèze</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">31 - Haute-Garonne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=109"><p class="font-yellow">31 - Haute-Garonne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2695,33 +2714,33 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Muret</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=306"><p class="font-yellow">Muret</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Gaudens</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=307"><p class="font-yellow">Saint-Gaudens</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Pins-Justaret</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=308"><p class="font-yellow">Pins-Justaret</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Capens</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=309"><p class="font-yellow">Capens</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Cazères</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=322"><p class="font-yellow">Cazères</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Carbonne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=372"><p class="font-yellow">Carbonne</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Toulouse</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=388"><p class="font-yellow">Toulouse</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">32 - Gers</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=110"><p class="font-yellow">32 - Gers</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Auch</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=239"><p class="font-yellow">Auch</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -2733,7 +2752,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">34 - Hérault</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=111"><p class="font-yellow">34 - Hérault</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -2751,7 +2770,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Lodévois</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=215"><p class="font-yellow">Lodévois</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2762,7 +2781,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Montpellier</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=256"><p class="font-yellow">Montpellier</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -2773,23 +2792,23 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Gignac</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=271"><p class="font-yellow">Gignac</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Sète</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=327"><p class="font-yellow">Sète</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Bédarieux</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=328"><p class="font-yellow">Bédarieux</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Agde</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=331"><p class="font-yellow">Agde</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Béziers</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=332"><p class="font-yellow">Béziers</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">12 - Aveyron</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=112"><p class="font-yellow">12 - Aveyron</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2801,25 +2820,25 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Villefranche de Rouergue</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=284"><p class="font-yellow">Villefranche de Rouergue</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Decazeville</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=285"><p class="font-yellow">Decazeville</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Rodez</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=323"><p class="font-yellow">Rodez</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">65 - Hautes-Pyrénées</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=113"><p class="font-yellow">65 - Hautes-Pyrénées</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Tarbes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=247"><p class="font-yellow">Tarbes</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">30 - Gard</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=114"><p class="font-yellow">30 - Gard</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2831,24 +2850,24 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Roquemaure</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=291"><p class="font-yellow">Roquemaure</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Uzès</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=312"><p class="font-yellow">Uzès</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Nîmes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=313"><p class="font-yellow">Nîmes</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Alès</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=314"><p class="font-yellow">Alès</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Chaptes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=329"><p class="font-yellow">Saint-Chaptes</p></a>
 	</li>
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">PAYS DE LA LOIRE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=37"><p class="font-yellow">PAYS DE LA LOIRE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2860,7 +2879,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">53 - Mayenne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=115"><p class="font-yellow">53 - Mayenne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2871,7 +2890,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">85 - Vendée</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=116"><p class="font-yellow">85 - Vendée</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2883,7 +2902,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">La roche-sur-Yon</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=221"><p class="font-yellow">La roche-sur-Yon</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2894,7 +2913,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Luçon</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=304"><p class="font-yellow">Luçon</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2905,7 +2924,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">La-Barre-de-Monts</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=386"><p class="font-yellow">La-Barre-de-Monts</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -2917,7 +2936,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">44 - Loire-Atlantique</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=117"><p class="font-yellow">44 - Loire-Atlantique</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2929,7 +2948,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Malakoff Saint-Donatien</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=127"><p class="font-yellow">Malakoff Saint-Donatien</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2940,7 +2959,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Ancenis</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=137"><p class="font-yellow">Ancenis</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2951,7 +2970,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Carquefou</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=138"><p class="font-yellow">Carquefou</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2962,7 +2981,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Rezé</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=144"><p class="font-yellow">Rezé</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2973,7 +2992,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Saint Nazaire</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=145"><p class="font-yellow">Saint Nazaire</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2984,7 +3003,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Châteaubriant Nozay Blain Derval</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=201"><p class="font-yellow">Châteaubriant Nozay Blain Derval</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2995,7 +3014,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Saint-Herblain</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=202"><p class="font-yellow">Saint-Herblain</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3006,7 +3025,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">La-Chapelle-sur-Erdre</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=211"><p class="font-yellow">La-Chapelle-sur-Erdre</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3017,7 +3036,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Clisson - Vallet-le-Loroux - Vertou</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=249"><p class="font-yellow">Clisson - Vallet-le-Loroux - Vertou</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3028,7 +3047,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Pays de Retz</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=270"><p class="font-yellow">Pays de Retz</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3039,11 +3058,11 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Nantes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=280"><p class="font-yellow">Nantes</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">L&#8217;Île de Nantes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=139"><p class="font-yellow">L&#8217;Île de Nantes</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3054,7 +3073,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Nantes Agglomération</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=140"><p class="font-yellow">Nantes Agglomération</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3065,7 +3084,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Nantes Nord</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=141"><p class="font-yellow">Nantes Nord</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3076,7 +3095,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Nantes sud Loire</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=142"><p class="font-yellow">Nantes sud Loire</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3087,7 +3106,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Village Graslin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=281"><p class="font-yellow">Village Graslin</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3100,7 +3119,7 @@
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">49 - Maine-et-Loire</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=118"><p class="font-yellow">49 - Maine-et-Loire</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3112,7 +3131,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Cholet</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=146"><p class="font-yellow">Cholet</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3123,11 +3142,11 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Angers</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=272"><p class="font-yellow">Angers</p></a>
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">72 - Sarthe</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=119"><p class="font-yellow">72 - Sarthe</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3139,7 +3158,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">PROVENCE-ALPES-CÔTE D&#8217;AZUR</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=38"><p class="font-yellow">PROVENCE-ALPES-CÔTE D&#8217;AZUR</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3151,11 +3170,11 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">13 - Bouches-du-Rhône</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=120"><p class="font-yellow">13 - Bouches-du-Rhône</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Salon-de-Provence</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=178"><p class="font-yellow">Salon-de-Provence</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3166,7 +3185,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Marseille</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=191"><p class="font-yellow">Marseille</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3178,7 +3197,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Marseille Est</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=177"><p class="font-yellow">Marseille Est</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3189,7 +3208,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Marseille Centre (complet) - rejoindre le telegram</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=190"><p class="font-yellow">Marseille Centre (complet) - rejoindre le telegram</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -3200,7 +3219,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Marseille Nord</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=233"><p class="font-yellow">Marseille Nord</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -3212,7 +3231,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">Aix-en-Provence</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=232"><p class="font-yellow">Aix-en-Provence</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -3223,7 +3242,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Martigues</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=234"><p class="font-yellow">Martigues</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -3234,7 +3253,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Aix Marseille Université</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=235"><p class="font-yellow">Aix Marseille Université</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -3245,7 +3264,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Arles</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=422"><p class="font-yellow">Arles</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -3255,9 +3274,20 @@
 			</li>
 		</ul>
 	</li>
+	<li>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=437"><p class="font-yellow">Aubagne</p></a>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+WAzqMf3TdOUyNzZk" target="_blank" rel="me">+WAzqMf3TdOUyNzZk</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
 </ul>
 	<li>
-	<p class="font-yellow">83 - Var</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=121"><p class="font-yellow">83 - Var</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3268,7 +3298,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">06 - Alpes-Maritimes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=122"><p class="font-yellow">06 - Alpes-Maritimes</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3280,7 +3310,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Cannes Nice Antibes Grasse Menton</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=382"><p class="font-yellow">Cannes Nice Antibes Grasse Menton</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3292,11 +3322,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">05 - Hautes-Alpes</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=123"><p class="font-yellow">05 - Hautes-Alpes</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">L&#8217;Argentière-la-Bessée</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=218"><p class="font-yellow">L&#8217;Argentière-la-Bessée</p></a>
 		<ul>
 			<li class="whatsapp">
 				<p>WhatsApp</p>
@@ -3307,7 +3337,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Sud Briançonnais</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=236"><p class="font-yellow">Sud Briançonnais</p></a>
 		<ul>
 			<li class="whatsapp">
 				<p>WhatsApp</p>
@@ -3319,7 +3349,7 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">04 - Alpes-de-Haute-Provence</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=124"><p class="font-yellow">04 - Alpes-de-Haute-Provence</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3332,7 +3362,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Manosque</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=381"><p class="font-yellow">Manosque</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3344,11 +3374,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">84 - Vaucluse</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=125"><p class="font-yellow">84 - Vaucluse</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Sud Lubéron</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=192"><p class="font-yellow">Sud Lubéron</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -3359,21 +3389,21 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Avignon</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=362"><p class="font-yellow">Avignon</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Montélimar</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=363"><p class="font-yellow">Montélimar</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Pertuis</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=364"><p class="font-yellow">Pertuis</p></a>
 	</li>
 	<li>
-	<p class="font-yellow">Carpentras</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=365"><p class="font-yellow">Carpentras</p></a>
 	</li>
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">OUTRE MER</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=130"><p class="font-yellow">OUTRE MER</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3385,7 +3415,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">LA RÉUNION</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=39"><p class="font-yellow">LA RÉUNION</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3396,7 +3426,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">MARTINIQUE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=40"><p class="font-yellow">MARTINIQUE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3407,7 +3437,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">GUYANE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=41"><p class="font-yellow">GUYANE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3420,7 +3450,7 @@
 </ul>
 </ul>
 	<li>
-	<p class="font-yellow">Belgique</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=7"><p class="font-yellow">Belgique</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3431,11 +3461,11 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Irlande</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=196"><p class="font-yellow">Irlande</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Dublin</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=195"><p class="font-yellow">Dublin</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3447,11 +3477,11 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">Autriche</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=258"><p class="font-yellow">Autriche</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Vienne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=259"><p class="font-yellow">Vienne</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3463,22 +3493,22 @@
 	</li>
 </ul>
 	<li>
-	<p class="font-yellow">Espagne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=316"><p class="font-yellow">Espagne</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Catalogne</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=318"><p class="font-yellow">Catalogne</p></a>
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">La Jonquera</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=317"><p class="font-yellow">La Jonquera</p></a>
 	</li>
 </ul>
 </ul>
 </ul>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">ÉTUDIANTS</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=45"><p class="font-yellow">ÉTUDIANTS</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3489,7 +3519,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">MARCHE - 10 SEPTEMBRE</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=46"><p class="font-yellow">MARCHE - 10 SEPTEMBRE</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3500,7 +3530,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">10S25</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=47"><p class="font-yellow">10S25</p></a>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3511,7 +3541,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Nourrir le mouvement</p>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=48"><p class="font-yellow">Nourrir le mouvement</p></a>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
