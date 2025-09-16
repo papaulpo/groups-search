@@ -645,6 +645,17 @@
               "sousLieux": []
             },
             {
+              "nom": "39 - Jura",
+              "liens": [],
+              "sousLieux": [
+                {
+                  "nom": "Lons-le-Saunier",
+                  "liens": [],
+                  "sousLieux": []
+                }
+              ]
+            },
+            {
               "nom": "58 - Nièvre",
               "liens": [
                 {
@@ -671,6 +682,20 @@
                 }
               ],
               "sousLieux": [
+                {
+                  "nom": "Autun",
+                  "liens": [
+                    {
+                      "type": "Telegram",
+                      "nom": "On-est-là ! Grand Autuno",
+                      "url": "https://t.me/+wx67YJuf3y83NjU8",
+                      "territoire": "Local",
+                      "latitude": "46.955461",
+                      "longitude": "4.294883"
+                    }
+                  ],
+                  "sousLieux": []
+                },
                 {
                   "nom": "Chalon-sur-Saône",
                   "liens": [
@@ -731,20 +756,6 @@
                       "territoire": "Local",
                       "latitude": "46.74874",
                       "longitude": "4.49276"
-                    }
-                  ],
-                  "sousLieux": []
-                },
-                {
-                  "nom": "On-est-là ! Grand Autunois Morvan",
-                  "liens": [
-                    {
-                      "type": "Telegram",
-                      "nom": "+wx67YJuf3y83NjU8",
-                      "url": "https://t.me/+wx67YJuf3y83NjU8",
-                      "territoire": "Local",
-                      "latitude": "46.955461",
-                      "longitude": "4.294883"
                     }
                   ],
                   "sousLieux": []
@@ -851,7 +862,16 @@
                 },
                 {
                   "nom": "Dinan",
-                  "liens": [],
+                  "liens": [
+                    {
+                      "type": "Telegram",
+                      "nom": "Indignons-Nous Dinan",
+                      "url": "https://t.me/indignonsnous22/79",
+                      "territoire": "Local",
+                      "latitude": "48.453978",
+                      "longitude": "-2.047687"
+                    }
+                  ],
                   "sousLieux": []
                 },
                 {
@@ -923,6 +943,20 @@
                       "territoire": "Local",
                       "latitude": "48.093538142931415",
                       "longitude": "-4.332926818680802"
+                    }
+                  ],
+                  "sousLieux": []
+                },
+                {
+                  "nom": "Quimper",
+                  "liens": [
+                    {
+                      "type": "Signal",
+                      "nom": "Appel du 10 Quimper",
+                      "url": "https://signal.group/#CjQKII1qXyyZlShZHZE4jrNn5tlRNXWfhVszh5mZMUCa2rCJEhBSXPFKiphSp2gqamlDf7cn",
+                      "territoire": "Local",
+                      "latitude": "47.996033",
+                      "longitude": "-4.102478"
                     }
                   ],
                   "sousLieux": []
@@ -1346,8 +1380,8 @@
                   "nom": "+Utc-XCqfvSphZjhk",
                   "url": "https://t.me/+Utc-XCqfvSphZjhk",
                   "territoire": "Départemental",
-                  "latitude": "47.543",
-                  "longitude": "1.692"
+                  "latitude": "47.9900",
+                  "longitude": "1.7616"
                 }
               ],
               "sousLieux": [
@@ -1931,6 +1965,14 @@
           "nom": "ÎLE-DE-FRANCE",
           "liens": [
             {
+              "type": "Signal",
+              "nom": "Groupe Régional Ile de France",
+              "url": "https://signal.group/#CjQKIN88p8tNfZVKybCRXwCaekvNj-jUWwZ-uSnp2u0dZLYQEhBrnlShT9mC5RJ1GjjW0vrt",
+              "territoire": "Régional",
+              "latitude": "48.85751049761375",
+              "longitude": "2.3514497922516293"
+            },
+            {
               "type": "Telegram",
               "nom": "retlIDF",
               "url": "https://t.me/retlIDF",
@@ -2032,6 +2074,14 @@
                   "nom": "Paris 19e",
                   "liens": [
                     {
+                      "type": "Signal",
+                      "nom": "Paris 19 Signal",
+                      "url": "https://signal.group/#CjQKILEtUX-Xjl1KE2DzzVThpot2R-29mPJuQWda_wjiWYJWEhBpoX9HLh7YhU8rh8USq458",
+                      "territoire": "Local",
+                      "latitude": "48.880149",
+                      "longitude": "2.3464283"
+                    },
+                    {
                       "type": "WhatsApp",
                       "nom": "HzaAEwbZIFj2LSv9sLNQLB",
                       "url": "https://chat.whatsapp.com/HzaAEwbZIFj2LSv9sLNQLB?mode=ems_share_t",
@@ -2105,6 +2155,11 @@
                       "longitude": "1.454315"
                     }
                   ],
+                  "sousLieux": []
+                },
+                {
+                  "nom": "Montigny le Bretonneux",
+                  "liens": [],
                   "sousLieux": []
                 },
                 {
@@ -2197,12 +2252,44 @@
               "nom": "91 - Essonne",
               "liens": [
                 {
+                  "type": "Signal",
+                  "nom": "Groupe Signal Nord-ouest Esson",
+                  "url": "https://signal.group/#CjQKILos3O6Y5Js88w3Pe0dMCK3sEHR6gibyO8kJXVr5ZQZDEhBugpznS3XNScxRmxJompOqYThdqyE37mmsignal.group/%23CjQKILos3O6Y5Js88w3Pe0dMCK3sEHR6gibyO8kJXVr5ZQZDEhBugpznS3XNScxRmxJompOq",
+                  "territoire": "Départemental",
+                  "latitude": "48.683171",
+                  "longitude": "2.169925"
+                },
+                {
                   "type": "Telegram",
                   "nom": "+ZMP8cVktBdQ2YjM0",
                   "url": "https://t.me/+ZMP8cVktBdQ2YjM0",
                   "territoire": "Départemental",
                   "latitude": "48.5226198884686",
                   "longitude": "2.24338748665539"
+                },
+                {
+                  "type": "Telegram",
+                  "nom": "Groupe Telegram Cœur d'",
+                  "url": "https://t.me/+JDWBBGDCYFowNzdk",
+                  "territoire": "Départemental",
+                  "latitude": "48.670639",
+                  "longitude": "2.375705"
+                },
+                {
+                  "type": "Telegram",
+                  "nom": "Groupe Telegram Sud Essonne",
+                  "url": "https://t.me/c/2715476733/20",
+                  "territoire": "Départemental",
+                  "latitude": "48.436466",
+                  "longitude": "2.161752"
+                },
+                {
+                  "type": "WhatsApp",
+                  "nom": "Groupe WhatsApp Université Pa",
+                  "url": "https://chat.whatsapp.com/FXS0C7JKgqrLErkSsDqf3e",
+                  "territoire": "Départemental",
+                  "latitude": "48.711949",
+                  "longitude": "2.171535"
                 }
               ],
               "sousLieux": [
@@ -2241,6 +2328,11 @@
                 }
               ],
               "sousLieux": [
+                {
+                  "nom": "Bagneux",
+                  "liens": [],
+                  "sousLieux": []
+                },
                 {
                   "nom": "Chatillon",
                   "liens": [],
@@ -4331,6 +4423,20 @@
                       "territoire": "Local",
                       "latitude": "43.6763809",
                       "longitude": "4.6276202"
+                    }
+                  ],
+                  "sousLieux": []
+                },
+                {
+                  "nom": "Aubagne",
+                  "liens": [
+                    {
+                      "type": "Telegram",
+                      "nom": "+WAzqMf3TdOUyNzZk",
+                      "url": "https://t.me/+WAzqMf3TdOUyNzZk",
+                      "territoire": "Local",
+                      "latitude": "43.341613463763",
+                      "longitude": "5.5909681035871"
                     }
                   ],
                   "sousLieux": []

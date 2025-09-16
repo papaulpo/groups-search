@@ -3,13 +3,17 @@ import { Icon } from 'astro-icon/components';
 
 // Simple fixed top navigation bar for the site
 const links = [
-{ label: 'Rejoindre', href: '/nous-rejoindre.html', icon: 'users-four' },
-  { label: 'Régions', href: '/global/regions.html', icon: 'map-pin' },
+  { label: 'Rejoindre', href: '/nous-rejoindre.html', icon: 'users-four' },
   { label: 'Sites', href: '/global/sites.html', icon: 'globe' },
   { label: 'Visuels', href: '/local/_visuels.html', icon: 'paint-brush' },
   { label: 'Doléances', href: '/local/doleances.html', icon: 'note-pencil' },
 ];
+
+const normalize = (p) => p.replace(/\/+$/, '').replace(/\.html?$/, '') || '/';
+const urlLastPart = '/' + (Astro.url.pathname.replace(/\/+$/, '').split('/').filter(Boolean).pop() || '');
+console.log('last part of the url', urlLastPart);
 ---
+
 <nav class="bg-neutral-dark border-b border-neutral-medium">
   <div class="container mx-auto px-2 md:px-4 md:py-2 flex items-center justify-between gap-2">
     <a href="/" class="flex items-center gap-2">
@@ -21,10 +25,10 @@ const links = [
       {links.map(({ label, href, icon }) => (
         <a
           href={href}
-          class=`flex items-center gap-1 shrink-0 p-2 rounded md:min-w-24 ${href === Astro.url.pathname ? 'bg-primary-yellow' : 'bg-neutral-50'} text-neutral-dark text-sm font-medium hover:bg-primary-yellow-light border border-neutral-medium focus:outline-none focus:ring-2 focus:ring-primary-yellow transition`
+          class=`flex items-center gap-1 shrink-0 p-2 rounded md:min-w-24 ${normalize(href) === urlLastPart ? 'bg-primary-yellow pointer-events-none' : 'bg-neutral-50'} text-neutral-dark text-sm font-medium hover:bg-primary-yellow-light border border-neutral-medium focus:outline-none focus:ring-2 focus:ring-primary-yellow transition`
           aria-label={label}
-          aria-current={href === Astro.url.pathname ? 'page' : 'false'}
-          pointer-events={href === Astro.url.pathname ? 'none' : 'auto'}
+          aria-current={normalize(href) === urlLastPart ? 'page' : 'false'}
+          pointer-events={normalize(href) === urlLastPart ? 'none' : 'auto'}
         >
           <Icon name={icon} class="w-4 h-4" aria-hidden="true" />
           <span class="leading-none">{label}</span>
