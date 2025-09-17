@@ -1,7 +1,7 @@
 ---
-import type { GeolienCardProps } from '../types/geoliens';
 import { Icon } from 'astro-icon/components';
 import { getNetworkIcon } from '../lib/icons';
+import type { GeolienCardProps } from '../types/geoliens';
 
 interface Props extends GeolienCardProps {}
 
@@ -12,7 +12,7 @@ const { geolien } = Astro.props;
 href={geolien.url}
 target="_blank"
 rel="noopener noreferrer"
-class="geolien-card bg-primary-yellow rounded text-neutral-dark border border-neutral-light p-2"
+class="geolien-card bg-primary-yellow text-neutral-dark border border-neutral-light p-2"
 data-type={geolien.type}
 data-territoire={geolien.territoire}
 data-nom={geolien.nom.toLowerCase()}

@@ -1434,6 +1434,11 @@
               "nom": "2A - Corse-du-Sud",
               "liens": [],
               "sousLieux": []
+            },
+            {
+              "nom": "2B - Haute-Corse",
+              "liens": [],
+              "sousLieux": []
             }
           ]
         },
@@ -2254,7 +2259,7 @@
                 {
                   "type": "Signal",
                   "nom": "Groupe Signal Nord-ouest Esson",
-                  "url": "https://signal.group/#CjQKILos3O6Y5Js88w3Pe0dMCK3sEHR6gibyO8kJXVr5ZQZDEhBugpznS3XNScxRmxJompOqYThdqyE37mmsignal.group/%23CjQKILos3O6Y5Js88w3Pe0dMCK3sEHR6gibyO8kJXVr5ZQZDEhBugpznS3XNScxRmxJompOq",
+                  "url": "https://signal.group/#CjQKILos3O6Y5Js88w3Pe0dMCK3sEHR6gibyO8kJXVr5ZQZDEhBugpznS3XNScxRmxJompOq",
                   "territoire": "Départemental",
                   "latitude": "48.683171",
                   "longitude": "2.169925"
@@ -3052,8 +3057,8 @@
                   "liens": [
                     {
                       "type": "Telegram",
-                      "nom": "+fFVATyvoOWowZjA0",
-                      "url": "https://t.me/+fFVATyvoOWowZjA0",
+                      "nom": "+qk_X__IUUQphNzY8",
+                      "url": "https://t.me/+qk_X__IUUQphNzY8",
                       "territoire": "Local",
                       "latitude": "44.8637104",
                       "longitude": "-0.6272971"
@@ -4222,6 +4227,20 @@
                 }
               ],
               "sousLieux": [
+                {
+                  "nom": "Challans",
+                  "liens": [
+                    {
+                      "type": "Telegram",
+                      "nom": "+4y34ikSveVg4YzI0",
+                      "url": "https://t.me/+4y34ikSveVg4YzI0",
+                      "territoire": "Local",
+                      "latitude": "46.83290624968621",
+                      "longitude": "-1.8436673937062422"
+                    }
+                  ],
+                  "sousLieux": []
+                },
                 {
                   "nom": "La roche-sur-Yon",
                   "liens": [

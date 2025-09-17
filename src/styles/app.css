@@ -38,7 +38,6 @@
 
 .font-theme { font-family: 'Inter', sans-serif; }
 
-/* Styles personnalisés pour une meilleure troncature du texte */
 .geolien-card h3 {
 	word-break: break-all;
 	hyphens: auto;
@@ -50,7 +49,6 @@
 	white-space: nowrap;
 }
 
-/* S'assurer que les cartes maintiennent une hauteur cohérente */
 .geolien-card {
 	display: flex;
 	flex-direction: column;
@@ -61,4 +59,41 @@
 	flex: 1;
 	display: flex;
 	flex-direction: column;
+}
+
+.btn-primary {
+	background-color: var(--color-primary-yellow);
+	color: var(--color-neutral-dark);
+	text-transform: uppercase;
+	padding: 0.45rem 0.5rem;
+	transition: background-color 0.3s;
+	cursor: pointer;
+
+	&:hover {
+		background-color: var(--color-primary-yellow-light);
+	}
+}
+
+.btn-primary:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px var(--color-neutral-cream);
+}
+
+.navbar-link {
+	@apply flex items-center gap-1 shrink-0 p-2 md:min-w-24 text-sm font-medium transition;
+	color: var(--color-neutral-dark);
+	border-color: var(--color-neutral-medium);
+
+	&.active, &:hover {
+		background-color: var(--color-primary-yellow-light);
+	}
+
+	&.active {
+		background-color: var(--color-primary-yellow);
+		pointer-events: none;
+	}
+}
+
+.navbar-link:focus {
+	outline: 2px solid var(--color-alert-red);
 }

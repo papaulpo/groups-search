@@ -76,7 +76,7 @@ const totalGroups = geoliens.length;
   <div class="flex flex-wrap gap-2 mb-4 justify-end items-center">
     <button
       id="toggle-all-regions"
-      class="px-3 py-2 uppercase text-xs font-medium bg-primary-yellow hover:bg-primary-yellow-light transition-colors duration-200 cursor-pointer text-neutral-dark rounded focus:outline-none focus:ring-2 focus:ring-neutral-50"
+      class="btn-primary text-xs"
       type="button"
       aria-label="Développer toutes les régions"
       aria-pressed="false"
@@ -110,7 +110,7 @@ const totalGroups = geoliens.length;
 
   <!-- INTERNATIONAL -->
   {sortedCountries.length > 0 && (
-    <div class="region-section mb-12 bg-neutral-dark border border-neutral-medium rounded overflow-hidden focus-within:ring-2 focus-within:ring-red-600 ring-inset" data-region="international">
+    <div class="region-section mb-12 bg-neutral-dark border border-neutral-medium overflow-hidden focus-within:ring-2 focus-within:ring-red-600 ring-inset" data-region="international">
       <button
         class="region-header w-full p-2 py-4 md:p-4 flex items-start md:items-center justify-between bg-primary-yellow text-neutral-dark font-semibold text-left hover:bg-primary-yellow-light transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 ring-inset"
         type="button"
