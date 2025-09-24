@@ -173,6 +173,12 @@
 	<li>
 	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=153"><p class="font-yellow">Grenoble</p></a>
 		<ul>
+			<li class="site">
+				<p>Site web</p>
+				<ul>
+					<li><a href="https://cric-grenoble.info/" target="_blank" rel="me">CRIC</a></li>
+				</ul>
+			</li>
 			<li class="telegram">
 				<p>Telegram</p>
 				<ul>
@@ -802,6 +808,14 @@
 	</li>
 	<li>
 	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=414"><p class="font-yellow">Guichen</p></a>
+		<ul>
+			<li class="facebookp">
+				<p>Facebook - Page</p>
+				<ul>
+					<li><a href="https://m.facebook.com/61581094109619/" target="_blank" rel="me">Groupe de Guichen (35)</a></li>
+				</ul>
+			</li>
+		</ul>
 	</li>
 	<li>
 	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=415"><p class="font-yellow">Messac</p></a>
@@ -1442,6 +1456,14 @@
 	</li>
 	<li>
 	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=337"><p class="font-yellow">Boulogne-sur-Mer</p></a>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+VanfCsGu2K4yMmY0" target="_blank" rel="me">Bloquons tout - Boulogne-sur-m</a></li>
+				</ul>
+			</li>
+		</ul>
 	</li>
 	<li>
 	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=338"><p class="font-yellow">Arras</p></a>
@@ -3656,28 +3678,6 @@
 		</ul>
 	</li>
 	<li>
-	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=47"><p class="font-yellow">10S25</p></a>
-		<ul>
-			<li class="telegram">
-				<p>Telegram</p>
-				<ul>
-					<li><a href="https://t.me/+4zU11agZFXlhM2Nk" target="_blank" rel="me">+4zU11agZFXlhM2Nk</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=46"><p class="font-yellow">MARCHE - 10 SEPTEMBRE</p></a>
-		<ul>
-			<li class="telegram">
-				<p>Telegram</p>
-				<ul>
-					<li><a href="https://t.me/+0jfTtV0l27RjZmU0" target="_blank" rel="me">+0jfTtV0l27RjZmU0</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
 	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=48"><p class="font-yellow">Nourrir le mouvement</p></a>
 		<ul>
 			<li class="signal">
@@ -3696,6 +3696,28 @@
 				<p>Telegram</p>
 				<ul>
 					<li><a href="https://t.me/+Lbb4F9zcebYzMzk0" target="_blank" rel="me">+Lbb4F9zcebYzMzk0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=47"><p class="font-yellow">10S25</p></a>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+4zU11agZFXlhM2Nk" target="_blank" rel="me">+4zU11agZFXlhM2Nk</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<a href="https://10s25.ovh/cms/spip.php?page=rubrique&amp;id_rubrique=46"><p class="font-yellow">MARCHE - 10 SEPTEMBRE</p></a>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+0jfTtV0l27RjZmU0" target="_blank" rel="me">+0jfTtV0l27RjZmU0</a></li>
 				</ul>
 			</li>
 		</ul>
