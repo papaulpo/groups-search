@@ -3174,7 +3174,16 @@
 	<li>
 		<input id="tab-91" type="checkbox">
 		<label for="tab-91"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/nouvelle-aquitaine/40-landes/">40 - Landes</a></label>
-		
+		<div class="content">
+			<ul>
+				<li class="telegram">
+					<p>Telegram</p>
+					<ul>
+						<li><a href="https://t.me/+h0qgQmCFbPQ5NGVk" target="_blank" rel="me">BT 40 - Landes</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 	</li>
 	<li>
 		<input id="tab-101" type="checkbox">
