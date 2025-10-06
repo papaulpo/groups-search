@@ -3114,6 +3114,12 @@
 		<label for="tab-160"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/nouvelle-aquitaine/33-gironde/bordeaux/">Bordeaux</a></label>
 		<div class="content">
 			<ul>
+				<li class="site">
+					<p>Site web</p>
+					<ul>
+						<li><a href="https://lagrappe.info/?Bloquons-tout-Carte-non-exhaustive-des-lieux-de-pouvoirs-a-Bordeaux-peripherie-1623" target="_blank" rel="me">Carte non exhaustive des lieux</a></li>
+					</ul>
+				</li>
 				<li class="telegram">
 					<p>Telegram</p>
 					<ul>
