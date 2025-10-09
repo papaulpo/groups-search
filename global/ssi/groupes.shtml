@@ -632,7 +632,7 @@
 <ul class="liste_groupes css-accordion">
 	<li>
 		<input id="tab-42" type="checkbox">
-		<label for="tab-42"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/bourgogne-franche-comte/71-saone-et-loire/chalon-creusot-montceau/">Chalon-sur-Saône</a></label>
+		<label for="tab-42"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/bourgogne-franche-comte/71-saone-et-loire/chalon-sur-saone/">Chalon-sur-Saône</a></label>
 		<div class="content">
 			<ul>
 				<li class="instagram">
@@ -723,7 +723,16 @@
 	<li>
 		<input id="tab-459" type="checkbox">
 		<label for="tab-459"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/bourgogne-franche-comte/71-saone-et-loire/brionnais/">Brionnais</a></label>
-		
+		<div class="content">
+			<ul>
+				<li class="site">
+					<p>Site web</p>
+					<ul>
+						<li><a href="https://10s25.ovh/cms/groupe-geolocalises/france/bourgogne-franche-comte/71-saone-et-loire/brionnais/" target="_blank" rel="me">Evénements dans le Brionnais</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 	</li>
 </ul></li>
 	<li>
