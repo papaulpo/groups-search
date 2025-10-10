@@ -3634,7 +3634,16 @@
 	<li>
 		<input id="tab-110" type="checkbox">
 		<label for="tab-110"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/occitanie/32-gers/">32 - Gers</a></label>
-		
+		<div class="content">
+			<ul>
+				<li class="site">
+					<p>Site web</p>
+					<ul>
+						<li><a href="https://discord.gg/24kj2vkfY" target="_blank" rel="me">Bloquons tout (32)</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 	
 <ul class="liste_groupes css-accordion">
 	<li>
@@ -4918,6 +4927,76 @@
 					<p>Telegram</p>
 					<ul>
 						<li><a href="https://t.me/+0jfTtV0l27RjZmU0" target="_blank" rel="me">+0jfTtV0l27RjZmU0</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</li>
+	<li>
+		<input id="tab-491" type="checkbox">
+		<label for="tab-491"><a href="https://10s25.ovh/cms/groupes-thematiques/rencontres-inter-ags/">Rencontres inter AGs</a></label>
+		<div class="content">
+			<ul>
+				<li class="site">
+					<p>Site web</p>
+					<ul>
+						<li><a href="https://t.me/+LNALBKWc0ag5ODBk" target="_blank" rel="me">Rencontres nationales inter-AG</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</li>
+	<li>
+		<input id="tab-492" type="checkbox">
+		<label for="tab-492"><a href="https://10s25.ovh/cms/groupes-thematiques/gt-inter-ags-debloquons-tout/">GT inter AGs Débloquons Tout</a></label>
+		<div class="content">
+			<ul>
+				<li class="site">
+					<p>Site web</p>
+					<ul>
+						<li><a href="https://debloquonstout.info/" target="_blank" rel="me">Débloquons Tout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</li>
+	<li>
+		<input id="tab-493" type="checkbox">
+		<label for="tab-493"><a href="https://10s25.ovh/cms/groupes-thematiques/gt-inter-ags-debordons-tout/">GT inter AGs Débordons Tout</a></label>
+		<div class="content">
+			<ul>
+				<li class="telegram">
+					<p>Telegram</p>
+					<ul>
+						<li><a href="https://t.me/+mYUjzTopNyNiOGFk" target="_blank" rel="me">Débordons Tout </a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</li>
+	<li>
+		<input id="tab-495" type="checkbox">
+		<label for="tab-495"><a href="https://10s25.ovh/cms/groupes-thematiques/gt-inter-ags-internationalisons-nous/">GT inter AGs Internationalisons-nous</a></label>
+		<div class="content">
+			<ul>
+				<li class="signal">
+					<p>Signal</p>
+					<ul>
+						<li><a href="https://signal.group/#CjQKILnisRVAG84vHUrVqdjke2MQfJMvM6QbxtrLKI_OkYkQEhADnqbwhoMe5HNRGNvaIuJN" target="_blank" rel="me">Internationalisons nous.</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</li>
+	<li>
+		<input id="tab-497" type="checkbox">
+		<label for="tab-497"><a href="https://10s25.ovh/cms/groupes-thematiques/gt-inter-ags-15-novembre/">GT inter AGs 15 Novembre</a></label>
+		<div class="content">
+			<ul>
+				<li class="telegram">
+					<p>Telegram</p>
+					<ul>
+						<li><a href="https://t.me/+TqEiZXd3eH5jMWI0" target="_blank" rel="me">GT inter AGs 15 Novembre</a></li>
 					</ul>
 				</li>
 			</ul>
