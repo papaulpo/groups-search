@@ -600,6 +600,11 @@
 		<label for="tab-438"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/bourgogne-franche-comte/39-jura/lons-le-saunier/">Lons-le-Saunier</a></label>
 		
 	</li>
+	<li>
+		<input id="tab-501" type="checkbox">
+		<label for="tab-501"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/bourgogne-franche-comte/39-jura/dole/">Dole</a></label>
+		
+	</li>
 </ul></li>
 	<li>
 		<input id="tab-23" type="checkbox">
