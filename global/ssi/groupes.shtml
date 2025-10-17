@@ -1139,6 +1139,12 @@
 		<label for="tab-266"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/bretagne/56-morbihan/vannes/">Vannes</a></label>
 		<div class="content">
 			<ul>
+				<li class="facebookp">
+					<p>Facebook - Page</p>
+					<ul>
+						<li><a href="https://www.facebook.com/indignonsnous.vannes" target="_blank" rel="me">FaceBook IndignonsNous.Vannes</a></li>
+					</ul>
+				</li>
 				<li class="telegram">
 					<p>Telegram</p>
 					<ul>
