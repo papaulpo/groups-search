@@ -20604,4 +20604,45 @@
 			</div>
 		</li>
 		
+		<li>
+			<!-- Chaque niveau a son propre groupe radio -->
+			<input id="tab-607" type="radio" name="accordeon-4" style="display:none;">
+			<label for="tab-607">
+				<a href="https://10s25.ovh/cms/groupes-thematiques/gt-inter-ags-boycottons-tout/">GT Inter Ags Boycottons Tout</a>
+			</label>
+
+			<div class="content">
+				
+					<ul>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</ul>
+				
+
+				<!-- Sous-groupes -->
+				
+			</div>
+		</li>
+		
 	</ul>
